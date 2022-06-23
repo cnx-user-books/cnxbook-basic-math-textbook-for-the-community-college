@@ -1,0 +1,8885 @@
+<document xmlns="http://cnx.rice.edu/cnxml"> 
+<title>Phy1020: Brief Trigonometry Tutorial</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m37435</md:content-id>
+  <md:title>Phy1020: Brief Trigonometry Tutorial</md:title>
+  <md:abstract>Many of the computational requirements for an introductory physics course involve trigonometry. This module provides a brief tutorial on trigonometry fundamentals that is designed to be accessible to blind students.</md:abstract>
+  <md:uuid>257998f1-068b-4c59-8924-78a29a68b610</md:uuid>
+</metadata>
+
+<content>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section id="h11000">
+<title>
+Table of Contents
+
+</title>
+
+
+
+
+<list id="ul1000" list-type="bulleted">
+
+	
+
+<item id="li1000">
+<link id="a1000" target-id="Preface">
+
+Preface
+
+</link>
+
+ 
+
+<list id="ul1001" list-type="bulleted">
+
+		
+
+<item id="li1001">
+<link id="a1001" target-id="General">
+
+General
+
+</link>
+
+
+</item>
+
+
+		
+
+<item id="li1002">
+<link id="a1002" target-id="Prerequisites">
+
+Prerequisites
+
+</link>
+
+
+</item>
+
+
+		
+
+<item id="li1003">
+<link id="a1003" target-id="Viewing_tip">
+
+Viewing tip
+
+</link>
+
+
+<list id="ul1002" list-type="bulleted">
+
+			
+
+<item id="li1004">
+<link id="a1004" target-id="Figures">
+
+Figures
+
+</link>
+
+
+</item>
+
+
+			
+
+<item id="li1005">
+<link id="a1005" target-id="Listings">
+
+Listings
+
+</link>
+
+
+</item>
+
+
+		
+
+</list>
+
+
+		
+
+</item>
+
+
+		
+
+<item id="li1006">
+<link id="a1006" target-id="Supplemental_material">
+
+Supplemental material
+
+</link>
+
+
+</item>
+
+
+	
+
+</list>
+
+
+	
+
+</item>
+
+
+	
+
+<item id="li1007">
+<link id="a1007" target-id="General_background_information">
+
+General background information
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1008">
+<link id="a1008" target-id="Discussion">
+
+Discussion
+
+</link>
+
+
+<list id="ul1003" list-type="bulleted">
+
+		
+
+<item id="li1009">
+<link id="a1009" target-id="Degrees_versus_radians">
+
+Degrees versus radians
+
+</link>
+
+
+</item>
+
+
+		
+
+<item id="li1010">
+<link id="a1010" target-id="Sine_cosine_and_tangent">
+
+Sine, cosine, and tangent
+
+</link>
+
+
+<list id="ul1004" list-type="bulleted">
+
+			
+
+<item id="li1011">
+<link id="a1011" target-id="The_sine_of_an_angle">
+
+The sine and arcsine of an angle
+
+</link>
+
+
+</item>
+
+
+			
+
+<item id="li1012">
+<link id="a1012" target-id="The_cosine_and_arccosine_of_an_angle">
+
+The cosine and 
+			arccosine of an angle
+
+</link>
+
+
+</item>
+
+
+			
+
+<item id="li1013">
+<link id="a1013" target-id="The_tangent_and_arctangent_of_an_angle">
+
+The tangent 
+			and arctangent of an angle
+
+</link>
+
+
+</item>
+
+
+		
+
+</list>
+
+
+		
+
+</item>
+
+
+		
+
+<item id="li1014">
+<link id="a1014" target-id="Dealing_with_quadrants">
+
+Dealing with quadrants
+
+</link>
+
+
+</item>
+
+
+		
+
+<item id="li1015">
+<link id="a1015" target-id="Normal_nonMirrorImage_graphics">
+
+Normal (non-mirror-image) graphics
+
+</link>
+
+
+</item>
+
+
+	
+
+</list>
+
+
+	
+
+</item>
+
+
+	
+
+<item id="li1016">
+<link id="a1016" target-id="Run_the_program">
+
+Run the scripts
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1017">
+<link id="a1017" target-id="Resources">
+
+Resources
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1018">
+<link id="a1018" target-id="Miscellaneous">
+
+Miscellaneous
+
+</link>
+
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+
+
+</section>
+<section id="h11001">
+<title>
+ 
+
+<emphasis id="Preface" effect="bold">
+
+
+</emphasis>
+
+Preface
+
+</title>
+
+
+
+
+
+
+<section id="h21000">
+<title>
+ 
+
+<emphasis id="General" effect="bold">
+
+General
+
+</emphasis>
+
+
+</title>
+
+
+
+
+
+
+
+
+
+<para id="p1000">
+This module is part of a collection of modules designed to make physics 
+concepts accessible to blind students.
+
+</para>
+
+
+
+
+<para id="p1001">
+If you opened this page in the context of the book, a Table of Contents for 
+the book (or collection) should be available above and to the left of this 
+paragraph. Otherwise, click
+
+
+<link id="a1019" url="http://cnx.org/contents/a7842db2-93c6-4c06-a5e3-56c282358143">
+
+here
+
+</link>
+
+ 
+to open the book at the beginning.
+
+</para>
+
+
+
+
+<para id="p1002">
+This book is intended to supplement but not to replace the textbook in an 
+introductory high school or college physics course. 
+
+</para>
+
+
+
+
+<para id="p1003">
+Many of the computational requirements for an introductory 
+
+physics course involve trigonometry. This module provides a brief 
+
+tutorial on trigonometry fundamentals that is designed to be accessible to blind 
+
+students.
+
+</para>
+
+
+
+
+</section>
+<section id="h21001">
+<title>
+<emphasis id="Prerequisites" effect="bold">
+
+Prerequisites
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1004">
+In addition to an Internet connection and a browser, you will need the 
+following tools (as a minimum) to work through the exercises in these modules:
+
+</para>
+
+
+
+
+<list id="ul1005" list-type="bulleted">
+
+	
+
+<item id="li1019">
+A graph board for plotting graphs and vector diagrams (
+
+<link id="a1020" url="http://www.youtube.com/watch?v=c8plj9UsJbg">
+
+http://www.youtube.com/watch?v=c8plj9UsJbg
+
+</link>
+
+).
+
+</item>
+
+
+	
+
+<item id="li1020">
+A protractor for measuring angles (
+
+<link id="a1021" url="http://www.youtube.com/watch?v=v-F06HgiUpw">
+
+http://www.youtube.com/watch?v=v-F06HgiUpw
+
+</link>
+
+).
+
+</item>
+
+
+	
+
+<item id="li1021">
+An audio screen reader that is compatible with your operating system, 
+	such as the NonVisual Desktop Access program (NVDA), which is freely 
+	available at 
+
+<link id="a1022" url="http://www.nvda-project.org/">
+
+
+	http://www.nvda-project.org/
+
+</link>
+
+.
+
+</item>
+
+
+	
+
+<item id="li1022">
+A refreshable Braille display capable of providing a line by line tactile output of information displayed on the computer 
+	screen 
+	(
+
+<link id="a1023" url="http://www.userite.com/ecampus/lesson1/tools.php">
+
+http://www.userite.com/ecampus/lesson1/tools.php
+
+</link>
+
+).
+
+</item>
+
+
+	
+
+<item id="li1023">
+The ability to create tactile graphics as described
+	
+
+<link id="a1024" url="http://cnx.org/contents/9fe07552-485f-43e7-9753-87133cf60482">
+
+here
+
+</link>
+
+.
+
+</item>
+
+
+	
+
+</list>
+
+
+	
+	
+
+<para id="p1005">
+The minimum prerequisites for understanding the material in these modules 
+	include:
+
+</para>
+
+
+
+
+<list id="ul1006" list-type="bulleted">
+
+	
+
+<item id="li1024">
+A good understanding of algebra.
+
+</item>
+
+
+	
+
+<item id="li1025">
+An understanding of the use of a graph board for plotting graphs and 
+	vector diagrams (
+
+<link id="a1025" url="http://www.youtube.com/watch?v=c8plj9UsJbg">
+
+http://www.youtube.com/watch?v=c8plj9UsJbg
+
+</link>
+
+).
+
+</item>
+
+
+	
+
+<item id="li1026">
+An understanding of the use of a protractor for measuring angles (
+
+<link id="a1026" url="http://www.youtube.com/watch?v=v-F06HgiUpw">
+
+http://www.youtube.com/watch?v=v-F06HgiUpw
+
+</link>
+
+).
+
+</item>
+
+
+	
+
+<item id="li1027">
+A basic understanding of the use of sine, cosine, and tangent from 
+	trigonometry (
+
+<link id="a1027" url="http://www.clarku.edu/~djoyce/trig/">
+
+http://www.clarku.edu/~djoyce/trig/
+
+</link>
+
+). 
+	
+
+<emphasis id="em1000" effect="italics">
+(The purpose of this module is to help you to gain such an understanding.)
+
+</emphasis>
+</item>
+
+
+	
+
+<item id="li1028">
+An introductory understanding of JavaScript programming (
+
+<link id="a1028" url="http://www.dickbaldwin.com/tocjscript1.htm">
+
+http://www.dickbaldwin.com/tocjscript1.htm
+
+</link>
+
+ and 
+
+<link id="a1029" url="http://www.w3schools.com/js/default.asp">
+
+http://www.w3schools.com/js/default.asp
+
+</link>
+
+).
+
+</item>
+
+
+	
+
+<item id="li1029">
+An understanding of all of the material covered in the earlier modules 
+	in this collection.
+
+</item>
+
+
+	
+
+<item id="li1030">
+An understanding of the manual creation and use of tactile graphics as 
+	described
+	
+
+<link id="a1030" url="http://cnx.org/contents/9fe07552-485f-43e7-9753-87133cf60482">
+
+here
+
+</link>
+
+.
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+</section>
+<section id="h21002">
+<title>
+ 
+
+<emphasis id="Viewing_tip" effect="bold">
+
+Viewing tip
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1006">
+ I recommend that you open another copy of this document in a separate 
+browser window and use the following links to easily find and view the figures 
+and listings while you are reading about them.
+
+</para>
+
+
+
+
+<section id="h31000">
+<title>
+ 
+
+<emphasis id="Figures" effect="bold">
+
+Figures
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<list id="ul1007" list-type="bulleted">
+
+	
+
+<item id="li1031">
+<link id="a1031" target-id="Figure_1">
+
+Figure 1
+
+</link>
+
+. Output for script in Listing 1.
+
+</item>
+
+
+	
+
+<item id="li1032">
+<link id="a1032" target-id="Figure_2">
+
+Figure 2
+
+</link>
+
+. Mirror image from file Phy1020b1.svg. 
+
+</item>
+
+
+	
+
+<item id="li1033">
+<link id="a1033" target-id="Figure_3">
+
+Figure 3
+
+</link>
+
+. Page Setup for file Phy1020b1.svg.  
+
+</item>
+
+
+	
+
+<item id="li1034">
+<link id="a1034" target-id="Figure_4">
+
+Figure 4
+
+</link>
+
+. Text values for Braille keys in file Phy1020b2svg. 
+
+</item>
+
+
+	
+
+<item id="li1035">
+<link id="a1035" target-id="Figure_5">
+
+Figure 5
+
+</link>
+
+. Output for script in Listing 2.
+
+</item>
+
+
+	
+
+<item id="li1036">
+<link id="a1036" target-id="Figure_6">
+
+Figure 6
+
+</link>
+
+. Output for script in Listing 3. 
+
+</item>
+
+
+	
+
+<item id="li1037">
+<link id="a1037" target-id="Figure_7">
+
+Figure 7
+
+</link>
+
+. Interesting sine equations. 
+
+</item>
+
+
+	
+
+<item id="li1038">
+<link id="a1038" target-id="Figure_8">
+
+Figure 8
+
+</link>
+
+. Interesting cosine equations. 
+
+</item>
+
+
+	
+
+<item id="li1039">
+<link id="a1039" target-id="Figure_9">
+
+Figure 9
+
+</link>
+
+. Output for script in Listing 5
+
+</item>
+
+
+	
+
+<item id="li1040">
+<link id="a1040" target-id="Figure_10">
+
+Figure 10
+
+</link>
+
+. Two very important equations. 
+
+</item>
+
+
+	
+
+<item id="li1041">
+<link id="a1041" target-id="Figure_11">
+
+Figure 11
+
+</link>
+
+. Interesting tangent equations. 
+
+</item>
+
+
+	
+
+<item id="li1042">
+<link id="a1042" target-id="Figure_12">
+
+Figure 12
+
+</link>
+
+. Output for script in Listing 7. 
+
+</item>
+
+
+	
+
+<item id="li1043">
+<link id="a1043" target-id="Figure_13">
+
+Figure 13
+
+</link>
+
+. Sinusoidal values at 90-degree increments. 
+
+</item>
+
+
+	
+
+<item id="li1044">
+<link id="a1044" target-id="Figure_14">
+
+Figure 14
+
+</link>
+
+. Sinusoidal values at 45-degree 
+	increments. 
+
+</item>
+
+
+	
+
+<item id="li1045">
+<link id="a1045" target-id="Figure_15">
+
+Figure 15
+
+</link>
+
+. Sinusoidal values at 22.5-degree 
+	increments.
+
+</item>
+
+
+	
+
+<item id="li1046">
+<link id="a1046" target-id="Figure_16">
+
+Figure 16
+
+</link>
+
+. Mirror image plot of cosine and sine curves from the file named Phy1020a1svg. 
+
+</item>
+
+
+	
+
+<item id="li1047">
+<link id="a1047" target-id="Figure_17">
+
+Figure 17
+
+</link>
+
+. Algebraic signs versus quadrants.
+
+</item>
+
+
+	
+
+<item id="li1048">
+<link id="a1048" target-id="Figure_18">
+
+Figure 18
+
+</link>
+
+. Output from the code in Listing 9.
+
+</item>
+
+
+	
+
+<item id="li1049">
+<link id="a1049" target-id="Figure_19">
+
+Figure 19
+
+</link>
+
+. Normal image from file Phy1020b1.svg.
+
+</item>
+
+
+	
+
+<item id="li1050">
+<link id="a1050" target-id="Figure_20">
+
+Figure 20
+
+</link>
+
+. Normal image plot of cosine and sine curves from the file named Phy1020a1svg.
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+</section>
+<section id="h31001">
+<title>
+ 
+
+<emphasis id="Listings" effect="bold">
+
+Listings
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<list id="ul1008" list-type="bulleted">
+
+	
+
+<item id="li1051">
+<link id="a1051" target-id="Listing_1">
+
+Listing 1
+
+</link>
+
+. Conversions between radians and degrees. 
+
+</item>
+
+
+	
+
+<item id="li1052">
+<link id="a1052" target-id="Listing_2">
+
+Listing 2
+
+</link>
+
+. Arcsin of 3-4-5 triangle. 
+
+</item>
+
+
+	
+
+<item id="li1053">
+<link id="a1053" target-id="Listing_3">
+
+Listing 3
+
+</link>
+
+. Finding length of the opposite side. 
+
+</item>
+
+
+	
+
+<item id="li1054">
+<link id="a1054" target-id="Listing_4">
+
+Listing 4
+
+</link>
+
+. Arccosine of 3-4-5 triangle. 
+
+</item>
+
+
+	
+
+<item id="li1055">
+<link id="a1055" target-id="Listing_5">
+
+Listing 5
+
+</link>
+
+. Finding the length of the adjacent side. 
+
+</item>
+
+
+	
+
+<item id="li1056">
+<link id="a1056" target-id="Listing_6">
+
+Listing 6
+
+</link>
+
+. Arctan of 3-4-5 triangle. 
+
+</item>
+
+
+	
+
+<item id="li1057">
+<link id="a1057" target-id="Listing_7">
+
+Listing 7
+
+</link>
+
+. Finding the length of the opposite side. 
+
+</item>
+
+
+	
+
+<item id="li1058">
+<link id="a1058" target-id="Listing_8">
+
+Listing 8
+
+</link>
+
+. Sinusoidal amplitude versus angle. 
+
+</item>
+
+
+	
+
+<item id="li1059">
+<link id="a1059" target-id="Listing_9">
+
+Listing 9
+
+</link>
+
+. A function to deal with quadrants.
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+</section>
+</section>
+<section id="h21003">
+<title>
+ 
+
+<emphasis id="Supplemental_material" effect="bold">
+
+Supplemental material
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1007">
+ I recommend that you also study the other lessons in my extensive collection 
+of online programming tutorials. You will find a consolidated index at
+
+
+<link id="a1060" url="http://www.dickbaldwin.com/toc.htm">
+
+
+www.DickBaldwin.com
+
+</link>
+
+.
+
+</para>
+
+
+
+
+</section>
+</section>
+<section id="h11002">
+<title>
+ 
+
+<emphasis id="General_background_information" effect="bold">
+
+General background 
+information
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1008">
+Many of the computational requirements for an introductory physics course involve trigonometry. This module provides a brief tutorial on trigonometry fundamentals that is 
+designed to be accessible to blind students.
+
+
+</para>
+
+
+
+
+<para id="p1009">
+<emphasis id="strong1000" effect="bold">
+Sine, cosine, and tangent
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1010">
+There are many topics, such as identities, that are covered in an 
+introductory trigonometry course that won't be covered in this module. Instead, 
+this module will concentrate mainly on performing computations on right angles 
+using the sine, cosine, and tangent of an angle.
+
+</para>
+
+
+
+
+<para id="p1011">
+If I find it necessary to deal with identities in a later module, I will come 
+back and update this module accordingly.
+
+</para>
+
+
+
+
+
+
+</section>
+<section id="h11003">
+<title>
+ 
+
+<emphasis id="Discussion" effect="bold">
+
+Discussion
+
+</emphasis>
+
+
+</title>
+
+
+
+
+
+
+<para id="p1012">
+<emphasis id="strong1001" effect="bold">
+<emphasis id="Download_graphics_files" effect="bold">
+
+Download files
+
+</emphasis>
+
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1013">
+You will need to download two svg graphics files to complete the work in 
+this module. 
+
+<link id="a1061" url="Phy1020.zip">
+
+Click this link to download a zip file named 
+Phy1020.zip
+
+</link>
+
+ containing those svg files.
+
+</para>
+
+
+
+
+<para id="p1014">
+If you don't already have it, you may also need to download and install the 
+free IVEO Viewer software. As of this writing, the Viewer is available for 
+downloading at
+
+
+<link id="a1062" url="http://www.viewplus.com/products/software/hands-on-learning/">
+
+
+http://www.viewplus.com/products/software/hands-on-learning/
+
+</link>
+
+.
+
+</para>
+
+
+
+
+<para id="p1015">
+<emphasis id="strong1002" effect="bold">
+Graph board and protractor
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1016">
+Unless you can create tactile graphics on paper, you will need your graph board and your protractor to perform the exercises 
+in this module. Please prepare your graph board with perpendicular horizontal 
+and vertical axes with the origin located near the center of the graph board.
+
+</para>
+
+
+
+
+<section id="h21004">
+<title>
+<emphasis id="Degrees_versus_radians" effect="bold">
+
+Degrees versus radians
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1017">
+The most common unit of angular measurement used by the general public is the degree. As 
+you are probably aware, there are 360 degrees in a circle.
+
+</para>
+
+
+
+
+<para id="p1018">
+The most common unit of angular measurement used by scientists and engineers is 
+the 
+radian.
+
+</para>
+
+
+
+
+<para id="p1019">
+(If you would like more background on radians, go to 
+
+<link id="a1063" url="http://www.clarku.edu/~djoyce/trig/">
+
+
+http://www.clarku.edu/~djoyce/trig/
+
+</link>
+
+.)
+
+</para>
+
+
+
+
+<para id="p1020">
+<emphasis id="strong1003" effect="bold">
+Conversions between radians and degrees
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1021">
+You may or may not be aware that one radian is equal to approximately 
+57.3 degrees. It is easier to remember, however, that 180 degrees is equal to PI 
+radians where PI is the mathematical constant having an approximate value of 
+3.14159. We will use this latter relationship extensively to convert from 
+degrees to radians and to convert from radians to degrees while working through 
+the exercises in these modules.
+
+</para>
+
+
+
+
+<para id="p1022">
+<emphasis id="strong1004" effect="bold">
+An exercise involving degrees and radians
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1023">
+Let's do a short exercise involving degrees and radians. Please create an 
+html file containing the code shown in 
+
+<link id="a1064" target-id="Listing_1">
+
+Listing 1
+
+</link>
+
+ and open it in your browser.
+
+</para>
+
+
+
+
+
+<table id="table1000" summary="This is a table." pgwide="677">
+<tgroup cols="1">
+
+
+
+
+<thead id="thead1000">
+<row id="tr1000">
+<entry id="th1000">
+
+
+
+<emphasis id="Listing_1" effect="bold">
+
+Listing 1
+
+</emphasis>
+
+. Conversions between radians and degrees.
+
+
+</entry>
+</row>
+</thead>
+
+
+
+
+<tbody id="tbody1000">
+<row id="tr1001">
+<entry id="td1000">
+
+
+
+<code id="pre1000" display="block">&lt;!-- File JavaScript01.html --&gt;
+&lt;html&gt;&lt;body&gt;
+&lt;script language="JavaScript1.3"&gt;
+
+function toRadians(degrees){
+  return degrees*Math.PI/180
+}//end function toRadians
+//============================================//
+
+function toDegrees(radians){
+  return radians*180/Math.PI
+}//end function toDegrees
+//============================================//
+
+var degrees = 90
+var radians = toRadians(degrees)
+document.write("degrees = " + degrees + 
+               " : radians = " + radians + "&lt;/br&gt;")
+radians = 1
+degrees = toDegrees(radians)
+document.write("radians = " + radians + 
+               " : degrees = " + degrees + "&lt;/br&gt;")
+
+radians = Math.PI
+degrees = toDegrees(radians)
+document.write("radians = " + radians + 
+               " : degrees = " + degrees)
+
+&lt;/script&gt;
+&lt;/body&gt;&lt;/html&gt;
+</code>
+
+
+
+
+</entry>
+</row>
+</tbody>
+
+
+</tgroup>
+</table>
+
+
+
+
+
+<para id="p1024">
+<emphasis id="strong1005" effect="bold">
+Output for script in Listing 1
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1025">
+When you open the file in your browser, the text shown in 
+
+<link id="a1065" target-id="Figure_1">
+
+Figure 1
+
+</link>
+
+ should be 
+displayed in the browser window.
+
+</para>
+
+
+
+	
+
+
+<table id="table1001" summary="This is a table." pgwide="677">
+<tgroup cols="1">
+
+
+
+
+<thead id="thead1001">
+<row id="tr1002">
+<entry id="th1001">
+
+
+
+<emphasis id="Figure_1" effect="bold">
+
+Figure 1
+
+</emphasis>
+
+. Output for script in Listing 1.
+
+
+</entry>
+</row>
+</thead>
+
+
+
+
+<tbody id="tbody1001">
+<row id="tr1003">
+<entry id="td1001">
+
+
+
+<code id="pre1001" display="block">degrees = 90 : radians = 1.5707963267948965
+radians = 1 : degrees = 57.29577951308232
+radians = 3.141592653589793 : degrees = 180</code>
+
+
+
+
+</entry>
+</row>
+</tbody>
+
+
+</tgroup>
+</table>
+
+
+
+
+	
+	
+
+<para id="p1026">
+<emphasis id="strong1006" effect="bold">
+The toRadians and toDegrees functions
+
+</emphasis>
+</para>
+
+
+	
+
+
+<para id="p1027">
+Because it will frequently be necessary for us to convert between degrees and 
+radians, I decided to write two functions that we will use to make those conversions. That 
+will eliminate the need for us to stop 
+and think about the conversion (and possibly get it backwards) when writing 
+code. We will simply call the function that performs the conversion in the 
+required direction.
+
+</para>
+
+
+	
+
+<para id="p1028">
+The 
+
+<emphasis id="strong1007" effect="bold">
+toRadians
+
+</emphasis>
+ 
+function expects to receive an input parameter describing an angle in degrees 
+	and returns the value for that same angle in radians.
+
+</para>
+
+
+	
+
+<para id="p1029">
+The 
+
+<emphasis id="strong1008" effect="bold">
+toDegrees
+
+</emphasis>
+ 
+function expects to receive an input parameter describing an angle in radians 
+	and returns the value for that same angle in degrees.
+
+</para>
+
+
+	
+
+<para id="p1030">
+<emphasis id="strong1009" effect="bold">
+Global variables named degrees and radians
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1031">
+The code in 
+
+<link id="a1066" target-id="Listing_1">
+
+Listing 1
+
+</link>
+
+ begins by declaring global variables named 
+
+<emphasis id="strong1010" effect="bold">
+
+degrees
+
+</emphasis>
+ and 
+
+<emphasis id="strong1011" effect="bold">
+radians
+
+</emphasis>
+. The variable named 
+
+<emphasis id="strong1012" effect="bold">
+
+degrees
+
+</emphasis>
+ is initialized to 90 degrees.
+
+</para>
+
+
+	
+
+<para id="p1032">
+The 
+
+<emphasis id="strong1013" effect="bold">
+toRadians
+
+</emphasis>
+ function is called to convert that value of degrees to radians. The returned 
+value in radians is stored in the variable named 
+
+<emphasis id="strong1014" effect="bold">
+radians
+
+</emphasis>
+.
+
+</para>
+
+
+	
+
+<para id="p1033">
+<emphasis id="strong1015" effect="bold">
+Display contents of both variables
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1034">
+Then the 
+
+<emphasis id="strong1016" effect="bold">
+document.write
+
+</emphasis>
+ method is called to display the values 
+contained in both variables, producing the first line of output text shown in 
+
+
+<link id="a1067" target-id="Figure_1">
+
+Figure 1
+
+</link>
+
+.
+
+</para>
+
+
+
+
+<para id="p1035">
+<emphasis id="strong1017" effect="bold">
+Modify variable contents, convert, and display again
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1036">
+Following that, a value of 1 is assigned to the variable named 
+
+<emphasis id="strong1018" effect="bold">
+
+radians
+
+</emphasis>
+. The 
+
+<emphasis id="strong1019" effect="bold">
+toDegrees
+
+</emphasis>
+ function is called to convert 
+that value to degrees, and the result is stored in the variable named 
+
+<emphasis id="strong1020" effect="bold">
+
+degrees
+
+</emphasis>
+.
+
+</para>
+
+
+
+
+<para id="p1037">
+Once again, the 
+
+<emphasis id="strong1021" effect="bold">
+document.write
+
+</emphasis>
+ method is called to display the 
+current contents of both variables, producing the second line of output text 
+shown in 
+
+<link id="a1068" target-id="Figure_1">
+
+Figure 1
+
+</link>
+
+.
+
+</para>
+
+
+
+
+<para id="p1038">
+<emphasis id="strong1022" effect="bold">
+One more time
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1039">
+Finally, the mathematical constant, PI, is stored in the variable named
+
+
+<emphasis id="strong1023" effect="bold">
+radians
+
+</emphasis>
+. Then that value is converted to degrees and stored in the 
+variable named 
+
+<emphasis id="strong1024" effect="bold">
+degrees
+
+</emphasis>
+. The current values in both 
+variables are displayed, producing the last line of output text shown in Figure 
+1.
+
+</para>
+
+
+
+
+<para id="p1040">
+<emphasis id="strong1025" effect="bold">
+And the results were...
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1041">
+As you can see from 
+
+<link id="a1069" target-id="Figure_1">
+
+Figure 1
+
+</link>
+
+, 
+
+</para>
+
+
+
+
+<list id="ul1009" list-type="bulleted">
+
+	
+
+<item id="li1060">
+Ninety degrees is equal to 1.57 radians
+
+</item>
+
+
+	
+
+<item id="li1061">
+One radian is equal to 57.296 degrees
+
+</item>
+
+
+	
+
+<item id="li1062">
+3.14 (PI) radians is equal to 180 degrees
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+<para id="p1042">
+<emphasis id="strong1026" effect="bold">
+A template
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1043">
+You might want to save your html file as a template for use with future 
+exercises that require conversions between radians and degrees. This will be 
+particularly useful when we write scripts that use JavaScript's built-in 
+trigonometric methods. Those methods deal with angles almost exclusively in 
+radians while we tend to think of angles in degrees. We will 
+use these two functions to perform conversions between degrees and radians when 
+required.
+
+</para>
+
+
+
+
+</section>
+<section id="h21005">
+<title>
+<emphasis id="Sine_cosine_and_tangent" effect="bold">
+
+Sine, cosine, and tangent
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1044">
+<emphasis id="strong1027" effect="bold">
+An exercise involving a right triangle
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1045">
+For the next exercise, I would like for you to create a right triangle on 
+your graph board by placing pushpins at the following coordinates:
+
+</para>
+
+
+
+
+<list id="ul1010" list-type="bulleted">
+
+	
+
+<item id="li1063">
+The origin
+
+</item>
+
+
+	
+
+<item id="li1064">
+x=3, y=0
+
+</item>
+
+
+	
+
+<item id="li1065">
+x=3, y=4
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+<para id="p1046">
+(If you are able to use the svg file mentioned 
+
+<link id="a1070" target-id="Tactile_graphics">
+
+
+below
+
+</link>
+
+ to create tactile graphics, it probably won't be necessary for you to 
+do the graph-board exercise. You can explore the tactile graphics instead.)
+
+</para>
+
+
+
+
+<para id="p1047">
+<emphasis id="strong1028" effect="bold">
+The vertices of a right triangle
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1048">
+Each pushpin represents a vertex of a right triangle. If you enclose all 
+three pushpins with a rubber band, you will have "drawn" a right triangle with 
+its base on the horizontal axis.
+
+</para>
+
+
+
+
+<para id="p1049">
+The base of the triangle will have a length of three units. Another side of 
+the triangle will have a length of four units. The hypotenuse of the triangle will have still another length.
+
+</para>
+
+
+
+
+<para id="p1050">
+<emphasis id="strong1029" effect="bold">
+The angle at the origin
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1051">
+The base and the hypotenuse will form an angle 
+at the origin opening outward to the right. As mentioned before, the base will be on the horizontal 
+axis. The side that connects the base and 
+the far end of the hypotenuse will be parallel to the vertical axis.
+
+</para>
+
+
+
+
+<para id="p1052">
+<emphasis id="strong1030" effect="bold">
+Names for the three sides of the right triangle
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1053">
+Lets establish some names for the three sides of the right triangle when 
+located on the graph board in this manner.
+
+</para>
+
+
+
+
+<para id="p1054">
+We will continue to refer to the hypotenuse as the hypotenuse and abbreviate it 
+
+<emphasis id="strong1031" effect="bold">
+hyp
+
+</emphasis>
+. We will 
+refer to the base as the 
+
+<emphasis id="em1001" effect="italics">
+adjacent
+
+</emphasis>
+ side relative to the angle at the origin and 
+abbreviate it 
+
+<emphasis id="strong1032" effect="bold">
+adj
+
+</emphasis>
+. We will refer to the third side as the 
+
+
+<emphasis id="em1002" effect="italics">
+opposite
+
+</emphasis>
+ side relative to the angle at the origin and abbreviate it 
+
+<emphasis id="strong1033" effect="bold">
+opp
+
+</emphasis>
+.
+
+</para>
+
+
+
+
+<para id="p1055">
+<emphasis id="strong1034" effect="bold">
+<emphasis id="Tactile_graphics" effect="bold">
+
+Tactile graphics
+
+</emphasis>
+
+ -- the file named Phy1020b1.svg
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1056">
+Much of the material in the next several paragraphs will only make sense to 
+you if you are very familiar with the module named 
+
+
+<link id="a1071" url="http://cnx.org/contents/9fe07552-485f-43e7-9753-87133cf60482">
+
+Manual Creation of Tactile Graphics
+
+</link>
+
+.
+
+</para>
+
+
+
+
+<para id="p1057">
+When you downloaded the zip file named Phy1020.zip using the link given
+
+
+<link id="a1072" target-id="Download_graphics_files">
+
+above
+
+</link>
+
+, you should 
+have found that the zip file contains a file named Phy1020b1.svg.
+
+</para>
+
+
+
+
+<para id="p1058">
+The purpose of this file is to make it possible for you to create 
+tactile graphics for the right triangle. The procedure for creating the tactile 
+graphics is explained in the earlier module named 
+
+
+<link id="a1073" url="http://cnx.org/contents/9fe07552-485f-43e7-9753-87133cf60482">
+
+Manual Creation of Tactile 
+Graphics
+
+</link>
+
+.
+
+</para>
+
+
+
+
+<para id="p1059">
+<emphasis id="strong1035" effect="bold">
+Image from file Phy1020b1.svg
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1060">
+For the benefit of any sighted persons that may be assisting you,
+
+
+<link id="a1074" target-id="Figure_2">
+
+Figure 2
+
+</link>
+
+ shows a reduced version of the graphic 
+contained in the file named Phy1020b1.svg. This is a mirror image of the image 
+that is to be presented to the student after embossing. A non-mirror-image 
+version is presented in 
+
+<link id="a1075" target-id="Figure_19">
+
+Figure 19
+
+</link>
+
+.
+
+</para>
+
+
+
+
+<table id="table1002" summary="This is a table." pgwide="1">
+<tgroup cols="1">
+
+
+<thead id="thead1002">
+<row id="tr1004">
+<entry id="th1002">
+
+
+
+<emphasis id="Figure_2" effect="bold">
+
+Figure 2
+
+</emphasis>
+
+. Mirror image from file Phy1020b1.svg. 
+
+</entry>
+</row>
+</thead>
+
+
+<tbody id="tbody1002">
+<row id="tr1005">
+<entry id="td1002">
+
+
+
+<media id="media1000" alt="Missing image" display="block">
+<image id="img1000" mime-type="image/png" src="../../media/Phy1020b1.png" width="487" height="650"/>
+</media>
+
+
+
+
+</entry>
+</row>
+</tbody>
+
+
+</tgroup>
+</table>
+
+
+
+
+
+<para id="p1061">
+<emphasis id="strong1036" effect="bold">
+Page Setup information
+
+</emphasis>
+</para>
+
+
+
+	
+
+
+<para id="p1062">
+If you use the IVEO Viewer software to print this svg file, you will need to 
+set up the page by selecting Page Setup on the IVEO File menu. The Page Setup information for this file is shown in 
+
+<link id="a1076" target-id="Figure_3">
+
+Figure 3
+
+</link>
+
+. These are the 
+default settings for Letter (Portrait) in IVEO.
+
+</para>
+
+
+
+	
+
+
+<table id="table1003" summary="This is a table." pgwide="677">
+<tgroup cols="1">
+
+
+
+
+<thead id="thead1003">
+<row id="tr1006">
+<entry id="th1003">
+
+
+
+<emphasis id="Figure_3" effect="bold">
+
+Figure 3
+
+</emphasis>
+
+. Page Setup for file Phy1020b1.svg.
+
+
+</entry>
+</row>
+</thead>
+
+
+
+
+<tbody id="tbody1003">
+<row id="tr1007">
+<entry id="td1003">
+
+
+
+<code id="pre1002" display="block">Paper List: Letter (Portrait)
+Paper Width: 8.5 inch
+Paper Height: 11.0 inch
+Orientation: portrait
+Left Margin: 0.75 inch
+Right Margin: 0.3 inch
+Top Margin: 0.75 inch
+Bottom Margin: 0.3 inch</code>
+
+
+
+
+</entry>
+</row>
+</tbody>
+
+
+</tgroup>
+</table>
+
+
+
+
+	
+	
+
+<para id="p1063">
+<emphasis id="strong1037" effect="bold">
+Braille keys
+
+</emphasis>
+</para>
+
+
+	
+
+
+
+
+<para id="p1064">
+Note that the file named Phy1020b1.svg and 
+
+<link id="a1077" target-id="Figure_2">
+
+Figure 2
+
+</link>
+
+ contain keys using the characters from 
+"m" through "z" and "A" that can be used to create 
+Braille characters during manual embossing. The key characters are shown in an 
+oblique font that is smaller than the normal text. The purpose of these keys is 
+explained in the earlier module titled 
+
+
+<link id="a1078" url="http://cnx.org/contents/9fe07552-485f-43e7-9753-87133cf60482">
+
+Manual Creation of Tactile Graphics
+
+</link>
+
+. 
+
+</para>
+
+
+
+
+<para id="p1065">
+<emphasis id="strong1038" effect="bold">
+Key-value pairs
+
+</emphasis>
+</para>
+
+
+
+	
+	
+
+<para id="p1066">
+<link id="a1079" target-id="Figure_4">
+
+Figure 4
+
+</link>
+
+ contains the text values associated with each of the Braille 
+	keys.
+
+</para>
+
+
+	
+
+
+
+<table id="table1004" summary="This is a table." pgwide="677">
+<tgroup cols="1">
+
+
+
+
+<thead id="thead1004">
+<row id="tr1008">
+<entry id="th1004">
+
+
+
+<emphasis id="Figure_4" effect="bold">
+
+Figure 4
+
+</emphasis>
+
+. Text values for Braille keys in file 
+Phy1020b2svg.
+
+
+</entry>
+</row>
+</thead>
+
+
+
+
+<tbody id="tbody1004">
+<row id="tr1009">
+<entry id="td1004">
+
+
+
+<code id="pre1003" display="block">
+m: A 3-4-5 Triangle
+n: 4
+o: Vertical axis
+p: 0
+q: 0
+r: Adjacent side
+s: 53.13 Degrees
+t: adj
+u: 3
+v: opp
+w: Opposite side
+x: hyp
+y: Hypotenuse
+z: Horizontal axis
+A: Not drawn to scale
+</code>
+
+
+
+
+</entry>
+</row>
+</tbody>
+
+
+</tgroup>
+</table>
+
+
+
+
+	
+	
+	
+
+
+
+
+<para id="p1067">
+<emphasis id="strong1039" effect="bold">
+The length of the hypotenuse
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1068">
+Now that you have your right triangle on the graph board, or you have access 
+to tactile graphics created from the svg file, and you know the 
+lengths of the adjacent and opposite sides, do you remember how to calculate the 
+length of the hypotenuse?
+
+</para>
+
+
+
+
+<para id="p1069">
+<emphasis id="strong1040" effect="bold">
+The Pythagorean theorem
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1070">
+Hopefully you know that for a right triangle, the 
+square of the hypotenuse is equal to the sum of the squares of the two other 
+sides. Thus, the length of the hypotenuse is equal to the square root of the sum 
+of the squares of the other two sides.
+
+</para>
+
+
+
+
+<para id="p1071">
+In this case we can do the arithmetic in our heads to compute the length of 
+the hypotenuse. (I planned it that way.)
+
+</para>
+
+
+
+
+<para id="p1072">
+The square of the adjacent side is 9. The square of the opposite side is 16. 
+The sum of the squares is 25, and the square root of 25 is 
+5. Thus, the length of the hypotenuse is 5.
+
+</para>
+
+
+
+
+<para id="p1073">
+<emphasis id="strong1041" effect="bold">
+A 3-4-5 triangle
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1074">
+You have created a rather unique triangle. You have created a right triangle 
+in which the sides are either equal to, or proportional to the integer 
+values 3, 4, and 5.
+
+</para>
+
+
+
+
+<para id="p1075">
+I chose this triangle on purpose for its simplicity. We will use it to 
+investigate some aspects of trigonometry.
+
+</para>
+
+
+
+
+<section id="h31002">
+<title>
+<emphasis id="The_sine_of_an_angle" effect="bold">
+
+The sine and arcsine of an angle
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1076">
+You will often hear people talk about the sine of an angle or the cosine of 
+an angle. Just what is the sine of an angle anyway?
+
+</para>
+
+
+
+
+<para id="p1077">
+Although the sine of an angle is based on very specific geometric 
+considerations involving circles (see
+
+
+<link id="a1080" url="http://www.clarku.edu/~djoyce/trig/">
+
+
+http://www.clarku.edu/~djoyce/trig/
+
+</link>
+
+), for our purposes, the sine of an angle 
+is simply a ratio between the lengths of two different sides of a right 
+triangle.
+
+</para>
+
+
+
+
+<para id="p1078">
+<emphasis id="strong1042" effect="bold">
+A ratio of two sides
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1079">
+For our purposes, we will say that the sine of an angle is equal to the ratio of the opposite 
+side and the hypotenuse. Therefore, in the case of the 3-4-5 triangle that you 
+have on your graph board, the 
+
+<emphasis id="sine_of_the_angle" effect="bold">
+
+sine of the angle
+
+</emphasis>
+
+ at the origin is equal to 4/5 or 
+0.8.
+
+</para>
+
+
+
+
+<para id="p1080">
+If we know the lengths of the hypotenuse and the opposite side, we can 
+compute the sine and use it to determine the value 
+of the angle. (We will do this later using the arcsine.)
+
+</para>
+
+
+	
+
+
+<para id="p1081">
+Conversely, if we know the value of the angle but don't know the lengths of the 
+hypotenuse and/or the opposite side, we can obtain the value of the sine of the 
+angle using a scientific 
+calculator (such as the Google calculator) or lookup table.
+
+</para>
+
+
+	
+
+
+<note id="note1000" type="">
+
+
+
+
+
+
+
+<para id="p1082">
+<emphasis id="strong1043" effect="bold">
+The sine of an angle -- sample computation
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1083">
+Enter the following into the Google search box:
+
+</para>
+
+
+
+
+<para id="p1084">
+sin(53.13010235415598 degrees)
+
+</para>
+
+
+
+
+<para id="p1085">
+The following will appear immediately below the search box:
+
+</para>
+
+
+
+
+<para id="p1086">
+sin(53.13010235415598 degrees) = 0.8
+
+</para>
+
+
+
+
+<para id="p1087">
+This matches the value that we computed 
+
+<link id="a1081" target-id="sine_of_the_angle">
+
+above
+
+</link>
+
+ 
+as the ratio of the opposite side and the hypotenuse.
+
+</para>
+
+
+
+
+</note>
+
+
+
+
+	
+
+
+<para id="p1088">
+<emphasis id="strong1044" effect="bold">
+The arcsine (inverse sine) of an angle
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1089">
+The arcsine of an angle is the value of the angle having a given sine value. 
+In other words, if you know the value of the sine of an unknown angle, you can 
+use a scientific calculator or lookup table to find the value of the angle.
+
+</para>
+
+
+
+
+<para id="p1090">
+For 
+example, we know that the sine of the angle at the origin on your graph board is 
+4/5. From that, we can determine the value of the angle. However, we probably can't 
+do this calculation in our heads so we will use the Google calculator to compute 
+the value of the angle.
+
+</para>
+
+
+	
+
+
+<note id="note1001" type="">
+
+
+
+
+
+
+
+<para id="p1091">
+<emphasis id="strong1045" effect="bold">
+The arcsine of an angle -- sample computation
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1092">
+Enter the following into the Google search box:
+
+</para>
+
+
+
+
+<para id="p1093">
+arcsin(4/5) in degrees
+
+</para>
+
+
+
+
+<para id="p1094">
+The following will appear immediately below the search box:
+
+</para>
+
+
+
+
+<para id="p1095">
+arcsin(4/5) = 53.1301024 degrees
+
+</para>
+
+
+
+
+<para id="p1096">
+This is the angle that corresponds to a ratio of the opposite side to the 
+hypotenuse of 4/5.
+
+</para>
+
+
+
+
+</note>
+
+
+
+
+	
+
+
+<para id="p1097">
+We can also write a JavaScript script to perform 
+	the calculation, which we will do shortly.
+
+</para>
+
+
+
+
+<para id="p1098">
+<emphasis id="strong1046" effect="bold">
+Getting the angle for a known sine value
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1099">
+Please use your protractor to measure and record the angle at the origin on 
+your graph board, or measure it on your tactile graphic. Then create an html file containing the code shown in
+
+
+<link id="a1082" target-id="Listing_2">
+
+Listing 
+2
+
+</link>
+
+ and open it in your browser.
+
+</para>
+
+
+
+
+<table id="table1005" summary="This is a table." pgwide="677">
+<tgroup cols="1">
+
+
+
+
+<thead id="thead1005">
+<row id="tr1010">
+<entry id="th1005">
+
+
+
+<emphasis id="Listing_2" effect="bold">
+
+Listing 2
+
+</emphasis>
+
+. Arcsin of 3-4-5 triangle.
+
+
+</entry>
+</row>
+</thead>
+
+
+
+
+<tbody id="tbody1005">
+<row id="tr1011">
+<entry id="td1005">
+
+
+
+<code id="pre1004" display="block">&lt;!-- File JavaScript02.html --&gt;
+&lt;html&gt;&lt;body&gt;
+&lt;script language="JavaScript1.3"&gt;
+
+function toRadians(degrees){
+  return degrees*Math.PI/180
+}//end function toRadians
+//============================================//
+
+function toDegrees(radians){
+  return radians*180/Math.PI
+}//end function toDegrees
+//============================================//
+
+var opp = 4
+var hyp = 5
+var ratio = opp/hyp
+var angRad = Math.asin(ratio)
+var angDeg = toDegrees(angRad)
+
+document.write("radians = " + angRad + "&lt;/br&gt;")
+document.write("degrees = " + angDeg)
+
+&lt;/script&gt;
+&lt;/body&gt;&lt;/html&gt;
+</code>
+
+
+
+
+</entry>
+</row>
+</tbody>
+
+
+</tgroup>
+</table>
+
+
+
+
+
+<para id="p1100">
+<emphasis id="strong1047" effect="bold">
+The output for the angle
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1101">
+When you open your html file in your browser, the output shown in 
+
+<link id="a1083" target-id="Figure_5">
+
+Figure 5
+
+</link>
+
+ 
+should appear in the browser window.
+
+</para>
+
+
+
+	
+
+
+<table id="table1006" summary="This is a table." pgwide="677">
+<tgroup cols="1">
+
+
+
+
+<thead id="thead1006">
+<row id="tr1012">
+<entry id="th1006">
+
+
+
+<emphasis id="Figure_5" effect="bold">
+
+Figure 5
+
+</emphasis>
+
+. Output for script in Listing 2.
+
+
+</entry>
+</row>
+</thead>
+
+
+
+
+<tbody id="tbody1006">
+<row id="tr1013">
+<entry id="td1006">
+
+
+
+<code id="pre1005" display="block">radians = 0.9272952180016123
+degrees = 53.13010235415598 </code>
+
+
+
+
+</entry>
+</row>
+</tbody>
+
+
+</tgroup>
+</table>
+
+
+
+
+	
+	
+
+<para id="p1102">
+Did you measure the angle to be 53 degrees with your protractor. If so, 
+	congratulations. If not, you should probably take another look at it.
+
+</para>
+
+
+	
+
+<para id="p1103">
+<emphasis id="strong1048" effect="bold">
+Define conversion functions
+
+</emphasis>
+</para>
+
+
+	
+
+
+<para id="p1104">
+The code in 
+
+<link id="a1084" target-id="Listing_2">
+
+Listing 2
+
+</link>
+
+ begins by defining the functions named 
+
+<emphasis id="strong1049" effect="bold">
+
+toRadians
+
+</emphasis>
+ and 
+
+<emphasis id="strong1050" effect="bold">
+toDegrees
+
+</emphasis>
+ that we developed earlier 
+in 
+
+<link id="a1085" target-id="Listing_1">
+
+Listing 1
+
+</link>
+
+. (In this case, we will only need the function named 
+
+<emphasis id="strong1051" effect="bold">
+
+toDegrees
+
+</emphasis>
+ so I could have omitted the code for the function named
+
+
+<emphasis id="strong1052" effect="bold">
+toRadians
+
+</emphasis>
+.)
+
+</para>
+
+
+	
+
+<para id="p1105">
+<emphasis id="strong1053" effect="bold">
+Declare and initialize variables
+
+</emphasis>
+</para>
+
+
+	
+
+<para id="p1106">
+Then the code in 
+
+<link id="a1086" target-id="Listing_2">
+
+Listing 2
+
+</link>
+
+ declares and initializes variables to 
+	represent the lengths of the opposite side and the hypotenuse for the 
+	triangle on your graph board (
+
+<emphasis id="strong1054" effect="bold">
+opp
+
+</emphasis>
+ and 
+
+<emphasis id="strong1055" effect="bold">
+hyp
+
+</emphasis>
+). 
+	Then it computes and saves the ratio of the two. (We learned earlier that 
+	the ratio is the value of the sine of the angle at the origin even though we 
+	don't know the value of the angle.)
+
+</para>
+
+
+	
+
+<para id="p1107">
+<emphasis id="strong1056" effect="bold">
+The built-in Math.asin method
+
+</emphasis>
+</para>
+
+
+	
+
+<para id="p1108">
+JavaScript has a built-in method named 
+
+<emphasis id="strong1057" effect="bold">
+Math.asin
+
+</emphasis>
+ that 
+	receives the sine value for an unknown angle and returns the value of the 
+	corresponding angle in radians. (The 
+
+<emphasis id="strong1058" effect="bold">
+Math.asin
+
+</emphasis>
+ method has 
+	the same purpose at the word arcsin in the Google calculator.)
+
+</para>
+
+
+	
+
+<para id="p1109">
+The returned value is an angle between -PI/2 and PI/2 radians. (I will 
+	have more to say about this later.)
+
+</para>
+
+
+	
+
+<para id="p1110">
+<link id="a1087" target-id="Listing_2">
+
+Listing 2
+
+</link>
+
+ calls the 
+
+<emphasis id="strong1059" effect="bold">
+Math.asin
+
+</emphasis>
+ method, passing the ratio (sine 
+	of the angle) as a parameter, and stores the returned value in a variable 
+	named 
+
+<emphasis id="strong1060" effect="bold">
+angRad
+
+</emphasis>
+.
+
+</para>
+
+
+	
+
+<para id="p1111">
+Then 
+
+<link id="a1088" target-id="Listing_2">
+
+Listing 2
+
+</link>
+
+ calls the 
+
+<emphasis id="strong1061" effect="bold">
+toDegrees
+
+</emphasis>
+ method, passing the 
+	value of 
+
+<emphasis id="strong1062" effect="bold">
+angRad
+
+</emphasis>
+ as a parameter and stores the returned 
+	value in a variable named 
+
+<emphasis id="strong1063" effect="bold">
+angDeg
+
+</emphasis>
+.
+
+</para>
+
+
+	
+
+<para id="p1112">
+Finally, 
+
+<link id="a1089" target-id="Listing_2">
+
+Listing 2
+
+</link>
+
+ calls the 
+
+<emphasis id="strong1064" effect="bold">
+
+	document.write
+
+</emphasis>
+ method twice in success 
+to display the angle values shown in 
+
+<link id="a1090" target-id="Figure_5">
+
+Figure 5
+
+</link>
+
+.
+
+</para>
+
+
+
+
+<para id="p1113">
+<emphasis id="strong1065" effect="bold">
+Another exercise with a different viewpoint
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1114">
+Now let's approach things from a different viewpoint. Assume that
+
+</para>
+
+
+
+
+<list id="ul1011" list-type="bulleted">
+
+	
+
+<item id="li1066">
+You know the value of the angle in degrees.
+
+</item>
+
+
+	
+
+<item id="li1067">
+You know the length of the hypotenuse.
+
+</item>
+
+
+	
+
+<item id="li1068">
+You need to find the length of the opposite side.
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+<para id="p1115">
+Assume also that for some reason you can't simply measure the length of the 
+opposite side. Therefore, you must calculate it. This is a common situation in 
+physics, so let's see if we can write a script that will perform that 
+calculation for us.
+
+</para>
+
+
+
+
+<para id="p1116">
+Please create an html file containing the code shown in 
+
+<link id="a1091" target-id="Listing_3">
+
+Listing 3
+
+</link>
+
+ and open 
+the file in your browser.
+
+</para>
+
+
+
+
+<table id="table1007" summary="This is a table." pgwide="677">
+<tgroup cols="1">
+
+
+
+
+<thead id="thead1007">
+<row id="tr1014">
+<entry id="th1007">
+
+
+
+<emphasis id="Listing_3" effect="bold">
+
+Listing 3
+
+</emphasis>
+
+. Finding length of the opposite side.
+
+
+</entry>
+</row>
+</thead>
+
+
+
+
+<tbody id="tbody1007">
+<row id="tr1015">
+<entry id="td1007">
+
+
+
+<code id="pre1006" display="block">&lt;!-- File JavaScript03.html --&gt;
+&lt;html&gt;&lt;body&gt;
+&lt;script language="JavaScript1.3"&gt;
+
+function toRadians(degrees){
+  return degrees*Math.PI/180
+}//end function toRadians
+//============================================//
+
+function toDegrees(radians){
+  return radians*180/Math.PI
+}//end function toDegrees
+//============================================//
+
+var hyp = 5
+var angDeg = 53.13
+var angRad = toRadians(angDeg)
+var sine = Math.sin(angRad)
+
+var opp = hyp * sine
+
+document.write("opposite = " + opp + "&lt;/br&gt;")
+
+hyp = opp/sine
+
+document.write("hypotenuse = " + hyp + "&lt;/br&gt;")
+
+&lt;/script&gt;
+&lt;/body&gt;&lt;/html&gt;
+</code>
+
+
+
+
+</entry>
+</row>
+</tbody>
+
+
+</tgroup>
+</table>
+
+
+
+
+
+<para id="p1117">
+<emphasis id="strong1066" effect="bold">
+The output for the opposite side
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1118">
+When you open your html file in your browser, the output shown in Figure 
+3 should appear in your browser window.
+
+</para>
+
+
+
+	
+
+
+<table id="table1008" summary="This is a table." pgwide="677">
+<tgroup cols="1">
+
+
+
+
+<thead id="thead1008">
+<row id="tr1016">
+<entry id="th1008">
+
+
+
+<emphasis id="Figure_6" effect="bold">
+
+Figure 6
+
+</emphasis>
+
+. Output for script in Listing 3.
+
+
+</entry>
+</row>
+</thead>
+
+
+
+
+<tbody id="tbody1008">
+<row id="tr1017">
+<entry id="td1008">
+
+
+
+<code id="pre1007" display="block">
+opposite = 3.999994640742543
+hypotenuse = 5
+</code>
+
+
+
+
+</entry>
+</row>
+</tbody>
+
+
+</tgroup>
+</table>
+
+
+
+
+
+<para id="p1119">
+<emphasis id="strong1067" effect="bold">
+Computing length of opposite side with the Google calculator
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1120">
+We could also compute the length of the opposite side using the Google 
+calculator.
+
+</para>
+
+
+	
+
+
+<note id="note1002" type="">
+
+
+
+
+
+
+
+<para id="p1121">
+<emphasis id="strong1068" effect="bold">
+The length of the opposite side -- sample computation
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1122">
+Enter the following into the Google search box:
+
+</para>
+
+
+
+
+<para id="p1123">
+5*sin(53.1301024 degrees)
+
+</para>
+
+
+
+
+<para id="p1124">
+The following will appear immediately below the search box:
+
+</para>
+
+
+
+
+<para id="p1125">
+5 * sin(53.1301024 degrees) = 4
+
+</para>
+
+
+
+
+<para id="p1126">
+This is the length of the opposite side for the given angle and the given 
+length of the hypotenuse.
+
+</para>
+
+
+
+
+</note>
+
+
+
+
+	
+	
+
+<para id="p1127">
+<emphasis id="strong1069" effect="bold">
+Interesting equations
+
+</emphasis>
+</para>
+
+
+	
+
+<para id="p1128">
+We learned earlier that the sine of the angle is equal to the ratio of 
+	the opposite side and the hypotenuse. We also learned that the angle is the 
+	arcsine of that ratio.
+
+</para>
+
+
+
+
+<para id="p1129">
+If we know any two of those values (
+
+<emphasis id="strong1070" effect="bold">
+angle
+
+</emphasis>
+, 
+
+<emphasis id="strong1071" effect="bold">
+opp
+
+</emphasis>
+,
+
+
+<emphasis id="strong1072" effect="bold">
+hyp
+
+</emphasis>
+), we 
+	can find the third (with a little algebraic manipulation) as shown in 
+
+<link id="a1092" target-id="Figure_7">
+
+Figure 7
+
+</link>
+
+.
+
+</para>
+
+
+
+	
+
+
+<table id="table1009" summary="This is a table." pgwide="677">
+<tgroup cols="1">
+
+
+
+
+<thead id="thead1009">
+<row id="tr1018">
+<entry id="th1009">
+
+
+
+<emphasis id="Figure_7" effect="bold">
+
+Figure 7
+
+</emphasis>
+
+. Interesting sine equations.
+
+
+</entry>
+</row>
+</thead>
+
+
+
+
+<tbody id="tbody1009">
+<row id="tr1019">
+<entry id="td1009">
+
+
+
+<code id="pre1008" display="block">
+sine(angle) = opp/hyp
+
+angle = arcsine(opp/hyp)
+opp = hyp * sine(angle)
+hyp = opp/sine(angle)
+</code>
+
+
+
+
+</entry>
+</row>
+</tbody>
+
+
+</tgroup>
+</table>
+
+
+
+
+	
+	
+
+<para id="p1130">
+<emphasis id="strong1073" effect="bold">
+Getting back to Listing 3
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1131">
+After defining the radian/degree conversion functions, 
+
+<link id="a1093" target-id="Listing_3">
+
+Listing 3
+
+</link>
+
+ declares 
+	and initializes variables representing the length of the hypotenuse and the 
+	angle in degrees. (Note that the angle in degrees was truncated to four 
+	significant digits, which may introduce a slight inaccuracy into the 
+	computations.)
+
+</para>
+
+
+
+
+<para id="p1132">
+<emphasis id="strong1074" effect="bold">
+Get and use the sine of the angle
+
+</emphasis>
+</para>
+
+
+	
+
+<para id="p1133">
+That angle is converted to radians and passed as a parameter to the
+	
+
+<emphasis id="strong1075" effect="bold">
+Math.sin
+
+</emphasis>
+ method, which returns the value of the sine of the 
+	angle.
+
+</para>
+
+
+	
+
+<para id="p1134">
+The value for the sine of the angle is then used in an algebraic equation 
+	to compute the length of the opposite side, which is displayed in 
+
+<link id="a1094" target-id="Figure_6">
+
+Figure 6
+
+</link>
+
+. 
+	(This equation is one of the equations shown in 
+
+<link id="a1095" target-id="Figure_7">
+
+Figure 7
+
+</link>
+
+.)
+
+</para>
+
+
+
+
+<para id="p1135">
+<emphasis id="strong1076" effect="bold">
+Looks very close to me
+
+</emphasis>
+</para>
+
+
+	
+
+<para id="p1136">
+As you can see, the computed value for the opposite side shown in 
+	
+
+<link id="a1096" target-id="Figure_6">
+
+Figure 6
+
+</link>
+
+ is extremely close to the known value 
+	of 4 units.
+
+</para>
+
+
+
+
+<para id="p1137">
+<emphasis id="strong1077" effect="bold">
+Re-compute the length of the hypotenuse
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1138">
+After that, the value of the hypotenuse is re-computed (as though it were the 
+unknown in the problem) using the value of the sine and the recently computed 
+value of the opposite side. (Once again, one of the equations from
+
+
+<link id="a1097" target-id="Figure_7">
+
+Figure 7
+
+</link>
+
+ is used to perform the computation.) The output length for the hypotenuse is shown in 
+
+<link id="a1098" target-id="Figure_6">
+
+Figure 6
+
+</link>
+
+, and it matches the 
+known value.
+
+</para>
+
+
+
+
+<para id="p1139">
+<emphasis id="strong1078" effect="bold">
+Example usage of Math.asin and Math.sin methods
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1140">
+<link id="a1099" target-id="Listing_2">
+
+Listing 2
+
+</link>
+
+ and 
+
+<link id="a1100" target-id="Listing_3">
+
+Listing 3
+
+</link>
+
+ provide examples of how to use the JavaScript 
+
+<emphasis id="strong1079" effect="bold">
+
+Math.asin
+
+</emphasis>
+ and 
+
+<emphasis id="strong1080" effect="bold">
+Math.sin
+
+</emphasis>
+ methods to find the angle, the 
+opposite side, or the hypotenuse of a right triangle when the other two are 
+known as shown by the equations in 
+
+<link id="a1101" target-id="Figure_7">
+
+Figure 7
+
+</link>
+
+.
+
+</para>
+
+
+
+
+</section>
+<section id="h31003">
+<title>
+<emphasis id="The_cosine_and_arccosine_of_an_angle" effect="bold">
+
+The cosine and arccosine of 
+an angle
+
+</emphasis>
+
+
+</title>
+
+
+	
+
+
+<para id="p1141">
+You are going to find the discussion in this section to be very similar to the 
+discussion in the previous section on the sine and the arcsine of an angle.
+
+</para>
+
+
+
+
+<para id="p1142">
+Once again, although the cosine of an angle is based on very specific 
+geometric considerations involving circles (see
+
+
+<link id="a1102" url="http://www.clarku.edu/~djoyce/trig/">
+
+
+http://www.clarku.edu/~djoyce/trig/
+
+</link>
+
+), for our purposes, the cosine of an 
+angle is simply a ratio between the lengths of two different sides of a right 
+triangle.
+
+</para>
+
+
+
+
+<para id="p1143">
+<emphasis id="strong1081" effect="bold">
+A ratio of two sides
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1144">
+For our purposes, we will say that the cosine of an angle is equal to the 
+ratio of the adjacent side and the hypotenuse. Therefore, in the case of the 
+3-4-5 triangle that you have on your graph board, the cosine of the angle at the 
+origin is equal to 3/5 or 0.6.
+
+</para>
+
+
+
+
+<para id="p1145">
+As before, if we know the lengths of the hypotenuse and the adjacent side, we 
+can compute the cosine and use it to determine the value of the angle. (We will 
+do this later.)
+
+</para>
+
+
+
+
+<para id="p1146">
+Conversely, if we know the value of the angle but don't know the lengths of 
+the hypotenuse and/or the adjacent side, we can obtain the cosine value (the 
+ratio of the adjacent side and the hypotenuse) using a 
+scientific calculator or lookup table and use it for other purposes later.
+
+</para>
+
+
+	
+
+
+<note id="note1003" type="">
+
+
+
+
+
+
+
+<para id="p1147">
+<emphasis id="strong1082" effect="bold">
+The cosine of an angle -- sample computation
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1148">
+Enter the following into the Google search box:
+
+</para>
+
+
+
+
+<para id="p1149">
+cos(53.13010235415598 degrees)
+
+</para>
+
+
+
+
+<para id="p1150">
+The following will appear immediately below the search box:
+
+</para>
+
+
+
+
+<para id="p1151">
+cos(53.13010235415598 degrees) = 0.6
+
+</para>
+
+
+
+
+<para id="p1152">
+This matches the ratio of the adjacent side to the hypotenuse for a 3-4-5 
+triangle.
+
+</para>
+
+
+
+
+</note>
+
+
+
+
+	
+
+
+<para id="p1153">
+<emphasis id="strong1083" effect="bold">
+The arccosine (inverse cosine) of an angle
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1154">
+The arccosine of an angle is the value of the angle having a given cosine 
+value. In other words, if you know the value of the cosine of an unknown angle, 
+you can use a scientific calculator or lookup table to find the value of the 
+angle.
+
+</para>
+
+
+
+
+<para id="p1155">
+<emphasis id="strong1084" effect="bold">
+Getting the angle for a known cosine value
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1156">
+For example, we know that the cosine of the angle at the origin on your graph 
+board is 0.6. From that, we can determine the value of the angle using either 
+the Google calculator or JavaScript.
+
+</para>
+
+
+	
+
+
+<note id="note1004" type="">
+
+
+
+
+
+
+
+<para id="p1157">
+<emphasis id="strong1085" effect="bold">
+The arccosine of an angle -- sample computation
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1158">
+Enter the following into the Google search box:
+
+</para>
+
+
+
+
+<para id="p1159">
+arccos(3/5) in degrees
+
+</para>
+
+
+
+
+<para id="p1160">
+The following will appear immediately below the search box:
+
+</para>
+
+
+
+
+<para id="p1161">
+arccos(3/5) = 53.1301024 degrees
+
+</para>
+
+
+
+
+<para id="p1162">
+This is the angle that corresponds to a ratio of the adjacent side to the 
+hypotenuse of 3/5.
+
+</para>
+
+
+
+
+</note>
+
+
+
+
+	
+
+
+<para id="p1163">
+As you should expect. the computed angle is the same as before. We didn't 
+change the angle, we simply computed it using a different approach.
+
+</para>
+
+
+
+
+<para id="p1164">
+<emphasis id="strong1086" effect="bold">
+Getting the angle using JavaScript
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1165">
+Please create an html file containing the code shown in 
+
+<link id="a1103" target-id="Listing_4">
+
+Listing 4
+
+</link>
+
+ and open it 
+in your browser.
+
+</para>
+
+
+
+
+<table id="table1010" summary="This is a table." pgwide="677">
+<tgroup cols="1">
+
+
+
+
+<thead id="thead1010">
+<row id="tr1020">
+<entry id="th1010">
+
+
+
+<emphasis id="Listing_4" effect="bold">
+
+Listing 4
+
+</emphasis>
+
+. Arccosine of 3-4-5 triangle.
+
+
+</entry>
+</row>
+</thead>
+
+
+
+
+<tbody id="tbody1010">
+<row id="tr1021">
+<entry id="td1010">
+
+
+
+<code id="pre1009" display="block">&lt;!-- File JavaScript04.html --&gt;
+&lt;html&gt;&lt;body&gt;
+&lt;script language="JavaScript1.3"&gt;
+
+function toRadians(degrees){
+  return degrees*Math.PI/180
+}//end function toRadians
+//============================================//
+
+function toDegrees(radians){
+  return radians*180/Math.PI
+}//end function toDegrees
+//============================================//
+
+var adj = 3
+var hyp = 5
+var ratio = adj/hyp
+var angRad = Math.acos(ratio)
+var angDeg = toDegrees(angRad)
+
+document.write("radians = " + angRad + "&lt;/br&gt;")
+document.write("degrees = " + angDeg)
+
+&lt;/script&gt;
+&lt;/body&gt;&lt;/html&gt;
+</code>
+
+
+
+
+</entry>
+</row>
+</tbody>
+
+
+</tgroup>
+</table>
+
+
+
+
+
+<para id="p1166">
+<emphasis id="strong1087" effect="bold">
+Similar to a previous script
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1167">
+If you examine the code in 
+
+<link id="a1104" target-id="Listing_4">
+
+Listing 4
+
+</link>
+
+ carefully, you will see that it is very similar to 
+the code in 
+
+<link id="a1105" target-id="Listing_2">
+
+Listing 2
+
+</link>
+
+ with a couple of exceptions:
+
+</para>
+
+
+
+
+<list id="ul1012" list-type="bulleted">
+
+	
+
+<item id="li1069">
+The variable 
+
+<emphasis id="strong1088" effect="bold">
+opp
+
+</emphasis>
+ having a value of 4 was replaced by 
+	the variable 
+
+<emphasis id="strong1089" effect="bold">
+adj
+
+</emphasis>
+ having a value of 3.
+
+</item>
+
+
+	
+
+<item id="li1070">
+The call to the 
+
+<emphasis id="strong1090" effect="bold">
+Math.asin
+
+</emphasis>
+ method was replaced by a call to 
+	the 
+
+<emphasis id="strong1091" effect="bold">
+Math.acos
+
+</emphasis>
+ method.
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+<para id="p1168">
+<emphasis id="strong1092" effect="bold">
+The output
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1169">
+When you load your html file into your browser, it should produce the output 
+shown earlier in 
+
+<link id="a1106" target-id="Figure_5">
+
+Figure 5
+
+</link>
+
+. In other words, we know that the angle at the origin 
+didn't change. What changed was the manner in which we computed the value of 
+that angle.
+
+</para>
+
+
+
+
+<para id="p1170">
+<emphasis id="strong1093" effect="bold">
+Different approaches to the same solution
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1171">
+In 
+
+<link id="a1107" target-id="Listing_2">
+
+Listing 2
+
+</link>
+
+, we used the length of the hypotenuse and the length of the 
+opposite side, along with the arcsine method to compute the angle.
+
+</para>
+
+
+
+
+<para id="p1172">
+In 
+
+<link id="a1108" target-id="Listing_4">
+
+Listing 4
+
+</link>
+
+, we used the length of the hypotenuse and the length of the 
+adjacent side, along with the arccosine method to compute the angle.
+
+</para>
+
+
+
+
+<para id="p1173">
+<emphasis id="strong1094" effect="bold">
+Which approach should you use?
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1174">
+As would be expected, since the angle didn't change, both approaches produced 
+the same result. Deciding which approach to use often depends on 
+the values that are available to use in the computation.
+
+</para>
+
+
+
+
+<para id="p1175">
+Sometimes you only have 
+the lengths of the hypotenuse and the opposite side available, in which case 
+you could use the arcsine. Sometimes you only have 
+the lengths of the hypotenuse and the adjacent side available, in which case you 
+could use the arccosine. Sometimes you have the 
+lengths of both the opposite side and the adjacent side in addition to the 
+length of the hypotenuse, in which case you can 
+use either approach.
+
+</para>
+
+
+
+
+<para id="p1176">
+<emphasis id="strong1095" effect="bold">
+Both approaches use the length of the hypotenuse
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1177">
+It is important to note however that both of these approaches require you to 
+have the length of the hypotenuse. Later in this module we will discuss the 
+tangent and arctangent for an angle, which allows us to work with the opposite 
+side and the adjacent side devoid of the length of the hypotenuse. (Of course, if 
+you have the lengths of the opposite side and the adjacent side, you can always 
+find the length of the hypotenuse using the Pythagorean theorem.)
+
+</para>
+
+
+
+
+<para id="p1178">
+<emphasis id="strong1096" effect="bold">
+Interesting cosine equations
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1179">
+The equations in 
+
+<link id="a1109" target-id="Figure_8">
+
+Figure 8
+
+</link>
+
+ are similar to equations in 
+
+<link id="a1110" target-id="Figure_7">
+
+Figure 7
+
+</link>
+
+. The 
+difference is that the equations in 
+
+<link id="a1111" target-id="Figure_7">
+
+Figure 7
+
+</link>
+
+ are based on the use of the sine of 
+the angle and the opposite side whereas the equations in 
+
+<link id="a1112" target-id="Figure_8">
+
+Figure 8
+
+</link>
+
+ are based on the use of the cosine 
+of the angle and the adjacent side.
+
+</para>
+
+
+
+
+<para id="p1180">
+As you can see in 
+
+<link id="a1113" target-id="Figure_8">
+
+Figure 8
+
+</link>
+
+, if you know any two of the values for 
+
+<emphasis id="strong1097" effect="bold">
+angle
+
+</emphasis>
+, 
+
+
+<emphasis id="strong1098" effect="bold">
+adj
+
+</emphasis>
+, and 
+
+<emphasis id="strong1099" effect="bold">
+hyp
+
+</emphasis>
+, you can find 
+the other value. This is illustrated in the script shown in 
+
+<link id="a1114" target-id="Listing_5">
+
+Listing 5
+
+</link>
+
+, which 
+produces the output shown in 
+
+<link id="a1115" target-id="Figure_9">
+
+Figure 9
+
+</link>
+
+.
+
+</para>
+
+
+
+	
+
+
+<table id="table1011" summary="This is a table." pgwide="677">
+<tgroup cols="1">
+
+
+
+
+<thead id="thead1011">
+<row id="tr1022">
+<entry id="th1011">
+
+
+
+<emphasis id="Figure_8" effect="bold">
+
+Figure 8
+
+</emphasis>
+
+. Interesting cosine equations.
+
+
+</entry>
+</row>
+</thead>
+
+
+
+
+<tbody id="tbody1011">
+<row id="tr1023">
+<entry id="td1011">
+
+
+
+<code id="pre1010" display="block">
+cosine(angle) = adj/hyp
+
+angle = arccosine(adj/hyp)
+adj = hyp * cosine(angle)
+hyp = adj/cosine(angle)</code>
+
+
+
+
+</entry>
+</row>
+</tbody>
+
+
+</tgroup>
+</table>
+
+
+
+
+	
+
+
+<para id="p1181">
+<emphasis id="strong1100" effect="bold">
+Finding the length of the adjacent side
+
+</emphasis>
+</para>
+
+
+	
+
+<para id="p1182">
+The code in 
+
+<link id="a1116" target-id="Listing_5">
+
+Listing 5
+
+</link>
+
+ is very similar to the code in 
+
+<link id="a1117" target-id="Listing_2">
+
+Listing 2
+
+</link>
+
+. The main 
+difference is that 
+
+<link id="a1118" target-id="Listing_2">
+
+Listing 2
+
+</link>
+
+ is based on the use of the sine of the angle and 
+the length of the opposite side whereas 
+
+<link id="a1119" target-id="Listing_5">
+
+Listing 5
+
+</link>
+
+ is based on the use of the 
+cosine of the angle and the length of the adjacent side.
+
+</para>
+
+
+
+
+<table id="table1012" summary="This is a table." pgwide="677">
+<tgroup cols="1">
+
+
+
+
+<thead id="thead1012">
+<row id="tr1024">
+<entry id="th1012">
+
+
+
+<emphasis id="Listing_5" effect="bold">
+
+Listing 5
+
+</emphasis>
+
+. Finding the length of the adjacent side.
+
+
+</entry>
+</row>
+</thead>
+
+
+
+
+<tbody id="tbody1012">
+<row id="tr1025">
+<entry id="td1012">
+
+
+
+<code id="pre1011" display="block">&lt;!-- File JavaScript05.html --&gt;
+&lt;html&gt;&lt;body&gt;
+&lt;script language="JavaScript1.3"&gt;
+
+function toRadians(degrees){
+  return degrees*Math.PI/180
+}//end function toRadians
+//============================================//
+
+function toDegrees(radians){
+  return radians*180/Math.PI
+}//end function toDegrees
+//============================================//
+
+var hyp = 5
+var angDeg = 53.13
+var angRad = toRadians(angDeg)
+var cosine = Math.cos(angRad)
+
+var adj = hyp * cosine
+
+document.write("adjacent = " + adj + "&lt;/br&gt;")
+
+hyp = adj/cosine
+
+document.write("hypotenuse = " + hyp + "&lt;/br&gt;")
+
+&lt;/script&gt;
+&lt;/body&gt;&lt;/html&gt;
+</code>
+
+
+
+
+</entry>
+</row>
+</tbody>
+
+
+</tgroup>
+</table>
+
+
+
+
+
+<para id="p1183">
+<emphasis id="strong1101" effect="bold">
+No further explanation needed
+
+</emphasis>
+</para>
+
+
+	
+
+<para id="p1184">
+Because of the similarity of 
+
+<link id="a1120" target-id="Listing_5">
+
+Listing 5
+
+</link>
+
+ and 
+
+<link id="a1121" target-id="Listing_2">
+
+Listing 2
+
+</link>
+
+, no further explanation 
+of the code in 
+
+<link id="a1122" target-id="Listing_5">
+
+Listing 5
+
+</link>
+
+ should be needed. As you can see from 
+
+<link id="a1123" target-id="Figure_9">
+
+Figure 9
+
+</link>
+
+, the 
+output values match the known lengths for the hypotenuse and the adjacent side 
+for the triangle on your plot board.
+
+</para>
+
+
+
+	
+
+
+<table id="table1013" summary="This is a table." pgwide="677">
+<tgroup cols="1">
+
+
+
+
+<thead id="thead1013">
+<row id="tr1026">
+<entry id="th1013">
+
+
+
+<emphasis id="Figure_9" effect="bold">
+
+Figure 9
+
+</emphasis>
+
+. Output for script in Listing 5.
+
+
+</entry>
+</row>
+</thead>
+
+
+
+
+<tbody id="tbody1013">
+<row id="tr1027">
+<entry id="td1013">
+
+
+
+<code id="pre1012" display="block">
+adjacent = 3.0000071456633126
+hypotenuse = 5
+</code>
+
+
+
+
+</entry>
+</row>
+</tbody>
+
+
+</tgroup>
+</table>
+
+
+
+
+
+<para id="p1185">
+<emphasis id="strong1102" effect="bold">
+Computing length of adjacent side with the Google calculator
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1186">
+We could also compute the length of the adjacent side using the Google 
+calculator.
+
+</para>
+
+
+	
+
+
+<note id="note1005" type="">
+
+
+
+
+
+
+
+<para id="p1187">
+<emphasis id="strong1103" effect="bold">
+The length of the adjacent side -- sample computation
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1188">
+Enter the following into the Google search box:
+
+</para>
+
+
+
+
+<para id="p1189">
+5*cos(53.1301024 degrees)
+
+</para>
+
+
+
+
+<para id="p1190">
+The following will appear immediately below the search box:
+
+</para>
+
+
+
+
+<para id="p1191">
+5 * cos(53.1301024 degrees) = 3
+
+</para>
+
+
+
+
+<para id="p1192">
+This is the length of the adjacent side for the given angle and the given 
+length of the hypotenuse.
+
+</para>
+
+
+
+
+</note>
+
+
+
+
+	
+	
+
+<para id="p1193">
+<emphasis id="strong1104" effect="bold">
+Two very important equations
+
+</emphasis>
+</para>
+
+
+	
+
+<para id="p1194">
+From an introductory physics viewpoint, two of the most important 
+	and perhaps most frequently used equations from 
+
+<link id="a1124" target-id="Figure_7">
+
+Figure 7
+
+</link>
+
+ and 
+
+<link id="a1125" target-id="Figure_8">
+
+Figure 8
+
+</link>
+
+ are 
+	shown in 
+
+<link id="a1126" target-id="Figure_10">
+
+Figure 10
+
+</link>
+
+.
+
+</para>
+
+
+
+	
+
+
+<table id="table1014" summary="This is a table." pgwide="677">
+<tgroup cols="1">
+
+
+
+
+<thead id="thead1014">
+<row id="tr1028">
+<entry id="th1014">
+
+
+
+<emphasis id="Figure_10" effect="bold">
+
+Figure 10
+
+</emphasis>
+
+. Two very important equations.
+
+
+</entry>
+</row>
+</thead>
+
+
+
+
+<tbody id="tbody1014">
+<row id="tr1029">
+<entry id="td1014">
+
+
+
+<code id="pre1013" display="block">
+opp = hyp * sine(angle)
+adj = hyp * cosine(angle)</code>
+
+
+
+
+</entry>
+</row>
+</tbody>
+
+
+</tgroup>
+</table>
+
+
+
+
+	
+	
+
+<para id="p1195">
+These two equations are so important that it might be worth your while to 
+	memorize them. Of course, you will occasionally need most of the equations 
+	in 
+
+<link id="a1127" target-id="Figure_7">
+
+Figure 7
+
+</link>
+
+ and 
+
+<link id="a1128" target-id="Figure_8">
+
+Figure 8
+
+</link>
+
+, so you should try to remember them, 
+	or at least know where to find them when you need them.
+
+</para>
+
+
+
+
+<para id="p1196">
+<emphasis id="strong1105" effect="bold">
+Vectors
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1197">
+As you will see later in the module that deals with vectors, 
+you are often presented with something that resembles the hypotenuse of a right 
+triangle whose adjacent side is on the horizontal axis and whose opposite side 
+is parallel to the vertical axis.
+
+</para>
+
+
+
+
+<para id="p1198">
+The thing that looks like the hypotenuse of a right triangle is called a 
+
+
+<emphasis id="strong1106" effect="bold">
+vector
+
+</emphasis>
+. It has a length and it has a direction. Typically, the direction is 
+stated as the angle between the vector and the horizontal axis. Thus, the 
+direction is analogous to the angle at the origin in the triangle on your graph 
+board.
+
+</para>
+
+
+
+
+<para id="p1199">
+<emphasis id="strong1107" effect="bold">
+Horizontal and vertical components
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1200">
+For reasons that I won't explain until we get to that module, you will often 
+need to compute the horizontal and vertical components of the vector. 
+The horizontal component is essentially the adjacent side of our current right 
+triangle. Thus, the value of the horizontal component can be computed using the 
+second equation in 
+
+<link id="a1129" target-id="Figure_10">
+
+Figure 10
+
+</link>
+
+.
+
+</para>
+
+
+
+
+<para id="p1201">
+The vertical component is essentially the opposite side of our current right 
+triangle, and its value can be computed using the first equation in 
+
+<link id="a1130" target-id="Figure_10">
+
+Figure 10
+
+</link>
+
+.
+
+</para>
+
+
+
+
+</section>
+<section id="h31004">
+<title>
+<emphasis id="The_tangent_and_arctangent_of_an_angle" effect="bold">
+
+The tangent and arctangent 
+of an angle
+
+</emphasis>
+
+
+</title>
+
+
+	
+	
+	
+
+<para id="p1202">
+Once again, although the tangent of an angle is based on very specific 
+	geometric considerations involving circles (see
+	
+
+<link id="a1131" url="http://www.clarku.edu/~djoyce/trig/">
+
+
+	http://www.clarku.edu/~djoyce/trig/
+
+</link>
+
+), for our purposes, the tangent of an 
+angle is simply a ratio between the lengths of two different sides of a right 
+triangle.
+
+</para>
+
+
+
+
+<para id="p1203">
+<emphasis id="strong1108" effect="bold">
+A ratio of two sides
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1204">
+For our purposes, we will say that the tangent of an angle is equal to the 
+ratio of the opposite side and the adjacent side. Therefore, in the case of the 
+3-4-5 triangle that you have on your graph board, the 
+
+
+<emphasis id="tangent_of_the_angle_at_the_origin_is_equal_to" effect="bold">
+
+tangent of the angle at 
+the origin is equal to
+
+</emphasis>
+
+ 4/3 or 1.333.
+
+</para>
+
+
+
+
+<para id="p1205">
+<emphasis id="strong1109" effect="bold">
+Not limited to 1.0
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1206">
+Note that the absolute value for the sine and the cosine of an angle is 
+limited to a maximum value of 1.0. However, the tangent of an angle is not so 
+limited. In fact, the tangent of 45 degrees is 1.0 and the tangent of 90 degrees 
+is infinity. This results from the length of the adjacent side, which is the 
+denominator in the ratio, going to zero at 90 degrees.
+
+</para>
+
+
+
+
+<para id="p1207">
+Dividing by zero in a script is usually not a good thing. This is a pitfall that you must watch out for when working with tangents. 
+I will provide code later on that shows you how deal with this issue.
+
+</para>
+
+
+
+
+<para id="p1208">
+<emphasis id="strong1110" effect="bold">
+Computing the tangent
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1209">
+If we know the lengths of the opposite side and the adjacent side, we can 
+compute the tangent and use it for other purposes later without having to know 
+the value of the angle.
+
+</para>
+
+
+
+
+<para id="p1210">
+Conversely, if we know the value of the angle but don't know the lengths of 
+the adjacent side and/or the opposite side, we can obtain the tangent value 
+using a scientific calculator or lookup table and use it for other purposes 
+later.
+
+</para>
+
+
+
+
+<note id="note1006" type="">
+
+
+	
+
+
+		
+
+
+		
+
+<para id="p1211">
+<emphasis id="strong1111" effect="bold">
+The tangent of an angle -- sample computation
+
+</emphasis>
+</para>
+
+
+		
+
+<para id="p1212">
+Enter the following into the Google search box:
+
+</para>
+
+
+		
+
+<para id="p1213">
+tan(53.13010235415598 degrees)
+
+</para>
+
+
+		
+
+<para id="p1214">
+The following will appear immediately below the search box:
+
+</para>
+
+
+		
+
+<para id="p1215">
+	
+tan(53.13010235415598 degrees) = 1.33333333
+
+</para>
+
+
+		
+
+<para id="p1216">
+	
+This agrees with the ratio that we computed
+
+
+<link id="a1132" target-id="tangent_of_the_angle_at_the_origin_is_equal_to">
+
+earlier
+
+</link>
+
+.
+
+</para>
+
+
+		
+
+</note>
+
+	
+
+
+
+
+
+
+
+
+<para id="p1217">
+<emphasis id="strong1112" effect="bold">
+The arctangent (inverse tangent) of an angle
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1218">
+The arctangent of an angle is the value of the angle having a given tangent 
+value. (For example, as mentioned above, the arctangent of infinity is 90 
+degrees and the arctangent of 1.0 is 45 degrees.) In other words, if you know the value of the tangent of an unknown angle, 
+you can use a scientific calculator or lookup table to find the value of the 
+angle.
+
+</para>
+
+
+
+
+<para id="p1219">
+For example, we know that the tangent of the angle at the origin on your 
+graph board is 1.333. From that, we can determine the value of the angle.
+
+</para>
+
+
+
+
+<note id="note1007" type="">
+
+
+	
+
+
+		
+
+
+		
+
+<para id="p1220">
+<emphasis id="strong1113" effect="bold">
+The arctangent of an angle -- sample computation
+
+</emphasis>
+</para>
+
+
+		
+
+<para id="p1221">
+Enter the following into the Google search box:
+
+</para>
+
+
+		
+
+<para id="p1222">
+arctan(4/3) in degrees
+
+</para>
+
+
+		
+
+<para id="p1223">
+The following will appear immediately below the search box:
+
+</para>
+
+
+		
+
+<para id="p1224">
+arctan(4/3) = 53.1301024 degrees
+
+</para>
+
+
+		
+
+</note>
+
+	
+
+
+
+
+
+
+
+
+<para id="p1225">
+We can also write a JavaScript script to perform the calculation.
+
+</para>
+
+
+
+
+<para id="p1226">
+<emphasis id="strong1114" effect="bold">
+Getting the angle for a known tangent value using JavaScript
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1227">
+Please create an html file containing the code shown in 
+
+<link id="a1133" target-id="Listing_6">
+
+Listing 6
+
+</link>
+
+ and open it 
+in your browser.
+
+</para>
+
+
+
+
+<table id="table1015" summary="This is a table." pgwide="677">
+<tgroup cols="1">
+
+
+
+
+<thead id="thead1015">
+<row id="tr1030">
+<entry id="th1015">
+
+
+
+<emphasis id="Listing_6" effect="bold">
+
+Listing 6
+
+</emphasis>
+
+. Arctan of 3-4-5 triangle.
+
+
+</entry>
+</row>
+</thead>
+
+
+
+
+<tbody id="tbody1015">
+<row id="tr1031">
+<entry id="td1015">
+
+
+
+<code id="pre1014" display="block">&lt;!-- File JavaScript06.html --&gt;
+&lt;html&gt;&lt;body&gt;
+&lt;script language="JavaScript1.3"&gt;
+
+function toRadians(degrees){
+  return degrees*Math.PI/180
+}//end function toRadians
+//============================================//
+
+function toDegrees(radians){
+  return radians*180/Math.PI
+}//end function toDegrees
+//============================================//
+
+var opp = 4
+var adj = 3
+var ratio = opp/adj
+var angRad = Math.atan(ratio)
+var angDeg = toDegrees(angRad)
+
+document.write("radians = " + angRad + "&lt;/br&gt;")
+document.write("degrees = " + angDeg)
+
+&lt;/script&gt;
+&lt;/body&gt;&lt;/html&gt;
+</code>
+
+
+
+
+</entry>
+</row>
+</tbody>
+
+
+</tgroup>
+</table>
+
+
+
+
+
+<para id="p1228">
+<emphasis id="strong1115" effect="bold">
+The output from the script
+
+</emphasis>
+</para>
+
+
+	
+
+<para id="p1229">
+Once again, when you open this file in your browser, the output shown in 
+
+
+<link id="a1134" target-id="Figure_5">
+
+Figure 5
+
+</link>
+
+ should appear in your browser window.
+
+</para>
+
+
+
+
+<para id="p1230">
+The code in 
+
+<link id="a1135" target-id="Listing_6">
+
+Listing 6
+
+</link>
+
+ is very similar to the code in 
+
+<link id="a1136" target-id="Listing_2">
+
+Listing 2
+
+</link>
+
+. They both 
+describe the same right triangle, so the output should be the 
+same in both cases.
+
+</para>
+
+
+
+
+<para id="p1231">
+The code in 
+
+<link id="a1137" target-id="Listing_2">
+
+Listing 2
+
+</link>
+
+ uses the opposite side and the hypotenuse along with 
+the arcsine to compute the angle. The code in 
+
+<link id="a1138" target-id="Listing_6">
+
+Listing 6
+
+</link>
+
+ uses the opposite side 
+and the adjacent side along with the arctangent to compute the angle. Otherwise, 
+no further explanation should be required.
+
+</para>
+
+
+
+
+<para id="p1232">
+<emphasis id="strong1116" effect="bold">
+Interesting tangent equations
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1233">
+In the spirit of 
+
+<link id="a1139" target-id="Figure_7">
+
+Figure 7
+
+</link>
+
+ and 
+
+<link id="a1140" target-id="Figure_8">
+
+Figure 8
+
+</link>
+
+, 
+
+<link id="a1141" target-id="Figure_11">
+
+Figure 11
+
+</link>
+
+ provides some interesting 
+equations that deal with the angle, the opposite side, and the adjacent side. 
+Given any two, you can find the third using either the tangent or arctangent.
+
+</para>
+
+
+
+	
+
+
+<table id="table1016" summary="This is a table." pgwide="677">
+<tgroup cols="1">
+
+
+
+
+<thead id="thead1016">
+<row id="tr1032">
+<entry id="th1016">
+
+
+
+<emphasis id="Figure_11" effect="bold">
+
+Figure 11
+
+</emphasis>
+
+. Interesting tangent equations.
+
+
+</entry>
+</row>
+</thead>
+
+
+
+
+<tbody id="tbody1016">
+<row id="tr1033">
+<entry id="td1016">
+
+
+
+<code id="pre1015" display="block">
+tangent(angle) = opp/adj
+
+angle = arctangent(opp/adj)
+opp = tangent(angle) * adj
+adj = opp/tangent(angle)</code>
+
+
+
+
+</entry>
+</row>
+</tbody>
+
+
+</tgroup>
+</table>
+
+
+
+
+	
+	
+
+<para id="p1234">
+<emphasis id="strong1117" effect="bold">
+An exercise involving the tangent
+
+</emphasis>
+</para>
+
+
+	
+
+
+<para id="p1235">
+Please copy the code from 
+
+<link id="a1142" target-id="Listing_7">
+
+Listing 7
+
+</link>
+
+ into an html file and open it in your 
+browser.
+
+</para>
+
+
+
+
+<table id="table1017" summary="This is a table." pgwide="677">
+<tgroup cols="1">
+
+
+
+
+<thead id="thead1017">
+<row id="tr1034">
+<entry id="th1017">
+
+
+
+<emphasis id="Listing_7" effect="bold">
+
+Listing 7
+
+</emphasis>
+
+. Finding the length of the opposite side.
+
+
+</entry>
+</row>
+</thead>
+
+
+
+
+<tbody id="tbody1017">
+<row id="tr1035">
+<entry id="td1017">
+
+
+
+<code id="pre1016" display="block">&lt;!-- File JavaScript07.html --&gt;
+&lt;html&gt;&lt;body&gt;
+&lt;script language="JavaScript1.3"&gt;
+
+function toRadians(degrees){
+  return degrees*Math.PI/180
+}//end function toRadians
+//============================================//
+
+function toDegrees(radians){
+  return radians*180/Math.PI
+}//end function toDegrees
+//============================================//
+
+var adj = 3
+var angDeg = 53.13
+var angRad = toRadians(angDeg)
+var tangent = Math.tan(angRad)
+
+var opp = adj * tangent
+
+document.write("opposite = " + opp + "&lt;/br&gt;")
+
+adj = opp/tangent
+
+document.write("adjacent = " + adj + "&lt;/br&gt;")
+
+&lt;/script&gt;
+&lt;/body&gt;&lt;/html&gt;
+</code>
+
+
+
+
+</entry>
+</row>
+</tbody>
+
+
+</tgroup>
+</table>
+
+
+
+
+
+<para id="p1236">
+When you open your html file in your browser, the output shown in 
+
+<link id="a1143" target-id="Figure_12">
+
+Figure 12
+
+</link>
+
+ 
+should appear in your browser window. We can see that the values in 
+
+<link id="a1144" target-id="Figure_12">
+
+Figure 12
+
+</link>
+
+ are 
+correct for our 3-4-5 triangle.
+
+</para>
+
+
+
+	
+
+
+<table id="table1018" summary="This is a table." pgwide="677">
+<tgroup cols="1">
+
+
+
+
+<thead id="thead1018">
+<row id="tr1036">
+<entry id="th1018">
+
+
+
+<emphasis id="Figure_12" effect="bold">
+
+Figure 12
+
+</emphasis>
+
+. Output for script in Listing 7.
+
+
+</entry>
+</row>
+</thead>
+
+
+
+
+<tbody id="tbody1018">
+<row id="tr1037">
+<entry id="td1018">
+
+
+
+<code id="pre1017" display="block">opposite = 3.9999851132269173
+adjacent = 3
+</code>
+
+
+
+
+</entry>
+</row>
+</tbody>
+
+
+</tgroup>
+</table>
+
+
+
+
+	
+	
+
+<para id="p1237">
+<emphasis id="strong1118" effect="bold">
+Very similar code
+
+</emphasis>
+</para>
+
+
+	
+
+<para id="p1238">
+The code in 
+
+<link id="a1145" target-id="Listing_7">
+
+Listing 7
+
+</link>
+
+ is very similar to the code in 
+
+<link id="a1146" target-id="Listing_3">
+
+Listing 3
+
+</link>
+
+ and 
+	
+
+<link id="a1147" target-id="Listing_5">
+
+Listing 5
+
+</link>
+
+. The essential differences are that 
+
+</para>
+
+
+
+
+<list id="ul1013" list-type="bulleted">
+
+	
+
+<item id="li1071">
+<link id="a1148" target-id="Listing_3">
+
+Listing 3
+
+</link>
+
+ uses the sine along with the opposite side and the hypotenuse.
+
+</item>
+
+
+	
+
+<item id="li1072">
+<link id="a1149" target-id="Listing_5">
+
+Listing 5
+
+</link>
+
+ uses the cosine along with the adjacent side and the 
+	hypotenuse.
+
+</item>
+
+
+	
+
+<item id="li1073">
+<link id="a1150" target-id="Listing_7">
+
+Listing 7
+
+</link>
+
+ uses the tangent along with the opposite side and the adjacent 
+	side.
+
+</item>
+
+
+
+
+</list>
+
+
+	
+	
+
+<para id="p1239">
+You should be able to work through those differences without further 
+	explanation from me.
+
+</para>
+
+
+
+
+<para id="p1240">
+<emphasis id="strong1119" effect="bold">
+The cotangent of an angle
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1241">
+There is also something called the cotangent of an angle, which is simply the 
+ratio of the adjacent side to the opposite side. If you know how to work with 
+the tangent, you don't ordinarily need to use the cotangent, so I won't discuss 
+it further.
+
+</para>
+
+
+
+
+<para id="p1242">
+<emphasis id="strong1120" effect="bold">
+Computing length of opposite side with the Google calculator
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1243">
+We could also compute the length of the opposite side using the Google 
+calculator.
+
+</para>
+
+
+
+
+<note id="note1008" type="">
+
+
+	
+
+
+		
+
+
+		
+
+<para id="p1244">
+<emphasis id="strong1121" effect="bold">
+The length of the opposite side -- sample computation
+
+</emphasis>
+</para>
+
+
+		
+
+<para id="p1245">
+Enter the following into the Google search box:
+
+</para>
+
+
+		
+
+<para id="p1246">
+3*tan(53.1301024 degrees)
+
+</para>
+
+
+		
+
+<para id="p1247">
+The following will appear immediately below the search box:
+
+</para>
+
+
+		
+
+<para id="p1248">
+3 * tan(53.1301024 degrees) = 4.00000001
+
+</para>
+
+
+		
+
+</note>
+
+	
+
+
+
+
+
+
+
+
+</section>
+</section>
+<section id="h21006">
+<title>
+<emphasis id="Dealing_with_quadrants" effect="bold">
+
+Dealing with different quadrants
+
+</emphasis>
+
+
+</title>
+
+
+	
+
+<para id="p1249">
+Up to this point, we have dealt exclusively with angles in the range of 0 
+	to 90 degrees (the first quadrant). As long as you stay in the first 
+	quadrant, things are relatively straightforward.
+
+</para>
+
+
+
+
+<para id="p1250">
+As you are probably aware, however, angles can range anywhere from 0 to 360 
+degrees (or more). Once you begin working with angles that are greater then 90 degrees, 
+things become a little less straightforward.
+
+</para>
+
+
+
+
+<para id="p1251">
+<emphasis id="strong1122" effect="bold">
+Another svg file
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1252">
+When you downloaded the zip file named Phy1020.zip using the link given
+
+
+<link id="a1151" target-id="Download_graphics_files">
+
+above
+
+</link>
+
+, you should also have found that 
+the zip file contains a file named Phy1020a1.svg.
+
+</para>
+
+
+
+
+<para id="p1253">
+The purpose of this file is to make it possible for you to create tactile 
+graphics for sine and cosine curves using the procedure explained in the earlier 
+module named 
+
+
+<link id="a1152" url="http://cnx.org/contents/9fe07552-485f-43e7-9753-87133cf60482">
+
+Manual Creation of Tactile Graphics
+
+</link>
+
+.
+
+</para>
+
+
+
+
+<para id="p1254">
+If you have the ability to create tactile graphics, you don't need to 
+perform the work in the following graph board exercise. However, you should 
+read about it anyway because that will probably help you to better understand 
+the sine and the cosine of an angle.
+
+</para>
+
+
+
+
+<para id="p1255">
+I will get back to tactile graphics after I describe the graph board 
+exercise.
+
+</para>
+
+
+
+
+<para id="p1256">
+<emphasis id="strong1123" effect="bold">
+Another graph board exercise
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1257">
+In this graph board exercise, we will plot a graph of the 
+amplitude of the sine of an angle on the vertical axis versus the angle itself on 
+the horizontal.
+
+</para>
+
+
+
+
+<para id="p1258">
+We will also do the same thing for the cosine. It would be very good if you 
+could plot one curve on the top half of your graph board and the other curve on 
+the bottom half of your graph board so that you can easily compare the two.
+
+</para>
+
+
+
+
+<para id="p1259">
+<emphasis id="strong1124" effect="bold">
+Interpreting gridline values
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1260">
+Since I don't know how many tactile grid lines there are on your graph board, 
+I can't tell you exactly how to interpret the grid lines so as to make maximum 
+use of the space on the board. All that I can tell you is that the vertical 
+amplitude values for each curve will range from -1.0 to +1.0. We would like to 
+plot values from -360 degrees to + 360 degrees on the horizontal. You should 
+interpret the values of the gridlines on your graph board accordingly.
+
+</para>
+
+
+
+
+<para id="p1261">
+<emphasis id="strong1125" effect="bold">
+Sinusoidal amplitude versus angle
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1262">
+Please copy the code from 
+
+<link id="a1153" target-id="Listing_8">
+
+Listing 8
+
+</link>
+
+ into an html file and open the file in 
+your browser.
+
+</para>
+
+
+
+
+<table id="table1019" summary="This is a table." pgwide="677">
+<tgroup cols="1">
+
+
+
+
+<thead id="thead1019">
+<row id="tr1038">
+<entry id="th1019">
+
+
+
+<emphasis id="Listing_8" effect="bold">
+
+Listing 8
+
+</emphasis>
+
+. Sinusoidal amplitude versus angle.
+
+
+</entry>
+</row>
+</thead>
+
+
+
+
+<tbody id="tbody1019">
+<row id="tr1039">
+<entry id="td1019">
+
+
+
+<code id="pre1018" display="block">&lt;;!-- File JavaScriptZZ.html --&gt;
+&lt;;html&gt;&lt;;body&gt;
+&lt;;script language="JavaScript1.3"&gt;
+
+function toRadians(degrees){
+  return degrees*Math.PI/180
+}//end function toRadians
+//============================================//
+
+function toDegrees(radians){
+  return radians*180/Math.PI
+}//end function toDegrees
+//============================================//
+
+var angInc = 90
+var angStart = -360
+var ang = angStart
+var angEnd = 360
+var sine
+var cosine
+
+while(ang &lt;;= angEnd){
+  //Compute sine and cosine of angle
+  sine = Math.sin(toRadians(ang))
+  cosine = Math.cos(toRadians(ang))
+  
+  //Reduce the number of digits in the output
+  sine = (Math.round(100*sine))/100
+  cosine = (Math.round(100*cosine))/100
+  
+  //Display the results
+  document.write("Angle: " + ang + 
+                 " Sine: " + sine + 
+                 " Cosine: " + cosine +
+                 "&lt;;/br&gt;")
+                 
+  //Increase the angle for next iteration
+  ang = ang + angInc
+}//end while loop
+
+&lt;;/script&gt;
+&lt;;/body&gt;&lt;;/html&gt;
+</code>
+
+
+
+
+</entry>
+</row>
+</tbody>
+
+
+</tgroup>
+</table>
+
+
+
+
+
+<para id="p1263">
+<emphasis id="strong1126" effect="bold">
+Output from the script
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1264">
+When you open your html file in your browser, the output shown in 
+
+<link id="a1154" target-id="Figure_13">
+
+Figure 13
+
+</link>
+
+ 
+should appear in your browser window.
+
+</para>
+
+
+
+	
+
+
+<table id="table1020" summary="This is a table." pgwide="677">
+<tgroup cols="1">
+
+
+
+
+<thead id="thead1020">
+<row id="tr1040">
+<entry id="th1020">
+
+
+
+<emphasis id="Figure_13" effect="bold">
+
+Figure 13
+
+</emphasis>
+
+. Sinusoidal values at 90-degree increments.
+
+
+</entry>
+</row>
+</thead>
+
+
+
+
+<tbody id="tbody1020">
+<row id="tr1041">
+<entry id="td1020">
+
+
+
+<code id="pre1019" display="block">Angle: -360 Sine: 0 Cosine: 1
+Angle: -270 Sine: 1 Cosine: 0
+Angle: -180 Sine: 0 Cosine: -1
+Angle: -90 Sine: -1 Cosine: 0
+Angle: 0 Sine: 0 Cosine: 1
+Angle: 90 Sine: 1 Cosine: 0
+Angle: 180 Sine: 0 Cosine: -1
+Angle: 270 Sine: -1 Cosine: 0
+Angle: 360 Sine: 0 Cosine: 1
+</code>
+
+
+
+
+</entry>
+</row>
+</tbody>
+
+
+</tgroup>
+</table>
+
+
+
+
+	
+	
+
+<para id="p1265">
+<link id="a1155" target-id="Figure_13">
+
+Figure 13
+
+</link>
+
+ contains the data for two different curves. One is a sine curve 
+	and the other is a cosine curve.
+
+</para>
+
+
+
+
+<para id="p1266">
+<emphasis id="strong1127" effect="bold">
+Plot the points using pushpins
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1267">
+You should be able to plots these data values as two separate curves on your 
+graph board by inserting pushpins at the coordinate values shown and then 
+connecting the pushpins with rubber bands, pipe cleaners, yarn, flexible wire, 
+or something similar. (Rubber bands might not work if you are using a homemade 
+plot board constructed from Styrofoam, because the pins pull too easily.)
+
+</para>
+
+
+	
+
+<para id="p1268">
+Remember, the angle values from -360 
+degrees (-2*PI radians) to +360 degrees (+2*PI radians) are horizontal coordinates while the corresponding 
+values for the sine and cosine are vertical coordinates.
+
+</para>
+
+
+
+
+<para id="p1269">
+<emphasis id="strong1128" effect="bold">
+Saw tooth curves
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1270">
+Once you have plotted the points, you should be able to discern two curves, 
+each of which is a saw tooth.
+
+</para>
+
+
+
+
+<para id="p1271">
+The two curves have exactly the same shape, but one is shifted horizontally 
+relative to the other. For example, the sine curve has a value of zero at an 
+angle of zero (the origin) and it is asymmetric about the vertical axis.
+
+</para>
+
+
+
+
+<para id="p1272">
+The cosine curve, on the other hand has a value of 1 at an angle of zero and 
+it is symmetric about the vertical axis.
+
+</para>
+
+
+
+
+<para id="p1273">
+<emphasis id="strong1129" effect="bold">
+Periodic curves
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1274">
+These are periodic curves. For example, the shape of the sine curve between 
+-360 and 0 is the same as the shape of the sine curve between 0 and +360. Each 
+of those ranges represents one 
+
+<emphasis id="em1003" effect="italics">
+cycle
+
+</emphasis>
+ of the periodic curve.
+
+</para>
+
+
+
+
+<para id="p1275">
+We only computed the values from -360 to +360. However, if we had computed 
+the values from -3600 to + 3600, the overall shape of the curve would not differ 
+from what we have here. The shape of each cycle of the curve would be identical to the 
+shape of the cycle to the left and the cycle to the right.
+
+</para>
+
+
+
+
+<para id="p1276">
+<emphasis id="strong1130" effect="bold">
+Not really a saw tooth
+
+</emphasis>
+</para>
+
+
+	
+	
+
+<para id="p1277">
+The sine and cosine curves don't really have a saw tooth shape. That is an 
+	artifact of the fact that we didn't compute enough points to reliably 
+	describe the shape of the curves. Let's improve on that.
+
+</para>
+
+
+
+
+<para id="p1278">
+<emphasis id="strong1131" effect="bold">
+Modify the script
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1279">
+Modify the code in 
+	your script to initialize the value of the variable named 
+
+<emphasis id="strong1132" effect="bold">
+angInc
+
+</emphasis>
+ 
+	to 45 degrees instead of 90 degrees and then load the revised version into your browser. This will cause the 
+	script to fill in data points 
+	between the points that we already have producing the output shown in 
+
+
+<link id="a1156" target-id="Figure_14">
+
+Figure 
+	16
+
+</link>
+
+.
+
+</para>
+
+
+
+	
+
+
+<table id="table1021" summary="This is a table." pgwide="677">
+<tgroup cols="1">
+
+
+
+
+<thead id="thead1021">
+<row id="tr1042">
+<entry id="th1021">
+
+
+
+<emphasis id="Figure_14" effect="bold">
+
+Figure 14
+
+</emphasis>
+
+. Sinusoidal values at 45-degree increments.
+
+
+</entry>
+</row>
+</thead>
+
+
+
+
+<tbody id="tbody1021">
+<row id="tr1043">
+<entry id="td1021">
+
+
+
+<code id="pre1020" display="block">Angle: -360 Sine: 0 Cosine: 1
+Angle: -315 Sine: 0.71 Cosine: 0.71
+Angle: -270 Sine: 1 Cosine: 0
+Angle: -225 Sine: 0.71 Cosine: -0.71
+Angle: -180 Sine: 0 Cosine: -1
+Angle: -135 Sine: -0.71 Cosine: -0.71
+Angle: -90 Sine: -1 Cosine: 0
+Angle: -45 Sine: -0.71 Cosine: 0.71
+Angle: 0 Sine: 0 Cosine: 1
+Angle: 45 Sine: 0.71 Cosine: 0.71
+Angle: 90 Sine: 1 Cosine: 0
+Angle: 135 Sine: 0.71 Cosine: -0.71
+Angle: 180 Sine: 0 Cosine: -1
+Angle: 225 Sine: -0.71 Cosine: -0.71
+Angle: 270 Sine: -1 Cosine: 0
+Angle: 315 Sine: -0.71 Cosine: 0.71
+Angle: 360 Sine: 0 Cosine: 1
+</code>
+
+
+
+
+</entry>
+</row>
+</tbody>
+
+
+</tgroup>
+</table>
+
+
+
+
+	
+	
+
+<para id="p1280">
+<emphasis id="strong1133" effect="bold">
+Plot the new points
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1281">
+Every other line of text in 
+
+<link id="a1157" target-id="Figure_14">
+
+Figure 14
+
+</link>
+
+ should contain sine and cosine values for 
+	angles that are half way between the points that you already have plotted. 
+	Use pushpins to plot the new points and connect all of the points in each 
+curve using rubber bands, pipe cleaners, or whatever you find most useful for 
+this purpose.
+
+</para>
+
+
+
+
+<para id="p1282">
+<emphasis id="strong1134" effect="bold">
+Same shape but shifted horizontally
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1283">
+The two curves still have the same shape, although shifted horizontally 
+relative to one another and they are still periodic. However, they no longer 
+have a saw tooth shape. They tend to be a little more rounded near the peaks and 
+they are beginning to provide a better representation of the actual shapes of 
+the sine and cosine curves.
+
+</para>
+
+
+
+
+<para id="p1284">
+<emphasis id="strong1135" effect="bold">
+Let's do it again 
+
+</emphasis>
+</para>
+
+
+	
+	
+
+<para id="p1285">
+Change the value of the variable named 
+
+<emphasis id="strong1136" effect="bold">
+angInc
+
+</emphasis>
+ from 45 
+	degrees to 
+	22.5 degrees and load the new version of the html file into your browser. Now the 
+	output should look like 
+
+<link id="a1158" target-id="Figure_15">
+
+Figure 15
+
+</link>
+
+.
+
+</para>
+
+
+
+	
+
+
+<table id="table1022" summary="This is a table." pgwide="677">
+<tgroup cols="1">
+
+
+
+
+<thead id="thead1022">
+<row id="tr1044">
+<entry id="th1022">
+
+
+
+<emphasis id="Figure_15" effect="bold">
+
+Figure 15
+
+</emphasis>
+
+. Sinusoidal values at 22.5-degree increments.
+
+
+</entry>
+</row>
+</thead>
+
+
+
+
+<tbody id="tbody1022">
+<row id="tr1045">
+<entry id="td1022">
+
+
+
+<code id="pre1021" display="block">Angle: -360 Sine: 0 Cosine: 1
+Angle: -337.5 Sine: 0.38 Cosine: 0.92
+Angle: -315 Sine: 0.71 Cosine: 0.71
+Angle: -292.5 Sine: 0.92 Cosine: 0.38
+Angle: -270 Sine: 1 Cosine: 0
+Angle: -247.5 Sine: 0.92 Cosine: -0.38
+Angle: -225 Sine: 0.71 Cosine: -0.71
+Angle: -202.5 Sine: 0.38 Cosine: -0.92
+Angle: -180 Sine: 0 Cosine: -1
+Angle: -157.5 Sine: -0.38 Cosine: -0.92
+Angle: -135 Sine: -0.71 Cosine: -0.71
+Angle: -112.5 Sine: -0.92 Cosine: -0.38
+Angle: -90 Sine: -1 Cosine: 0
+Angle: -67.5 Sine: -0.92 Cosine: 0.38
+Angle: -45 Sine: -0.71 Cosine: 0.71
+Angle: -22.5 Sine: -0.38 Cosine: 0.92
+Angle: 0 Sine: 0 Cosine: 1
+Angle: 22.5 Sine: 0.38 Cosine: 0.92
+Angle: 45 Sine: 0.71 Cosine: 0.71
+Angle: 67.5 Sine: 0.92 Cosine: 0.38
+Angle: 90 Sine: 1 Cosine: 0
+Angle: 112.5 Sine: 0.92 Cosine: -0.38
+Angle: 135 Sine: 0.71 Cosine: -0.71
+Angle: 157.5 Sine: 0.38 Cosine: -0.92
+Angle: 180 Sine: 0 Cosine: -1
+Angle: 202.5 Sine: -0.38 Cosine: -0.92
+Angle: 225 Sine: -0.71 Cosine: -0.71
+Angle: 247.5 Sine: -0.92 Cosine: -0.38
+Angle: 270 Sine: -1 Cosine: 0
+Angle: 292.5 Sine: -0.92 Cosine: 0.38
+Angle: 315 Sine: -0.71 Cosine: 0.71
+Angle: 337.5 Sine: -0.38 Cosine: 0.92
+Angle: 360 Sine: 0 Cosine: 1
+</code>
+
+
+
+
+</entry>
+</row>
+</tbody>
+
+
+</tgroup>
+</table>
+
+
+
+
+	
+	
+
+<para id="p1286">
+<emphasis id="strong1137" effect="bold">
+A lot of data points
+
+</emphasis>
+</para>
+
+
+	
+	
+
+<para id="p1287">
+Once again, every other line of text in 
+
+<link id="a1159" target-id="Figure_15">
+
+Figure 15
+
+</link>
+
+ contains new sine and cosine 
+	values for angles that you don't have plotted yet.
+
+</para>
+
+
+
+
+<para id="p1288">
+Plotting all of these point is going to require a lot of pushpins and a lot 
+of effort. Before you do that, let's think about it.
+
+</para>
+
+
+
+
+<para id="p1289">
+<emphasis id="strong1138" effect="bold">
+Two full cycles
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1290">
+You should have been able to discern by now that your plots for the sine 
+and cosine graphs each contain two full cycles. An important thing about 
+periodic functions is that once you know the shape of the curve for any one 
+cycle, you know the shape of the curve for every cycle from minus infinity to infinity. The 
+shape of every cycle is exactly the same as the shape of every other cycle.
+
+</para>
+
+
+
+
+<para id="p1291">
+<emphasis id="strong1139" effect="bold">
+Saving pushpins and effort
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1292">
+If you are running out of pushpins or running out of patience, you might consider 
+updating your plots for only one cycle.
+
+</para>
+
+
+
+
+<para id="p1293">
+You should be able to discern that your curves no 
+longer have a saw tooth shape. Each time we have run the script, we have sampled 
+the amplitude values of each curve at twice as many points as before. Therefore, 
+the curves should be taking on a smoother rounded shape that is better 
+representation of the actual shape of the curves.
+
+</para>
+
+
+
+
+<para id="p1294">
+<emphasis id="strong1140" effect="bold">
+Continue the process
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1295">
+You can continue this process of improving the curves for as long as you have the graph board space, 
+pushpins, and patience to do so. Just divide the value of the variable named
+
+
+<emphasis id="strong1141" effect="bold">
+angInc
+
+</emphasis>
+ by a factor of two and rerun the script. That will 
+produce twice as many data points that are only half as far apart on the 
+horizontal axis.
+
+</para>
+
+
+
+
+<para id="p1296">
+If you choose to do so, you can plot only the new points in one-half of a cycle 
+to get an idea of the shape. By now you should have discerned that each half of a cycle has the same shape, only one 
+half is above the horizontal axis and the other half is a mirror image below the axis.
+
+</para>
+
+
+
+
+<para id="p1297">
+<emphasis id="strong1142" effect="bold">
+Plot of cosine and sine curves
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1298">
+Getting back to tactile graphics, for the benefit of any sighted person that 
+may be assisting you, 
+
+<link id="a1160" target-id="Figure_16">
+
+Figure 16
+
+</link>
+
+ shows a cosine curve plotted above a sine 
+curve very similar to the curves that you have plotted on your graph board. 
+(
+
+<link id="a1161" target-id="Figure_16">
+
+Figure 16
+
+</link>
+
+ shows a mirror image of the actual curves because the file named 
+Phy1020a1.svg is intended to be used for manual embossing from the back of the 
+paper.) A non-mirror-image version is shown in 
+
+<link id="a1162" target-id="Figure_20">
+
+Figure 20
+
+</link>
+
+.
+
+</para>
+
+
+
+
+
+<table id="table1023" summary="This is a table." pgwide="1">
+<tgroup cols="1">
+
+
+<thead id="thead1023">
+<row id="tr1046">
+<entry id="th1023">
+
+
+
+<emphasis id="Figure_16" effect="bold">
+
+Figure 16
+
+</emphasis>
+
+. Mirror image plot of cosine and sine curves from the file named Phy1020a1svg.
+
+
+</entry>
+</row>
+</thead>
+
+
+<tbody id="tbody1023">
+<row id="tr1047">
+<entry id="td1023">
+
+
+
+<media id="media1001" alt="missing image" display="block">
+<image id="img1001" mime-type="image/png" src="../../media/Phy1020a1.png" width="650" height="501"/>
+</media>
+
+
+</entry>
+</row>
+</tbody>
+
+
+</tgroup>
+</table>
+
+
+
+
+
+<para id="p1299">
+This image contains lines that aren't straight, but with a little care, 
+your assistant should be able to do a reasonably good job of embossing them when 
+the image is printed as the full 8.5x11 inch version.
+
+</para>
+
+
+
+
+<para id="p1300">
+<emphasis id="strong1143" effect="bold">
+Page setup
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1301">
+If you use the IVEO Viewer to print the file named Phy1020a1.svg, you should 
+use the default Page Setup selection for Letter (Landscape).
+
+</para>
+
+
+
+
+<para id="p1302">
+<emphasis id="strong1144" effect="bold">
+Grid lines
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1303">
+The image in 
+
+<link id="a1163" target-id="Figure_16">
+
+Figure 16
+
+</link>
+
+ contains 7 vertical grid lines. The vertical grid line 
+in the center represents an angle of zero degrees. The space between each grid 
+line on either side of the center represents an angle of 90 degrees or PI/2 
+radians.
+
+</para>
+
+
+
+
+<para id="p1304">
+There are two horizontal grid lines. One is one-fourth of the way down from 
+the top. The other is one-fourth of the way up from the bottom.
+
+</para>
+
+
+
+
+<para id="p1305">
+<emphasis id="strong1145" effect="bold">
+The curves
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1306">
+A cosine curve is plotted with vertical values relative to the top grid line. 
+It extends from -360 degrees on the left to +360 degrees on the right.
+
+</para>
+
+
+
+
+<para id="p1307">
+A sine curve is plotted with vertical values relative to the bottom grid 
+line. It also extends from -360 degrees on the left to +360 degrees on the 
+right. (Note once again that 
+
+<link id="a1164" target-id="Figure_16">
+
+Figure 16
+
+</link>
+
+ was flipped 
+horizontally to crate a mirror image.)
+
+</para>
+
+
+
+
+<para id="p1308">
+<emphasis id="strong1146" effect="bold">
+Return values for the Math.asin, Math.acos, and Math.atan methods
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1309">
+I told you earlier that the 
+
+<emphasis id="strong1147" effect="bold">
+Math.asin
+
+</emphasis>
+ method returns a value 
+between -PI/2 and PI/2. However, I didn't tell you that the 
+
+<emphasis id="strong1148" effect="bold">
+
+Math.acos
+
+</emphasis>
+ 
+method returns a value between 0 and PI, or that the 
+
+<emphasis id="strong1149" effect="bold">
+Math.atan
+
+</emphasis>
+ 
+method returns a value between -PI/2 and PI/2. You now have enough information 
+to understand why this is true.
+
+</para>
+
+
+
+
+<para id="p1310">
+<emphasis id="strong1150" effect="bold">
+Smooth curves
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1311">
+If you examine the two curves that you have just plotted, you can surmise 
+that the sine and cosine functions are smooth curves whose values range between 
+-1 and +1 inclusive. For every possible value between -1 and +1, there is an 
+angle in the range -PI/2 and PI/2 whose sine value matches that value. There is 
+also an angle in the range 0 and PI whose cosine value matches that value.
+
+</para>
+
+
+
+
+<para id="p1312">
+(Although you haven't plotted the curve for the tangent, a similar situation 
+holds there also.)
+
+</para>
+
+
+
+
+<para id="p1313">
+<emphasis id="strong1151" effect="bold">
+An infinite number of angles
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1314">
+Therefore, given a specific numeric value between -1 and +1, 
+there are an infinite number of angles whose sine and cosine values match that 
+numeric value and the method has no way of distinguishing between them. 
+Therefore, the 
+
+<emphasis id="strong1152" effect="bold">
+Math.asin
+
+</emphasis>
+ method returns the matching angle that is 
+closest to zero and the
+
+<emphasis id="strong1153" effect="bold">
+ Math.acos
+
+</emphasis>
+ method returns the matching 
+positive angle that is closest to zero.
+
+<emphasis id="strong1154" effect="bold">
+ 
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1315">
+<emphasis id="strong1155" effect="bold">
+What can we learn from this?
+
+</emphasis>
+</para>
+
+
+	
+
+<para id="p1316">
+One important thing that we can learn is there is no difference between 
+	the sine or cosine of an angle and the sine or cosine of a different angle 
+	that differs from the original angle by 360 degrees. Thus, the 
+
+<emphasis id="strong1156" effect="bold">
+
+	Math.asin
+
+</emphasis>
+ and 
+	
+
+<emphasis id="strong1157" effect="bold">
+Math.acos
+
+</emphasis>
+ methods cannot be used to distinguish between angles that differ 
+	by 360 degrees. (As you learned above, the situation involving the 
+
+<emphasis id="strong1158" effect="bold">
+
+	Math.asin
+
+</emphasis>
+ and 
+	
+
+<emphasis id="strong1159" effect="bold">
+Math.acos
+
+</emphasis>
+ methods is even more stringent than that.)
+
+</para>
+
+
+
+
+<para id="p1317">
+<emphasis id="strong1160" effect="bold">
+One-quarter cycle contains all of the information
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1318">
+Another thing that we can learn is that once you know the shape of the cosine 
+curve from 0 degrees to 90 degrees, you have enough information to construct the 
+entire cosine curve and the entire sine curve across any range of angles. Every 
+possible value or the negative of every possible value that can occur in a sine 
+or cosine curve occurs in the cosine curve between 0 degrees and 90 degrees. 
+Furthermore, the order of those values is also well defined.
+
+</para>
+
+
+
+
+<para id="p1319">
+<emphasis id="strong1161" effect="bold">
+Think about these relationships
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1320">
+You should think about these kinds of relationships. As I mentioned earlier, 
+as long as we are working with angles between 0 and 90 degrees, everything is 
+relatively straightforward. However, once we start working with angles between 
+90 degrees and 360 degrees (or greater), things become a little less 
+straightforward.
+
+</para>
+
+
+
+
+<para id="p1321">
+If you have a good picture in your mind of the shape of the two 
+curves between -360 degrees and +360 degrees, you may be able to avoid errors once you start working on physics problems that involve angles outside 
+the range of 0 to 90 degrees.
+
+</para>
+
+
+
+
+<para id="p1322">
+<emphasis id="strong1162" effect="bold">
+Quadrants
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1323">
+We often think of a two-dimensional space with horizontal and vertical axes 
+and the origin at the center in quadrants. Each quadrant is bounded by 
+half the horizontal axis and half the vertical axis.
+
+</para>
+
+
+
+
+<para id="p1324">
+It is common practice to number the 
+quadrants in counter-clockwise order with the upper-right quadrant being 
+quadrant 1, the upper-left quadrant being quadrant 2, the bottom-left quadrant 
+being quadrant 3, and the bottom-right quadrant being quadrant 4.
+
+</para>
+
+
+
+
+<para id="p1325">
+<emphasis id="strong1163" effect="bold">
+Angles fall in quadrants
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1326">
+If you measure the angle between the positive horizontal axis and a line 
+segment that 
+emanates from the origin, quadrant 1 contains angles between 0 and PI/2, 
+quadrant 2 contains the angles between PI/2 and PI, quadrant 3 contains the 
+angles between PI and 3*PI/2, and quadrant 4 contains the angles between 3*PI/2 
+and 2*PI (or zero). (Note that I didn't attempt to reconcile the inclusion of 
+each axis in the two quadrants on either side of the axis.)
+
+</para>
+
+
+
+
+<para id="p1327">
+<emphasis id="strong1164" effect="bold">
+Algebraic signs versus quadrant number
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1328">
+It is sometimes useful to consider how the algebraic sign of the sine, 
+cosine, and tangent values varies among the four quadrants. 
+
+<link id="a1165" target-id="Figure_17">
+
+Figure 17
+
+</link>
+
+ contains a 
+table that shows the sign of the sine, cosine, and tangent values for each of 
+the four quadrants
+
+</para>
+
+
+
+	
+
+
+<table id="table1024" summary="This is a table." pgwide="677">
+<tgroup cols="1">
+
+
+
+
+<thead id="thead1024">
+<row id="tr1048">
+<entry id="th1024">
+
+
+
+<emphasis id="Figure_17" effect="bold">
+
+Figure 17
+
+</emphasis>
+
+. Algebraic signs versus quadrants.
+
+
+</entry>
+</row>
+</thead>
+
+
+
+
+<tbody id="tbody1024">
+<row id="tr1049">
+<entry id="td1024">
+
+
+
+<code id="pre1022" display="block">
+        1 2 3 4
+sine    + + - -
+cosine  + - - +
+tangent + - + -</code>
+
+
+
+
+</entry>
+</row>
+</tbody>
+
+
+</tgroup>
+</table>
+
+
+
+
+	
+
+<para id="p1329">
+<emphasis id="strong1165" effect="bold">
+Working with arctangents is more difficult than arcsine or 
+	arccosine
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1330">
+Working with arctangent is somewhat more difficult than working with arcsine 
+or arccosine, if for no other reason than the possibility of dividing by zero 
+when working with the arctangent.
+
+</para>
+
+
+
+
+<para id="p1331">
+<link id="a1166" target-id="Listing_9">
+
+Listing 9
+
+</link>
+
+ shows a JavaScript function named getAngle that deals with this issue.
+
+</para>
+
+
+
+
+<table id="table1025" summary="This is a table." pgwide="677">
+<tgroup cols="1">
+
+
+
+
+<thead id="thead1025">
+<row id="tr1050">
+<entry id="th1025">
+
+
+
+<emphasis id="Listing_9" effect="bold">
+
+Listing 9
+
+</emphasis>
+
+. A function to deal with quadrants.
+
+
+</entry>
+</row>
+</thead>
+
+
+
+
+<tbody id="tbody1025">
+<row id="tr1051">
+<entry id="td1025">
+
+
+
+<code id="pre1023" display="block">&lt;!---------------- File JavaScript09.html ---------------------&gt;
+&lt;html&gt;&lt;body&gt;
+&lt;script language="JavaScript1.3"&gt;
+
+document.write("Start Script &lt;/br&gt;");
+
+//The purpose of this function is to receive the adjacent
+// and opposite side values for a right triangle and to
+// return the angle in degrees in the correct quadrant.
+function getAngle(adjacent,opposite){
+  if((adjacent == 0) &amp;&amp; (opposite == 0)){
+    //Angle is indeterminate. Just return zero.
+    return 0;
+  }else if((adjacent == 0) &amp;&amp; (opposite &gt; 0)){
+    //Avoid divide by zero denominator.
+    return 90;
+  }else if((adjacent == 0) &amp;&amp; (opposite &lt; 0)){
+    //Avoid divide by zero denominator.
+    return -90;
+  }else if((adjacent &lt; 0) &amp;&amp; (opposite &gt;= 0)){
+    //Correct to second quadrant
+    return Math.atan(opposite/adjacent)*180/Math.PI + 180;
+  }else if((adjacent &lt; 0) &amp;&amp; (opposite &lt;= 0)){
+    //Correct to third quadrant
+    return Math.atan(opposite/adjacent)*180/Math.PI + 180;
+  }else{
+    //First and fourth quadrants. No correction required.
+    return Math.atan(opposite/adjacent)*180/Math.PI;
+  }//end else
+}//end function getAngle
+
+
+//Modify these values and run for different cases.
+var adj = 3;
+var opp = 4;
+
+document.write("adj = " + adj.toFixed(2) +
+" opp = " + opp.toFixed(2) + " units&lt;/br&gt;");
+
+document.write("angle = " + getAngle(adj,opp).toFixed(2) 
+  + " units&lt;/br&gt;");
+
+var adj = -3;
+var opp = 4;
+
+document.write("adj = " + adj.toFixed(2) +
+" opp = " + opp.toFixed(2) + " units&lt;/br&gt;");
+
+document.write("angle = " + getAngle(adj,opp).toFixed(2) 
+  + " units&lt;/br&gt;");
+
+var adj = -3;
+var opp = -4;
+
+document.write("adj = " + adj.toFixed(2) +
+" opp = " + opp.toFixed(2) + " units&lt;/br&gt;");
+
+document.write("angle = " + getAngle(adj,opp).toFixed(2) 
+  + " units&lt;/br&gt;");
+  
+var adj = 3;
+var opp = -4;
+
+document.write("adj = " + adj.toFixed(2) +
+" opp = " + opp.toFixed(2) + " units&lt;/br&gt;");
+
+document.write("angle = " + getAngle(adj,opp).toFixed(2) 
+  + " units&lt;/br&gt;");
+
+&lt;/script&gt;
+&lt;/body&gt;&lt;/html&gt;</code>
+
+
+
+
+</entry>
+</row>
+</tbody>
+
+
+</tgroup>
+</table>
+
+
+
+
+
+<para id="p1332">
+The code in 
+
+<link id="a1167" target-id="Listing_9">
+
+Listing 9
+
+</link>
+
+ begins by defining a function named getAngle that 
+accepts the signed values of the adjacent side and the opposite side of the right 
+triangle and returns the angle that the hypotenuse makes with the positive 
+horizontal axis.
+
+</para>
+
+
+
+
+<para id="p1333">
+Then the code in 
+
+<link id="a1168" target-id="Listing_9">
+
+Listing 9
+
+</link>
+
+ tests the result for four different triangles 
+situated in each of the four quadrants.
+
+</para>
+
+
+
+
+<para id="p1334">
+<link id="a1169" target-id="Figure_18">
+
+Figure 18
+
+</link>
+
+ shows the output produced by this script.
+
+</para>
+
+
+
+
+
+
+<table id="table1026" summary="This is a table." pgwide="677">
+<tgroup cols="1">
+
+
+
+
+<thead id="thead1026">
+<row id="tr1052">
+<entry id="th1026">
+
+
+
+<emphasis id="Figure_18" effect="bold">
+
+Figure 18
+
+</emphasis>
+
+. Output from the code in Listing 9.
+
+
+</entry>
+</row>
+</thead>
+
+
+
+
+<tbody id="tbody1026">
+<row id="tr1053">
+<entry id="td1026">
+
+
+
+<code id="pre1024" display="block">Start Script
+adj = 3.00 opp = 4.00 units
+angle = 53.13 units
+adj = -3.00 opp = 4.00 units
+angle = 126.87 units
+adj = -3.00 opp = -4.00 units
+angle = 233.13 units
+adj = 3.00 opp = -4.00 units
+angle = -53.13 units</code>
+
+
+
+
+</entry>
+</row>
+</tbody>
+
+
+</tgroup>
+</table>
+
+
+
+
+	
+	
+
+<para id="p1335">
+This is an issue that will become important when we reach the module that 
+	deals with vectors in all four quadrants.
+
+</para>
+
+
+	
+
+
+
+<para id="p1336">
+<emphasis id="strong1166" effect="bold">
+Structure of the script
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1337">
+The script shown in 
+
+<link id="a1170" target-id="Listing_9">
+
+Listing 9
+
+</link>
+
+ begins by defining a function named 
+
+<emphasis id="strong1167" effect="bold">
+
+getAngle
+
+</emphasis>
+. The purpose of this function is to return an angle in degrees 
+in the correct quadrant based on the lengths of the adjacent and opposite sides 
+of an enclosing right triangle. As mentioned above, the returned angle is the 
+angle that the hypotenuse makes with the positive horizontal axis.
+
+</para>
+
+
+
+
+<para id="p1338">
+<emphasis id="strong1168" effect="bold">
+An indeterminate result
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1339">
+The getAngle function calls the Math.atan method to compute the angle whose 
+tangent is the ratio of the opposite side to the adjacent side of a right 
+triangle. 
+
+</para>
+
+
+
+
+<para id="p1340">
+If the lengths of both the opposite and adjacent sides are zero, the ratio opposite/adjacent is 
+indeterminate and the value of the angle cannot be computed. In fact there is no 
+angle corresponding to the ratio 0/0. However, the function must either return 
+the value of an angle, or must return some sort of flag indicating that 
+computation of the angle is not possible.
+
+</para>
+
+
+
+
+<para id="p1341">
+In this case, the function simply returns the value zero for the angle.
+
+</para>
+
+
+
+
+<para id="p1342">
+<emphasis id="strong1169" effect="bold">
+Avoiding division by zero
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1343">
+If the length of adjacent side is zero and the length of opposite side is not zero, the 
+ratio opposite/adjacent is infinite. Therefore, the value of the angle cannot be 
+computed. However, in this case, the angle is known to be 90 degrees (for 
+opposite greater than zero) or 270 degrees (-90 degrees, for opposite less than 
+zero). The getAngle function traps both of those cases and returns the correct 
+angle in each case.
+
+</para>
+
+
+
+
+<para id="p1344">
+<emphasis id="strong1170" effect="bold">
+Correcting for the quadrant
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1345">
+The Math.atan method receives one parameter and it is either a positive or 
+negative value. If the value is positive, the method returns an angle between 0 
+and 90 degrees. If the value is negative, the method returns an angle between 0 
+and -90 degrees. Thus, the angles returned by the Math.atan method always lie in 
+the first or fourth quadrants.
+
+</para>
+
+
+
+
+<para id="p1346">
+(Actually, as I mentioned earlier, +90 degrees and -90 degrees are not 
+possible because the tangent of +90 degrees or -90 degrees is an infinitely 
+large positive or negative value. However, the method can handle angles that are 
+very close to +90 or -90 degrees.)
+
+</para>
+
+
+
+
+<para id="p1347">
+<emphasis id="strong1171" effect="bold">
+A negative opposite/adjacent ratio
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1348">
+If the opposite/adjacent ratio is negative, this doesn't necessarily mean 
+that the angle lies in the fourth quadrant. That negative ratio could result 
+from a positive value for opposite and a negative value for adjacent. In that 
+case, the angle would lie in the second quadrant between 90 degrees and 180 
+degrees.
+
+</para>
+
+
+
+
+<para id="p1349">
+The getAngle function tests the signs of the values for opposite and 
+adjacent. If the signs indicate that the angle lies in the second quadrant, the 
+value returned from the Math.atan method is corrected to place the angle in the 
+second quadrant. The corrected angle is returned by the getAngle function.
+
+</para>
+
+
+
+
+<para id="p1350">
+<emphasis id="strong1172" effect="bold">
+A positive opposite/adjacent ratio
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1351">
+Similarly, if the opposite/adjacent ratio is positive, this doesn't 
+necessarily mean that the angle lies in the first quadrant. That positive ratio 
+could result from a negative opposite value and a negative adjacent value. In 
+that case, the angle would lie in the third quadrant between 180 degrees and 270 
+degrees.
+
+</para>
+
+
+
+
+<para id="p1352">
+Again, the getAngle function tests the signs of the values for opposite and 
+adjacent. If both values are negative, the value returned from the Math.atan 
+method is corrected to place the angle in the third quadrant.
+
+</para>
+
+
+
+
+<para id="p1353">
+<emphasis id="strong1173" effect="bold">
+No corrections required...
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1354">
+Finally, if no corrections are required for the quadrant, the getAngle 
+function returns the value returned by the Math.atan method. Note however, that 
+in all cases, the Math.atan method returns the angle in radians. That value is 
+converted to degrees by the getAngle function and the returned value is in 
+degrees.
+
+</para>
+
+
+
+
+<para id="p1355">
+<emphasis id="strong1174" effect="bold">
+Positive and negative angles
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1356">
+As you can see from the results of the test shown in 
+
+<link id="a1171" target-id="Figure_18">
+
+Figure 18
+
+</link>
+
+, angles in the 
+first, second, and third quadrants are returned as positive angles in degrees. 
+However, angles in the fourth quadrant are returned as negative angles in 
+degrees.
+
+</para>
+
+
+
+
+</section>
+<section id="h21007">
+<title>
+<emphasis id="Normal_nonMirrorImage_graphics" effect="bold">
+
+Normal (non-mirror-image) graphics
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1357">
+<link id="a1172" target-id="Figure_2">
+
+Figure 2
+
+</link>
+
+ and 
+
+<link id="a1173" target-id="Figure_16">
+
+Figure 16
+
+</link>
+
+ show the actual mirror image versions of the images 
+contained in the svg files. 
+
+<link id="a1174" target-id="Figure_19">
+
+Figure 19
+
+</link>
+
+ and 
+
+
+<link id="a1175" target-id="Figure_20">
+
+Figure 20
+
+</link>
+
+ show the same images in 
+their non-mirror-image orientation.
+
+</para>
+
+
+
+
+
+<table id="table1027" summary="This is a table." pgwide="1">
+<tgroup cols="1">
+
+
+<thead id="thead1027">
+<row id="tr1054">
+<entry id="th1027">
+
+
+
+<emphasis id="Figure_19" effect="bold">
+
+Figure 19
+
+</emphasis>
+
+. Normal image from file Phy1020b1.svg.
+
+</entry>
+</row>
+</thead>
+
+
+<tbody id="tbody1027">
+<row id="tr1055">
+<entry id="td1027">
+
+
+
+<media id="media1002" alt="Missing image" display="block">
+<image id="img1002" mime-type="image/png" src="../../media/Phy1020b1b.png" width="406" height="543"/>
+</media>
+
+
+
+
+</entry>
+</row>
+</tbody>
+
+
+</tgroup>
+</table>
+
+
+
+
+
+<para id="p1358">
+ 
+
+</para>
+
+
+
+	
+
+
+<table id="table1028" summary="This is a table." pgwide="1">
+<tgroup cols="1">
+
+
+<thead id="thead1028">
+<row id="tr1056">
+<entry id="th1028">
+
+
+
+<emphasis id="Figure_20" effect="bold">
+
+Figure 20
+
+</emphasis>
+
+. Normal image plot of cosine and sine curves from the file named Phy1020a1svg.
+
+</entry>
+</row>
+</thead>
+
+
+<tbody id="tbody1028">
+<row id="tr1057">
+<entry id="td1028">
+
+
+
+<media id="media1003" alt="Missing image" display="block">
+<image id="img1003" mime-type="image/png" src="../../media/Phy1020a1b.png" width="501" height="386"/>
+</media>
+
+
+
+
+</entry>
+</row>
+</tbody>
+
+
+</tgroup>
+</table>
+
+
+
+
+
+
+
+</section>
+</section>
+<section id="h11004">
+<title>
+<emphasis id="Run_the_program" effect="bold">
+
+Run the scripts
+
+</emphasis>
+
+
+</title>
+
+
+
+
+	
+
+<para id="p1359">
+I encourage you to run the scripts that I have presented in this lesson to 
+confirm that you get the same results. Copy the code for each script into a 
+	text file with an extension of html. Then open that file in your browser. Experiment with 
+the code, making changes, and observing the results of your changes. Make 
+certain that you can explain why your changes behave as they do. 
+
+</para>
+
+
+
+
+</section>
+<section id="h11005">
+<title>
+<emphasis id="Resources" effect="bold">
+
+Resources
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1360">
+I will publish a module containing consolidated links to resources on my 
+Connexions web page and will update and add to the list as additional modules 
+in this collection are published.
+
+</para>
+
+
+
+
+
+
+</section>
+<section id="h11006">
+<title>
+<emphasis id="Miscellaneous" effect="bold">
+
+Miscellaneous
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1361">
+This section contains a variety of miscellaneous information.
+
+</para>
+
+
+
+
+
+
+
+<note id="note1009" type="">
+
+
+
+
+
+
+
+<emphasis id="strong1175" effect="bold">
+Housekeeping material
+
+</emphasis>
+
+
+
+<list id="ul1014" list-type="bulleted">
+
+
+
+<item id="li1074">
+Module name: Brief Trigonometry Tutorial
+
+</item>
+
+
+
+
+<item id="li1075">
+Revised: 09/30/15
+
+</item>
+
+
+
+
+<item id="li1076">
+File: Phy1020.htm
+
+
+</item>
+
+
+	
+
+<item id="li1077">
+Keywords:
+
+<list id="ul1015" list-type="bulleted">
+
+		
+
+<item id="li1078">
+physics
+
+</item>
+
+
+		
+
+<item id="li1079">
+accessible
+
+</item>
+
+
+					
+
+<item id="li1080">
+blind
+
+</item>
+
+
+		
+
+<item id="li1081">
+graph board
+
+</item>
+
+
+		
+
+<item id="li1082">
+protractor
+
+</item>
+
+
+					
+
+<item id="li1083">
+screen reader
+
+</item>
+
+
+		
+
+<item id="li1084">
+refreshable Braille display
+
+</item>
+
+
+		
+
+<item id="li1085">
+JavaScript
+
+</item>
+
+
+		
+
+<item id="li1086">
+trigonometry
+
+</item>
+
+
+		
+
+<item id="li1087">
+angle
+
+</item>
+
+
+		
+
+<item id="li1088">
+sine
+
+</item>
+
+
+		
+
+<item id="li1089">
+cosine
+
+</item>
+
+
+		
+
+<item id="li1090">
+tangent
+
+</item>
+
+
+		
+
+<item id="li1091">
+arcsine
+
+</item>
+
+
+		
+
+<item id="li1092">
+arccosine
+
+</item>
+
+
+		
+
+<item id="li1093">
+arctangent
+
+</item>
+
+
+		
+
+<item id="li1094">
+quadrant
+
+</item>
+
+
+	
+
+</list>
+
+
+
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+</note>
+
+
+
+
+
+
+
+
+
+<note id="note1010" type="">
+
+
+
+
+<emphasis id="strong1176" effect="bold">
+Disclaimers:
+
+</emphasis>
+<para id="p1362">
+<emphasis id="strong1177" effect="bold">
+Financial
+
+</emphasis>
+: Although the 
+				
+
+<emphasis id="strong1178" effect="bold">
+openstax CNX
+
+</emphasis>
+
+site makes it possible for you to download a PDF file for the collection that 
+				contains this
+module at no charge, and also makes it possible for you to
+purchase a pre-printed version of the PDF file, you should be
+aware that some of the HTML elements in this module may not translate well into
+PDF.
+
+</para>
+
+
+				
+
+<para id="p1363">
+You also need to know that Prof. Baldwin receives no financial compensation from 
+				
+
+<emphasis id="strong1179" effect="bold">
+openstax CNX 
+
+</emphasis>
+even if you purchase 
+	the PDF version of the collection.
+
+</para>
+
+
+				
+
+<para id="p1364">
+In the past, unknown individuals have copied Prof. Baldwin's modules from cnx.org, converted them to Kindle books, and 
+				placed them for sale on Amazon.com showing Prof. Baldwin as the author. 
+				Prof. Baldwin 
+				neither receives compensation for those sales nor does he know who does 
+				receive compensation. If you purchase such a book, please be 
+				aware that it is a copy of a collection that is freely 
+				available on 
+
+<emphasis id="strong1180" effect="bold">
+openstax CNX
+
+</emphasis>
+ and that it was made and published without 
+				the prior knowledge of Prof. Baldwin.
+
+</para>
+
+
+				
+
+<para id="p1365">
+<emphasis id="strong1181" effect="bold">
+Affiliation
+
+</emphasis>
+: Prof. Baldwin is a professor of Computer Information 
+	Technology at Austin Community College in Austin, TX.
+	
+
+</para>
+
+
+	
+
+</note>
+
+
+
+
+
+
+
+
+
+<para id="p1366">
+-end- 
+
+</para>
+
+
+
+
+
+</section>
+</content>
+
+
+
+
+</document>

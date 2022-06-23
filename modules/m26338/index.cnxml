@@ -1,7 +1,7 @@
 <document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
-  <title>Absolute Value</title>
+  <title>Real Numbers: Absolute Value</title>
   <metadata>
-  <md:content-id>m26338</md:content-id><md:title>Absolute Value</md:title>
+  <md:content-id>m26338</md:content-id><md:title>Real Numbers: Absolute Value</md:title>
   <md:abstract>This document is a basic introduction to absolute value.</md:abstract>
   <md:uuid>69d5203d-636c-48a6-a6fc-89a06a5c4db4</md:uuid>
 </metadata>
@@ -34,7 +34,7 @@
         </list>
         <para id="id1172310878329"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">∣</m:mo><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>4</m:mn></m:mrow><m:mo stretchy="false">∣</m:mo></m:mrow><m:mo stretchy="false">=</m:mo><m:mrow/></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ lline -4 rline ={}} {}</m:annotation></m:semantics></m:math>__</para>
         <list id="id6853029" list-type="bulleted">
-          <item>The answer is 4: <figure id="id7589282"><media id="id7589282_media" alt=""><image mime-type="image/png" src="../../media/graphics2.png" id="id7589282__onlineimage" height="54" width="211"/></media></figure></item>
+          <item>The answer is 4: <figure id="id7589282"><media id="id7589282_media" alt=""><image mime-type="image/png" src="../../media/graphics2-fb8c.png" id="id7589282__onlineimage" height="54" width="211"/></media></figure></item>
         </list>
         <para id="id1172310403297"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">∣</m:mo><m:mn>0</m:mn><m:mo stretchy="false">∣</m:mo></m:mrow><m:mo stretchy="false">=</m:mo><m:mrow/></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ lline 0 rline ={}} {}</m:annotation></m:semantics></m:math>__</para>
         <list id="id7538392" list-type="bulleted">
@@ -105,7 +105,7 @@
     <section id="id7660940">
       <title>Algebraic Definition of Absolute Value</title>
       <para id="id1172310561167">From the preceding exercises, we can suggest the following algebraic definition of absolute value. Note that the definition has two parts.</para>
-      <para id="id7541848">The absolute value of a number <emphasis effect="italics">a</emphasis> is <figure id="id1172310767063"><media id="id1172310767063_media" alt=""><image mime-type="image/png" src="../../media/graphics3.png" id="id1172310767063__onlineimage" height="54" width="158"/></media></figure></para>
+      <para id="id7541848">The absolute value of a number <emphasis effect="italics">a</emphasis> is <figure id="id1172310767063"><media id="id1172310767063_media" alt=""><image mime-type="image/png" src="../../media/graphics3-9b34.png" id="id1172310767063__onlineimage" height="54" width="158"/></media></figure></para>
       <para id="id7510512">The algebraic definition takes into account the fact that the number <emphasis effect="italics">a</emphasis> could be positive or zero (<emphasis effect="italics">a</emphasis> ≥ 0) or negative (<emphasis effect="italics">a</emphasis> &lt; 0).</para>
       <list id="id1172314404456" list-type="enumerated" number-style="arabic">
         <item>If the number <emphasis effect="italics">a</emphasis> is positive or zero (<emphasis effect="italics">a</emphasis> ≥ 0), the first part of the definition applies. The first part of the definition tells us that, if the number enclosed in the absolute value bars is a nonnegative number, the absolute value of the number is the number itself.</item>

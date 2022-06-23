@@ -1,0 +1,24 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+
+<title>Fractions: Division of Mixed Numerals</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m47242</md:content-id>
+  <md:title>Fractions: Division of Mixed Numerals</md:title>
+  <md:abstract/>
+  <md:uuid>c0a3c143-7bc6-433f-982d-b10a7a7ad156</md:uuid>
+</metadata>
+
+<content>
+  <para id="delete_me"><title>Division Using Mixed Numerals</title>To divide using mixed numerals, convert to fraction notation. Remember to divide fractions; you need to multiply by the reciprocal. Then multiply across numerators and multiply across denominators. If your answer is an improper fraction, the numerator is larger than the denominator, convert the improper fraction to a mixed numeral. Remember that if you are given the problem as a mixed numeral, you want to provide the answer as a mixed numeral. 
+</para><para id="eip-36"><title>Example 1: Divide  16 ÷ 2 2/5</title>Remember to convert 2 2/5 to an improper fraction, (2*5+2)/5 = 12/5
+
+</para><para id="eip-881">16/1 ÷ 12/5 = 
+16/1 * 5/12 =  
+(16 * 5)/(1* 12) =  
+(4 * 4 * 5)/(4 * 3) = 
+4/4 * (4 * 5)/3 = 
+1 * 20/3=  
+20/3 = 6  2/3
+</para></content>
+
+</document>

@@ -1,0 +1,26 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>What are Radians?</title>
+  <metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m14538</md:content-id>
+  <md:title>What are Radians?</md:title>
+  <md:abstract>This module presents a descriptive introduction to the unit-less unit radians with applications in engineering.</md:abstract>
+  <md:uuid>d2dd2fb0-3d21-42de-b16d-f773ecf977fa</md:uuid>
+</metadata>
+
+<content>
+     <para id="ApplyPI">The circumference of (distance once around) a circle is given by the well-known formula 
+C=2πr=πd. The value π itself is defined by this unchanging relationship.
+It follows that the path distance one-half of the way around a circle is πr and one-fourth of the way around a circle is 1/2 πr. 
+If we divide this distance k (say, in meters) by the radius r (also in meters), then we get a dimensionless quantity we'll call θ = k/r.  This value can be thought of as the distance around the the circle with radius equal to 1 (the so-called "unit circle").  Alternately, if we note that θ goes from 0 to 2π as the angle circumvented goes from 0 to 360 degrees, we find that θ may be more accurately interpreted as an angle rather than a distance.  The unit-less quantity θ is then assigned a new unit name called "radians."  The one-to-one equivalence between phase angle in degrees and radians is given by 
+</para><equation id="element-594">degrees=radians x 180/π</equation><para id="RadianHeadache">The fact that radians are a "unit-less unit" can cause headaches for both young and old engineers alike.  They occassionally seem to appear or disappear mysteriously in mathematical derivations.  One must be able to look towards to the physical interpretation of a radian to unravel the mystery!</para>
+<para id="wiki_pi">
+  More information about PI can be found on  
+  <link url="http://en.wikipedia.org/wiki/Pi" window="new">Wikipedia</link>.
+</para>
+
+
+
+       
+  </content>
+  
+</document>

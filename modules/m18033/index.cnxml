@@ -1,0 +1,3765 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Elementary Algebra:  Solving Linear Equations in One Variable</title>
+  <metadata><md:content-id>undefined</md:content-id><md:title/><md:uuid>17d94672-8bf4-4aa5-ba3c-bda50a47ece1</md:uuid>
+</metadata>
+  <content>
+    <section id="id8506562">
+      <title>Module Overview</title>
+      <para id="id9446246">Learning how to solve various algebraic equations is one of our main goals in algebra. This module introduces the basic techniques for solving linear equations in one variable. <emphasis>(Prerequisites: Working knowledge of real numbers and their operations.)</emphasis></para><list id="element-317" list-type="bulleted"><title>Objectives</title><item><term target-id="id9893920">Define Linear Equations in One Variable</term></item>
+<item><term target-id="id6702822">Solutions to Linear Equations</term></item>
+<item><term target-id="id10270483">Solving Linear Equations</term></item>
+<item><term target-id="element-619">Combining Like Terms and Simplifying</term></item>
+<item><term target-id="element-515">Literal Equations</term></item></list>
+    </section>
+    <section id="id9893920">
+      <title>Define Linear Equations in One Variable</title>
+      <para id="id8571705">We begin by establishing some definitions.</para>
+      <definition id="id9299005"><term>Equation</term>
+        <meaning id="idp856432">
+           An equation is a statement indicating that two algebraic expressions are equal.
+        </meaning>
+      </definition>
+      <definition id="id5753383">
+        <term>Linear Equation in One Variable</term>
+        <meaning id="idm1068544">A linear equation in one variable 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>x</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x} {}</m:annotation></m:semantics></m:math> is an equation that can be written in the form 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>ax</m:mtext></m:mrow></m:mstyle><m:mo stretchy="false">+</m:mo><m:mi>b</m:mi></m:mrow><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ ital "ax"+b=0} {}</m:annotation></m:semantics></m:math> where 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>a</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{a} {}</m:annotation></m:semantics></m:math> and 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>b</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{b} {}</m:annotation></m:semantics></m:math> are real numbers and 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>a</m:mi><m:mo stretchy="false">≠</m:mo><m:mn>0</m:mn></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{a &lt;&gt; 0} {}</m:annotation></m:semantics></m:math>.
+      </meaning>
+      </definition>
+      <para id="id6192201">Following are some examples of linear equations in one variable, all of which will be solved in the course of this module.</para>
+      <equation id="id8807414"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn><m:mo>=</m:mo><m:mo>−</m:mo><m:mn>5</m:mn>
+  </m:mrow>
+
+ </m:semantics>
+</m:math>
+      </equation>
+      
+      <equation id="id6725486"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mfrac>
+    <m:mi>x</m:mi>
+    <m:mn>3</m:mn>
+   </m:mfrac>
+   <m:mo>+</m:mo><m:mfrac>
+    <m:mn>1</m:mn>
+    <m:mn>2</m:mn>
+   </m:mfrac>
+   <m:mo>=</m:mo><m:mfrac>
+    <m:mn>2</m:mn>
+    <m:mn>3</m:mn>
+   </m:mfrac>
+   
+  </m:mrow>
+
+ </m:semantics>
+</m:math></equation><equation id="element-550"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mn>5</m:mn><m:mo stretchy="false">(</m:mo><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:mo stretchy="false">)</m:mo><m:mo>−</m:mo><m:mn>2</m:mn><m:mo>=</m:mo><m:mo>−</m:mo><m:mn>2</m:mn><m:mo stretchy="false">(</m:mo><m:mn>1</m:mn><m:mo>−</m:mo><m:mn>7</m:mn><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo>
+  </m:mrow>
+ </m:semantics>
+</m:math></equation>
+    </section>
+    <section id="id6702822">
+      <title>Solutions to Linear Equations in One Variable</title>
+      <para id="id9600605">The variable in the linear equation 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mn>2x</m:mn><m:mo stretchy="false">+</m:mo><m:mn>3</m:mn></m:mrow><m:mo stretchy="false">=</m:mo><m:mtext>13</m:mtext></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{2x+3="13"} {}</m:annotation></m:semantics></m:math> is
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>x</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x} {}</m:annotation></m:semantics></m:math>. Values that can replace the variable to make a true statement compose the solution set. Linear equations have at most one solution. After some thought, you might deduce that 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">=</m:mo><m:mn>5</m:mn></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x=5} {}</m:annotation></m:semantics></m:math> is a solution to
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mn>2x</m:mn><m:mo stretchy="false">+</m:mo><m:mn>3</m:mn></m:mrow><m:mo stretchy="false">=</m:mo><m:mtext>13</m:mtext></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{2x+3="13"} {}</m:annotation></m:semantics></m:math>. To verify this we substitute the value 5 in for 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>x</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x} {}</m:annotation></m:semantics></m:math> and see that we get a true statement, 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mn>2</m:mn><m:mrow><m:mrow><m:mrow><m:mfenced open="(" close=")"><m:mn mathvariant="bold">5</m:mn></m:mfenced><m:mo stretchy="false">+</m:mo><m:mn>3</m:mn></m:mrow><m:mo stretchy="false">=</m:mo><m:mrow><m:mtext>10</m:mtext><m:mo stretchy="false">+</m:mo><m:mn>3</m:mn></m:mrow></m:mrow><m:mo stretchy="false">=</m:mo><m:mtext>13</m:mtext></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{2 left (5 right )+3="10"+3="13"} {}</m:annotation></m:semantics></m:math>.</para>
+      <example id="idm212816">
+        <para id="id10068285">Is 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">=</m:mo><m:mn>3</m:mn></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x=3} {}</m:annotation></m:semantics></m:math> a solution to
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>2x</m:mn></m:mrow><m:mo stretchy="false">−</m:mo><m:mn>3</m:mn></m:mrow><m:mo stretchy="false">=</m:mo><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>9</m:mn></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ - 2x - 3= - 9} {}</m:annotation></m:semantics></m:math>?</para>
+        <para id="id8948039">Yes, because 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>2</m:mn></m:mrow><m:mrow><m:mrow><m:mrow><m:mfenced open="(" close=")"><m:mn mathcolor="#3366ff">3</m:mn></m:mfenced><m:mo stretchy="false">−</m:mo><m:mn>3</m:mn></m:mrow><m:mo stretchy="false">=</m:mo><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>6</m:mn></m:mrow><m:mo stretchy="false">−</m:mo><m:mn>3</m:mn></m:mrow></m:mrow><m:mo stretchy="false">=</m:mo><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>9</m:mn></m:mrow></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ - 2 left (3 right ) - 3= - 6 - 3= - 9} {}</m:annotation></m:semantics></m:math></para>
+      </example>
+      <example id="idp267872">
+        <para id="id7261694">Is 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>a</m:mi><m:mo stretchy="false">=</m:mo><m:mrow><m:mo stretchy="false">−</m:mo><m:mfrac><m:mstyle fontsize="8pt"><m:mrow><m:mn>1</m:mn></m:mrow></m:mstyle><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:mfrac></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{a= -  {  { size 8{1} }  over  { size 8{2} } } } {}</m:annotation></m:semantics></m:math> a solution to
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mtext>10</m:mtext></m:mrow><m:mrow><m:mrow><m:mi>a</m:mi><m:mo stretchy="false">+</m:mo><m:mn>5</m:mn></m:mrow><m:mo stretchy="false">=</m:mo><m:mtext>25</m:mtext></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ - "10"a+5="25"} {}</m:annotation></m:semantics></m:math>?</para>
+        <para id="id9628084">No, because 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mtext>10</m:mtext></m:mrow><m:mrow><m:mrow><m:mrow><m:mrow><m:mfenced open="(" close=")"><m:mrow><m:mo mathcolor="#3366ff" stretchy="false">−</m:mo><m:mfrac><m:mstyle fontsize="8pt"><m:mrow><m:mn mathcolor="#3366ff">1</m:mn></m:mrow></m:mstyle><m:mstyle fontsize="8pt"><m:mrow><m:mn mathcolor="#3366ff">2</m:mn></m:mrow></m:mstyle></m:mfrac></m:mrow></m:mfenced><m:mo stretchy="false">+</m:mo><m:mn>5</m:mn></m:mrow><m:mo stretchy="false">=</m:mo><m:mrow><m:mn>5</m:mn><m:mo stretchy="false">+</m:mo><m:mn>5</m:mn></m:mrow></m:mrow><m:mo stretchy="false">=</m:mo><m:mtext>10</m:mtext></m:mrow><m:mo stretchy="false">≠</m:mo><m:mtext>25</m:mtext></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ - "10" left ( -  {  { size 8{1} }  over  { size 8{2} } }  right )+5=5+5="10" &lt;&gt; "25"} {}</m:annotation></m:semantics></m:math></para>
+      </example><para id="element-331">When evaluating expressions, it is a good practice to replace all variables with parenthesis first, then substitute in the appropriate values.  By making use of parenthesis we could avoid some common errors using the order of operations.</para><example id="element-730"><para id="element-977">Is 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>y</m:mi><m:mo stretchy="false">=</m:mo><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>3 </m:mn></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y= - 3} {}</m:annotation></m:semantics></m:math>  a solution to 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mn>2y</m:mn><m:mo stretchy="false">−</m:mo><m:mn>5</m:mn></m:mrow><m:mo stretchy="false">=</m:mo><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mi>y</m:mi></m:mrow><m:mo stretchy="false">−</m:mo><m:mtext>14</m:mtext></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{2y - 5= - y - "14"} {}</m:annotation></m:semantics></m:math> ?
+
+<m:math display="block">
+ <m:semantics>
+  <m:mrow>
+   <m:mtable>
+    <m:mtr>
+     <m:mtd>
+      <m:mrow>
+       <m:mn>2</m:mn><m:mrow><m:mo>(</m:mo>
+        <m:mrow>
+         <m:mtext>  </m:mtext>
+        </m:mrow>
+       <m:mo>)</m:mo></m:mrow><m:mo>−</m:mo><m:mn>5</m:mn>
+      </m:mrow>
+     </m:mtd>
+     <m:mtd>
+      <m:mo>=</m:mo>
+     </m:mtd>
+     <m:mtd>
+      <m:mrow>
+       <m:mo>−</m:mo><m:mrow><m:mo>(</m:mo>
+        <m:mrow>
+         <m:mtext>  </m:mtext>
+        </m:mrow>
+       <m:mo>)</m:mo></m:mrow><m:mo>−</m:mo><m:mn>14</m:mn>
+      </m:mrow>
+     </m:mtd>
+     <m:mtd columnalign="left">
+      <m:mrow>
+       <m:mtext mathvariant="italic">Replace variables with parenthesis</m:mtext><m:mtext>.</m:mtext>
+      </m:mrow>
+     </m:mtd>
+    </m:mtr>
+    <m:mtr>
+     <m:mtd>
+      <m:mrow>
+       <m:mn>2</m:mn><m:mrow><m:mo>(</m:mo>
+        <m:mrow>
+         <m:mo mathcolor="#3366ff">−</m:mo><m:mn mathcolor="#3366ff">3</m:mn>
+        </m:mrow>
+       <m:mo>)</m:mo></m:mrow><m:mo>−</m:mo><m:mn>5</m:mn>
+      </m:mrow>
+     </m:mtd>
+     <m:mtd>
+      <m:mo>=</m:mo>
+     </m:mtd>
+     <m:mtd>
+      <m:mrow>
+       <m:mo>−</m:mo><m:mrow><m:mo>(</m:mo>
+        <m:mrow>
+         <m:mo mathcolor="#3366ff">−</m:mo><m:mn mathcolor="#3366ff">3</m:mn>
+        </m:mrow>
+       <m:mo>)</m:mo></m:mrow><m:mo>−</m:mo><m:mn>14</m:mn>
+      </m:mrow>
+     </m:mtd>
+     <m:mtd columnalign="left">
+      <m:mrow>
+       <m:mtext mathvariant="italic">Substitute the appropriate value</m:mtext><m:mtext>.</m:mtext>
+      </m:mrow>
+     </m:mtd>
+    </m:mtr>
+    <m:mtr>
+     <m:mtd>
+      <m:mrow>
+       <m:mo>−</m:mo><m:mn>6</m:mn><m:mo>−</m:mo><m:mn>5</m:mn>
+      </m:mrow>
+     </m:mtd>
+     <m:mtd>
+      <m:mo>=</m:mo>
+     </m:mtd>
+     <m:mtd>
+      <m:mrow>
+       <m:mn>3</m:mn><m:mo>−</m:mo><m:mn>14</m:mn>
+      </m:mrow>
+     </m:mtd>
+     <m:mtd columnalign="left">
+      <m:mrow>
+       <m:mtext mathvariant="italic">Simplify</m:mtext><m:mtext>.</m:mtext>
+      </m:mrow>
+     </m:mtd>
+    </m:mtr>
+    <m:mtr>
+     <m:mtd>
+      <m:mrow>
+       <m:mo>−</m:mo><m:mn>11</m:mn>
+      </m:mrow>
+     </m:mtd>
+     <m:mtd>
+      <m:mo>=</m:mo>
+     </m:mtd>
+     <m:mtd>
+      <m:mrow>
+       <m:mo>−</m:mo><m:mn>11</m:mn>
+      </m:mrow>
+     </m:mtd>
+     <m:mtd columnalign="left">
+      <m:mrow>
+       <m:mtext mathvariant="italic">True</m:mtext><m:mtext>.</m:mtext>
+      </m:mrow>
+     </m:mtd>
+    </m:mtr>
+    
+   </m:mtable>
+  </m:mrow>
+
+ </m:semantics>
+</m:math>
+
+
+Yes because 
+<m:math><m:semantics><m:mrow><m:mstyle><m:mrow><m:mrow><m:mi>y</m:mi><m:mo stretchy="false">=</m:mo><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>3</m:mn></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow></m:semantics></m:math> produces a true mathematical statement.</para>
+</example>
+    </section>
+    <section id="id10270483">
+      <title>Solving Linear Equations in One Variable</title>
+      <para id="id7907391">When the coefficients of linear equations are numbers other than nice easy integers, guessing at solutions becomes an unreasonable prospect. We begin to develop an algebraic technique for solving by first looking at the properties of equality.</para>
+      <section id="id10301909">
+        <title>Properties of Equality</title>
+        <para id="id8271544">Given algebraic expressions A and B where c is a real number:</para>
+        <para id="element-391"><rule type="property" id="prop1"><label>Property</label><title>Addition Property of Equality</title><statement id="idp4783744">
+    <para id="ruleexp1"><m:math display="block">      
+
+<m:mrow>
+       <m:mtext>If </m:mtext><m:mi>A</m:mi><m:mo>=</m:mo><m:mi>B</m:mi><m:mtext> then </m:mtext><m:mi>A</m:mi><m:mo>+</m:mo><m:mi>c</m:mi><m:mo>=</m:mo><m:mi>B</m:mi><m:mo>+</m:mo><m:mi>c</m:mi>
+      </m:mrow>
+ 
+  
+ 
+</m:math></para>
+  </statement>
+
+</rule> 
+<rule type="property" id="prop2"><label>Property</label>
+  <title>Subtraction Property of Equality</title>
+  <statement id="idm1089360">
+    <para id="ruleexp2"><m:math display="block">      
+
+<m:mrow>
+       <m:mtext>If </m:mtext><m:mi>A</m:mi><m:mo>=</m:mo><m:mi>B</m:mi><m:mtext> then </m:mtext><m:mi>A</m:mi><m:mo>-</m:mo><m:mi>c</m:mi><m:mo>=</m:mo><m:mi>B</m:mi><m:mo>-</m:mo><m:mi>c</m:mi>
+      </m:mrow>
+</m:math>
+   </para>
+  </statement>
+
+</rule> 
+
+<rule type="property" id="prop3"><label>Property</label><title>Multiplication Property of Equality</title><statement id="idp4681680">
+    <para id="ruleexp3"><m:math display="block">      
+<m:mrow>
+       <m:mtext>If </m:mtext><m:mi>A</m:mi><m:mo>=</m:mo><m:mi>B</m:mi><m:mtext> and </m:mtext><m:mi>c</m:mi><m:mo>≠</m:mo><m:mn>0</m:mn><m:mtext> then c</m:mtext><m:mi>A</m:mi><m:mo>=</m:mo><m:mi>c</m:mi><m:mi>B</m:mi>
+      </m:mrow>
+</m:math>
+   </para>
+  </statement>
+
+</rule> 
+
+<rule type="property" id="prop4"><label>Property</label><title>Division Property of Equality</title><statement id="idp7695856">
+    <para id="ruleexp4"><m:math display="block">      
+      <m:mrow>
+       <m:mtext>If </m:mtext><m:mi>A</m:mi><m:mo>=</m:mo><m:mi>B</m:mi><m:mtext> and </m:mtext><m:mi>c</m:mi><m:mo>≠</m:mo><m:mn>0</m:mn><m:mtext> then </m:mtext><m:mfrac>
+        <m:mi>A</m:mi>
+        <m:mi>c</m:mi>
+       </m:mfrac>
+       <m:mo>=</m:mo><m:mfrac>
+        <m:mi>B</m:mi>
+        <m:mi>c</m:mi>
+       </m:mfrac>
+       
+      </m:mrow>
+</m:math>
+   </para>
+  </statement>
+
+</rule> 
+</para>
+        <note id="idp4013968">Multiplying or dividing both sides of an equation by zero is carefully avoided. Dividing by zero is undefined and multiplying both sides by zero will result in an equation 0=0.</note><para id="id8966795">To summarize, the equality is retained if we add, subtract, multiply and divide both sides of an equation by any nonzero real number. The central technique for solving linear equations involves applying these properties in order to isolate the variable on one side of the equation.</para><example id="element-435"><para id="element-831">Use the properties of equality to solve:  
+<m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn><m:mo>=</m:mo><m:mo>−</m:mo><m:mn>5</m:mn>
+  </m:mrow>
+
+ </m:semantics>
+</m:math>
+
+<m:math display="block">
+ <m:semantics>
+  <m:mrow>
+   <m:mtable>
+    <m:mtr>
+     <m:mtd>
+      <m:mrow>
+       <m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn>
+      </m:mrow>
+     </m:mtd>
+     <m:mtd>
+      <m:mo>=</m:mo>
+     </m:mtd>
+     <m:mtd>
+      <m:mrow>
+       <m:mo>−</m:mo><m:mn>5</m:mn>
+      </m:mrow>
+     </m:mtd>
+     <m:mtd>
+      <m:mrow/>
+     </m:mtd>
+    </m:mtr>
+    <m:mtr>
+     <m:mtd>
+      <m:mrow>
+       <m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn><m:mo mathcolor="#3366ff">−</m:mo><m:mn mathcolor="#3366ff">3</m:mn>
+      </m:mrow>
+     </m:mtd>
+     <m:mtd>
+      <m:mo>=</m:mo>
+     </m:mtd>
+     <m:mtd>
+      <m:mrow>
+       <m:mo>−</m:mo><m:mn>5</m:mn><m:mo mathcolor="#3366ff">−</m:mo><m:mn mathcolor="#3366ff">3</m:mn>
+      </m:mrow>
+     </m:mtd>
+     <m:mtd columnalign="left">
+      <m:mrow>
+       <m:mtext mathvariant="italic">Subtract 3 on both sides</m:mtext><m:mtext>.</m:mtext>
+      </m:mrow>
+     </m:mtd>
+    </m:mtr>
+    <m:mtr>
+     <m:mtd>
+      <m:mi>x</m:mi>
+     </m:mtd>
+     <m:mtd>
+      <m:mo>=</m:mo>
+     </m:mtd>
+     <m:mtd>
+      <m:mrow>
+       <m:mo>−</m:mo><m:mn>8</m:mn>
+      </m:mrow>
+     </m:mtd>
+     <m:mtd columnalign="left">
+      <m:mrow>
+       <m:mtext mathvariant="italic">Simplify</m:mtext>
+      </m:mrow>
+     </m:mtd>
+    </m:mtr>
+    
+    
+   </m:mtable>
+  </m:mrow>
+
+ </m:semantics>
+</m:math>
+
+The solution set is <m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mrow><m:mo>{</m:mo> <m:mrow>
+    <m:mo>−</m:mo><m:mn>8</m:mn>
+   </m:mrow> <m:mo>}</m:mo></m:mrow>
+  </m:mrow>
+
+ </m:semantics>
+</m:math>.
+</para>
+</example><example id="element-968"><para id="element-511">Use the properties of equality to solve: <m:math display="inline">
+ <m:semantics>
+  <m:mrow>
+   <m:mo>−</m:mo><m:mn>5</m:mn><m:mi>x</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mn>35</m:mn>
+  </m:mrow>
+
+ </m:semantics>
+</m:math>
+
+<m:math display="block">
+ <m:semantics>
+  <m:mrow>
+   <m:mtable>
+    <m:mtr>
+     <m:mtd>
+      <m:mrow>
+       <m:mo>−</m:mo><m:mn>5</m:mn><m:mi>x</m:mi>
+      </m:mrow>
+     </m:mtd>
+     <m:mtd>
+      <m:mo>=</m:mo>
+     </m:mtd>
+     <m:mtd>
+      <m:mrow>
+       <m:mo>−</m:mo><m:mn>35</m:mn>
+      </m:mrow>
+     </m:mtd>
+     <m:mtd>
+      <m:mrow/>
+     </m:mtd>
+    </m:mtr>
+    <m:mtr>
+     <m:mtd>
+      <m:mrow>
+       <m:mfrac>
+        <m:mrow>
+         <m:mo>−</m:mo><m:mn>5</m:mn><m:mi>x</m:mi>
+        </m:mrow>
+        <m:mrow>
+         <m:mo mathcolor="#3366ff">−</m:mo><m:mn mathcolor="#3366ff">5</m:mn>
+        </m:mrow>
+       </m:mfrac>
+       
+      </m:mrow>
+     </m:mtd>
+     <m:mtd>
+      <m:mo>=</m:mo>
+     </m:mtd>
+     <m:mtd>
+      <m:mrow>
+       <m:mfrac>
+        <m:mrow>
+         <m:mo>−</m:mo><m:mn>35</m:mn>
+        </m:mrow>
+        <m:mrow>
+         <m:mo mathcolor="#3366ff">−</m:mo><m:mn mathcolor="#3366ff">5</m:mn>
+        </m:mrow>
+       </m:mfrac>
+       
+      </m:mrow>
+     </m:mtd>
+     <m:mtd columnalign="left">
+      <m:mrow>
+       <m:mtext mathvariant="italic">Divide both sides by -5</m:mtext><m:mtext>.</m:mtext>
+      </m:mrow>
+     </m:mtd>
+    </m:mtr>
+    <m:mtr>
+     <m:mtd>
+      <m:mi>x</m:mi>
+     </m:mtd>
+     <m:mtd>
+      <m:mo>=</m:mo>
+     </m:mtd>
+     <m:mtd>
+      <m:mn>7</m:mn>
+     </m:mtd>
+     <m:mtd columnalign="left">
+      <m:mrow>
+       <m:mtext mathvariant="italic">Simplify</m:mtext>
+      </m:mrow>
+     </m:mtd>
+    </m:mtr>
+    
+    
+    
+   </m:mtable>
+  </m:mrow>
+
+ </m:semantics>
+</m:math>
+
+
+The solution set is <m:math display="inline">
+ <m:semantics>
+  <m:mrow>
+   <m:mrow><m:mo>{</m:mo> <m:mrow>
+    <m:mn>7</m:mn>
+   </m:mrow> <m:mo>}</m:mo></m:mrow>
+  </m:mrow>
+
+ </m:semantics>
+</m:math>.
+</para>
+</example><para id="element-129">Two other important properties are:
+<rule type="property" id="prop5"><label>Property</label><title>Symmetric Property</title><statement id="idp3966096">
+    <para id="ruleexp5">
+<m:math display="block">
+      <m:mrow>
+       <m:mtext>If </m:mtext><m:mi>A</m:mi><m:mo>=</m:mo><m:mi>B</m:mi><m:mtext> then </m:mtext><m:mi>B</m:mi><m:mo>=</m:mo><m:mi>A</m:mi><m:mtext>.</m:mtext>
+      </m:mrow>
+</m:math>
+   </para>
+  </statement>
+
+</rule> 
+<rule type="property" id="prop6"><label>Property</label><title>Transitive Property</title><statement id="idp1779728">
+    <para id="ruleexp6"><m:math display="block">
+      <m:mrow>
+       <m:mtext>If </m:mtext><m:mi>A</m:mi><m:mo>=</m:mo><m:mi>B</m:mi><m:mtext> and </m:mtext><m:mi>B</m:mi><m:mo>=</m:mo><m:mi>C</m:mi><m:mtext> then </m:mtext><m:mi>A</m:mi><m:mo>=</m:mo><m:mi>C</m:mi><m:mtext>.</m:mtext>
+      </m:mrow>
+</m:math>
+   </para>
+  </statement>
+
+</rule> 
+
+When solving, we often see 
+<m:math display="inline">
+ <m:semantics>
+  <m:mrow>
+   <m:mn>2</m:mn><m:mo>=</m:mo><m:mi>x</m:mi>
+  </m:mrow>
+ </m:semantics>
+</m:math>
+but that is equivalent to
+<m:math display="inline">
+ <m:semantics>
+  <m:mrow>
+   <m:mi>x</m:mi><m:mo>=</m:mo><m:mn>2</m:mn>
+  </m:mrow>
+ </m:semantics>
+</m:math>.
+
+</para>
+        
+        
+      </section><section id="element-824"><title>Isolating the Variable</title>
+<para id="element-651">The idea behind solving in algebra is to isolate the variable.  If given a linear equation of the form
+<m:math display="inline">
+ <m:semantics>
+  <m:mrow>
+   <m:mi>a</m:mi><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>b</m:mi><m:mo>=</m:mo><m:mi>c</m:mi>
+  </m:mrow>
+ </m:semantics>
+</m:math>
+
+then we can solve it in two steps.  First use the equality property of addition or subtraction to isolate the variable term. Next isolate the variable by using the equality property of multiplication or division.  The property choice depends on the given operation, we choose to apply the opposite property of the given operation.  For example, if given a term plus three we would first choose to subtract three on both sides of the equation.  If given two times the variable then we would choose to divide both sides by two.
+</para><example id="element-359"><para id="element-189">Solve 
+<m:math display="inline">
+ <m:semantics>
+  <m:mrow>
+   <m:mn>2</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn><m:mo>=</m:mo><m:mn>13</m:mn>
+  </m:mrow>
+ </m:semantics>
+</m:math>
+.
+
+<m:math display="block">
+ <m:semantics>
+  <m:mrow>
+   <m:mtable>
+    <m:mtr>
+     <m:mtd>
+      <m:mrow>
+       <m:mn>2</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn>
+      </m:mrow>
+     </m:mtd>
+     <m:mtd>
+      <m:mo>=</m:mo>
+     </m:mtd>
+     <m:mtd>
+      <m:mrow>
+       <m:mn>13</m:mn>
+      </m:mrow>
+     </m:mtd>
+     <m:mtd>
+      <m:mrow/>
+     </m:mtd>
+    </m:mtr>
+    <m:mtr>
+     <m:mtd>
+      <m:mrow>
+       <m:mn>2</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn><m:mo mathcolor="#3366ff">−</m:mo><m:mn mathcolor="#3366ff">3</m:mn>
+      </m:mrow>
+     </m:mtd>
+     <m:mtd>
+      <m:mo>=</m:mo>
+     </m:mtd>
+     <m:mtd>
+      <m:mrow>
+       <m:mn>13</m:mn><m:mo mathcolor="#3366ff">−</m:mo><m:mn mathcolor="#3366ff">3</m:mn>
+      </m:mrow>
+     </m:mtd>
+     <m:mtd columnalign="left">
+      <m:mrow>
+       <m:mtext mathvariant="italic">Subtract 3 on both sides</m:mtext><m:mtext>.</m:mtext>
+      </m:mrow>
+     </m:mtd>
+    </m:mtr>
+    <m:mtr>
+     <m:mtd>
+      <m:mrow>
+       <m:mn>2</m:mn><m:mi>x</m:mi>
+      </m:mrow>
+     </m:mtd>
+     <m:mtd>
+      <m:mo>=</m:mo>
+     </m:mtd>
+     <m:mtd>
+      <m:mrow>
+       <m:mn>10</m:mn>
+      </m:mrow>
+     </m:mtd>
+     <m:mtd>
+      <m:mrow/>
+     </m:mtd>
+    </m:mtr>
+    <m:mtr>
+     <m:mtd>
+      <m:mrow>
+       <m:mfrac>
+        <m:mrow>
+         <m:mn>2</m:mn><m:mi>x</m:mi>
+        </m:mrow>
+        <m:mn mathcolor="#3366ff">2</m:mn>
+       </m:mfrac>
+       
+      </m:mrow>
+     </m:mtd>
+     <m:mtd>
+      <m:mo>=</m:mo>
+     </m:mtd>
+     <m:mtd>
+      <m:mrow>
+       <m:mfrac>
+        <m:mrow>
+         <m:mn>10</m:mn>
+        </m:mrow>
+        <m:mn mathcolor="#3366ff">2</m:mn>
+       </m:mfrac>
+       
+      </m:mrow>
+     </m:mtd>
+     <m:mtd columnalign="left">
+      <m:mrow>
+       <m:mtext mathvariant="italic">Divide both sides by 2</m:mtext><m:mtext>.</m:mtext>
+      </m:mrow>
+     </m:mtd>
+    </m:mtr>
+    <m:mtr>
+     <m:mtd>
+      <m:mi>x</m:mi>
+     </m:mtd>
+     <m:mtd>
+      <m:mo>=</m:mo>
+     </m:mtd>
+     <m:mtd>
+      <m:mn>5</m:mn>
+     </m:mtd>
+     <m:mtd>
+      <m:mrow/>
+     </m:mtd>
+    </m:mtr>
+    
+    
+   </m:mtable>
+  </m:mrow>
+
+ </m:semantics>
+</m:math>
+
+The solution set is 
+<m:math display="inline">
+ <m:semantics>
+  <m:mrow>
+   <m:mrow><m:mo>{</m:mo> <m:mn>5</m:mn> <m:mo>}</m:mo></m:mrow>
+  </m:mrow>
+ </m:semantics>
+</m:math>
+
+.
+
+
+</para>
+</example><example id="element-522"><para id="element-382">Solve 
+<m:math display="inline">
+ <m:semantics>
+  <m:mrow>
+   <m:mo>−</m:mo><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>2</m:mn><m:mo>=</m:mo><m:mn>9</m:mn>
+  </m:mrow>
+ </m:semantics>
+</m:math>
+.
+
+<m:math display="block">
+ <m:semantics>
+  <m:mrow>
+   <m:mtable>
+    <m:mtr>
+     <m:mtd>
+      <m:mrow>
+       <m:mo>−</m:mo><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>2</m:mn>
+      </m:mrow>
+     </m:mtd>
+     <m:mtd>
+      <m:mo>=</m:mo>
+     </m:mtd>
+     <m:mtd>
+      <m:mn>9</m:mn>
+     </m:mtd>
+     <m:mtd>
+      <m:mrow/>
+     </m:mtd>
+    </m:mtr>
+    <m:mtr>
+     <m:mtd>
+      <m:mrow>
+       <m:mo>−</m:mo><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>2</m:mn><m:mo mathcolor="#3366ff">+</m:mo><m:mn mathcolor="#3366ff">2</m:mn>
+      </m:mrow>
+     </m:mtd>
+     <m:mtd>
+      <m:mo>=</m:mo>
+     </m:mtd>
+     <m:mtd>
+      <m:mrow>
+       <m:mn>9</m:mn><m:mo mathcolor="#3366ff">+</m:mo><m:mn mathcolor="#3366ff">2</m:mn>
+      </m:mrow>
+     </m:mtd>
+     <m:mtd columnalign="left">
+      <m:mrow>
+       <m:mtext mathvariant="italic">Add 2 to both sides</m:mtext><m:mtext>.</m:mtext>
+      </m:mrow>
+     </m:mtd>
+    </m:mtr>
+    <m:mtr>
+     <m:mtd>
+      <m:mrow>
+       <m:mo>−</m:mo><m:mn>3</m:mn><m:mi>x</m:mi>
+      </m:mrow>
+     </m:mtd>
+     <m:mtd>
+      <m:mo>=</m:mo>
+     </m:mtd>
+     <m:mtd>
+      <m:mrow>
+       <m:mn>11</m:mn>
+      </m:mrow>
+     </m:mtd>
+     <m:mtd>
+      <m:mrow/>
+     </m:mtd>
+    </m:mtr>
+    <m:mtr>
+     <m:mtd>
+      <m:mrow>
+       <m:mfrac>
+        <m:mrow>
+         <m:mo>−</m:mo><m:mn>3</m:mn><m:mi>x</m:mi>
+        </m:mrow>
+        <m:mrow>
+         <m:mo mathcolor="#3366ff">−</m:mo><m:mn mathcolor="#3366ff">3</m:mn>
+        </m:mrow>
+       </m:mfrac>
+       
+      </m:mrow>
+     </m:mtd>
+     <m:mtd>
+      <m:mo>=</m:mo>
+     </m:mtd>
+     <m:mtd>
+      <m:mrow>
+       <m:mfrac>
+        <m:mrow>
+         <m:mn>11</m:mn>
+        </m:mrow>
+        <m:mrow>
+         <m:mo mathcolor="#3366ff">−</m:mo><m:mn mathcolor="#3366ff">3</m:mn>
+        </m:mrow>
+       </m:mfrac>
+       
+      </m:mrow>
+     </m:mtd>
+     <m:mtd columnalign="left">
+      <m:mrow>
+       <m:mtext mathvariant="italic">Divide both sides by -3</m:mtext><m:mtext>.</m:mtext>
+      </m:mrow>
+     </m:mtd>
+    </m:mtr>
+    <m:mtr>
+     <m:mtd>
+      <m:mi>x</m:mi>
+     </m:mtd>
+     <m:mtd>
+      <m:mo>=</m:mo>
+     </m:mtd>
+     <m:mtd>
+      <m:mrow>
+       <m:mo>−</m:mo><m:mfrac>
+        <m:mrow>
+         <m:mn>11</m:mn>
+        </m:mrow>
+        <m:mn>3</m:mn>
+       </m:mfrac>
+       
+      </m:mrow>
+     </m:mtd>
+     <m:mtd>
+      <m:mrow/>
+     </m:mtd>
+    </m:mtr>
+    
+    
+   </m:mtable>
+  </m:mrow>
+ </m:semantics>
+</m:math>
+ 
+The solution set is 
+<m:math display="inline">
+ <m:semantics>
+  <m:mrow>
+   <m:mrow><m:mo>{</m:mo> <m:mrow>
+    <m:mo>−</m:mo><m:mstyle scriptlevel="+1">
+     <m:mfrac>
+      <m:mrow>
+       <m:mn>11</m:mn>
+      </m:mrow>
+      <m:mn>3</m:mn>
+     </m:mfrac>
+    </m:mstyle>
+    
+   </m:mrow> <m:mo>}</m:mo></m:mrow>
+  </m:mrow>
+
+ </m:semantics>
+</m:math>
+</para>
+</example><example id="element-844"><para id="element-630">Solve 
+<m:math display="inline">
+ <m:semantics>
+  <m:mrow>
+   <m:mfrac>
+    <m:mi>x</m:mi>
+    <m:mn>3</m:mn>
+   </m:mfrac>
+   <m:mo>+</m:mo><m:mfrac>
+    <m:mn>1</m:mn>
+    <m:mn>2</m:mn>
+   </m:mfrac>
+   <m:mo>=</m:mo><m:mfrac>
+    <m:mn>2</m:mn>
+    <m:mn>3</m:mn>
+   </m:mfrac>
+   
+  </m:mrow>
+
+ </m:semantics>
+</m:math>
+.
+
+<m:math display="block">
+ <m:semantics>
+  <m:mrow>
+   <m:mtable>
+    <m:mtr>
+     <m:mtd>
+      <m:mrow>
+       <m:mfrac>
+        <m:mi>x</m:mi>
+        <m:mn>3</m:mn>
+       </m:mfrac>
+       <m:mo>+</m:mo><m:mfrac>
+        <m:mn>1</m:mn>
+        <m:mn>2</m:mn>
+       </m:mfrac>
+       
+      </m:mrow>
+     </m:mtd>
+     <m:mtd>
+      <m:mo>=</m:mo>
+     </m:mtd>
+     <m:mtd>
+      <m:mrow>
+       <m:mfrac>
+        <m:mn>2</m:mn>
+        <m:mn>3</m:mn>
+       </m:mfrac>
+       
+      </m:mrow>
+     </m:mtd>
+     <m:mtd>
+      <m:mrow/>
+     </m:mtd>
+    </m:mtr>
+    <m:mtr>
+     <m:mtd>
+      <m:mrow>
+       <m:mfrac>
+        <m:mi>x</m:mi>
+        <m:mn>3</m:mn>
+       </m:mfrac>
+       <m:mo>+</m:mo><m:mfrac>
+        <m:mn>1</m:mn>
+        <m:mn>2</m:mn>
+       </m:mfrac>
+       <m:mo mathcolor="#3366ff">−</m:mo><m:mfrac>
+        <m:mn mathcolor="#3366ff">1</m:mn>
+        <m:mn mathcolor="#3366ff">2</m:mn>
+       </m:mfrac>
+       
+      </m:mrow>
+     </m:mtd>
+     <m:mtd>
+      <m:mo>=</m:mo>
+     </m:mtd>
+     <m:mtd>
+      <m:mrow>
+       <m:mfrac>
+        <m:mn>2</m:mn>
+        <m:mn>3</m:mn>
+       </m:mfrac>
+       <m:mo mathcolor="#3366ff">−</m:mo><m:mfrac>
+        <m:mn mathcolor="#3366ff">1</m:mn>
+        <m:mn mathcolor="#3366ff">2</m:mn>
+       </m:mfrac>
+       
+      </m:mrow>
+     </m:mtd>
+     <m:mtd columnalign="left">
+      <m:mrow>
+       <m:mtext mathvariant="italic">Subtract </m:mtext><m:mfrac>
+        <m:mn>1</m:mn>
+        <m:mn>2</m:mn>
+       </m:mfrac>
+       <m:mtext> on both sides</m:mtext><m:mtext>.</m:mtext>
+      </m:mrow>
+     </m:mtd>
+    </m:mtr>
+    <m:mtr>
+     <m:mtd>
+      <m:mrow>
+       <m:mfrac>
+        <m:mi>x</m:mi>
+        <m:mn>3</m:mn>
+       </m:mfrac>
+       
+      </m:mrow>
+     </m:mtd>
+     <m:mtd>
+      <m:mo>=</m:mo>
+     </m:mtd>
+     <m:mtd>
+      <m:mrow>
+       <m:mfrac>
+        <m:mn>2</m:mn>
+        <m:mn>3</m:mn>
+       </m:mfrac>
+       <m:mrow><m:mo>(</m:mo>
+        <m:mrow>
+         <m:mfrac>
+          <m:mn>2</m:mn>
+          <m:mn>2</m:mn>
+         </m:mfrac>
+         
+        </m:mrow>
+       <m:mo>)</m:mo></m:mrow><m:mo>−</m:mo><m:mfrac>
+        <m:mn>1</m:mn>
+        <m:mn>2</m:mn>
+       </m:mfrac>
+       <m:mrow><m:mo>(</m:mo>
+        <m:mrow>
+         <m:mfrac>
+          <m:mn>3</m:mn>
+          <m:mn>3</m:mn>
+         </m:mfrac>
+         
+        </m:mrow>
+       <m:mo>)</m:mo></m:mrow>
+      </m:mrow>
+     </m:mtd>
+     <m:mtd>
+      <m:mrow/>
+     </m:mtd>
+    </m:mtr>
+    <m:mtr>
+     <m:mtd>
+      <m:mrow>
+       <m:mfrac>
+        <m:mi>x</m:mi>
+        <m:mn>3</m:mn>
+       </m:mfrac>
+       
+      </m:mrow>
+     </m:mtd>
+     <m:mtd>
+      <m:mo>=</m:mo>
+     </m:mtd>
+     <m:mtd>
+      <m:mrow>
+       <m:mfrac>
+        <m:mn>4</m:mn>
+        <m:mn>6</m:mn>
+       </m:mfrac>
+       <m:mo>−</m:mo><m:mfrac>
+        <m:mn>3</m:mn>
+        <m:mn>6</m:mn>
+       </m:mfrac>
+       
+      </m:mrow>
+     </m:mtd>
+     <m:mtd>
+      <m:mrow/>
+     </m:mtd>
+    </m:mtr>
+    <m:mtr>
+     <m:mtd>
+      <m:mrow>
+       <m:mfrac>
+        <m:mi>x</m:mi>
+        <m:mn>3</m:mn>
+       </m:mfrac>
+       
+      </m:mrow>
+     </m:mtd>
+     <m:mtd>
+      <m:mo>=</m:mo>
+     </m:mtd>
+     <m:mtd>
+      <m:mrow>
+       <m:mfrac>
+        <m:mn>1</m:mn>
+        <m:mn>6</m:mn>
+       </m:mfrac>
+       
+      </m:mrow>
+     </m:mtd>
+     <m:mtd>
+      <m:mrow/>
+     </m:mtd>
+    </m:mtr>
+    <m:mtr>
+     <m:mtd>
+      <m:mrow>
+       <m:mn mathcolor="#3366ff">3</m:mn><m:mo mathcolor="#3366ff">⋅</m:mo><m:mfrac>
+        <m:mi>x</m:mi>
+        <m:mn>3</m:mn>
+       </m:mfrac>
+       
+      </m:mrow>
+     </m:mtd>
+     <m:mtd>
+      <m:mo>=</m:mo>
+     </m:mtd>
+     <m:mtd>
+      <m:mrow>
+       <m:mn mathcolor="#3366ff">3</m:mn><m:mo mathcolor="#3366ff">⋅</m:mo><m:mfrac>
+        <m:mn>1</m:mn>
+        <m:mn>6</m:mn>
+       </m:mfrac>
+       
+      </m:mrow>
+     </m:mtd>
+     <m:mtd columnalign="left">
+      <m:mrow>
+       <m:mtext mathvariant="italic">Multiply both sides by 3</m:mtext><m:mtext>.</m:mtext>
+      </m:mrow>
+     </m:mtd>
+    </m:mtr>
+    <m:mtr>
+     <m:mtd>
+      <m:mi>x</m:mi>
+     </m:mtd>
+     <m:mtd>
+      <m:mo>=</m:mo>
+     </m:mtd>
+     <m:mtd>
+      <m:mrow>
+       <m:mfrac>
+        <m:mn>1</m:mn>
+        <m:mn>2</m:mn>
+       </m:mfrac>
+       
+      </m:mrow>
+     </m:mtd>
+     <m:mtd>
+      <m:mrow/>
+     </m:mtd>
+    </m:mtr>
+    
+   </m:mtable>
+  </m:mrow>
+
+ </m:semantics>
+</m:math>
+ 
+The solution set is 
+<m:math display="inline">
+ <m:semantics>
+  <m:mrow>
+   <m:mrow><m:mo>{</m:mo> <m:mrow>
+    <m:mfrac>
+     <m:mn>1</m:mn>
+     <m:mn>2</m:mn>
+    </m:mfrac>
+    
+   </m:mrow> <m:mo>}</m:mo></m:mrow>
+  </m:mrow>
+ </m:semantics>
+</m:math>.
+</para>
+</example><para id="element-803">In order to retain the equality, we must perform the same operation on both sides of the equation.  To isolate the variable we want to remember to choose the opposite operation not the opposite number.  For example, if we have -5x = 20 then we choose to divide both sides by -5, not 5.
+
+         <figure id="vid01"><media id="idp6176384" alt=""><flash src="videoEx01.swf" mime-type="application/x-shockwave-flash" height="490" width="650"/></media><caption>Video Example 01</caption></figure>
+</para><section id="element-385"><title>Multiplying by the Reciprocal</title>
+<para id="element-367">
+Recall that when multiplying reciprocals the result is 1, for example, 
+<m:math display="inline">
+ <m:semantics>
+  <m:mrow>
+   <m:mrow><m:mo>(</m:mo>
+    <m:mrow>
+     <m:mfrac>
+      <m:mn>3</m:mn>
+      <m:mn>5</m:mn>
+     </m:mfrac>
+     
+    </m:mrow>
+   <m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo>
+    <m:mrow>
+     <m:mfrac>
+      <m:mn>5</m:mn>
+      <m:mn>3</m:mn>
+     </m:mfrac>
+     
+    </m:mrow>
+   <m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mfrac>
+    <m:mrow>
+     <m:mn>15</m:mn>
+    </m:mrow>
+    <m:mrow>
+     <m:mn>15</m:mn>
+    </m:mrow>
+   </m:mfrac>
+   <m:mo>=</m:mo><m:mn>1</m:mn>
+  </m:mrow>
+ </m:semantics>
+</m:math>
+. We can use this fact when the coefficient of the variable is a fraction.
+
+</para><example id="element-528"><para id="element-246">Solve 
+<m:math display="inline">
+ <m:semantics>
+  <m:mrow>
+   <m:mo>−</m:mo><m:mfrac>
+    <m:mn>4</m:mn>
+    <m:mn>5</m:mn>
+   </m:mfrac>
+   <m:mi>x</m:mi><m:mo>−</m:mo><m:mn>5</m:mn><m:mo>=</m:mo><m:mn>15</m:mn>
+  </m:mrow>
+ </m:semantics>
+</m:math>
+.
+
+<m:math display="block">
+ <m:semantics>
+  <m:mrow>
+   <m:mtable>
+    <m:mtr>
+     <m:mtd>
+      <m:mrow>
+       <m:mo>−</m:mo><m:mfrac>
+        <m:mn>4</m:mn>
+        <m:mn>5</m:mn>
+       </m:mfrac>
+       <m:mi>x</m:mi><m:mo>−</m:mo><m:mn>5</m:mn>
+      </m:mrow>
+     </m:mtd>
+     <m:mtd>
+      <m:mo>=</m:mo>
+     </m:mtd>
+     <m:mtd>
+      <m:mrow>
+       <m:mn>15</m:mn>
+      </m:mrow>
+     </m:mtd>
+     <m:mtd>
+      <m:mrow/>
+     </m:mtd>
+    </m:mtr>
+    <m:mtr>
+     <m:mtd>
+      <m:mrow>
+       <m:mo>−</m:mo><m:mfrac>
+        <m:mn>4</m:mn>
+        <m:mn>5</m:mn>
+       </m:mfrac>
+       <m:mi>x</m:mi><m:mo>−</m:mo><m:mn>5</m:mn><m:mo mathcolor="#3366ff">+</m:mo><m:mn mathcolor="#3366ff">5</m:mn>
+      </m:mrow>
+     </m:mtd>
+     <m:mtd>
+      <m:mo>=</m:mo>
+     </m:mtd>
+     <m:mtd>
+      <m:mrow>
+       <m:mn>15</m:mn><m:mo mathcolor="#3366ff">+</m:mo><m:mn mathcolor="#3366ff">5</m:mn>
+      </m:mrow>
+     </m:mtd>
+     <m:mtd columnalign="left">
+      <m:mrow>
+       <m:mtext mathvariant="italic">Add 5 on both sides</m:mtext><m:mtext>.</m:mtext>
+      </m:mrow>
+     </m:mtd>
+    </m:mtr>
+    <m:mtr>
+     <m:mtd>
+      <m:mrow>
+       <m:mo>−</m:mo><m:mfrac>
+        <m:mn>4</m:mn>
+        <m:mn>5</m:mn>
+       </m:mfrac>
+       <m:mi>x</m:mi>
+      </m:mrow>
+     </m:mtd>
+     <m:mtd>
+      <m:mo>=</m:mo>
+     </m:mtd>
+     <m:mtd>
+      <m:mrow>
+       <m:mn>20</m:mn>
+      </m:mrow>
+     </m:mtd>
+     <m:mtd>
+      <m:mrow/>
+     </m:mtd>
+    </m:mtr>
+    <m:mtr>
+     <m:mtd>
+      <m:mrow>
+       <m:mo mathcolor="#3366ff">−</m:mo><m:mfrac>
+        <m:mn mathcolor="#3366ff">5</m:mn>
+        <m:mn mathcolor="#3366ff">4</m:mn>
+       </m:mfrac>
+       <m:mo>⋅</m:mo><m:mrow><m:mo>(</m:mo>
+        <m:mrow>
+         <m:mo>−</m:mo><m:mfrac>
+          <m:mn>4</m:mn>
+          <m:mn>5</m:mn>
+         </m:mfrac>
+         <m:mi>x</m:mi>
+        </m:mrow>
+       <m:mo>)</m:mo></m:mrow>
+      </m:mrow>
+     </m:mtd>
+     <m:mtd>
+      <m:mo>=</m:mo>
+     </m:mtd>
+     <m:mtd>
+      <m:mrow>
+       <m:mo mathcolor="#3366ff">−</m:mo>
+       <m:mfrac>
+        <m:mn mathcolor="#3366ff">5</m:mn>
+        <m:mn mathcolor="#3366ff">4</m:mn>
+       </m:mfrac>
+       <m:mo>⋅</m:mo><m:mrow><m:mo>(</m:mo>
+        <m:mrow>
+         <m:mn>20</m:mn>
+        </m:mrow>
+       <m:mo>)</m:mo></m:mrow>
+      </m:mrow>
+     </m:mtd>
+     <m:mtd columnalign="left">
+      <m:mrow>
+       <m:mtext mathvariant="italic">Multiply both sides by </m:mtext><m:mo>−</m:mo><m:mfrac>
+        <m:mn>5</m:mn>
+        <m:mn>4</m:mn>
+       </m:mfrac>
+       <m:mtext>. </m:mtext>
+      </m:mrow>
+     </m:mtd>
+    </m:mtr>
+    <m:mtr>
+     <m:mtd>
+      <m:mrow>
+       <m:mn>1</m:mn><m:mi>x</m:mi>
+      </m:mrow>
+     </m:mtd>
+     <m:mtd>
+      <m:mo>=</m:mo>
+     </m:mtd>
+     <m:mtd>
+      <m:mrow>
+       <m:mo>−</m:mo><m:mn>5</m:mn><m:mo>⋅</m:mo><m:mn>5</m:mn>
+      </m:mrow>
+     </m:mtd>
+     <m:mtd columnalign="left">
+      <m:mrow>
+       <m:mtext mathvariant="italic">Simplify</m:mtext><m:mtext>.</m:mtext>
+      </m:mrow>
+     </m:mtd>
+    </m:mtr>
+    <m:mtr>
+     <m:mtd>
+      <m:mi>x</m:mi>
+     </m:mtd>
+     <m:mtd>
+      <m:mo>=</m:mo>
+     </m:mtd>
+     <m:mtd>
+      <m:mrow>
+       <m:mo>−</m:mo><m:mn>25</m:mn>
+      </m:mrow>
+     </m:mtd>
+     <m:mtd>
+      <m:mrow/>
+     </m:mtd>
+    </m:mtr>
+    
+   </m:mtable>
+  </m:mrow>
+ </m:semantics>
+</m:math>
+The solution set is 
+<m:math display="inline">
+ <m:semantics>
+  <m:mrow>
+   <m:mrow><m:mo>{</m:mo> <m:mrow>
+    <m:mo>−</m:mo><m:mn>25</m:mn>
+   </m:mrow> <m:mo>}</m:mo></m:mrow>
+  </m:mrow>
+ </m:semantics>
+</m:math>
+
+.
+
+
+
+
+</para>
+</example></section></section>
+      
+    </section><section id="element-619"><title>Combining Like Terms and Simplifying</title>
+<para id="element-587">Linear equations typically will not be given in standard form and thus will require some additional preliminary steps. These additional steps are to first simplify the expressions on each side of the equal sign using the order of operations.
+</para><section id="element-540"><title>Opposite Side Like Terms</title>
+<para id="element-4">Given a linear equation in the form 
+<m:math display="inline">
+ <m:semantics>
+  <m:mrow>
+   <m:mi>a</m:mi><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>b</m:mi><m:mo>=</m:mo><m:mi>c</m:mi><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>d</m:mi>
+  </m:mrow>
+ </m:semantics>
+</m:math>
+we must combine like terms on opposite sides of the equal sign.  To do this we will use the addition or subtraction property of equality to combine like terms on either side of the equation.
+
+</para><example id="element-208"><para id="element-758">Solve for y: 
+<m:math display="inline">
+ <m:semantics>
+  <m:mrow>
+   <m:mo>−</m:mo><m:mn>2</m:mn><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>3</m:mn><m:mo>=</m:mo><m:mn>5</m:mn><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>17</m:mn>
+  </m:mrow>
+ </m:semantics>
+</m:math>
+
+<m:math display="block">
+ <m:semantics>
+  <m:mrow>
+   <m:mtable>
+    <m:mtr>
+     <m:mtd>
+      <m:mrow>
+       <m:mo>−</m:mo><m:mn>2</m:mn><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>3</m:mn>
+      </m:mrow>
+     </m:mtd>
+     <m:mtd>
+      <m:mo>=</m:mo>
+     </m:mtd>
+     <m:mtd>
+      <m:mrow>
+       <m:mn>5</m:mn><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>17</m:mn>
+      </m:mrow>
+     </m:mtd>
+     <m:mtd>
+      <m:mrow/>
+     </m:mtd>
+    </m:mtr>
+    <m:mtr>
+     <m:mtd>
+      <m:mrow>
+       <m:mo>−</m:mo><m:mn>2</m:mn><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>3</m:mn><m:mo mathcolor="#3366ff">−</m:mo><m:mn mathcolor="#3366ff">5</m:mn><m:mi mathcolor="#3366ff">y</m:mi>
+      </m:mrow>
+     </m:mtd>
+     <m:mtd>
+      <m:mo>=</m:mo>
+     </m:mtd>
+     <m:mtd>
+      <m:mrow>
+       <m:mn>5</m:mn><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>17</m:mn><m:mo mathcolor="#3366ff">−</m:mo><m:mn mathcolor="#3366ff">5</m:mn><m:mi mathcolor="#3366ff">y</m:mi>
+      </m:mrow>
+     </m:mtd>
+     <m:mtd columnalign="left">
+      <m:mrow>
+       <m:mtext mathvariant="italic">Subtract 5y on both sides</m:mtext><m:mtext>.</m:mtext>
+      </m:mrow>
+     </m:mtd>
+    </m:mtr>
+    <m:mtr>
+     <m:mtd>
+      <m:mrow>
+       <m:mo>−</m:mo><m:mn>7</m:mn><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>3</m:mn>
+      </m:mrow>
+     </m:mtd>
+     <m:mtd>
+      <m:mo>=</m:mo>
+     </m:mtd>
+     <m:mtd>
+      <m:mrow>
+       <m:mn>17</m:mn>
+      </m:mrow>
+     </m:mtd>
+     <m:mtd>
+      <m:mrow/>
+     </m:mtd>
+    </m:mtr>
+    <m:mtr>
+     <m:mtd>
+      <m:mrow>
+       <m:mo>−</m:mo><m:mn>7</m:mn><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>3</m:mn><m:mo mathcolor="#3366ff">−</m:mo><m:mn mathcolor="#3366ff">3</m:mn>
+      </m:mrow>
+     </m:mtd>
+     <m:mtd>
+      <m:mo>=</m:mo>
+     </m:mtd>
+     <m:mtd>
+      <m:mrow>
+       <m:mn>17</m:mn><m:mo mathcolor="#3366ff">−</m:mo><m:mn mathcolor="#3366ff">3</m:mn>
+      </m:mrow>
+     </m:mtd>
+     <m:mtd columnalign="left">
+      <m:mrow>
+       <m:mtext mathvariant="italic">Subtract 3 on both sides</m:mtext><m:mtext>.</m:mtext>
+      </m:mrow>
+     </m:mtd>
+    </m:mtr>
+    <m:mtr>
+     <m:mtd>
+      <m:mrow>
+       <m:mo>−</m:mo><m:mn>7</m:mn><m:mi>y</m:mi>
+      </m:mrow>
+     </m:mtd>
+     <m:mtd>
+      <m:mo>=</m:mo>
+     </m:mtd>
+     <m:mtd>
+      <m:mrow>
+       <m:mn>14</m:mn>
+      </m:mrow>
+     </m:mtd>
+     <m:mtd>
+      <m:mrow/>
+     </m:mtd>
+    </m:mtr>
+    <m:mtr>
+     <m:mtd>
+      <m:mrow>
+       <m:mfrac>
+        <m:mrow>
+         <m:mo>−</m:mo><m:mn>7</m:mn><m:mi>y</m:mi>
+        </m:mrow>
+        <m:mrow>
+         <m:mo mathcolor="#3366ff">−</m:mo><m:mn mathcolor="#3366ff">7</m:mn>
+        </m:mrow>
+       </m:mfrac>
+       
+      </m:mrow>
+     </m:mtd>
+     <m:mtd>
+      <m:mo>=</m:mo>
+     </m:mtd>
+     <m:mtd>
+      <m:mrow>
+       <m:mfrac>
+        <m:mrow>
+         <m:mn>14</m:mn>
+        </m:mrow>
+        <m:mrow>
+         <m:mo mathcolor="#3366ff">−</m:mo><m:mn mathcolor="#3366ff">7</m:mn>
+        </m:mrow>
+       </m:mfrac>
+       
+      </m:mrow>
+     </m:mtd>
+     <m:mtd columnalign="left">
+      <m:mrow>
+       <m:mtext mathvariant="italic">Divide both sides by -7</m:mtext><m:mtext>.</m:mtext>
+      </m:mrow>
+     </m:mtd>
+    </m:mtr>
+    <m:mtr>
+     <m:mtd>
+      <m:mi>y</m:mi>
+     </m:mtd>
+     <m:mtd>
+      <m:mo>=</m:mo>
+     </m:mtd>
+     <m:mtd>
+      <m:mrow>
+       <m:mo>−</m:mo><m:mn>2</m:mn>
+      </m:mrow>
+     </m:mtd>
+     <m:mtd>
+      <m:mrow/>
+     </m:mtd>
+    </m:mtr>
+    <m:mtr>
+     <m:mtd>
+      <m:mrow/>
+     </m:mtd>
+     <m:mtd>
+      <m:mrow/>
+     </m:mtd>
+     <m:mtd>
+      <m:mrow/>
+     </m:mtd>
+     <m:mtd>
+      <m:mrow/>
+     </m:mtd>
+    </m:mtr>
+    
+   </m:mtable>
+  </m:mrow>
+
+ </m:semantics>
+</m:math>
+
+The solution set is 
+<m:math display="inline">
+ <m:semantics>
+  <m:mrow>
+   <m:mrow><m:mo>{</m:mo> <m:mrow>
+    <m:mo>−</m:mo><m:mn>2</m:mn>
+   </m:mrow> <m:mo>}</m:mo></m:mrow>
+  </m:mrow>
+
+ </m:semantics>
+</m:math>
+.</para>
+</example></section><section id="element-665"><title>Same Side Like Terms</title>
+<para id="element-457">We will often encounter linear equations where the expressions on each side of the equal sign could be simplified.  If this is the case then it is usually best to simplify each side first. After which we then use the properties of equality to combine opposite side like terms. 
+</para><example id="element-306"><para id="element-510">Solve for a: 
+<m:math display="inline">
+ <m:semantics>
+  <m:mrow>
+   <m:mo>−</m:mo><m:mn>4</m:mn><m:mi>a</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:mo>−</m:mo><m:mi>a</m:mi><m:mo>=</m:mo><m:mn>3</m:mn><m:mo>+</m:mo><m:mn>5</m:mn><m:mi>a</m:mi><m:mo>−</m:mo><m:mn>2</m:mn>
+  </m:mrow>
+ </m:semantics>
+</m:math>
+
+<m:math display="block">
+ <m:semantics>
+  <m:mrow>
+   <m:mtable>
+    <m:mtr>
+     <m:mtd>
+      <m:mrow>
+       <m:mo mathcolor="green">−</m:mo><m:mn mathcolor="green">4</m:mn><m:mi mathcolor="green">a</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:mo mathcolor="green">−</m:mo><m:mi mathcolor="green">a</m:mi>
+      </m:mrow>
+     </m:mtd>
+     <m:mtd>
+      <m:mo>=</m:mo>
+     </m:mtd>
+     <m:mtd>
+      <m:mrow>
+       <m:mn mathcolor="green">3</m:mn><m:mo>+</m:mo><m:mn>5</m:mn><m:mi>a</m:mi><m:mo mathcolor="green">−</m:mo><m:mn mathcolor="green">2</m:mn>
+      </m:mrow>
+     </m:mtd>
+     <m:mtd>
+      <m:mrow>
+<m:mtext mathvariant="italic">Add same side like terms first.</m:mtext>
+</m:mrow>
+     </m:mtd>
+    </m:mtr>
+    <m:mtr>
+     <m:mtd>
+      <m:mrow>
+       <m:mo>−</m:mo><m:mn>5</m:mn><m:mi>a</m:mi><m:mo>+</m:mo><m:mn>2</m:mn>
+      </m:mrow>
+     </m:mtd>
+     <m:mtd>
+      <m:mo>=</m:mo>
+     </m:mtd>
+     <m:mtd>
+      <m:mrow>
+       <m:mn>5</m:mn><m:mi>a</m:mi><m:mo>+</m:mo><m:mn>1</m:mn>
+      </m:mrow>
+     </m:mtd>
+     <m:mtd columnalign="left">
+      <m:mrow>
+ 
+      </m:mrow>
+     </m:mtd>
+    </m:mtr>
+    <m:mtr>
+     <m:mtd>
+      <m:mrow>
+       <m:mo>−</m:mo><m:mn>5</m:mn><m:mi>a</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:mo mathcolor="#3366ff">−</m:mo><m:mn mathcolor="#3366ff">5</m:mn><m:mi mathcolor="#3366ff">a</m:mi>
+      </m:mrow>
+     </m:mtd>
+     <m:mtd>
+      <m:mo>=</m:mo>
+     </m:mtd>
+     <m:mtd>
+      <m:mrow>
+       <m:mn>5</m:mn><m:mi>a</m:mi><m:mo>+</m:mo><m:mn>1</m:mn><m:mo mathcolor="#3366ff">−</m:mo><m:mn mathcolor="#3366ff">5</m:mn><m:mi mathcolor="#3366ff">a</m:mi>
+      </m:mrow>
+     </m:mtd>
+     <m:mtd columnalign="left">
+      <m:mrow>
+       <m:mtext mathvariant="italic">Subtract 5a from both sides</m:mtext><m:mtext>.</m:mtext>
+      </m:mrow>
+     </m:mtd>
+    </m:mtr>
+    <m:mtr>
+     <m:mtd>
+      <m:mrow>
+       <m:mo>−</m:mo><m:mn>10</m:mn><m:mi>a</m:mi><m:mo>+</m:mo><m:mn>2</m:mn>
+      </m:mrow>
+     </m:mtd>
+     <m:mtd>
+      <m:mo>=</m:mo>
+     </m:mtd>
+     <m:mtd>
+      <m:mn>1</m:mn>
+     </m:mtd>
+     <m:mtd>
+      <m:mrow/>
+     </m:mtd>
+    </m:mtr>
+    <m:mtr>
+     <m:mtd>
+      <m:mrow>
+       <m:mo>−</m:mo><m:mn>10</m:mn><m:mi>a</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:mo mathcolor="#3366ff">−</m:mo><m:mn mathcolor="#3366ff">2</m:mn>
+      </m:mrow>
+     </m:mtd>
+     <m:mtd>
+      <m:mo>=</m:mo>
+     </m:mtd>
+     <m:mtd>
+      <m:mrow>
+       <m:mn>1</m:mn><m:mo mathcolor="#3366ff">−</m:mo><m:mn mathcolor="#3366ff">2</m:mn>
+      </m:mrow>
+     </m:mtd>
+     <m:mtd columnalign="left">
+      <m:mrow>
+       <m:mtext mathvariant="italic">Subtract 2 from both sides</m:mtext><m:mtext>.</m:mtext>
+      </m:mrow>
+     </m:mtd>
+    </m:mtr>
+    <m:mtr>
+     <m:mtd>
+      <m:mrow>
+       <m:mo>−</m:mo><m:mn>10</m:mn><m:mi>a</m:mi>
+      </m:mrow>
+     </m:mtd>
+     <m:mtd>
+      <m:mo>=</m:mo>
+     </m:mtd>
+     <m:mtd>
+      <m:mrow>
+       <m:mo>−</m:mo><m:mn>1</m:mn>
+      </m:mrow>
+     </m:mtd>
+     <m:mtd>
+      <m:mrow/>
+     </m:mtd>
+    </m:mtr>
+    <m:mtr>
+     <m:mtd>
+      <m:mrow>
+       <m:mfrac>
+        <m:mrow>
+         <m:mo>−</m:mo><m:mn>10</m:mn><m:mi>a</m:mi>
+        </m:mrow>
+        <m:mrow>
+         <m:mo mathcolor="#3366ff">−</m:mo><m:mn mathcolor="#3366ff">10</m:mn>
+        </m:mrow>
+       </m:mfrac>
+       
+      </m:mrow>
+     </m:mtd>
+     <m:mtd>
+      <m:mo>=</m:mo>
+     </m:mtd>
+     <m:mtd>
+      <m:mrow>
+       <m:mfrac>
+        <m:mrow>
+         <m:mo>−</m:mo><m:mn>1</m:mn>
+        </m:mrow>
+        <m:mrow>
+         <m:mo mathcolor="#3366ff">−</m:mo><m:mn mathcolor="#3366ff">10</m:mn>
+        </m:mrow>
+       </m:mfrac>
+       
+      </m:mrow>
+     </m:mtd>
+     <m:mtd columnalign="left">
+      <m:mrow>
+       <m:mtext mathvariant="italic">Divide both sides by -10</m:mtext><m:mtext>.</m:mtext>
+      </m:mrow>
+     </m:mtd>
+    </m:mtr>
+    <m:mtr>
+     <m:mtd>
+      <m:mi>a</m:mi>
+     </m:mtd>
+     <m:mtd>
+      <m:mo>=</m:mo>
+     </m:mtd>
+     <m:mtd>
+      <m:mrow>
+       <m:mfrac>
+        <m:mn>1</m:mn>
+        <m:mrow>
+         <m:mn>10</m:mn>
+        </m:mrow>
+       </m:mfrac>
+       
+      </m:mrow>
+     </m:mtd>
+     <m:mtd>
+      <m:mrow/>
+     </m:mtd>
+    </m:mtr>
+    
+   </m:mtable>
+  </m:mrow>
+ </m:semantics>
+</m:math>
+
+
+The solution set is 
+<m:math display="inline">
+ <m:semantics>
+  <m:mrow>
+   <m:mrow><m:mo>{</m:mo> <m:mrow>
+    <m:mfrac>
+     <m:mn>1</m:mn>
+     <m:mrow>
+      <m:mn>10</m:mn>
+     </m:mrow>
+    </m:mfrac>
+    
+   </m:mrow> <m:mo>}</m:mo></m:mrow>
+  </m:mrow>
+
+ </m:semantics>
+</m:math>
+
+</para>
+</example></section><section id="element-658"><title>Simplifying Expressions First</title>
+<para id="element-946">When solving linear equations the goal is to determine what value, if any, will solve the equation. A general guideline is to use the order of operations to simplify the expressions on both sides first.
+</para><example id="element-1"><para id="element-937">Solve for x:
+<m:math display="inline">
+ <m:semantics>
+  <m:mrow>
+   <m:mn>5</m:mn><m:mo stretchy="false">(</m:mo><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:mo stretchy="false">)</m:mo><m:mo>−</m:mo><m:mn>2</m:mn><m:mo>=</m:mo><m:mo>−</m:mo><m:mn>2</m:mn><m:mo stretchy="false">(</m:mo><m:mn>1</m:mn><m:mo>−</m:mo><m:mn>7</m:mn><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo>
+  </m:mrow>
+ </m:semantics>
+</m:math>
+
+<m:math display="block">
+ <m:semantics>
+  <m:mrow>
+   <m:mtable>
+    <m:mtr>
+     <m:mtd>
+      <m:mrow>
+       <m:mn>5</m:mn><m:mo stretchy="false">(</m:mo><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:mo stretchy="false">)</m:mo><m:mo>−</m:mo><m:mn>2</m:mn>
+      </m:mrow>
+     </m:mtd>
+     <m:mtd>
+      <m:mo>=</m:mo>
+     </m:mtd>
+     <m:mtd>
+      <m:mrow>
+       <m:mo>−</m:mo><m:mn>2</m:mn><m:mo stretchy="false">(</m:mo><m:mn>1</m:mn><m:mo>−</m:mo><m:mn>7</m:mn><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo>
+      </m:mrow>
+     </m:mtd>
+     <m:mtd columnalign="left">
+      <m:mrow>
+       <m:mtext mathvariant="italic">Distribute</m:mtext><m:mtext>.</m:mtext>
+      </m:mrow>
+     </m:mtd>
+    </m:mtr>
+    <m:mtr>
+     <m:mtd>
+      <m:mrow>
+       <m:mn>15</m:mn><m:mi>x</m:mi><m:mo mathcolor="green">+</m:mo><m:mn mathcolor="green">10</m:mn><m:mo mathcolor="green">−</m:mo><m:mn mathcolor="green">2</m:mn>
+      </m:mrow>
+     </m:mtd>
+     <m:mtd>
+      <m:mo>=</m:mo>
+     </m:mtd>
+     <m:mtd>
+      <m:mrow>
+       <m:mo>−</m:mo><m:mn>2</m:mn><m:mo>+</m:mo><m:mn>14</m:mn><m:mi>x</m:mi>
+      </m:mrow>
+     </m:mtd>
+     <m:mtd columnalign="left">
+      <m:mrow>
+       <m:mtext mathvariant="italic">Add same side like terms.</m:mtext>
+      </m:mrow>
+     </m:mtd>
+    </m:mtr>
+    <m:mtr>
+     <m:mtd>
+      <m:mrow>
+       <m:mn>15</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>8</m:mn>
+      </m:mrow>
+     </m:mtd>
+     <m:mtd>
+      <m:mo>=</m:mo>
+     </m:mtd>
+     <m:mtd>
+      <m:mrow>
+       <m:mo>−</m:mo><m:mn>2</m:mn><m:mo>+</m:mo><m:mn>14</m:mn><m:mi>x</m:mi>
+      </m:mrow>
+     </m:mtd>
+     <m:mtd>
+      <m:mrow/>
+     </m:mtd>
+    </m:mtr>
+    <m:mtr>
+     <m:mtd>
+      <m:mrow>
+       <m:mn>15</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>8</m:mn><m:mo mathcolor="#3366ff">−</m:mo><m:mn mathcolor="#3366ff">14</m:mn><m:mi mathcolor="#3366ff">x</m:mi>
+      </m:mrow>
+     </m:mtd>
+     <m:mtd>
+      <m:mo>=</m:mo>
+     </m:mtd>
+     <m:mtd>
+      <m:mrow>
+       <m:mo>−</m:mo><m:mn>2</m:mn><m:mo>+</m:mo><m:mn>14</m:mn><m:mi>x</m:mi><m:mo mathcolor="#3366ff">−</m:mo><m:mn mathcolor="#3366ff">14</m:mn><m:mi mathcolor="#3366ff">x</m:mi>
+      </m:mrow>
+     </m:mtd>
+     <m:mtd columnalign="left">
+      <m:mrow>
+       <m:mtext mathvariant="italic">Subtract 14x on both sides.</m:mtext>
+      </m:mrow>
+     </m:mtd>
+    </m:mtr>
+    <m:mtr>
+     <m:mtd>
+      <m:mrow>
+       <m:mi>x</m:mi><m:mo>+</m:mo><m:mn>8</m:mn>
+      </m:mrow>
+     </m:mtd>
+     <m:mtd>
+      <m:mo>=</m:mo>
+     </m:mtd>
+     <m:mtd>
+      <m:mrow>
+       <m:mo>−</m:mo><m:mn>2</m:mn>
+      </m:mrow>
+     </m:mtd>
+     <m:mtd>
+      <m:mrow/>
+     </m:mtd>
+    </m:mtr>
+    <m:mtr>
+     <m:mtd>
+      <m:mrow>
+       <m:mi>x</m:mi><m:mo>+</m:mo><m:mn>8</m:mn><m:mo mathcolor="#3366ff">−</m:mo><m:mn mathcolor="#3366ff">8</m:mn>
+      </m:mrow>
+     </m:mtd>
+     <m:mtd>
+      <m:mo>=</m:mo>
+     </m:mtd>
+     <m:mtd>
+      <m:mrow>
+       <m:mo>−</m:mo><m:mn>2</m:mn><m:mo mathcolor="#3366ff">−</m:mo><m:mn mathcolor="#3366ff">8</m:mn>
+      </m:mrow>
+     </m:mtd>
+     <m:mtd columnalign="left">
+      <m:mrow>
+       <m:mtext mathvariant="italic">Subtract 8 on both sides.</m:mtext>
+      </m:mrow>
+     </m:mtd>
+    </m:mtr>
+    <m:mtr>
+     <m:mtd>
+      <m:mi>x</m:mi>
+     </m:mtd>
+     <m:mtd>
+      <m:mo>=</m:mo>
+     </m:mtd>
+     <m:mtd>
+      <m:mrow>
+       <m:mo>−</m:mo><m:mn>10</m:mn>
+      </m:mrow>
+     </m:mtd>
+     <m:mtd>
+      <m:mrow/>
+     </m:mtd>
+    </m:mtr>
+    
+   </m:mtable>
+  </m:mrow>
+ </m:semantics>
+</m:math>
+
+The solution set is 
+<m:math display="inline">
+ <m:semantics>
+  <m:mrow>
+   <m:mrow><m:mo>{</m:mo> <m:mrow>
+    <m:mo>−</m:mo><m:mn>10</m:mn>
+   </m:mrow> <m:mo>}</m:mo></m:mrow>
+  </m:mrow>
+
+ </m:semantics>
+</m:math>.
+
+
+</para>
+</example><para id="element-737"><figure id="vid02"><media id="idm5195680" alt=""><flash src="videoEx02.swf" mime-type="application/x-shockwave-flash" height="490" width="650"/></media><caption>Video Example 02</caption></figure></para></section></section>
+
+<section id="element-952"><title>Conditional Equations, Identities, and Contradictions</title>
+<para id="element-594">There are three different kinds of equations defined as follows.
+
+<definition id="condeq"><term>Conditional Equation</term>
+  <meaning id="idp9371184">A conditional equation is true for particular values of the variable.</meaning>
+</definition>
+
+<definition id="identity"><term>Identity</term>
+  <meaning id="idp1772080">An identity is an equation that is true for all possible values of the variable. For example, x = x has a solution set consisting of all real numbers, 
+<m:math display="inline">
+ <m:semantics>
+  <m:mi>ℜ</m:mi>
+ </m:semantics>
+</m:math>.
+
+
+</meaning>
+</definition>
+
+<definition id="contradiction"><term>Contradiction</term>
+  <meaning id="idp2244768">A contradiction is an equation that is never true and thus has no solutions. For example, x + 1 = x has no solution. No solution can be expressed as the empty set 
+<m:math display="inline">
+ <m:semantics>
+  <m:mrow>
+   <m:mrow><m:mo>{</m:mo> <m:mrow>
+    <m:mtext>  </m:mtext>
+   </m:mrow> <m:mo>}</m:mo></m:mrow><m:mo>=</m:mo><m:mo>∅</m:mo>
+  </m:mrow>
+ </m:semantics>
+</m:math>
+. 
+
+</meaning>
+</definition>
+</para><para id="element-885">So far we have seen only conditional linear equations which had one value in the solution set.  If when solving an equation and the end result is an identity, like say 0 = 0, then any value will solve the equation.  If when solving an equation the end result is a contradiction, like say 0 = 1, then there is no solution.</para><example id="element-949"><para id="element-923">Solve for x:  
+<m:math display="inline">
+ <m:semantics>
+  <m:mrow>
+   <m:mn>4</m:mn><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>5</m:mn><m:mo stretchy="false">)</m:mo><m:mo>+</m:mo><m:mn>6</m:mn><m:mo>=</m:mo><m:mn>2</m:mn><m:mo stretchy="false">(</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn><m:mo stretchy="false">)</m:mo>
+  </m:mrow>
+ </m:semantics>
+</m:math>
+
+<m:math display="block">
+ <m:semantics>
+  <m:mrow>
+   <m:mtable>
+    <m:mtr>
+     <m:mtd>
+      <m:mrow>
+       <m:mn>4</m:mn><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>5</m:mn><m:mo stretchy="false">)</m:mo><m:mo>+</m:mo><m:mn>6</m:mn>
+      </m:mrow>
+     </m:mtd>
+     <m:mtd>
+      <m:mo>=</m:mo>
+     </m:mtd>
+     <m:mtd>
+      <m:mrow>
+       <m:mn>2</m:mn><m:mo stretchy="false">(</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn><m:mo stretchy="false">)</m:mo>
+      </m:mrow>
+     </m:mtd>
+     <m:mtd columnalign="left">
+      <m:mrow>
+       <m:mtext mathvariant="italic">Distribute</m:mtext>
+      </m:mrow>
+     </m:mtd>
+    </m:mtr>
+    <m:mtr>
+     <m:mtd>
+      <m:mrow>
+       <m:mn>4</m:mn><m:mi>x</m:mi><m:mo mathcolor="green">+</m:mo><m:mn mathcolor="green">20</m:mn><m:mo mathcolor="green">+</m:mo><m:mn mathcolor="green">6</m:mn>
+      </m:mrow>
+     </m:mtd>
+     <m:mtd>
+      <m:mo>=</m:mo>
+     </m:mtd>
+     <m:mtd>
+      <m:mrow>
+       <m:mn>4</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>6</m:mn>
+      </m:mrow>
+     </m:mtd>
+     <m:mtd columnalign="left">
+      <m:mrow>
+       <m:mtext mathvariant="italic">Add same side like terms</m:mtext><m:mtext>.</m:mtext>
+      </m:mrow>
+     </m:mtd>
+    </m:mtr>
+    <m:mtr>
+     <m:mtd>
+      <m:mrow>
+       <m:mn>4</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>26</m:mn>
+      </m:mrow>
+     </m:mtd>
+     <m:mtd>
+      <m:mo>=</m:mo>
+     </m:mtd>
+     <m:mtd>
+      <m:mrow>
+       <m:mn>4</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>6</m:mn>
+      </m:mrow>
+     </m:mtd>
+     <m:mtd>
+      <m:mrow/>
+     </m:mtd>
+    </m:mtr>
+    <m:mtr>
+     <m:mtd>
+      <m:mrow>
+       <m:mn>4</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>26</m:mn><m:mo mathcolor="#3366ff">−</m:mo><m:mn mathcolor="#3366ff">4</m:mn><m:mi mathcolor="#3366ff">x</m:mi>
+      </m:mrow>
+     </m:mtd>
+     <m:mtd>
+      <m:mo>=</m:mo>
+     </m:mtd>
+     <m:mtd>
+      <m:mrow>
+       <m:mn>4</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>6</m:mn><m:mo mathcolor="#3366ff">−</m:mo><m:mn mathcolor="#3366ff">4</m:mn><m:mi mathcolor="#3366ff">x</m:mi>
+      </m:mrow>
+     </m:mtd>
+     <m:mtd columnalign="left">
+      <m:mrow>
+       <m:mtext mathvariant="italic">Subtract 4x on both sides.</m:mtext>
+      </m:mrow>
+     </m:mtd>
+    </m:mtr>
+    <m:mtr>
+     <m:mtd>
+      <m:mrow>
+       <m:mn>26</m:mn>
+      </m:mrow>
+     </m:mtd>
+     <m:mtd>
+      <m:mo>=</m:mo>
+     </m:mtd>
+     <m:mtd>
+      <m:mn>6</m:mn>
+     </m:mtd>
+     <m:mtd columnalign="left">
+      <m:mrow>
+       <m:mtext mathvariant="italic">False</m:mtext>
+      </m:mrow>
+     </m:mtd>
+    </m:mtr>
+    
+   </m:mtable>
+  </m:mrow>
+ </m:semantics>
+</m:math>
+
+There is no solution, 
+<m:math display="inline">
+ <m:semantics>
+  <m:mo>∅</m:mo>
+ </m:semantics>
+</m:math>
+.
+</para>
+</example><example id="element-325"><para id="element-69">Solve for y: 
+<m:math display="inline">
+ <m:semantics>
+  <m:mrow>
+   <m:mn>3</m:mn><m:mo stretchy="false">(</m:mo><m:mn>3</m:mn><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>5</m:mn><m:mo stretchy="false">)</m:mo><m:mo>+</m:mo><m:mn>5</m:mn><m:mo>=</m:mo><m:mn>10</m:mn><m:mo stretchy="false">(</m:mo><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:mo stretchy="false">)</m:mo><m:mo>−</m:mo><m:mi>y</m:mi>
+  </m:mrow>
+ </m:semantics>
+</m:math>
+
+<m:math display="block">
+ <m:semantics>
+  <m:mrow>
+   <m:mtable>
+    <m:mtr>
+     <m:mtd>
+      <m:mrow>
+       <m:mn>3</m:mn><m:mo stretchy="false">(</m:mo><m:mn>3</m:mn><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>5</m:mn><m:mo stretchy="false">)</m:mo><m:mo>+</m:mo><m:mn>5</m:mn>
+      </m:mrow>
+     </m:mtd>
+     <m:mtd>
+      <m:mo>=</m:mo>
+     </m:mtd>
+     <m:mtd>
+      <m:mrow>
+       <m:mn>10</m:mn><m:mo stretchy="false">(</m:mo><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:mo stretchy="false">)</m:mo><m:mo>−</m:mo><m:mi>y</m:mi>
+      </m:mrow>
+     </m:mtd>
+     <m:mtd columnalign="left">
+      <m:mrow>
+       <m:mtext mathvariant="italic">Distribute</m:mtext>
+      </m:mrow>
+     </m:mtd>
+    </m:mtr>
+    <m:mtr>
+     <m:mtd>
+      <m:mrow>
+       <m:mn>9</m:mn><m:mi>y</m:mi><m:mo mathcolor="green">+</m:mo><m:mn mathcolor="green">15</m:mn><m:mo mathcolor="green">+</m:mo><m:mn mathcolor="green">5</m:mn>
+      </m:mrow>
+     </m:mtd>
+     <m:mtd>
+      <m:mo>=</m:mo>
+     </m:mtd>
+     <m:mtd>
+      <m:mrow>
+       <m:mn mathcolor="green">10</m:mn><m:mi mathcolor="green">y</m:mi><m:mo>+</m:mo><m:mn>20</m:mn><m:mo mathcolor="green">−</m:mo><m:mi mathcolor="green">y</m:mi>
+      </m:mrow>
+     </m:mtd>
+     <m:mtd columnalign="left">
+      <m:mrow>
+       <m:mtext mathvariant="italic">Add same side like terms</m:mtext><m:mtext>.</m:mtext>
+      </m:mrow>
+     </m:mtd>
+    </m:mtr>
+    <m:mtr>
+     <m:mtd>
+      <m:mrow>
+       <m:mn>9</m:mn><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>20</m:mn>
+      </m:mrow>
+     </m:mtd>
+     <m:mtd>
+      <m:mo>=</m:mo>
+     </m:mtd>
+     <m:mtd>
+      <m:mrow>
+       <m:mn>9</m:mn><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>20</m:mn>
+      </m:mrow>
+     </m:mtd>
+     <m:mtd>
+      <m:mrow/>
+     </m:mtd>
+    </m:mtr>
+    <m:mtr>
+     <m:mtd>
+      <m:mrow>
+       <m:mn>9</m:mn><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>20</m:mn><m:mo mathcolor="#3366ff">−</m:mo><m:mn mathcolor="#3366ff">20</m:mn>
+      </m:mrow>
+     </m:mtd>
+     <m:mtd>
+      <m:mo>=</m:mo>
+     </m:mtd>
+     <m:mtd>
+      <m:mrow>
+       <m:mn>9</m:mn><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>20</m:mn><m:mo mathcolor="#3366ff">−</m:mo><m:mn mathcolor="#3366ff">20</m:mn>
+      </m:mrow>
+     </m:mtd>
+     <m:mtd columnalign="left">
+      <m:mrow>
+       <m:mtext mathvariant="italic">Subtract 20 on both sides</m:mtext><m:mtext>.</m:mtext>
+      </m:mrow>
+     </m:mtd>
+    </m:mtr>
+    <m:mtr>
+     <m:mtd>
+      <m:mrow>
+       <m:mn>9</m:mn><m:mi>y</m:mi>
+      </m:mrow>
+     </m:mtd>
+     <m:mtd>
+      <m:mo>=</m:mo>
+     </m:mtd>
+     <m:mtd>
+      <m:mrow>
+       <m:mn>9</m:mn><m:mi>y</m:mi>
+      </m:mrow>
+     </m:mtd>
+     <m:mtd>
+      <m:mrow/>
+     </m:mtd>
+    </m:mtr>
+    <m:mtr>
+     <m:mtd>
+      <m:mrow>
+       <m:mn>9</m:mn><m:mi>y</m:mi><m:mo mathcolor="#3366ff">−</m:mo><m:mn mathcolor="#3366ff">9</m:mn><m:mi mathcolor="#3366ff">y</m:mi>
+      </m:mrow>
+     </m:mtd>
+     <m:mtd>
+      <m:mo>=</m:mo>
+     </m:mtd>
+     <m:mtd>
+      <m:mrow>
+       <m:mn>9</m:mn><m:mi>y</m:mi><m:mo mathcolor="#3366ff">−</m:mo><m:mn mathcolor="#3366ff">9</m:mn><m:mi mathcolor="#3366ff">y</m:mi>
+      </m:mrow>
+     </m:mtd>
+     <m:mtd columnalign="left">
+      <m:mrow>
+       <m:mtext mathvariant="italic">Subtract 9y on both sides</m:mtext><m:mtext>.</m:mtext>
+      </m:mrow>
+     </m:mtd>
+    </m:mtr>
+    <m:mtr>
+     <m:mtd>
+      <m:mn>0</m:mn>
+     </m:mtd>
+     <m:mtd>
+      <m:mo>=</m:mo>
+     </m:mtd>
+     <m:mtd>
+      <m:mn>0</m:mn>
+     </m:mtd>
+     <m:mtd columnalign="left">
+      <m:mrow>
+       <m:mtext mathvariant="italic">True</m:mtext>
+      </m:mrow>
+     </m:mtd>
+    </m:mtr>
+    
+    
+   </m:mtable>
+  </m:mrow>
+ </m:semantics>
+</m:math>
+
+The equation is an identity, the solution set consists of all real numbers, 
+<m:math display="inline">
+ <m:semantics>
+  <m:mi>ℜ</m:mi>
+
+ </m:semantics>
+</m:math>.
+</para>
+</example></section><section id="element-515"><title>Linear Literal Equations</title>
+<para id="element-711">Literal equations, or formulas, usually have more than one variable.  Since the letters are placeholders for values, the steps for solving them are the same.  Use the properties of equality to isolate the indicated variable.
+</para><example id="element-622"><para id="element-788">Solve for a: 
+<m:math display="inline">
+ <m:semantics>
+  <m:mrow>
+   <m:mi>P</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:mi>a</m:mi><m:mo>+</m:mo><m:mi>b</m:mi>
+  </m:mrow>
+ </m:semantics>
+</m:math>
+
+<m:math display="block">
+ <m:semantics>
+  <m:mrow>
+   <m:mtable>
+    <m:mtr>
+     <m:mtd>
+      <m:mi>P</m:mi>
+     </m:mtd>
+     <m:mtd>
+      <m:mo>=</m:mo>
+     </m:mtd>
+     <m:mtd>
+      <m:mrow>
+       <m:mn>2</m:mn><m:mi>a</m:mi><m:mo>+</m:mo><m:mi>b</m:mi>
+      </m:mrow>
+     </m:mtd>
+     <m:mtd>
+      <m:mrow/>
+     </m:mtd>
+    </m:mtr>
+    <m:mtr>
+     <m:mtd>
+      <m:mrow>
+       <m:mi>P</m:mi><m:mo mathcolor="#3366ff">−</m:mo><m:mi mathcolor="#3366ff">b</m:mi>
+      </m:mrow>
+     </m:mtd>
+     <m:mtd>
+      <m:mo>=</m:mo>
+     </m:mtd>
+     <m:mtd>
+      <m:mrow>
+       <m:mn>2</m:mn><m:mi>a</m:mi><m:mo>+</m:mo><m:mi>b</m:mi><m:mo mathcolor="#3366ff">−</m:mo><m:mi mathcolor="#3366ff">b</m:mi>
+      </m:mrow>
+     </m:mtd>
+     <m:mtd columnalign="left">
+      <m:mrow>
+       <m:mtext mathvariant="italic">Subtract b on both sides.</m:mtext>
+      </m:mrow>
+     </m:mtd>
+    </m:mtr>
+    <m:mtr>
+     <m:mtd>
+      <m:mrow>
+       <m:mi>P</m:mi><m:mo>−</m:mo><m:mi>b</m:mi>
+      </m:mrow>
+     </m:mtd>
+     <m:mtd>
+      <m:mo>=</m:mo>
+     </m:mtd>
+     <m:mtd>
+      <m:mrow>
+       <m:mn>2</m:mn><m:mi>a</m:mi>
+      </m:mrow>
+     </m:mtd>
+     <m:mtd>
+      <m:mrow/>
+     </m:mtd>
+    </m:mtr>
+    <m:mtr>
+     <m:mtd>
+      <m:mrow>
+       <m:mfrac>
+        <m:mrow>
+         <m:mi>P</m:mi><m:mo>−</m:mo><m:mi>b</m:mi>
+        </m:mrow>
+        <m:mn mathcolor="#3366ff">2</m:mn>
+       </m:mfrac>
+       
+      </m:mrow>
+     </m:mtd>
+     <m:mtd>
+      <m:mo>=</m:mo>
+     </m:mtd>
+     <m:mtd>
+      <m:mrow>
+       <m:mfrac>
+        <m:mrow>
+         <m:mn>2</m:mn><m:mi>a</m:mi>
+        </m:mrow>
+        <m:mn mathcolor="#3366ff">2</m:mn>
+       </m:mfrac>
+       
+      </m:mrow>
+     </m:mtd>
+     <m:mtd columnalign="left">
+      <m:mrow>
+       <m:mtext mathvariant="italic">Divide both sides by 2.</m:mtext>
+      </m:mrow>
+     </m:mtd>
+    </m:mtr>
+    <m:mtr>
+     <m:mtd>
+      <m:mrow>
+       <m:mfrac>
+        <m:mrow>
+         <m:mi>P</m:mi><m:mo>−</m:mo><m:mi>b</m:mi>
+        </m:mrow>
+        <m:mn>2</m:mn>
+       </m:mfrac>
+       
+      </m:mrow>
+     </m:mtd>
+     <m:mtd>
+      <m:mo>=</m:mo>
+     </m:mtd>
+     <m:mtd>
+      <m:mi>a</m:mi>
+     </m:mtd>
+     <m:mtd>
+      <m:mrow/>
+     </m:mtd>
+    </m:mtr>
+    <m:mtr>
+     <m:mtd>
+      <m:mrow/>
+     </m:mtd>
+     <m:mtd>
+      <m:mrow/>
+     </m:mtd>
+     <m:mtd>
+      <m:mrow/>
+     </m:mtd>
+     <m:mtd>
+      <m:mrow/>
+     </m:mtd>
+    </m:mtr>
+    
+   </m:mtable>
+  </m:mrow>
+ </m:semantics>
+</m:math>
+Solution:  
+<m:math display="inline">
+ <m:semantics>
+  <m:mrow>
+   <m:mi>a</m:mi><m:mo>=</m:mo><m:mfrac>
+    <m:mrow>
+     <m:mi>P</m:mi><m:mo>−</m:mo><m:mi>b</m:mi>
+    </m:mrow>
+    <m:mn>2</m:mn>
+   </m:mfrac>
+   
+  </m:mrow>
+ </m:semantics>
+</m:math>
+</para>
+</example><example id="element-970"><para id="element-163">Solve for x:  
+<m:math display="inline">
+ <m:semantics>
+  <m:mrow>
+   <m:mi>z</m:mi><m:mo>=</m:mo><m:mfrac>
+    <m:mrow>
+     <m:mi>x</m:mi><m:mo>+</m:mo><m:mi>y</m:mi>
+    </m:mrow>
+    <m:mn>2</m:mn>
+   </m:mfrac>
+   
+  </m:mrow>
+ </m:semantics>
+</m:math>
+
+
+
+
+<m:math display="block">
+ <m:semantics>
+  <m:mrow>
+   <m:mtable>
+    <m:mtr>
+     <m:mtd>
+      <m:mi>z</m:mi>
+     </m:mtd>
+     <m:mtd>
+      <m:mo>=</m:mo>
+     </m:mtd>
+     <m:mtd>
+      <m:mrow>
+       <m:mfrac>
+        <m:mrow>
+         <m:mi>x</m:mi><m:mo>+</m:mo><m:mi>y</m:mi>
+        </m:mrow>
+        <m:mn>2</m:mn>
+       </m:mfrac>
+       
+      </m:mrow>
+     </m:mtd>
+     <m:mtd>
+      <m:mrow/>
+     </m:mtd>
+    </m:mtr>
+    <m:mtr>
+     <m:mtd>
+      <m:mrow>
+       <m:mn mathcolor="#3366ff">2</m:mn><m:mo mathcolor="#3366ff">⋅</m:mo><m:mi>z</m:mi>
+      </m:mrow>
+     </m:mtd>
+     <m:mtd>
+      <m:mo>=</m:mo>
+     </m:mtd>
+     <m:mtd>
+      <m:mrow>
+       <m:mn mathcolor="#3366ff">2</m:mn><m:mo mathcolor="#3366ff">⋅</m:mo><m:mfrac>
+        <m:mrow>
+         <m:mi>x</m:mi><m:mo>+</m:mo><m:mi>y</m:mi>
+        </m:mrow>
+        <m:mn>2</m:mn>
+       </m:mfrac>
+       
+      </m:mrow>
+     </m:mtd>
+     <m:mtd columnalign="left">
+      <m:mrow>
+       <m:mtext mathvariant="italic">Multiply both sides by 2</m:mtext><m:mtext>.</m:mtext>
+      </m:mrow>
+     </m:mtd>
+    </m:mtr>
+    <m:mtr>
+     <m:mtd>
+      <m:mrow>
+       <m:mn>2</m:mn><m:mi>z</m:mi>
+      </m:mrow>
+     </m:mtd>
+     <m:mtd>
+      <m:mo>=</m:mo>
+     </m:mtd>
+     <m:mtd>
+      <m:mrow>
+       <m:mi>x</m:mi><m:mo>+</m:mo><m:mi>y</m:mi>
+      </m:mrow>
+     </m:mtd>
+     <m:mtd>
+      <m:mrow/>
+     </m:mtd>
+    </m:mtr>
+    <m:mtr>
+     <m:mtd>
+      <m:mrow>
+       <m:mn>2</m:mn><m:mi>z</m:mi><m:mo mathcolor="#3366ff">−</m:mo><m:mi mathcolor="#3366ff">y</m:mi>
+      </m:mrow>
+     </m:mtd>
+     <m:mtd>
+      <m:mo>=</m:mo>
+     </m:mtd>
+     <m:mtd>
+      <m:mrow>
+       <m:mi>x</m:mi><m:mo>+</m:mo><m:mi>y</m:mi><m:mo mathcolor="#3366ff">−</m:mo><m:mi mathcolor="#3366ff">y</m:mi>
+      </m:mrow>
+     </m:mtd>
+     <m:mtd columnalign="left">
+      <m:mrow>
+       <m:mtext mathvariant="italic">Subtract y on both sides</m:mtext><m:mtext>.</m:mtext>
+      </m:mrow>
+     </m:mtd>
+    </m:mtr>
+    <m:mtr>
+     <m:mtd>
+      <m:mrow>
+       <m:mn>2</m:mn><m:mi>z</m:mi><m:mo>−</m:mo><m:mi>y</m:mi>
+      </m:mrow>
+     </m:mtd>
+     <m:mtd>
+      <m:mo>=</m:mo>
+     </m:mtd>
+     <m:mtd>
+      <m:mi>x</m:mi>
+     </m:mtd>
+     <m:mtd>
+      <m:mrow/>
+     </m:mtd>
+    </m:mtr>
+   
+    
+   </m:mtable>
+  </m:mrow>
+
+ </m:semantics>
+</m:math>
+
+Solution 
+<m:math display="inline">
+ <m:semantics>
+  <m:mrow>
+   <m:mi>x</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:mi>z</m:mi><m:mo>−</m:mo><m:mi>y</m:mi>
+  </m:mrow>
+
+ </m:semantics>
+</m:math>
+
+
+
+</para>
+</example></section><section id="element-258"><title>Exercises</title>
+<section id="element-611"><title>Checking Solutions</title>
+<para id="element-74">
+<exercise id="exer_01">
+  <problem id="idp539712">
+    <para id="prob_01"><m:math display="inline">
+ <m:semantics>
+  <m:mrow>
+   <m:mtext>Is </m:mtext><m:mi> x </m:mi><m:mo>=</m:mo><m:mn>7</m:mn><m:mtext> a solution to </m:mtext><m:mo>−</m:mo><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>5</m:mn><m:mo>=</m:mo><m:mo>−</m:mo><m:mn>16</m:mn><m:mtext>?</m:mtext>
+  </m:mrow>
+
+ </m:semantics>
+</m:math>
+
+    </para>
+  </problem>
+  <solution id="idp7713360">
+    <para id="sol_01">
+      Yes
+    </para>
+  </solution>
+</exercise>
+</para><exercise id="element-908"><problem id="idp7856976">
+  <para id="element-417">
+    <m:math display="inline">
+ <m:semantics>
+  <m:mrow>
+   <m:mtext>Is </m:mtext><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:mtext> a solution to </m:mtext><m:mo>−</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>7</m:mn><m:mo>=</m:mo><m:mn>28</m:mn><m:mtext>?</m:mtext>
+  </m:mrow>
+
+ </m:semantics>
+</m:math>
+
+  </para>
+</problem>
+
+<solution id="idp3995760">
+  <para id="element-556">
+    No
+  </para>
+</solution>
+</exercise><exercise id="element-495"><problem id="idp8895936">
+  <para id="element-699">
+    <m:math display="inline">
+ <m:semantics>
+  <m:mrow>
+   <m:mtext>Is </m:mtext><m:mi>x</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mn>3</m:mn><m:mtext> a solution to </m:mtext><m:mfrac>
+    <m:mn>1</m:mn>
+    <m:mn>3</m:mn>
+   </m:mfrac>
+   <m:mi>x</m:mi><m:mo>−</m:mo><m:mn>4</m:mn><m:mo>=</m:mo><m:mo>−</m:mo><m:mn>5</m:mn><m:mtext>?</m:mtext>
+  </m:mrow>
+ </m:semantics>
+</m:math>
+
+  </para>
+</problem>
+
+<solution id="idp4038352">
+  <para id="element-83">
+    Yes
+  </para>
+</solution>
+</exercise><exercise id="element-958"><problem id="idp5275584">
+  <para id="element-620">
+    <m:math display="inline">
+ <m:semantics>
+  <m:mrow>
+   <m:mtext>Is </m:mtext><m:mi>x</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mn>2</m:mn><m:mtext> a solution to </m:mtext><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>5</m:mn><m:mo>=</m:mo><m:mo>−</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>15</m:mn><m:mtext>?</m:mtext>
+  </m:mrow>
+ <m:annotation encoding="MathType-MTEF">
+ </m:annotation>
+ </m:semantics>
+</m:math>
+
+  </para>
+</problem>
+
+<solution id="idp8593776">
+  <para id="element-774">
+    Yes
+  </para>
+</solution>
+</exercise><exercise id="element-843"><problem id="idp7286368">
+  <para id="element-955">
+    <m:math display="inline">
+ <m:semantics>
+  <m:mrow>
+   <m:mtext>Is </m:mtext><m:mi>x</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mfrac>
+    <m:mn>1</m:mn>
+    <m:mn>2</m:mn>
+   </m:mfrac>
+   <m:mtext> a solution to </m:mtext><m:mn>3</m:mn><m:mo stretchy="false">(</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mo>−</m:mo><m:mn>4</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>3</m:mn><m:mtext>?</m:mtext>
+  </m:mrow>
+ </m:semantics>
+</m:math>
+
+  </para>
+</problem>
+
+<solution id="idm132672">
+  <para id="element-966">
+   No
+  </para>
+</solution>
+</exercise></section><section id="element-278"><title>Solving in One Step</title>
+<exercise id="element-16"><problem id="idp3686896">
+  <para id="element-735">
+    <m:math display="inline">
+ <m:semantics>
+  <m:mrow>
+   <m:mtext>Solve for x:  </m:mtext><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>5</m:mn><m:mo>=</m:mo><m:mo>−</m:mo><m:mn>8</m:mn>
+  </m:mrow>
+ <m:annotation encoding="MathType-MTEF">
+ </m:annotation>
+ </m:semantics>
+</m:math>
+
+  </para>
+</problem>
+
+<solution id="idp8511616">
+  <para id="element-941">
+    <m:math display="inline">
+ <m:semantics>
+  <m:mrow>
+   <m:mi>x</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mn>3</m:mn>
+  </m:mrow>
+
+ </m:semantics>
+</m:math>
+
+  </para>
+</solution>
+</exercise><exercise id="element-565"><problem id="idp9357888">
+  <para id="element-743">
+    <m:math display="inline">
+ <m:semantics>
+  <m:mrow>
+   <m:mtext>Solve for y:  </m:mtext><m:mo>−</m:mo><m:mn>4</m:mn><m:mo>+</m:mo><m:mi>y</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mn>9</m:mn>
+  </m:mrow>
+
+ </m:semantics>
+</m:math>
+
+  </para>
+</problem>
+
+<solution id="idp7883872">
+  <para id="element-724">
+    <m:math display="inline">
+ <m:semantics>
+  <m:mrow>
+   <m:mi>y</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mn>5</m:mn>
+  </m:mrow>
+
+ </m:semantics>
+</m:math>
+
+  </para>
+</solution>
+</exercise><exercise id="element-340"><problem id="idp8827104">
+  <para id="element-612">
+    <m:math display="inline">
+ <m:semantics>
+  <m:mrow>
+   <m:mtext>Solve for x:  </m:mtext><m:mi>x</m:mi><m:mo>−</m:mo><m:mfrac>
+    <m:mn>1</m:mn>
+    <m:mn>2</m:mn>
+   </m:mfrac>
+   <m:mo>=</m:mo><m:mfrac>
+    <m:mn>1</m:mn>
+    <m:mn>3</m:mn>
+   </m:mfrac>
+   
+  </m:mrow>
+
+ </m:semantics>
+</m:math>
+
+  </para>
+</problem>
+
+<solution id="idm124096">
+  <para id="element-853">
+    <m:math display="inline">
+ <m:semantics>
+  <m:mrow>
+   <m:mi>x</m:mi><m:mo>=</m:mo><m:mfrac>
+    <m:mn>5</m:mn>
+    <m:mn>6</m:mn>
+   </m:mfrac>
+   
+  </m:mrow>
+
+ </m:semantics>
+</m:math>
+
+  </para>
+</solution>
+</exercise><exercise id="element-175"><problem id="idp4009248">
+  <para id="element-415">
+    <m:math display="inline">
+ <m:semantics>
+  <m:mrow>
+   <m:mtext>Solve for x:  </m:mtext><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:mstyle scriptlevel="+1">
+    <m:mfrac>
+     <m:mn>1</m:mn>
+     <m:mn>2</m:mn>
+    </m:mfrac>
+   </m:mstyle>
+   <m:mo>=</m:mo><m:mn>3</m:mn><m:mstyle scriptlevel="+1">
+    <m:mfrac>
+     <m:mn>1</m:mn>
+     <m:mn>3</m:mn>
+    </m:mfrac>
+   </m:mstyle>
+   
+  </m:mrow>
+
+ </m:semantics>
+</m:math>
+
+  </para>
+</problem>
+
+<solution id="idp3723712">
+  <para id="element-210">
+    <m:math display="inline">
+ <m:semantics>
+  <m:mrow>
+   <m:mi>x</m:mi><m:mo>=</m:mo><m:mfrac>
+    <m:mn>5</m:mn>
+    <m:mn>6</m:mn>
+   </m:mfrac>
+   
+  </m:mrow>
+
+ </m:semantics>
+</m:math>
+
+  </para>
+</solution>
+</exercise><exercise id="element-820"><problem id="idp8626352">
+  <para id="element-536">
+    <m:math display="inline">
+ <m:semantics>
+  <m:mrow>
+   <m:mtext>Solve for x:  </m:mtext><m:mn>4</m:mn><m:mi>x</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mn>44</m:mn>
+  </m:mrow>
+ <m:annotation encoding="MathType-MTEF">
+ </m:annotation>
+ </m:semantics>
+</m:math>
+
+  </para>
+</problem>
+
+<solution id="idp7253344">
+  <para id="element-754"><m:math display="inline">
+ <m:semantics>
+  <m:mrow>
+   <m:mi>x</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mn>11</m:mn>
+  </m:mrow>
+ <m:annotation encoding="MathType-MTEF">
+ </m:annotation>
+ </m:semantics>
+</m:math>
+
+
+  </para>
+</solution>
+</exercise><exercise id="element-886"><problem id="idp7728688">
+  <para id="element-643">
+    <m:math display="inline">
+ <m:semantics>
+  <m:mrow>
+   <m:mtext>Solve for a: </m:mtext><m:mo>−</m:mo><m:mn>3</m:mn><m:mi>a</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mn>30</m:mn>
+  </m:mrow>
+ <m:annotation encoding="MathType-MTEF">
+ </m:annotation>
+ </m:semantics>
+</m:math>
+
+  </para>
+</problem>
+
+<solution id="idp10091120">
+  <para id="element-681"><m:math display="inline">
+ <m:semantics>
+  <m:mrow>
+   <m:mi>a</m:mi><m:mo>=</m:mo><m:mn>10</m:mn>
+  </m:mrow>
+ <m:annotation encoding="MathType-MTEF">
+ </m:annotation>
+ </m:semantics>
+</m:math>
+
+  </para>
+</solution>
+</exercise><exercise id="element-747"><problem id="idp9695504">
+  <para id="element-194"><m:math display="inline">
+ <m:semantics>
+  <m:mrow>
+   <m:mtext>Solve for y:  </m:mtext><m:mn>27</m:mn><m:mo>=</m:mo><m:mn>9</m:mn><m:mi>y</m:mi>
+  </m:mrow>
+ </m:semantics>
+</m:math>
+
+  </para>
+</problem>
+
+<solution id="idp9366144">
+  <para id="element-660"><m:math display="inline">
+ <m:semantics>
+  <m:mrow>
+   <m:mi>y</m:mi><m:mo>=</m:mo><m:mn>3</m:mn>
+  </m:mrow>
+
+ </m:semantics>
+</m:math>
+
+  </para>
+</solution>
+</exercise><exercise id="element-66"><problem id="idp3721648">
+  <para id="element-161">
+    <m:math display="inline">
+ <m:semantics>
+  <m:mrow>
+   <m:mtext>Solve for x:  </m:mtext><m:mfrac>
+    <m:mi>x</m:mi>
+    <m:mn>3</m:mn>
+   </m:mfrac>
+   <m:mo>=</m:mo><m:mo>−</m:mo><m:mfrac>
+    <m:mn>1</m:mn>
+    <m:mn>2</m:mn>
+   </m:mfrac>
+   
+  </m:mrow>
+ <m:annotation encoding="MathType-MTEF">
+ </m:annotation>
+ </m:semantics>
+</m:math>
+
+  </para>
+</problem>
+
+<solution id="idp10093376">
+  <para id="element-39">
+    <m:math display="inline">
+ <m:semantics>
+  <m:mrow>
+   <m:mi>x</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mfrac>
+    <m:mn>3</m:mn>
+    <m:mn>2</m:mn>
+   </m:mfrac>
+   
+  </m:mrow>
+ <m:annotation encoding="MathType-MTEF">
+ </m:annotation>
+ </m:semantics>
+</m:math>
+
+  </para>
+</solution>
+</exercise><exercise id="element-277"><problem id="idp8711472">
+  <para id="element-797">
+    <m:math display="inline">
+ <m:semantics>
+  <m:mrow>
+   <m:mtext>Solve for t:  </m:mtext><m:mo>−</m:mo><m:mfrac>
+    <m:mi>t</m:mi>
+    <m:mrow>
+     <m:mn>12</m:mn>
+    </m:mrow>
+   </m:mfrac>
+   <m:mo>=</m:mo><m:mfrac>
+    <m:mn>1</m:mn>
+    <m:mn>4</m:mn>
+   </m:mfrac>
+   
+  </m:mrow>
+
+ </m:semantics>
+</m:math>
+
+  </para>
+</problem>
+
+<solution id="idp7727696">
+  <para id="element-45"><m:math display="inline">
+ <m:semantics>
+  <m:mrow>
+   <m:mi>t</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mn>3</m:mn>
+  </m:mrow>
+ <m:annotation encoding="MathType-MTEF">
+ </m:annotation>
+ </m:semantics>
+</m:math>
+
+  </para>
+</solution>
+</exercise><exercise id="element-680"><problem id="idp8908080">
+  <para id="element-935">
+    <m:math display="inline">
+ <m:semantics>
+  <m:mrow>
+   <m:mtext>Solve for x:  </m:mtext><m:mfrac>
+    <m:mn>7</m:mn>
+    <m:mn>3</m:mn>
+   </m:mfrac>
+   <m:mi>x</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mfrac>
+    <m:mn>1</m:mn>
+    <m:mn>2</m:mn>
+   </m:mfrac>
+   
+  </m:mrow>
+ </m:semantics>
+</m:math>
+
+  </para>
+</problem>
+
+<solution id="idp3732576">
+  <para id="element-94">
+    <m:math display="inline">
+ <m:semantics>
+  <m:mrow>
+   <m:mi>x</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mfrac>
+    <m:mn>3</m:mn>
+    <m:mrow>
+     <m:mn>14</m:mn>
+    </m:mrow>
+   </m:mfrac>
+   
+  </m:mrow>
+
+ </m:semantics>
+</m:math>
+
+  </para>
+</solution>
+</exercise></section><section id="element-702"><title>Solve in Two Steps</title>
+<exercise id="element-648"><problem id="idp9365184">
+  <para id="element-249">
+    <m:math display="inline">
+ <m:semantics>
+  <m:mrow>
+   <m:mtext>Solve for a:  </m:mtext><m:mn>3</m:mn><m:mi>a</m:mi><m:mo>−</m:mo><m:mn>7</m:mn><m:mo>=</m:mo><m:mn>23</m:mn>
+  </m:mrow>
+ <m:annotation encoding="MathType-MTEF">
+ </m:annotation>
+ </m:semantics>
+</m:math>
+
+  </para>
+</problem>
+
+<solution id="idp8600816">
+  <para id="element-609">
+    <m:math display="inline">
+ <m:semantics>
+  <m:mrow>
+   <m:mi>a</m:mi><m:mo>=</m:mo><m:mn>10</m:mn>
+  </m:mrow>
+
+ </m:semantics>
+</m:math>
+
+  </para>
+</solution>
+</exercise><exercise id="element-524"><problem id="idp3912016">
+  <para id="element-900">
+    <m:math display="inline">
+ <m:semantics>
+  <m:mrow>
+   <m:mtext>Solve for y:  </m:mtext><m:mo>−</m:mo><m:mn>3</m:mn><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:mo>=</m:mo><m:mo>−</m:mo><m:mn>13</m:mn>
+  </m:mrow>
+
+ </m:semantics>
+</m:math>
+
+  </para>
+</problem>
+
+<solution id="idp4009568">
+  <para id="element-629">
+    <m:math display="inline">
+ <m:semantics>
+  <m:mrow>
+   <m:mi>y</m:mi><m:mo>=</m:mo><m:mn>5</m:mn>
+  </m:mrow>
+ </m:semantics>
+</m:math>
+
+  </para>
+</solution>
+</exercise><exercise id="element-110"><problem id="idp8501280">
+  <para id="element-439"><m:math display="inline">
+ <m:semantics>
+  <m:mrow>
+   <m:mtext>Solve for x:  </m:mtext><m:mo>−</m:mo><m:mn>5</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>8</m:mn><m:mo>=</m:mo><m:mn>8</m:mn>
+  </m:mrow>
+
+ </m:semantics>
+</m:math>
+
+  </para>
+</problem>
+
+<solution id="idp4769840">
+  <para id="element-799">
+    <m:math display="inline">
+ <m:semantics>
+  <m:mrow>
+   <m:mi>x</m:mi><m:mo>=</m:mo><m:mn>0</m:mn>
+  </m:mrow>
+ </m:semantics>
+</m:math>
+
+  </para>
+</solution>
+</exercise><exercise id="element-566"><problem id="idp7245840">
+  <para id="element-676">
+    <m:math display="inline">
+ <m:semantics>
+  <m:mrow>
+   <m:mtext>Solve for x:  </m:mtext><m:mfrac>
+    <m:mn>1</m:mn>
+    <m:mn>2</m:mn>
+   </m:mfrac>
+   <m:mi>x</m:mi><m:mo>+</m:mo><m:mfrac>
+    <m:mn>1</m:mn>
+    <m:mn>3</m:mn>
+   </m:mfrac>
+   <m:mo>=</m:mo><m:mfrac>
+    <m:mn>2</m:mn>
+    <m:mn>5</m:mn>
+   </m:mfrac>
+   
+  </m:mrow>
+
+ </m:semantics>
+</m:math>
+
+  </para>
+</problem>
+
+<solution id="idp8715760">
+  <para id="element-298">
+    <m:math display="inline">
+ <m:semantics>
+  <m:mrow>
+   <m:mi>x</m:mi><m:mo>=</m:mo><m:mfrac>
+    <m:mn>2</m:mn>
+    <m:mrow>
+     <m:mn>15</m:mn>
+    </m:mrow>
+   </m:mfrac>
+   
+  </m:mrow>
+ </m:semantics>
+</m:math>
+
+  </para>
+</solution>
+</exercise><exercise id="element-464"><problem id="idp92720">
+  <para id="element-293">
+    <m:math display="inline">
+ <m:semantics>
+  <m:mrow>
+   <m:mtext>Solve for y:  </m:mtext><m:mn>3</m:mn><m:mo>−</m:mo><m:mn>2</m:mn><m:mi>y</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mn>11</m:mn>
+  </m:mrow>
+
+ </m:semantics>
+</m:math>
+
+  </para>
+</problem>
+
+<solution id="idp6806368">
+  <para id="element-909"><m:math display="inline">
+ <m:semantics>
+  <m:mrow>
+   <m:mi>y</m:mi><m:mo>=</m:mo><m:mn>7</m:mn>
+  </m:mrow>
+ </m:semantics>
+</m:math>
+
+  </para>
+</solution>
+</exercise><exercise id="element-534"><problem id="idp1744608">
+  <para id="element-715">
+    <m:math display="inline">
+ <m:semantics>
+  <m:mrow>
+   <m:mtext>Solve for x:  </m:mtext><m:mo>−</m:mo><m:mn>10</m:mn><m:mo>=</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>5</m:mn>
+  </m:mrow>
+
+ </m:semantics>
+</m:math>
+
+  </para>
+</problem>
+
+<solution id="idp498960">
+  <para id="element-806">
+    <m:math display="inline">
+ <m:semantics>
+  <m:mrow>
+   <m:mi>x</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mfrac>
+    <m:mn>5</m:mn>
+    <m:mn>2</m:mn>
+   </m:mfrac>
+   
+  </m:mrow>
+
+ </m:semantics>
+</m:math>
+
+  </para>
+</solution>
+</exercise><exercise id="element-738"><problem id="idp1965168">
+  <para id="element-993">
+    <m:math display="inline">
+ <m:semantics>
+  <m:mrow>
+   <m:mtext>Solve for a:  </m:mtext><m:mn>4</m:mn><m:mi>a</m:mi><m:mo>−</m:mo><m:mfrac>
+    <m:mn>2</m:mn>
+    <m:mn>3</m:mn>
+   </m:mfrac>
+   <m:mo>=</m:mo><m:mo>−</m:mo><m:mfrac>
+    <m:mn>1</m:mn>
+    <m:mn>6</m:mn>
+   </m:mfrac>
+   
+  </m:mrow>
+
+ </m:semantics>
+</m:math>
+
+  </para>
+</problem>
+
+<solution id="idm2872848">
+  <para id="element-741"><m:math display="inline">
+ <m:semantics>
+  <m:mrow>
+   <m:mi>a</m:mi><m:mo>=</m:mo><m:mfrac>
+    <m:mn>1</m:mn>
+    <m:mn>8</m:mn>
+   </m:mfrac>
+   
+  </m:mrow>
+
+ </m:semantics>
+</m:math>
+
+  </para>
+</solution>
+</exercise><exercise id="element-409"><problem id="idp3739584">
+  <para id="element-813">
+    <m:math display="inline">
+ <m:semantics>
+  <m:mrow>
+   <m:mtext>Solve for x:  </m:mtext><m:mfrac>
+    <m:mtext>3</m:mtext>
+    <m:mtext>5</m:mtext>
+   </m:mfrac>
+   <m:mi>x</m:mi><m:mo>−</m:mo><m:mfrac>
+    <m:mn>1</m:mn>
+    <m:mn>2</m:mn>
+   </m:mfrac>
+   <m:mo>=</m:mo><m:mfrac>
+    <m:mn>1</m:mn>
+    <m:mrow>
+     <m:mn>10</m:mn>
+    </m:mrow>
+   </m:mfrac>
+   
+  </m:mrow>
+
+ </m:semantics>
+</m:math>
+
+  </para>
+</problem>
+
+<solution id="idp1715632">
+  <para id="element-373">
+    <m:math display="inline">
+ <m:semantics>
+  <m:mrow>
+   <m:mi>x</m:mi><m:mo>=</m:mo><m:mn>1</m:mn>
+  </m:mrow>
+
+ </m:semantics>
+</m:math>
+
+  </para>
+</solution>
+</exercise><exercise id="element-592"><problem id="idm1499408">
+  <para id="element-721">
+    <m:math display="inline">
+ <m:semantics>
+  <m:mrow>
+   <m:mtext>Solve for y:  </m:mtext><m:mo>−</m:mo><m:mfrac>
+    <m:mn>4</m:mn>
+    <m:mn>5</m:mn>
+   </m:mfrac>
+   <m:mi>y</m:mi><m:mo>+</m:mo><m:mfrac>
+    <m:mn>1</m:mn>
+    <m:mn>3</m:mn>
+   </m:mfrac>
+   <m:mo>=</m:mo><m:mfrac>
+    <m:mn>1</m:mn>
+    <m:mrow>
+     <m:mn>15</m:mn>
+    </m:mrow>
+   </m:mfrac>
+   
+  </m:mrow>
+
+ </m:semantics>
+</m:math>
+
+  </para>
+</problem>
+
+<solution id="idp8166304">
+  <para id="element-443">
+    <m:math display="inline">
+ <m:semantics>
+  <m:mrow>
+   <m:mi>y</m:mi><m:mo>=</m:mo><m:mfrac>
+    <m:mn>1</m:mn>
+    <m:mn>3</m:mn>
+   </m:mfrac>
+   
+  </m:mrow>
+
+ </m:semantics>
+</m:math>
+
+  </para>
+</solution>
+</exercise><exercise id="element-686"><problem id="idp5176992">
+  <para id="element-861">
+    <m:math display="inline">
+ <m:semantics>
+  <m:mrow>
+   <m:mtext>Solve for x:  </m:mtext><m:mo>−</m:mo><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>5</m:mn><m:mo>=</m:mo><m:mo>−</m:mo><m:mn>2</m:mn>
+  </m:mrow>
+ <m:annotation encoding="MathType-MTEF">
+ </m:annotation>
+ </m:semantics>
+</m:math>
+
+  </para>
+</problem>
+
+<solution id="idp4761312">
+  <para id="element-181">
+    <m:math display="inline">
+ <m:semantics>
+  <m:mrow>
+   <m:mi>x</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mn>3</m:mn>
+  </m:mrow>
+
+ </m:semantics>
+</m:math>
+
+  </para>
+</solution>
+</exercise></section><section id="element-447"><title>Solve in Multiple Steps</title>
+<exercise id="element-607"><problem id="idp6725456">
+  <para id="element-903">
+    <m:math display="inline">
+ <m:semantics>
+  <m:mrow>
+   <m:mtext>Solve for x:  </m:mtext><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>5</m:mn><m:mo>=</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>17</m:mn>
+  </m:mrow>
+
+ </m:semantics>
+</m:math>
+
+  </para>
+</problem>
+
+<solution id="idm3795056">
+  <para id="element-577">
+    <m:math display="inline">
+ <m:semantics>
+  <m:mrow>
+   <m:mi>x</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mn>12</m:mn>
+  </m:mrow>
+ <m:annotation encoding="MathType-MTEF">
+ </m:annotation>
+ </m:semantics>
+</m:math>
+
+  </para>
+</solution>
+</exercise><exercise id="element-751"><problem id="idp7879744">
+  <para id="element-469">
+    <m:math display="inline">
+ <m:semantics>
+  <m:mrow>
+   <m:mtext>Solve for y:  </m:mtext><m:mo>−</m:mo><m:mn>2</m:mn><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>7</m:mn><m:mo>=</m:mo><m:mn>3</m:mn><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>13</m:mn>
+  </m:mrow>
+ <m:annotation encoding="MathType-MTEF">
+ </m:annotation>
+ </m:semantics>
+</m:math>
+
+  </para>
+</problem>
+
+<solution id="idp6720672">
+  <para id="element-437">
+    <m:math display="inline">
+ <m:semantics>
+  <m:mrow>
+   <m:mi>y</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mn>4</m:mn>
+  </m:mrow>
+ <m:annotation encoding="MathType-MTEF">
+ </m:annotation>
+ </m:semantics>
+</m:math>
+
+  </para>
+</solution>
+</exercise><exercise id="element-568"><problem id="idp6150848">
+  <para id="element-404">
+    <m:math display="inline">
+ <m:semantics>
+  <m:mrow>
+   <m:mtext>Solve for a:  </m:mtext><m:mfrac>
+    <m:mn>1</m:mn>
+    <m:mn>2</m:mn>
+   </m:mfrac>
+   <m:mi>a</m:mi><m:mo>−</m:mo><m:mfrac>
+    <m:mn>2</m:mn>
+    <m:mn>3</m:mn>
+   </m:mfrac>
+   <m:mo>=</m:mo><m:mi>a</m:mi><m:mo>+</m:mo><m:mfrac>
+    <m:mn>1</m:mn>
+    <m:mn>5</m:mn>
+   </m:mfrac>
+   
+  </m:mrow>
+ <m:annotation encoding="MathType-MTEF">
+ </m:annotation>
+ </m:semantics>
+</m:math>
+
+  </para>
+</problem>
+
+<solution id="idm10819936">
+  <para id="element-30">
+    <m:math display="inline">
+ <m:semantics>
+  <m:mrow>
+   <m:mi>a</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mfrac>
+    <m:mrow>
+     <m:mn>26</m:mn>
+    </m:mrow>
+    <m:mrow>
+     <m:mn>15</m:mn>
+    </m:mrow>
+   </m:mfrac>
+   
+  </m:mrow>
+ <m:annotation encoding="MathType-MTEF">
+ </m:annotation>
+ </m:semantics>
+</m:math>
+
+  </para>
+</solution>
+</exercise><exercise id="element-750"><problem id="idp1719776">
+  <para id="element-773">
+    <m:math display="inline">
+ <m:semantics>
+  <m:mrow>
+   <m:mtext>Solve for x:  </m:mtext><m:mo>−</m:mo><m:mn>2</m:mn><m:mo>+</m:mo><m:mn>4</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>9</m:mn><m:mo>=</m:mo><m:mn>7</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>8</m:mn><m:mo>−</m:mo><m:mn>2</m:mn><m:mi>x</m:mi>
+  </m:mrow>
+ <m:annotation encoding="MathType-MTEF">
+ </m:annotation>
+ </m:semantics>
+</m:math>
+
+  </para>
+</problem>
+
+<solution id="idp1112224">
+  <para id="element-821">
+    <m:math display="inline">
+ <m:semantics>
+  <m:mrow>
+   <m:mi>x</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mn>1</m:mn>
+  </m:mrow>
+ <m:annotation encoding="MathType-MTEF">
+ </m:annotation>
+ </m:semantics>
+</m:math>
+
+  </para>
+</solution>
+</exercise><exercise id="element-380"><problem id="idp1309968">
+  <para id="element-448"><m:math display="inline">
+ <m:semantics>
+  <m:mrow>
+   <m:mtext>Solve for a:  </m:mtext><m:mn>3</m:mn><m:mi>a</m:mi><m:mo>+</m:mo><m:mn>5</m:mn><m:mo>−</m:mo><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:mi>a</m:mi><m:mo>+</m:mo><m:mn>7</m:mn>
+  </m:mrow>
+ <m:annotation encoding="MathType-MTEF">
+ </m:annotation>
+ </m:semantics>
+</m:math>
+
+  </para>
+</problem>
+
+<solution id="idp6153392">
+  <para id="element-542">
+    No Solution, 
+<m:math display="inline">
+ <m:semantics>
+  <m:mo>∅</m:mo>
+ <m:annotation encoding="MathType-MTEF">
+ </m:annotation>
+ </m:semantics>
+</m:math>
+
+  </para>
+</solution>
+</exercise><exercise id="element-368"><problem id="idp3736352">
+  <para id="element-342"><m:math display="inline">
+ <m:semantics>
+  <m:mrow>
+   <m:mtext>Solve for b:  </m:mtext><m:mo>−</m:mo><m:mn>7</m:mn><m:mi>b</m:mi><m:mo>+</m:mo><m:mn>3</m:mn><m:mo>=</m:mo><m:mn>2</m:mn><m:mo>−</m:mo><m:mn>5</m:mn><m:mi>b</m:mi><m:mo>+</m:mo><m:mn>1</m:mn><m:mo>−</m:mo><m:mn>2</m:mn><m:mi>b</m:mi>
+  </m:mrow>
+ <m:annotation encoding="MathType-MTEF">
+ </m:annotation>
+ </m:semantics>
+</m:math>
+
+  </para>
+</problem>
+
+<solution id="idp6685008">
+  <para id="element-95">
+    All Reals, 
+<m:math display="inline">
+ <m:semantics>
+  <m:mi>ℜ</m:mi>
+
+ </m:semantics>
+</m:math>
+
+  </para>
+</solution>
+</exercise><exercise id="element-635"><problem id="idp6155504">
+  <para id="element-596">
+   <m:math display="inline">
+ <m:semantics>
+  <m:mrow>
+   <m:mtext>Solve for y:  </m:mtext><m:mo>−</m:mo><m:mn>5</m:mn><m:mo stretchy="false">(</m:mo><m:mn>2</m:mn><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>3</m:mn><m:mo stretchy="false">)</m:mo><m:mo>+</m:mo><m:mn>2</m:mn><m:mo>=</m:mo><m:mn>12</m:mn>
+  </m:mrow>
+
+ </m:semantics>
+</m:math>
+
+
+  </para>
+</problem>
+
+<solution id="idp94112">
+  <para id="element-693"><m:math display="inline">
+ <m:semantics>
+  <m:mrow>
+   <m:mi>y</m:mi><m:mo>=</m:mo><m:mfrac>
+    <m:mn>1</m:mn>
+    <m:mn>2</m:mn>
+   </m:mfrac>
+   
+  </m:mrow>
+
+ </m:semantics>
+</m:math>
+
+  </para>
+</solution>
+</exercise><exercise id="element-80"><problem id="idp1721328">
+  <para id="element-795">
+    <m:math display="inline">
+ <m:semantics>
+  <m:mrow>
+   <m:mtext>Solve for x:  </m:mtext><m:mn>3</m:mn><m:mo>−</m:mo><m:mn>2</m:mn><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>4</m:mn><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mo>−</m:mo><m:mn>3</m:mn><m:mo stretchy="false">(</m:mo><m:mn>4</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>5</m:mn><m:mo stretchy="false">)</m:mo>
+  </m:mrow>
+
+ </m:semantics>
+</m:math>
+
+  </para>
+</problem>
+
+<solution id="idp5070336">
+  <para id="element-555">
+    <m:math display="inline">
+ <m:semantics>
+  <m:mrow>
+   <m:mi>x</m:mi><m:mo>=</m:mo><m:mn>2</m:mn>
+  </m:mrow>
+
+ </m:semantics>
+</m:math>
+
+  </para>
+</solution>
+</exercise><exercise id="element-708"><problem id="idp35696">
+  <para id="element-877">
+<m:math display="inline">
+ <m:semantics>
+  <m:mrow>
+   <m:mtext>Solve for a:  </m:mtext><m:mo>−</m:mo><m:mn>3</m:mn><m:mo stretchy="false">(</m:mo><m:mn>2</m:mn><m:mi>a</m:mi><m:mo>−</m:mo><m:mn>3</m:mn><m:mo stretchy="false">)</m:mo><m:mo>+</m:mo><m:mn>2</m:mn><m:mo>=</m:mo><m:mn>3</m:mn><m:mo stretchy="false">(</m:mo><m:mi>a</m:mi><m:mo>+</m:mo><m:mn>7</m:mn><m:mo stretchy="false">)</m:mo>
+  </m:mrow>
+
+ </m:semantics>
+</m:math>
+
+
+  </para>
+</problem>
+
+<solution id="idp1508576">
+  <para id="element-811">
+    <m:math display="inline">
+ <m:semantics>
+  <m:mrow>
+   <m:mi>a</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mfrac>
+    <m:mrow>
+     <m:mn>10</m:mn>
+    </m:mrow>
+    <m:mn>9</m:mn>
+   </m:mfrac>
+   
+  </m:mrow>
+
+ </m:semantics>
+</m:math>
+
+  </para>
+</solution>
+</exercise><exercise id="element-168"><problem id="idp6903296">
+  <para id="element-112">
+    <m:math display="inline">
+ <m:semantics>
+  <m:mrow>
+   <m:mtext>Solve for x:  </m:mtext><m:mn>10</m:mn><m:mo stretchy="false">(</m:mo><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>5</m:mn><m:mo stretchy="false">)</m:mo><m:mo>−</m:mo><m:mn>5</m:mn><m:mo stretchy="false">(</m:mo><m:mn>4</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>2</m:mn><m:mo stretchy="false">(</m:mo><m:mn>5</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>20</m:mn><m:mo stretchy="false">)</m:mo>
+  </m:mrow>
+ <m:annotation encoding="MathType-MTEF">
+ </m:annotation>
+ </m:semantics>
+</m:math>
+
+  </para>
+</problem>
+
+<solution id="idp7070000">
+  <para id="element-78">
+    All Reals, 
+<m:math display="inline">
+ <m:semantics>
+  <m:mi>ℜ</m:mi>
+ </m:semantics>
+</m:math>
+
+  </para>
+</solution>
+</exercise></section><section id="element-7"><title>Literal Equations</title>
+<exercise id="element-237"><problem id="idp5864912">
+  <para id="element-926">
+    <m:math display="inline">
+ <m:semantics>
+  <m:mrow>
+   <m:mtext>Solve for w:  </m:mtext><m:mi>P</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:mi>l</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:mi>w</m:mi>
+  </m:mrow>
+ <m:annotation encoding="MathType-MTEF">
+ </m:annotation>
+ </m:semantics>
+</m:math>
+
+  </para>
+</problem>
+
+<solution id="idp536448">
+  <para id="element-514">
+    <m:math display="inline">
+ <m:semantics>
+  <m:mrow>
+   <m:mi>w</m:mi><m:mo>=</m:mo><m:mfrac>
+    <m:mrow>
+     <m:mi>P</m:mi><m:mo>−</m:mo><m:mn>2</m:mn><m:mi>l</m:mi>
+    </m:mrow>
+    <m:mn>2</m:mn>
+   </m:mfrac>
+   
+  </m:mrow>
+
+ </m:semantics>
+</m:math>
+
+  </para>
+</solution>
+</exercise><exercise id="element-649"><problem id="idp8244272">
+  <para id="element-328">
+    <m:math display="inline">
+ <m:semantics>
+  <m:mrow>
+   <m:mtext>Solve for b:  </m:mtext><m:mi>P</m:mi><m:mo>=</m:mo><m:mi>a</m:mi><m:mo>+</m:mo><m:mi>b</m:mi><m:mo>+</m:mo><m:mi>c</m:mi>
+  </m:mrow>
+ </m:semantics>
+</m:math>
+
+  </para>
+</problem>
+
+<solution id="idp3988240">
+  <para id="element-441">
+    <m:math display="inline">
+ <m:semantics>
+  <m:mrow>
+   <m:mi>b</m:mi><m:mo>=</m:mo><m:mi>P</m:mi><m:mo>−</m:mo><m:mi>a</m:mi><m:mo>−</m:mo><m:mi>c</m:mi>
+  </m:mrow>
+ </m:semantics>
+</m:math>
+
+  </para>
+</solution>
+</exercise><exercise id="element-467"><problem id="idp6148720">
+  <para id="element-925">
+    <m:math display="inline">
+ <m:semantics>
+  <m:mrow>
+   <m:mtext>Solve for C:  </m:mtext><m:mi>F</m:mi><m:mo>=</m:mo><m:mfrac>
+    <m:mn>9</m:mn>
+    <m:mn>5</m:mn>
+   </m:mfrac>
+   <m:mi>C</m:mi><m:mo>+</m:mo><m:mn>32</m:mn>
+  </m:mrow>
+
+ </m:semantics>
+</m:math>
+
+  </para>
+</problem>
+
+<solution id="idp8914464">
+  <para id="element-111">
+   <m:math display="inline">
+ <m:semantics>
+  <m:mrow>
+   <m:mi>C</m:mi><m:mo>=</m:mo><m:mfrac>
+    <m:mrow>
+     <m:mn>5</m:mn><m:mi>F</m:mi><m:mo>−</m:mo><m:mn>160</m:mn>
+    </m:mrow>
+    <m:mn>9</m:mn>
+   </m:mfrac>
+   
+  </m:mrow>
+
+ </m:semantics>
+</m:math>
+
+  </para>
+</solution>
+</exercise><exercise id="element-316"><problem id="idp6251280">
+  <para id="element-493">
+    <m:math display="inline">
+ <m:semantics>
+  <m:mrow>
+   <m:mtext>Solve for r:  </m:mtext><m:mi>C</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:mi>π</m:mi><m:mi>r</m:mi>
+  </m:mrow>
+ <m:annotation encoding="MathType-MTEF">
+ </m:annotation>
+ </m:semantics>
+</m:math>
+
+  </para>
+</problem>
+
+<solution id="idp672592">
+  <para id="element-869">
+    <m:math display="inline">
+ <m:semantics>
+  <m:mrow>
+   <m:mi>r</m:mi><m:mo>=</m:mo><m:mfrac>
+    <m:mi>C</m:mi>
+    <m:mrow>
+     <m:mn>2</m:mn><m:mi>π</m:mi>
+    </m:mrow>
+   </m:mfrac>
+   
+  </m:mrow>
+
+ </m:semantics>
+</m:math>
+
+  </para>
+</solution>
+</exercise><exercise id="element-980"><problem id="idp4711984">
+  <para id="element-184"><m:math display="inline">
+ <m:semantics>
+  <m:mrow>
+   <m:mtext>Solve for y:  </m:mtext><m:mi>z</m:mi><m:mo>=</m:mo><m:mfrac>
+    <m:mrow>
+     <m:mi>x</m:mi><m:mo>−</m:mo><m:mi>y</m:mi>
+    </m:mrow>
+    <m:mn>5</m:mn>
+   </m:mfrac>
+   
+  </m:mrow>
+
+ </m:semantics>
+</m:math>
+
+
+  </para>
+</problem>
+
+<solution id="idp7215088">
+  <para id="element-679"><m:math display="inline">
+ <m:semantics>
+  <m:mrow>
+   <m:mi>y</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mn>5</m:mn><m:mi>z</m:mi><m:mo>+</m:mo><m:mi>x</m:mi>
+  </m:mrow>
+ </m:semantics>
+</m:math>
+
+  </para>
+</solution>
+</exercise></section></section>
+
+
+
+  </content>
+</document>

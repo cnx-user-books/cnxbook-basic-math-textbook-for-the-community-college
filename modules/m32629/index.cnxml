@@ -1,0 +1,2921 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+  <title>Geometry</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m32629</md:content-id>
+  <md:title>Geometry</md:title>
+  <md:abstract/>
+  <md:uuid>4a312750-7ca1-427d-b223-66a4d3f58532</md:uuid>
+</metadata>
+
+<content>
+    <section id="cid2">
+      <title>Introduction</title>
+      <para id="id62184">Geometry (Greek: geo = earth, metria = measure) arose as the field of knowledge dealing with spatial relationships. It was one of the two fields of pre-modern mathematics, the other being the study of numbers. In modern times, geometric concepts have become very complex and abstract and are barely recognizable as the descendants of early geometry.</para>
+<section id="secfhsst_id69"><title> Research Project : History of Geometry </title>
+      <para id="id62198">Work in pairs or groups and investigate the history of the foundation of geometry. Describe the various stages of development and how the following cultures used geometry to improve their lives. This list should serve as a guideline and provide the minimum requirement, there are many other people who contributed to the foundation of geometry.</para>
+      <list id="id62543" display="block" list-type="enumerated">
+        <item id="uid1">Ancient Indian geometry (c. 3000 - 500 B.C.)
+<list id="id62557" display="block" list-type="enumerated" number-style="lower-alpha"><item id="uid2">Harappan geometry
+</item><item id="uid3">Vedic geometry
+</item></list></item>
+        <item id="uid4">Classical Greek geometry (c. 600 - 300 B.C.)
+<list id="id62596" display="block" list-type="enumerated" number-style="lower-alpha"><item id="uid5">Thales and Pythagoras
+</item><item id="uid6">Plato
+</item></list></item>
+        <item id="uid7">Hellenistic geometry (c. 300 B.C - 500 C.E.)
+<list id="id62634" display="block" list-type="enumerated" number-style="lower-alpha"><item id="uid8">Euclid
+</item><item id="uid9">Archimedes
+</item></list></item>
+      </list>
+      
+</section>
+    </section>
+    <section id="cid3">
+      <title>Right Prisms and Cylinders</title>
+      <para id="id62680">In this section we study how to calculate the surface areas and volumes of right prisms and cylinders. A right prism is a polygon that has been stretched out into a tube so that the height of the tube is perpendicular to the base. A square prism has a base that is a square and a triangular prism has a base that is a triangle.</para>
+      <figure id="uid10">
+        <media id="uid10_media" alt="">
+          <image mime-type="image/png" src="../../media/MG10C14_001.png" id="uid10_onlineimage" width="260"><!-- NOTE: attribute width changes image size online (pixels). original width is 260. --></image>
+          <image mime-type="application/postscript" for="pdf" src="../../media/MG10C14_001.eps" id="uid10_printimage"/>
+        </media>
+        <caption>Examples of a right square prism, a right triangular prism and a cylinder.</caption>
+      </figure>
+      <para id="id62698">It is relatively simple to calculate the surface areas and volumes of prisms.</para>
+      <section id="uid11">
+        <title>Surface Area</title>
+        <para id="id62710">The term <emphasis effect="italics">surface area</emphasis> refers to the total area of the exposed or outside surfaces of a prism. This is easier to understand if you imagine the prism as a solid object.</para>
+        <para id="id62720">If you examine the prisms in <link target-id="uid10"/>, you will see that each face of a prism is a simple polygon. For example, the triangular prism has two faces that are triangles and three faces that are rectangles. Therefore, in order to calculate the surface area of a prism you simply have to calculate the area of each face and add it up. In the case of a cylinder the top and bottom faces are circles, while the curved surface flattens into a rectangle.</para>
+        <para id="id62732">
+          <emphasis effect="bold">Surface Area of Prisms</emphasis>
+        </para>
+        <para id="id62738">Calculate the area of each face and add the areas together to get the surface area. To do this you need to determine the correct shape of each and every face of the prism and then for each one determine the surface area. The sum of the surface areas of all the faces will give you the total surface area of the prism.</para>
+<section id="secfhsst_id107"><title> Discussion : surface areas </title>
+        <para id="id62753">In pairs, study the following prisms and the adjacent image showing the various surfaces that make up the prism. Explain to your partner, how each relates to the other.</para>
+        <!--empty paragraphs get left behind.-->
+        <para id="id62766"><figure id="id62767"><media id="id62767_media" alt=""><image mime-type="image/png" src="../../media/MG10C14_002.png" id="id62767_onlineimage" width="346"><!-- NOTE: attribute width changes image size online (pixels). original width is 346. --></image><image mime-type="application/postscript" for="pdf" src="../../media/MG10C14_002.eps" id="id62767_printimage"/></media></figure>
+ </para>
+</section>
+<section id="secfhsst_id113"><title> Surface areas </title>
+        <list id="id62786" display="block" list-type="enumerated"><item id="uid12">Calculate the surface area in each of the following:
+<figure id="id62804"><media id="id62804_media" alt=""><image mime-type="image/png" src="../../media/MG10C14_003.png" id="id62804_onlineimage" width="355"><!-- NOTE: attribute width changes image size online (pixels). original width is 355. --></image><image mime-type="application/postscript" for="pdf" src="../../media/MG10C14_003.eps" id="id62804_printimage"/></media></figure><link class="fullmarks" window="new" url="http://www.fhsst.org/lqH">Click here for the solution</link></item>
+          <item id="uid13"> If a litre of paint covers an area of <m:math overflow="scroll"><m:mrow><m:mn>2</m:mn><m:msup><m:mi>m</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math>, how much paint does a painter need to cover:
+<list id="id62841" display="block" list-type="enumerated" number-style="lower-alpha"><item id="uid14">A rectangular swimming pool with dimensions <m:math overflow="scroll"><m:mrow><m:mn>4</m:mn><m:mi>m</m:mi><m:mo>×</m:mo><m:mn>3</m:mn><m:mi>m</m:mi><m:mo>×</m:mo><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>5</m:mn><m:mi>m</m:mi></m:mrow></m:math>, inside walls and floor only.
+</item><item id="uid15">The inside walls and floor
+of a circular reservoir with diameter <m:math overflow="scroll"><m:mrow><m:mn>4</m:mn><m:mi>m</m:mi></m:mrow></m:math> and height <m:math overflow="scroll"><m:mrow><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>5</m:mn><m:mi>m</m:mi></m:mrow></m:math></item></list><figure id="id62926"><media id="id62926_media" alt=""><image mime-type="image/png" src="../../media/MG10C14_004.png" id="id62926_onlineimage" width="97"><!-- NOTE: attribute width changes image size online (pixels). original width is 97. --></image><image mime-type="application/postscript" for="pdf" src="../../media/MG10C14_004.eps" id="id62926_printimage"/></media></figure><link class="fullmarks" window="new" url="http://www.fhsst.org/lq6">Click here for the solution</link></item>
+        </list>
+        
+</section>
+      </section>
+      <section id="uid16"><title>Volume</title><para id="id62951">The volume of a right prism is calculated by multiplying the area of the base by the height. So, for a square prism of side length <m:math overflow="scroll"><m:mi>a</m:mi></m:math> and height <m:math overflow="scroll"><m:mi>h</m:mi></m:math> the volume is <m:math overflow="scroll"><m:mrow><m:mi>a</m:mi><m:mo>×</m:mo><m:mi>a</m:mi><m:mo>×</m:mo><m:mi>h</m:mi><m:mo>=</m:mo><m:msup><m:mi>a</m:mi><m:mn>2</m:mn></m:msup><m:mi>h</m:mi></m:mrow></m:math>.</para>
+        <para id="id63000">
+          <emphasis effect="bold">Volume of Prisms</emphasis>
+        </para>
+        <para id="id63006">Calculate the area of the base and multiply by the height to get the volume of a prism.</para>
+<section id="secfhsst_id132"><title> Volume </title>
+        <list id="id63019" display="block" list-type="enumerated"><item id="uid17">Write down the formula for each of the following volumes:
+<figure id="id63037"><media id="id63037_media" alt=""><image mime-type="image/png" src="../../media/MG10C14_005.png" id="id63037_onlineimage" width="328"><!-- NOTE: attribute width changes image size online (pixels). original width is 328. --></image><image mime-type="application/postscript" for="pdf" src="../../media/MG10C14_005.eps" id="id63037_printimage"/></media></figure><link class="fullmarks" window="new" url="http://www.fhsst.org/lqF">Click here for the solution</link></item>
+          <item id="uid18">Calculate the following volumes:
+<figure id="id63058"><media id="id63058_media" alt=""><image mime-type="image/png" src="../../media/MG10C14_006.png" id="id63058_onlineimage" width="328"><!-- NOTE: attribute width changes image size online (pixels). original width is 328. --></image><image mime-type="application/postscript" for="pdf" src="../../media/MG10C14_006.eps" id="id63058_printimage"/></media></figure><link class="fullmarks" window="new" url="http://www.fhsst.org/lqL">Click here for the solution</link></item>
+          <item id="uid19">A cube is a special prism that has all edges equal. This means that each face is a square. An example of a cube is a die. Show that for a cube with side length <m:math overflow="scroll"><m:mi>a</m:mi></m:math>, the surface area is <m:math overflow="scroll"><m:mrow><m:mn>6</m:mn><m:msup><m:mi>a</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math> and the volume is <m:math overflow="scroll"><m:msup><m:mi>a</m:mi><m:mn>3</m:mn></m:msup></m:math>.
+<figure id="id63117"><media id="id63117_media" alt=""><image mime-type="image/png" src="../../media/MG10C14_007.png" id="id63117_onlineimage" width="77"><!-- NOTE: attribute width changes image size online (pixels). original width is 77. --></image><image mime-type="application/postscript" for="pdf" src="../../media/MG10C14_007.eps" id="id63117_printimage"/></media></figure><link class="fullmarks" window="new" url="http://www.fhsst.org/lqM">Click here for the solution</link></item>
+        </list>
+        
+</section>
+        <para id="id63133">Now, what happens to the surface area if one dimension is multiplied by a constant? For example, how does the surface area change when the height of a rectangular prism is divided by 2?</para>
+ <para id="is08324">       <figure id="id63644234"><media id="id63644234_media" alt="">
+              <image mime-type="image/png" src="../../media/MG10C14_008.png" id="id63644234_onlineimage" width="190"><!-- NOTE: attribute width changes image size online (pixels). original width is 101. --></image>
+              <image mime-type="application/postscript" for="pdf" src="../../media/MG10C14_008.eps" id="id63644234_printimage"/>
+            </media>
+
+          <caption>Rectangular prisms</caption></figure></para>
+ <para id="id9879372">       <figure id="id237912873"><media id="id237912873_media" alt="">
+              <image mime-type="image/png" src="../../media/CG10C14_1.png" id="id237912873_onlineimage" width="650"><!-- NOTE: attribute width changes image size online (pixels). original width is 101. --></image>
+              <image mime-type="application/postscript" for="pdf" src="../../media/CG10C14_1.eps" id="id237912873_printimage"/>
+            </media>
+
+          <caption>Rectangular prisms 2</caption></figure></para>
+<exercise id="secfhsst_id147"><title> Scaling the dimensions of a prism </title>
+        <problem id="probfhsst_id148">
+        <para id="id63614">The size of a prism is specified by the length of its sides. The prism in the diagram has sides of lengths <m:math overflow="scroll"><m:mi>L</m:mi></m:math>, <m:math overflow="scroll"><m:mi>b</m:mi></m:math> and <m:math overflow="scroll"><m:mi>h</m:mi></m:math>.</para>
+        <para id="id63643">
+          <figure id="id63644">
+            <media id="id63644_media" alt="">
+              <image mime-type="image/png" src="../../media/MG10C14_009.png" id="id63644_onlineimage" width="101"><!-- NOTE: attribute width changes image size online (pixels). original width is 101. --></image>
+              <image mime-type="application/postscript" for="pdf" src="../../media/MG10C14_009.eps" id="id63644_printimage"/>
+            </media>
+          </figure>
+        </para>
+        <list id="id63651" display="block" list-type="enumerated"><item id="uid21">Consider enlarging all sides of the prism by a constant factor <m:math overflow="scroll"><m:mi>x</m:mi></m:math>, where <m:math overflow="scroll"><m:mrow><m:mi>x</m:mi><m:mo>&gt;</m:mo><m:mn>1</m:mn></m:mrow></m:math>. Calculate the volume and surface area of the enlarged prism as a function of the factor <m:math overflow="scroll"><m:mi>x</m:mi></m:math> and the volume of the original volume.
+</item>
+          <item id="uid22">In the same way as above now consider the case, where <m:math overflow="scroll"><m:mrow><m:mn>0</m:mn><m:mo>&lt;</m:mo><m:mi>x</m:mi><m:mo>&lt;</m:mo><m:mn>1</m:mn></m:mrow></m:math>. Now calculate the reduction factor in the volume and the surface area.
+</item>
+        </list>
+        
+        </problem>
+        <solution id="solfhsst_id166"> <list id="listfhsst_id166" list-type="enumerated" number-style="arabic" class="stepwise">
+        <item> <label> Identify </label>
+        <para id="id63750">The volume of a prism is given by:
+<m:math overflow="scroll"><m:mrow><m:mi>V</m:mi><m:mo>=</m:mo><m:mi>L</m:mi><m:mo>×</m:mo><m:mi>b</m:mi><m:mo>×</m:mo><m:mi>h</m:mi></m:mrow></m:math></para>
+        <para id="id63774">The surface area of the prism is given by:
+<m:math overflow="scroll"><m:mrow><m:mi>A</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:mo>×</m:mo><m:mo>(</m:mo><m:mi>L</m:mi><m:mo>×</m:mo><m:mi>b</m:mi><m:mo>+</m:mo><m:mi>L</m:mi><m:mo>×</m:mo><m:mi>h</m:mi><m:mo>+</m:mo><m:mi>b</m:mi><m:mo>×</m:mo><m:mi>h</m:mi><m:mo>)</m:mo></m:mrow></m:math></para>
+        </item> <item> <label> Rescale </label>
+        <para id="id63826">If all the sides of the prism get rescaled, the new sides will be:</para>
+        <equation id="id63830">
+          <m:math overflow="scroll" mode="display">
+            <m:mtable displaystyle="true">
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:msup>
+                    <m:mi>L</m:mi>
+                    <m:mo>'</m:mo>
+                  </m:msup>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mi>x</m:mi>
+                    <m:mo>×</m:mo>
+                    <m:mi>L</m:mi>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:msup>
+                    <m:mi>b</m:mi>
+                    <m:mo>'</m:mo>
+                  </m:msup>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mi>x</m:mi>
+                    <m:mo>×</m:mo>
+                    <m:mi>b</m:mi>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:msup>
+                    <m:mi>h</m:mi>
+                    <m:mo>'</m:mo>
+                  </m:msup>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mi>x</m:mi>
+                    <m:mo>×</m:mo>
+                    <m:mi>h</m:mi>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+            </m:mtable>
+          </m:math>
+        </equation>
+        <para id="id63916">The new volume will then be given by:</para>
+        <equation id="id63920">
+          <m:math overflow="scroll" mode="display">
+            <m:mtable displaystyle="true">
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:msup>
+                    <m:mi>V</m:mi>
+                    <m:mo>'</m:mo>
+                  </m:msup>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:msup>
+                      <m:mi>L</m:mi>
+                      <m:mo>'</m:mo>
+                    </m:msup>
+                    <m:mo>×</m:mo>
+                    <m:msup>
+                      <m:mi>b</m:mi>
+                      <m:mo>'</m:mo>
+                    </m:msup>
+                    <m:mo>×</m:mo>
+                    <m:msup>
+                      <m:mi>h</m:mi>
+                      <m:mo>'</m:mo>
+                    </m:msup>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd/>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mi>x</m:mi>
+                    <m:mo>×</m:mo>
+                    <m:mi>L</m:mi>
+                    <m:mo>×</m:mo>
+                    <m:mi>x</m:mi>
+                    <m:mo>×</m:mo>
+                    <m:mi>b</m:mi>
+                    <m:mo>×</m:mo>
+                    <m:mi>x</m:mi>
+                    <m:mo>×</m:mo>
+                    <m:mi>h</m:mi>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd/>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:msup>
+                      <m:mi>x</m:mi>
+                      <m:mn>3</m:mn>
+                    </m:msup>
+                    <m:mo>×</m:mo>
+                    <m:mi>L</m:mi>
+                    <m:mo>×</m:mo>
+                    <m:mi>b</m:mi>
+                    <m:mo>×</m:mo>
+                    <m:mi>h</m:mi>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd/>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:msup>
+                      <m:mi>x</m:mi>
+                      <m:mn>3</m:mn>
+                    </m:msup>
+                    <m:mo>×</m:mo>
+                    <m:mi>V</m:mi>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+            </m:mtable>
+          </m:math>
+        </equation>
+        <para id="id64062">The new surface area of the prism will be given by:</para>
+        <equation id="id64066">
+          <m:math overflow="scroll" mode="display">
+            <m:mtable displaystyle="true">
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:msup>
+                    <m:mi>A</m:mi>
+                    <m:mo>'</m:mo>
+                  </m:msup>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mn>2</m:mn>
+                    <m:mo>×</m:mo>
+                    <m:mo>(</m:mo>
+                    <m:msup>
+                      <m:mi>L</m:mi>
+                      <m:mo>'</m:mo>
+                    </m:msup>
+                    <m:mo>×</m:mo>
+                    <m:msup>
+                      <m:mi>b</m:mi>
+                      <m:mo>'</m:mo>
+                    </m:msup>
+                    <m:mo>+</m:mo>
+                    <m:msup>
+                      <m:mi>L</m:mi>
+                      <m:mo>'</m:mo>
+                    </m:msup>
+                    <m:mo>×</m:mo>
+                    <m:msup>
+                      <m:mi>h</m:mi>
+                      <m:mo>'</m:mo>
+                    </m:msup>
+                    <m:mo>+</m:mo>
+                    <m:msup>
+                      <m:mi>b</m:mi>
+                      <m:mo>'</m:mo>
+                    </m:msup>
+                    <m:mo>×</m:mo>
+                    <m:msup>
+                      <m:mi>h</m:mi>
+                      <m:mo>'</m:mo>
+                    </m:msup>
+                    <m:mo>)</m:mo>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd/>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mn>2</m:mn>
+                    <m:mo>×</m:mo>
+                    <m:mo>(</m:mo>
+                    <m:mi>x</m:mi>
+                    <m:mo>×</m:mo>
+                    <m:mi>L</m:mi>
+                    <m:mo>×</m:mo>
+                    <m:mi>x</m:mi>
+                    <m:mo>×</m:mo>
+                    <m:mi>b</m:mi>
+                    <m:mo>+</m:mo>
+                    <m:mi>x</m:mi>
+                    <m:mo>×</m:mo>
+                    <m:mi>L</m:mi>
+                    <m:mo>×</m:mo>
+                    <m:mi>x</m:mi>
+                    <m:mo>×</m:mo>
+                    <m:mi>h</m:mi>
+                    <m:mo>+</m:mo>
+                    <m:mi>x</m:mi>
+                    <m:mo>×</m:mo>
+                    <m:mi>b</m:mi>
+                    <m:mo>×</m:mo>
+                    <m:mi>x</m:mi>
+                    <m:mo>×</m:mo>
+                    <m:mi>h</m:mi>
+                    <m:mo>)</m:mo>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd/>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:msup>
+                      <m:mi>x</m:mi>
+                      <m:mn>2</m:mn>
+                    </m:msup>
+                    <m:mo>×</m:mo>
+                    <m:mn>2</m:mn>
+                    <m:mo>×</m:mo>
+                    <m:mrow>
+                      <m:mo>(</m:mo>
+                      <m:mi>L</m:mi>
+                      <m:mo>×</m:mo>
+                      <m:mi>b</m:mi>
+                      <m:mo>+</m:mo>
+                      <m:mi>L</m:mi>
+                      <m:mo>×</m:mo>
+                      <m:mi>h</m:mi>
+                      <m:mo>+</m:mo>
+                      <m:mi>b</m:mi>
+                      <m:mo>×</m:mo>
+                      <m:mi>h</m:mi>
+                      <m:mo>)</m:mo>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd/>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:msup>
+                      <m:mi>x</m:mi>
+                      <m:mn>2</m:mn>
+                    </m:msup>
+                    <m:mo>×</m:mo>
+                    <m:mi>A</m:mi>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+            </m:mtable>
+          </m:math>
+        </equation>
+        </item> <item> <label> Interpreting the above results </label>
+        <list id="id64313" display="block" list-type="enumerated" number-style="lower-alpha"><item id="uid23">We found above that the new volume is given by:
+<m:math overflow="scroll"><m:mrow><m:msup><m:mi>V</m:mi><m:mo>'</m:mo></m:msup><m:mo>=</m:mo><m:msup><m:mi>x</m:mi><m:mn>3</m:mn></m:msup><m:mo>×</m:mo><m:mi>V</m:mi></m:mrow></m:math>
+Since <m:math overflow="scroll"><m:mrow><m:mi>x</m:mi><m:mo>&gt;</m:mo><m:mn>1</m:mn></m:mrow></m:math>, the volume of the prism will be increased by a factor of <m:math overflow="scroll"><m:msup><m:mi>x</m:mi><m:mn>3</m:mn></m:msup></m:math>.
+The surface area of the rescaled prism was given by:
+<m:math overflow="scroll"><m:mrow><m:msup><m:mi>A</m:mi><m:mo>'</m:mo></m:msup><m:mo>=</m:mo><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>×</m:mo><m:mi>A</m:mi></m:mrow></m:math>
+Again, since <m:math overflow="scroll"><m:mrow><m:mi>x</m:mi><m:mo>&gt;</m:mo><m:mn>1</m:mn></m:mrow></m:math>, the surface area will be increased by a factor of <m:math overflow="scroll"><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup></m:math>. Surface areas which are two dimensional increase with the square of the factor while volumes, which are three dimensional, increase with the cube of the factor.
+</item>
+          <item id="uid24">The answer here is based on the same ideas as above.
+In analogy, since here <m:math overflow="scroll"><m:mrow><m:mn>0</m:mn><m:mo>&lt;</m:mo><m:mi>x</m:mi><m:mo>&lt;</m:mo><m:mn>1</m:mn></m:mrow></m:math>, the volume will be reduced by a factor of <m:math overflow="scroll"><m:msup><m:mi>x</m:mi><m:mn>3</m:mn></m:msup></m:math> and the surface area will be decreased by a factor of <m:math overflow="scroll"><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup></m:math></item>
+        </list>
+        
+        </item> </list> </solution>
+</exercise>
+        <para id="id64533">When the length of one of the sides is multiplied by a constant the effect is to multiply the original volume by that constant, as for the example in <link target-id="id63644234"/>.</para>
+      </section>
+    </section>
+    <section id="cid4">
+      <title>Polygons</title>
+      <para id="id64553">Polygons are all around us. A stop sign is in the shape of an octagon, an eight-sided polygon. The honeycomb of a beehive consists of hexagonal cells. The top of a desk is a rectangle. </para>
+      <para id="id64557">In this section, you will learn about similar polygons.</para>
+      <section id="uid25">
+        <title>Similarity of Polygons</title>
+<section id="secfhsst_id491"><title> Discussion : Similar Triangles </title>
+        <para id="id64577">Fill in the table using the diagram and then answer the questions that follow.</para>
+        <table id="id64584" summary="Table of values">
+<tgroup cols="3"><tbody>
+              <row>
+                <entry><m:math overflow="scroll"><m:mrow><m:mfrac><m:mi> AB </m:mi><m:mi> DE </m:mi></m:mfrac></m:mrow></m:math>=<m:math overflow="scroll"><m:mrow><m:mfrac><m:mrow><m:mo>.</m:mo><m:mo>.</m:mo><m:mo>.</m:mo><m:mi>c</m:mi><m:mi>m</m:mi></m:mrow><m:mrow><m:mo>.</m:mo><m:mo>.</m:mo><m:mo>.</m:mo><m:mi>c</m:mi><m:mi>m</m:mi></m:mrow></m:mfrac><m:mo>=</m:mo><m:mo>.</m:mo><m:mo>.</m:mo><m:mo>.</m:mo></m:mrow></m:math></entry>
+                <entry><m:math overflow="scroll"><m:mover accent="true"><m:mi>A</m:mi><m:mo>^</m:mo></m:mover></m:math>=...<m:math overflow="scroll"><m:msup><m:mrow/><m:mo>∘</m:mo></m:msup></m:math></entry>
+                <entry><m:math overflow="scroll"><m:mover accent="true"><m:mi>D</m:mi><m:mo>^</m:mo></m:mover></m:math>...<m:math overflow="scroll"><m:msup><m:mrow/><m:mo>∘</m:mo></m:msup></m:math></entry>
+              </row>
+              <row>
+                <entry><m:math overflow="scroll"><m:mrow><m:mfrac><m:mi> BC </m:mi><m:mi> EF </m:mi></m:mfrac></m:mrow></m:math>=<m:math overflow="scroll"><m:mrow><m:mfrac><m:mrow><m:mo>.</m:mo><m:mo>.</m:mo><m:mo>.</m:mo><m:mi>c</m:mi><m:mi>m</m:mi></m:mrow><m:mrow><m:mo>.</m:mo><m:mo>.</m:mo><m:mo>.</m:mo><m:mi>c</m:mi><m:mi>m</m:mi></m:mrow></m:mfrac><m:mo>=</m:mo><m:mo>.</m:mo><m:mo>.</m:mo><m:mo>.</m:mo></m:mrow></m:math></entry>
+                <entry><m:math overflow="scroll"><m:mover accent="true"><m:mi>B</m:mi><m:mo>^</m:mo></m:mover></m:math>=...<m:math overflow="scroll"><m:msup><m:mrow/><m:mo>∘</m:mo></m:msup></m:math></entry>
+                <entry><m:math overflow="scroll"><m:mover accent="true"><m:mi>E</m:mi><m:mo>^</m:mo></m:mover></m:math>=...<m:math overflow="scroll"><m:msup><m:mrow/><m:mo>∘</m:mo></m:msup></m:math></entry>
+              </row>
+              <row>
+                <entry><m:math overflow="scroll"><m:mrow><m:mfrac><m:mi> AC </m:mi><m:mi> DF </m:mi></m:mfrac></m:mrow></m:math>=<m:math overflow="scroll"><m:mrow><m:mfrac><m:mrow><m:mo>.</m:mo><m:mo>.</m:mo><m:mo>.</m:mo><m:mi>c</m:mi><m:mi>m</m:mi></m:mrow><m:mrow><m:mo>.</m:mo><m:mo>.</m:mo><m:mo>.</m:mo><m:mi>c</m:mi><m:mi>m</m:mi></m:mrow></m:mfrac><m:mo>=</m:mo><m:mo>.</m:mo><m:mo>.</m:mo><m:mo>.</m:mo></m:mrow></m:math></entry>
+                <entry><m:math overflow="scroll"><m:mover accent="true"><m:mi>C</m:mi><m:mo>^</m:mo></m:mover></m:math>...<m:math overflow="scroll"><m:msup><m:mrow/><m:mo>∘</m:mo></m:msup></m:math></entry>
+                <entry><m:math overflow="scroll"><m:mover accent="true"><m:mi>F</m:mi><m:mo>^</m:mo></m:mover></m:math>=...<m:math overflow="scroll"><m:msup><m:mrow/><m:mo>∘</m:mo></m:msup></m:math></entry>
+              </row>
+            </tbody>
+          
+
+
+</tgroup>
+</table>
+        <!--empty paragraphs get left behind.-->
+        <para id="id65008">
+          <figure id="id65011">
+            <media id="id65011_media" alt="">
+              <image mime-type="image/png" src="../../media/MG10C14_010.png" id="id65011_onlineimage" width="356"><!-- NOTE: attribute width changes image size online (pixels). original width is 356. --></image>
+              <image mime-type="application/postscript" for="pdf" src="../../media/MG10C14_010.eps" id="id65011_printimage"/>
+            </media>
+          </figure>
+        </para>
+        <list id="id65017" display="block" list-type="enumerated">
+          <item id="uid26">What can you say about the numbers you calculated for: <m:math overflow="scroll"><m:mfrac><m:mi> AB </m:mi><m:mi> DE </m:mi></m:mfrac></m:math>, <m:math overflow="scroll"><m:mfrac><m:mi> BC </m:mi><m:mi> EF </m:mi></m:mfrac></m:math>, <m:math overflow="scroll"><m:mfrac><m:mi> AC </m:mi><m:mi> DF </m:mi></m:mfrac></m:math>?
+</item>
+          <item id="uid27">What can you say about <m:math overflow="scroll"><m:mover accent="true"><m:mi>A</m:mi><m:mo>^</m:mo></m:mover></m:math> and <m:math overflow="scroll"><m:mover accent="true"><m:mi>D</m:mi><m:mo>^</m:mo></m:mover></m:math>?
+</item>
+          <item id="uid28">What can you say about <m:math overflow="scroll"><m:mover accent="true"><m:mi>B</m:mi><m:mo>^</m:mo></m:mover></m:math> and <m:math overflow="scroll"><m:mover accent="true"><m:mi>E</m:mi><m:mo>^</m:mo></m:mover></m:math>?
+</item>
+          <item id="uid29">What can you say about <m:math overflow="scroll"><m:mover accent="true"><m:mi>C</m:mi><m:mo>^</m:mo></m:mover></m:math> and <m:math overflow="scroll"><m:mover accent="true"><m:mi>F</m:mi><m:mo>^</m:mo></m:mover></m:math>?
+</item>
+        </list>
+        
+</section>
+        <para id="id65212">If two polygons are <emphasis effect="italics">similar</emphasis>, one is an enlargement of the other. This means that the two polygons will have the same angles and their sides will be in the same proportion.</para>
+        <para id="id65223">We use the symbol <m:math overflow="scroll"><m:mo>≡</m:mo></m:math> to mean <emphasis effect="italics">is similar to</emphasis>.</para>
+<definition id="fhsst_id537"><term id="termfhsst_id537"> Similar Polygons </term> <meaning id="meaningfhsst_id537">
+        <para id="id65247">Two polygons are similar if:</para>
+        <list id="id65253" display="block" list-type="enumerated">
+          <item id="uid30">their corresponding angles are equal, <emphasis effect="bold">and</emphasis></item>
+          <item id="uid31">the ratios of corresponding sides are equal.
+</item>
+        </list>
+        
+        </meaning></definition>
+<exercise id="secfhsst_id546"><title> Similarity of Polygons </title>
+        <problem id="probfhsst_id547">
+        <para id="id65309">Show that the following two polygons are similar.</para>
+        <para id="id65315">
+          <figure id="id65318">
+            <media id="id65318_media" alt="">
+              <image mime-type="image/png" src="../../media/MG10C14_011.png" id="id65318_onlineimage" width="307"><!-- NOTE: attribute width changes image size online (pixels). original width is 307. --></image>
+              <image mime-type="application/postscript" for="pdf" src="../../media/MG10C14_011.eps" id="id65318_printimage"/>
+            </media>
+          </figure>
+        </para>
+        
+        </problem>
+        <solution id="solfhsst_id559"> <list id="listfhsst_id559" list-type="enumerated" number-style="arabic" class="stepwise">
+        <item> <label> Determine what is required </label>
+        <para id="id65346">We are required to show that the pair of polygons is similar. We can do this by showing that the ratio of corresponding sides is equal and by showing that corresponding angles are equal.</para>
+        </item> <item> <label> Corresponding angles </label>
+        <para id="id65355">We are given the angles. So, we can show that corresponding angles are equal.</para>
+        </item> <item> <label> Show that corresponding angles are equal </label>
+        <para id="id65363">All angles are given to be 90<m:math overflow="scroll"><m:msup><m:mrow/><m:mo>∘</m:mo></m:msup></m:math> and</para>
+        <equation id="id65380">
+          <m:math overflow="scroll" mode="display">
+            <m:mtable displaystyle="true">
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mover accent="true">
+                    <m:mi>A</m:mi>
+                    <m:mo>^</m:mo>
+                  </m:mover>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mover accent="true">
+                    <m:mi>E</m:mi>
+                    <m:mo>^</m:mo>
+                  </m:mover>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mover accent="true">
+                    <m:mi>B</m:mi>
+                    <m:mo>^</m:mo>
+                  </m:mover>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mover accent="true">
+                    <m:mi>F</m:mi>
+                    <m:mo>^</m:mo>
+                  </m:mover>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mover accent="true">
+                    <m:mi>C</m:mi>
+                    <m:mo>^</m:mo>
+                  </m:mover>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mover accent="true">
+                    <m:mi>G</m:mi>
+                    <m:mo>^</m:mo>
+                  </m:mover>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mover accent="true">
+                    <m:mi>D</m:mi>
+                    <m:mo>^</m:mo>
+                  </m:mover>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mover accent="true">
+                    <m:mi>H</m:mi>
+                    <m:mo>^</m:mo>
+                  </m:mover>
+                </m:mtd>
+              </m:mtr>
+            </m:mtable>
+          </m:math>
+        </equation>
+        </item> <item> <label> Show that corresponding sides have equal ratios </label>
+        <para id="id65511">We first need to see which sides correspond. The rectangles have two equal long sides and two equal short sides. We need to compare the ratio of the long side lengths of the two different rectangles as well as the ratio of the short side lenghts.</para>
+        <para id="id65517">Long sides, large rectangle values over small rectangle values:</para>
+        <equation id="id65521"><m:math overflow="scroll" mode="display">
+            <m:mtable displaystyle="true">
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mi>Ratio</m:mi>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mfrac>
+                    <m:mrow>
+                      <m:mn>2</m:mn>
+                      <m:mi>L</m:mi>
+                    </m:mrow>
+                    <m:mi>L</m:mi>
+                  </m:mfrac>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd/>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mn>2</m:mn>
+                </m:mtd>
+              </m:mtr>
+            </m:mtable>
+          </m:math>
+        </equation>
+        <para id="id65569">Short sides, large rectangle values over small rectangle values:</para>
+        <equation id="id65572"><m:math overflow="scroll" mode="display">
+            <m:mtable displaystyle="true">
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mi>Ratio</m:mi>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mfrac>
+                    <m:mi>L</m:mi>
+                    <m:mrow>
+                      <m:mfrac>
+                        <m:mn>1</m:mn>
+                        <m:mn>2</m:mn>
+                      </m:mfrac>
+                      <m:mi>L</m:mi>
+                    </m:mrow>
+                  </m:mfrac>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd/>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mfrac>
+                    <m:mn>1</m:mn>
+                    <m:mfrac>
+                      <m:mn>1</m:mn>
+                      <m:mn>2</m:mn>
+                    </m:mfrac>
+                  </m:mfrac>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd/>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mn>2</m:mn>
+                </m:mtd>
+              </m:mtr>
+            </m:mtable>
+          </m:math>
+        </equation>
+        <para id="id65644">The ratios of the corresponding sides are equal, 2 in this case.</para>
+        </item> <item> <label> Final answer </label>
+        <para id="id65652">Since corresponding angles are equal and the ratios of the corresponding sides are equal the polygons ABCD and EFGH are similar. </para>
+        </item> </list> </solution>
+</exercise>
+<note id="notfhsst_id731" type="tip">All squares are similar.</note>
+<exercise id="secfhsst_id732"><title> Similarity of Polygons </title>
+        <problem id="probfhsst_id733">
+        <para id="id65687">If two pentagons ABCDE and GHJKL are similar, determine the lengths of the sides and angles labelled with letters:</para>
+        <para id="id65694">
+          <figure id="id65697">
+            <media id="id65697_media" alt="">
+              <image mime-type="image/png" src="../../media/MG10C14_012.png" id="id65697_onlineimage" width="249"><!-- NOTE: attribute width changes image size online (pixels). original width is 249. --></image>
+              <image mime-type="application/postscript" for="pdf" src="../../media/MG10C14_012.eps" id="id65697_printimage"/>
+            </media>
+          </figure>
+        </para>
+        
+        </problem>
+        <solution id="solfhsst_id745"> <list id="listfhsst_id745" list-type="enumerated" number-style="arabic" class="stepwise">
+        <item> <label> Determine what is given </label>
+        <para id="id65725">We are given that ABCDE and GHJKL are similar. This means that:</para>
+        <equation id="id65729">
+          <m:math overflow="scroll" mode="display">
+            <m:mrow>
+              <m:mfrac>
+                <m:mi> AB </m:mi>
+                <m:mi> GH </m:mi>
+              </m:mfrac>
+              <m:mo>=</m:mo>
+              <m:mfrac>
+                <m:mi> BC </m:mi>
+                <m:mi> HJ </m:mi>
+              </m:mfrac>
+              <m:mo>=</m:mo>
+              <m:mfrac>
+                <m:mi> CD </m:mi>
+                <m:mi> JK </m:mi>
+              </m:mfrac>
+              <m:mo>=</m:mo>
+              <m:mfrac>
+                <m:mi> DE </m:mi>
+                <m:mi> KL </m:mi>
+              </m:mfrac>
+              <m:mo>=</m:mo>
+              <m:mfrac>
+                <m:mi> EA </m:mi>
+                <m:mi> LG </m:mi>
+              </m:mfrac>
+            </m:mrow>
+          </m:math>
+        </equation>
+        <para id="id65782">and</para>
+        <equation id="id65787">
+          <m:math overflow="scroll" mode="display">
+            <m:mtable displaystyle="true">
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mover accent="true">
+                    <m:mi>A</m:mi>
+                    <m:mo>^</m:mo>
+                  </m:mover>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mover accent="true">
+                    <m:mi>G</m:mi>
+                    <m:mo>^</m:mo>
+                  </m:mover>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mover accent="true">
+                    <m:mi>B</m:mi>
+                    <m:mo>^</m:mo>
+                  </m:mover>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mover accent="true">
+                    <m:mi>H</m:mi>
+                    <m:mo>^</m:mo>
+                  </m:mover>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mover accent="true">
+                    <m:mi>C</m:mi>
+                    <m:mo>^</m:mo>
+                  </m:mover>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mover accent="true">
+                    <m:mi>J</m:mi>
+                    <m:mo>^</m:mo>
+                  </m:mover>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mover accent="true">
+                    <m:mi>D</m:mi>
+                    <m:mo>^</m:mo>
+                  </m:mover>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mover accent="true">
+                    <m:mi>K</m:mi>
+                    <m:mo>^</m:mo>
+                  </m:mover>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mover accent="true">
+                    <m:mi>E</m:mi>
+                    <m:mo>^</m:mo>
+                  </m:mover>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mover accent="true">
+                    <m:mi>L</m:mi>
+                    <m:mo>^</m:mo>
+                  </m:mover>
+                </m:mtd>
+              </m:mtr>
+            </m:mtable>
+          </m:math>
+        </equation>
+        </item> <item> <label> Determine what is required </label>
+        <para id="id65948">We are required to determine the</para>
+        <list id="id65951" display="block" list-type="enumerated">
+          <item id="uid32"><label>lengths</label><m:math overflow="scroll"><m:mi>a</m:mi></m:math>, <m:math overflow="scroll"><m:mi>b</m:mi></m:math>, <m:math overflow="scroll"><m:mi>c</m:mi></m:math> and <m:math overflow="scroll"><m:mi>d</m:mi></m:math>, and
+</item>
+          <item id="uid33"><label>angles</label><m:math overflow="scroll"><m:mi>e</m:mi></m:math>, <m:math overflow="scroll"><m:mi>f</m:mi></m:math> and <m:math overflow="scroll"><m:mi>g</m:mi></m:math>.
+</item>
+        </list>
+        </item> <item> <label> Decide how to approach the problem </label>
+        <para id="id66048">The corresponding angles are equal, so no calculation is needed. We are given one pair of sides <m:math overflow="scroll"><m:mrow><m:mi>D</m:mi><m:mi>C</m:mi></m:mrow></m:math> and <m:math overflow="scroll"><m:mrow><m:mi>K</m:mi><m:mi>J</m:mi></m:mrow></m:math> that correspond. <m:math overflow="scroll"><m:mrow><m:mfrac><m:mrow><m:mi>D</m:mi><m:mi>C</m:mi></m:mrow><m:mrow><m:mi>K</m:mi><m:mi>J</m:mi></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>4</m:mn><m:mo>,</m:mo><m:mn>5</m:mn></m:mrow><m:mn>3</m:mn></m:mfrac><m:mo>=</m:mo><m:mn>1</m:mn><m:mo>,</m:mo><m:mn>5</m:mn></m:mrow></m:math> so we know that all sides of <m:math overflow="scroll"><m:mrow><m:mi>K</m:mi><m:mi>J</m:mi><m:mi>H</m:mi><m:mi>G</m:mi><m:mi>L</m:mi></m:mrow></m:math> are 1,5 times smaller than <m:math overflow="scroll"><m:mrow><m:mi>A</m:mi><m:mi>B</m:mi><m:mi>C</m:mi><m:mi>D</m:mi><m:mi>E</m:mi></m:mrow></m:math>.</para>
+        </item> <item> <label> Calculate lengths </label>
+        <equation id="id66160">
+          <m:math overflow="scroll" mode="display">
+            <m:mtable displaystyle="true">
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mfrac>
+                      <m:mi>a</m:mi>
+                      <m:mn>2</m:mn>
+                    </m:mfrac>
+                    <m:mo>=</m:mo>
+                    <m:mn>1</m:mn>
+                    <m:mo>,</m:mo>
+                    <m:mn>5</m:mn>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>∴</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mi>a</m:mi>
+                    <m:mo>=</m:mo>
+                    <m:mn>2</m:mn>
+                    <m:mo>×</m:mo>
+                    <m:mn>1</m:mn>
+                    <m:mo>,</m:mo>
+                    <m:mn>5</m:mn>
+                    <m:mo>=</m:mo>
+                    <m:mn>3</m:mn>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mfrac>
+                      <m:mi>b</m:mi>
+                      <m:mrow>
+                        <m:mn>1</m:mn>
+                        <m:mo>,</m:mo>
+                        <m:mn>5</m:mn>
+                      </m:mrow>
+                    </m:mfrac>
+                    <m:mo>=</m:mo>
+                    <m:mn>1</m:mn>
+                    <m:mo>,</m:mo>
+                    <m:mn>5</m:mn>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>∴</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mi>b</m:mi>
+                    <m:mo>=</m:mo>
+                    <m:mn>1</m:mn>
+                    <m:mo>,</m:mo>
+                    <m:mn>5</m:mn>
+                    <m:mo>×</m:mo>
+                    <m:mn>1</m:mn>
+                    <m:mo>,</m:mo>
+                    <m:mn>5</m:mn>
+                    <m:mo>=</m:mo>
+                    <m:mn>2</m:mn>
+                    <m:mo>,</m:mo>
+                    <m:mn>25</m:mn>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mfrac>
+                      <m:mn>6</m:mn>
+                      <m:mi>c</m:mi>
+                    </m:mfrac>
+                    <m:mo>=</m:mo>
+                    <m:mn>1</m:mn>
+                    <m:mo>,</m:mo>
+                    <m:mn>5</m:mn>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>∴</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mi>c</m:mi>
+                    <m:mo>=</m:mo>
+                    <m:mn>6</m:mn>
+                    <m:mo>÷</m:mo>
+                    <m:mn>1</m:mn>
+                    <m:mo>,</m:mo>
+                    <m:mn>5</m:mn>
+                    <m:mo>=</m:mo>
+                    <m:mn>4</m:mn>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mi>d</m:mi>
+                    <m:mo>=</m:mo>
+                    <m:mfrac>
+                      <m:mn>3</m:mn>
+                      <m:mrow>
+                        <m:mn>1</m:mn>
+                        <m:mo>,</m:mo>
+                        <m:mn>5</m:mn>
+                      </m:mrow>
+                    </m:mfrac>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>∴</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mi>d</m:mi>
+                    <m:mo>=</m:mo>
+                    <m:mn>2</m:mn>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+            </m:mtable>
+          </m:math>
+        </equation>
+        </item> <item> <label> Calculate angles </label>
+        <equation id="id66368">
+          <m:math overflow="scroll" mode="display">
+            <m:mtable displaystyle="true">
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mi>e</m:mi>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:msup>
+                      <m:mn>92</m:mn>
+                      <m:mo>∘</m:mo>
+                    </m:msup>
+                    <m:mrow>
+                      <m:mo>(</m:mo>
+                      <m:mi mathvariant="sans-serif">corresponds</m:mi>
+                      <m:mi mathvariant="sans-serif">to</m:mi>
+                      <m:mi mathvariant="sans-serif">H</m:mi>
+                      <m:mo>)</m:mo>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mi>f</m:mi>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:msup>
+                      <m:mn>120</m:mn>
+                      <m:mo>∘</m:mo>
+                    </m:msup>
+                    <m:mrow>
+                      <m:mo>(</m:mo>
+                      <m:mi mathvariant="sans-serif">corresponds</m:mi>
+                      <m:mi mathvariant="sans-serif">to</m:mi>
+                      <m:mi mathvariant="sans-serif">D</m:mi>
+                      <m:mo>)</m:mo>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mi>g</m:mi>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:msup>
+                      <m:mn>40</m:mn>
+                      <m:mo>∘</m:mo>
+                    </m:msup>
+                    <m:mrow>
+                      <m:mo>(</m:mo>
+                      <m:mi mathvariant="sans-serif">corresponds</m:mi>
+                      <m:mi mathvariant="sans-serif">to</m:mi>
+                      <m:mi mathvariant="sans-serif">E</m:mi>
+                      <m:mo>)</m:mo>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+            </m:mtable>
+          </m:math>
+        </equation>
+        </item> <item> <label> Write the final answer </label>
+        <equation id="id66506">
+          <m:math overflow="scroll" mode="display">
+            <m:mtable displaystyle="true">
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mi>a</m:mi>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mn>3</m:mn>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mi>b</m:mi>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mn>2</m:mn>
+                    <m:mo>,</m:mo>
+                    <m:mn>25</m:mn>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mi>c</m:mi>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mn>4</m:mn>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mi>d</m:mi>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mn>2</m:mn>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mi>e</m:mi>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:msup>
+                    <m:mn>92</m:mn>
+                    <m:mo>∘</m:mo>
+                  </m:msup>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mi>f</m:mi>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:msup>
+                    <m:mn>120</m:mn>
+                    <m:mo>∘</m:mo>
+                  </m:msup>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mi>g</m:mi>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:msup>
+                    <m:mn>40</m:mn>
+                    <m:mo>∘</m:mo>
+                  </m:msup>
+                </m:mtd>
+              </m:mtr>
+            </m:mtable>
+          </m:math>
+        </equation>
+        
+        </item> </list> </solution>
+</exercise>
+<section id="secfhsst_id1187"><title> Similarity of Equilateral Triangles </title>
+<para id="uid34283409"> Working in pairs, show that all equilateral triangles are similar. </para>
+        
+</section>
+<section id="secfhsst_id1190"><title> Polygons-mixed </title>
+        <list id="id66690" display="block" list-type="enumerated"><item id="uid34">Find the values of the unknowns in each case. Give reasons.
+<figure id="id66710"><media id="id66710_media" alt=""><image mime-type="image/png" src="../../media/mg10c14_2.png" id="id66710_onlineimage" width="443"><!-- NOTE: attribute width changes image size online (pixels). original width is 443. --></image><image mime-type="application/postscript" for="pdf" src="../../media/mg10c14_2.eps" id="id66710_printimage"/></media></figure><link window="new" class="fullmarks" url="http://www.fhsst.org/liD">Click here for the solution</link></item>
+          <item id="uid35">
+Find the angles and lengths marked with letters in the following figures:
+<figure id="id66733"><media id="id66733_media" alt=""><image mime-type="image/png" src="../../media/MG10C14_014.png" id="id66733_onlineimage" width="297"><!-- NOTE: attribute width changes image size online (pixels). original width is 297. --></image><image mime-type="application/postscript" for="pdf" src="../../media/MG10C14_014.eps" id="id66733_printimage"/></media></figure><link window="new" class="fullmarks" url="http://www.fhsst.org/liW">Click here for the solution</link></item>
+        </list>
+        
+</section>
+      </section>
+    </section>
+    <section id="cid5">
+      <title>Analytical Geometry</title>
+      <section id="uid36">
+        <title>Introduction</title>
+        <para id="id66769">Analytical geometry, also called co-ordinate geometry and earlier referred to as Cartesian geometry, is the study of geometry using the principles of algebra, and the Cartesian co-ordinate system. It is concerned with defining geometrical shapes in a numerical way, and extracting numerical information from that representation. Some consider that the introduction of analytic geometry was the beginning of modern mathematics.</para>
+      </section>
+      <section id="uid37"><title>Distance between Two Points</title><para id="id66786">One of the simplest things that can be done with analytical geometry is to calculate the distance between two points. <emphasis effect="italics">Distance</emphasis> is a number that describes how far apart two point are. For example, point <m:math><m:mi>P</m:mi></m:math> has co-ordinates <m:math overflow="scroll"><m:mrow><m:mo>(</m:mo><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>1</m:mn><m:mo>)</m:mo></m:mrow></m:math> and point <m:math><m:mi>Q</m:mi></m:math> has co-ordinates <m:math overflow="scroll"><m:mrow><m:mo>(</m:mo><m:mo>-</m:mo><m:mn>2</m:mn><m:mo>,</m:mo><m:mo>-</m:mo><m:mn>2</m:mn><m:mo>)</m:mo></m:mrow></m:math>. How far apart are points <m:math><m:mi>P</m:mi></m:math> and <m:math><m:mi>Q</m:mi></m:math>? In the figure, this means how long is the dashed line?</para>
+        <figure id="uid38">
+          <media id="uid38_media" alt="">
+            <image mime-type="image/png" src="../../media/MG10C14_015.png" id="uid38_onlineimage" width="323"><!-- NOTE: attribute width changes image size online (pixels). original width is 323. --></image>
+            <image mime-type="application/postscript" for="pdf" src="../../media/MG10C14_015.eps" id="uid38_printimage"/>
+          </media>
+        </figure>
+        <para id="id66883">In the figure, it can be seen that the length of the line <m:math overflow="scroll"><m:mrow><m:mi>P</m:mi><m:mi>R</m:mi></m:mrow></m:math> is 3 units and the length of the line <m:math overflow="scroll"><m:mrow><m:mi>Q</m:mi><m:mi>R</m:mi></m:mrow></m:math> is four units. However, the <m:math overflow="scroll"><m:mrow><m:mi>▵</m:mi><m:mi>P</m:mi><m:mi>Q</m:mi><m:mi>R</m:mi></m:mrow></m:math>, has a right angle at <m:math overflow="scroll"><m:mi>R</m:mi></m:math>. Therefore, the length of the side <m:math overflow="scroll"><m:mrow><m:mi>P</m:mi><m:mi>Q</m:mi></m:mrow></m:math> can be obtained by using the Theorem of Pythagoras:</para>
+        <equation id="id66950">
+          <m:math overflow="scroll" mode="display">
+            <m:mtable displaystyle="true">
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mi>P</m:mi>
+                    <m:msup>
+                      <m:mi>Q</m:mi>
+                      <m:mn>2</m:mn>
+                    </m:msup>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mi>P</m:mi>
+                    <m:msup>
+                      <m:mi>R</m:mi>
+                      <m:mn>2</m:mn>
+                    </m:msup>
+                    <m:mo>+</m:mo>
+                    <m:mi>Q</m:mi>
+                    <m:msup>
+                      <m:mi>R</m:mi>
+                      <m:mn>2</m:mn>
+                    </m:msup>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mo>∴</m:mo>
+                    <m:mi>P</m:mi>
+                    <m:msup>
+                      <m:mi>Q</m:mi>
+                      <m:mn>2</m:mn>
+                    </m:msup>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:msup>
+                      <m:mn>3</m:mn>
+                      <m:mn>2</m:mn>
+                    </m:msup>
+                    <m:mo>+</m:mo>
+                    <m:msup>
+                      <m:mn>4</m:mn>
+                      <m:mn>2</m:mn>
+                    </m:msup>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mo>∴</m:mo>
+                    <m:mi>P</m:mi>
+                    <m:mi>Q</m:mi>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:msqrt>
+                      <m:mrow>
+                        <m:msup>
+                          <m:mn>3</m:mn>
+                          <m:mn>2</m:mn>
+                        </m:msup>
+                        <m:mo>+</m:mo>
+                        <m:msup>
+                          <m:mn>4</m:mn>
+                          <m:mn>2</m:mn>
+                        </m:msup>
+                      </m:mrow>
+                    </m:msqrt>
+                    <m:mo>=</m:mo>
+                    <m:mn>5</m:mn>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+            </m:mtable>
+          </m:math>
+        </equation>
+        <para id="id67090">The length of <m:math overflow="scroll"><m:mrow><m:mi>P</m:mi><m:mi>Q</m:mi></m:mrow></m:math> is the distance between the points <m:math overflow="scroll"><m:mi>P</m:mi></m:math> and <m:math overflow="scroll"><m:mi>Q</m:mi></m:math>.</para>
+        <para id="id67126">In order to generalise the idea, assume <m:math overflow="scroll"><m:mi>A</m:mi></m:math> is any point with co-ordinates <m:math overflow="scroll"><m:mrow><m:mo>(</m:mo><m:msub><m:mi>x</m:mi><m:mn>1</m:mn></m:msub><m:mo>;</m:mo><m:msub><m:mi>y</m:mi><m:mn>1</m:mn></m:msub><m:mo>)</m:mo></m:mrow></m:math> and <m:math overflow="scroll"><m:mi>B</m:mi></m:math> is any other point with co-ordinates <m:math overflow="scroll"><m:mrow><m:mo>(</m:mo><m:msub><m:mi>x</m:mi><m:mn>2</m:mn></m:msub><m:mo>;</m:mo><m:msub><m:mi>y</m:mi><m:mn>2</m:mn></m:msub><m:mo>)</m:mo></m:mrow></m:math>.</para>
+        <figure id="uid39">
+          <media id="uid39_media" alt="">
+            <image mime-type="image/png" src="../../media/MG10C14_016.png" id="uid39_onlineimage" width="128"><!-- NOTE: attribute width changes image size online (pixels). original width is 128. --></image>
+            <image mime-type="application/postscript" for="pdf" src="../../media/MG10C14_016.eps" id="uid39_printimage"/>
+          </media>
+        </figure>
+        <para id="id67214">The formula for calculating the distance between two points is derived as follows. The distance between the points <m:math overflow="scroll"><m:mi>A</m:mi></m:math> and <m:math overflow="scroll"><m:mi>B</m:mi></m:math> is the length of the line <m:math overflow="scroll"><m:mrow><m:mi>A</m:mi><m:mi>B</m:mi></m:mrow></m:math>. According to the Theorem of Pythagoras, the length of <m:math overflow="scroll"><m:mrow><m:mi>A</m:mi><m:mi>B</m:mi></m:mrow></m:math> is given by:</para>
+        <equation id="id67261">
+          <m:math overflow="scroll" mode="display">
+            <m:mrow>
+              <m:mi>A</m:mi>
+              <m:mi>B</m:mi>
+              <m:mo>=</m:mo>
+              <m:msqrt>
+                <m:mrow>
+                  <m:mi>A</m:mi>
+                  <m:msup>
+                    <m:mi>C</m:mi>
+                    <m:mn>2</m:mn>
+                  </m:msup>
+                  <m:mo>+</m:mo>
+                  <m:mi>B</m:mi>
+                  <m:msup>
+                    <m:mi>C</m:mi>
+                    <m:mn>2</m:mn>
+                  </m:msup>
+                </m:mrow>
+              </m:msqrt>
+            </m:mrow>
+          </m:math>
+        </equation>
+        <para id="id67300">However,</para>
+        <equation id="id67306">
+          <m:math overflow="scroll" mode="display">
+            <m:mtable displaystyle="true">
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mi>B</m:mi>
+                    <m:mi>C</m:mi>
+                    <m:mo>=</m:mo>
+                    <m:msub>
+                      <m:mi>y</m:mi>
+                      <m:mn>2</m:mn>
+                    </m:msub>
+                    <m:mo>-</m:mo>
+                    <m:msub>
+                      <m:mi>y</m:mi>
+                      <m:mn>1</m:mn>
+                    </m:msub>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mi>A</m:mi>
+                    <m:mi>C</m:mi>
+                    <m:mo>=</m:mo>
+                    <m:msub>
+                      <m:mi>x</m:mi>
+                      <m:mn>2</m:mn>
+                    </m:msub>
+                    <m:mo>-</m:mo>
+                    <m:msub>
+                      <m:mi>x</m:mi>
+                      <m:mn>1</m:mn>
+                    </m:msub>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+            </m:mtable>
+          </m:math>
+        </equation>
+        <para id="id67375">Therefore,</para>
+        <equation id="id67379">
+          <m:math overflow="scroll" mode="display">
+            <m:mtable displaystyle="true">
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mi>A</m:mi>
+                    <m:mi>B</m:mi>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:msqrt>
+                    <m:mrow>
+                      <m:mi>A</m:mi>
+                      <m:msup>
+                        <m:mi>C</m:mi>
+                        <m:mn>2</m:mn>
+                      </m:msup>
+                      <m:mo>+</m:mo>
+                      <m:mi>B</m:mi>
+                      <m:msup>
+                        <m:mi>C</m:mi>
+                        <m:mn>2</m:mn>
+                      </m:msup>
+                    </m:mrow>
+                  </m:msqrt>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd/>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:msqrt>
+                    <m:mrow>
+                      <m:msup>
+                        <m:mrow>
+                          <m:mo>(</m:mo>
+                          <m:msub>
+                            <m:mi>x</m:mi>
+                            <m:mn>1</m:mn>
+                          </m:msub>
+                          <m:mo>-</m:mo>
+                          <m:msub>
+                            <m:mi>x</m:mi>
+                            <m:mn>2</m:mn>
+                          </m:msub>
+                          <m:mo>)</m:mo>
+                        </m:mrow>
+                        <m:mn>2</m:mn>
+                      </m:msup>
+                      <m:mo>+</m:mo>
+                      <m:msup>
+                        <m:mrow>
+                          <m:mo>(</m:mo>
+                          <m:msub>
+                            <m:mi>y</m:mi>
+                            <m:mn>1</m:mn>
+                          </m:msub>
+                          <m:mo>-</m:mo>
+                          <m:msub>
+                            <m:mi>y</m:mi>
+                            <m:mn>2</m:mn>
+                          </m:msub>
+                          <m:mo>)</m:mo>
+                        </m:mrow>
+                        <m:mn>2</m:mn>
+                      </m:msup>
+                    </m:mrow>
+                  </m:msqrt>
+                </m:mtd>
+              </m:mtr>
+            </m:mtable>
+          </m:math>
+        </equation>
+        <para id="id67499">Therefore, for any two points, <m:math overflow="scroll"><m:mrow><m:mo>(</m:mo><m:msub><m:mi>x</m:mi><m:mn>1</m:mn></m:msub><m:mo>;</m:mo><m:msub><m:mi>y</m:mi><m:mn>1</m:mn></m:msub><m:mo>)</m:mo></m:mrow></m:math> and <m:math overflow="scroll"><m:mrow><m:mo>(</m:mo><m:msub><m:mi>x</m:mi><m:mn>2</m:mn></m:msub><m:mo>;</m:mo><m:msub><m:mi>y</m:mi><m:mn>2</m:mn></m:msub><m:mo>)</m:mo></m:mrow></m:math>, the formula is:</para>
+        <para id="id67561">Distance=<m:math overflow="scroll"><m:msqrt><m:mrow><m:msup><m:mrow><m:mo>(</m:mo><m:msub><m:mi>x</m:mi><m:mn>1</m:mn></m:msub><m:mo>-</m:mo><m:msub><m:mi>x</m:mi><m:mn>2</m:mn></m:msub><m:mo>)</m:mo></m:mrow><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:msup><m:mrow><m:mo>(</m:mo><m:msub><m:mi>y</m:mi><m:mn>1</m:mn></m:msub><m:mo>-</m:mo><m:msub><m:mi>y</m:mi><m:mn>2</m:mn></m:msub><m:mo>)</m:mo></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:msqrt></m:math></para>
+        <para id="id67630">Using the formula, distance between the points <m:math overflow="scroll"><m:mi>P</m:mi></m:math> and <m:math overflow="scroll"><m:mi>Q</m:mi></m:math> with co-ordinates (2;1) and (-2;-2) is then found as follows. Let the co-ordinates of point <m:math overflow="scroll"><m:mi>P</m:mi></m:math> be <m:math overflow="scroll"><m:mrow><m:mo>(</m:mo><m:msub><m:mi>x</m:mi><m:mn>1</m:mn></m:msub><m:mo>;</m:mo><m:msub><m:mi>y</m:mi><m:mn>1</m:mn></m:msub><m:mo>)</m:mo></m:mrow></m:math> and the co-ordinates of point <m:math overflow="scroll"><m:mi>Q</m:mi></m:math> be <m:math overflow="scroll"><m:mrow><m:mo>(</m:mo><m:msub><m:mi>x</m:mi><m:mn>2</m:mn></m:msub><m:mo>;</m:mo><m:msub><m:mi>y</m:mi><m:mn>2</m:mn></m:msub><m:mo>)</m:mo></m:mrow></m:math>. Then the distance is:</para>
+        <equation id="id67728">
+          <m:math overflow="scroll" mode="display">
+            <m:mtable displaystyle="true">
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mi> Distance </m:mi>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:msqrt>
+                    <m:mrow>
+                      <m:msup>
+                        <m:mrow>
+                          <m:mo>(</m:mo>
+                          <m:msub>
+                            <m:mi>x</m:mi>
+                            <m:mn>1</m:mn>
+                          </m:msub>
+                          <m:mo>-</m:mo>
+                          <m:msub>
+                            <m:mi>x</m:mi>
+                            <m:mn>2</m:mn>
+                          </m:msub>
+                          <m:mo>)</m:mo>
+                        </m:mrow>
+                        <m:mn>2</m:mn>
+                      </m:msup>
+                      <m:mo>+</m:mo>
+                      <m:msup>
+                        <m:mrow>
+                          <m:mo>(</m:mo>
+                          <m:msub>
+                            <m:mi>y</m:mi>
+                            <m:mn>1</m:mn>
+                          </m:msub>
+                          <m:mo>-</m:mo>
+                          <m:msub>
+                            <m:mi>y</m:mi>
+                            <m:mn>2</m:mn>
+                          </m:msub>
+                          <m:mo>)</m:mo>
+                        </m:mrow>
+                        <m:mn>2</m:mn>
+                      </m:msup>
+                    </m:mrow>
+                  </m:msqrt>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd/>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:msqrt>
+                    <m:mrow>
+                      <m:msup>
+                        <m:mrow>
+                          <m:mo>(</m:mo>
+                          <m:mn>2</m:mn>
+                          <m:mo>-</m:mo>
+                          <m:mrow>
+                            <m:mo>(</m:mo>
+                            <m:mo>-</m:mo>
+                            <m:mn>2</m:mn>
+                            <m:mo>)</m:mo>
+                          </m:mrow>
+                          <m:mo>)</m:mo>
+                        </m:mrow>
+                        <m:mn>2</m:mn>
+                      </m:msup>
+                      <m:mo>+</m:mo>
+                      <m:msup>
+                        <m:mrow>
+                          <m:mo>(</m:mo>
+                          <m:mn>1</m:mn>
+                          <m:mo>-</m:mo>
+                          <m:mrow>
+                            <m:mo>(</m:mo>
+                            <m:mo>-</m:mo>
+                            <m:mn>2</m:mn>
+                            <m:mo>)</m:mo>
+                          </m:mrow>
+                          <m:mo>)</m:mo>
+                        </m:mrow>
+                        <m:mn>2</m:mn>
+                      </m:msup>
+                    </m:mrow>
+                  </m:msqrt>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd/>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:msqrt>
+                    <m:mrow>
+                      <m:msup>
+                        <m:mrow>
+                          <m:mo>(</m:mo>
+                          <m:mn>2</m:mn>
+                          <m:mo>+</m:mo>
+                          <m:mn>2</m:mn>
+                          <m:mo>)</m:mo>
+                        </m:mrow>
+                        <m:mn>2</m:mn>
+                      </m:msup>
+                      <m:mo>+</m:mo>
+                      <m:msup>
+                        <m:mrow>
+                          <m:mo>(</m:mo>
+                          <m:mn>1</m:mn>
+                          <m:mo>+</m:mo>
+                          <m:mn>2</m:mn>
+                          <m:mo>)</m:mo>
+                        </m:mrow>
+                        <m:mn>2</m:mn>
+                      </m:msup>
+                    </m:mrow>
+                  </m:msqrt>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd/>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:msqrt>
+                    <m:mrow>
+                      <m:mn>16</m:mn>
+                      <m:mo>+</m:mo>
+                      <m:mn>9</m:mn>
+                    </m:mrow>
+                  </m:msqrt>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd/>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:msqrt>
+                    <m:mn>25</m:mn>
+                  </m:msqrt>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd/>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mn>5</m:mn>
+                </m:mtd>
+              </m:mtr>
+            </m:mtable>
+          </m:math>
+        </equation><para id="eip-130">The following video provides a summary of the distance formula.
+<figure id="uid99" class="khanacademy">
+ <title>Khan academy video on distance formula</title>
+ <media id="yt-media" display="block" alt="video on distance formula">
+  <flash id="yt-video" mime-type="application/x-shockwave-flash" src="http://www.youtube.com/v/nyZuite17Pc&amp;rel=0" width="425" height="344">
+   <param name="allowscriptaccess" value="always"/>
+   <param name="allowsfullscreen" value="true"/>
+  </flash>
+ </media>
+</figure></para>
+      </section>
+      <section id="uid40"><title>Calculation of the Gradient of a Line</title><para id="id67971">The gradient of a line describes how steep the line is. In the figure, line <m:math overflow="scroll"><m:mrow><m:mi>P</m:mi><m:mi>T</m:mi></m:mrow></m:math> is the steepest. Line <m:math overflow="scroll"><m:mrow><m:mi>P</m:mi><m:mi>S</m:mi></m:mrow></m:math> is less steep than <m:math overflow="scroll"><m:mrow><m:mi>P</m:mi><m:mi>T</m:mi></m:mrow></m:math> but is steeper than <m:math overflow="scroll"><m:mrow><m:mi>P</m:mi><m:mi>R</m:mi></m:mrow></m:math>, and line <m:math overflow="scroll"><m:mrow><m:mi>P</m:mi><m:mi>R</m:mi></m:mrow></m:math> is steeper than <m:math overflow="scroll"><m:mrow><m:mi>P</m:mi><m:mi>Q</m:mi></m:mrow></m:math>.</para>
+        <figure id="uid41">
+          <media id="uid41_media" alt="">
+            <image mime-type="image/png" src="../../media/MG10C14_017.png" id="uid41_onlineimage" width="198"><!-- NOTE: attribute width changes image size online (pixels). original width is 198. --></image>
+            <image mime-type="application/postscript" for="pdf" src="../../media/MG10C14_017.eps" id="uid41_printimage"/>
+          </media>
+        </figure>
+        <para id="id68057">The gradient of a line is defined as the ratio of the vertical distance to the horizontal distance. This can be understood by looking at the line as the hypotenuse of a right-angled triangle. Then the gradient is the ratio of the length of the vertical side of the triangle to the horizontal side of the triangle. Consider a line between a point <m:math overflow="scroll"><m:mi>A</m:mi></m:math> with co-ordinates <m:math overflow="scroll"><m:mrow><m:mo>(</m:mo><m:msub><m:mi>x</m:mi><m:mn>1</m:mn></m:msub><m:mo>;</m:mo><m:msub><m:mi>y</m:mi><m:mn>1</m:mn></m:msub><m:mo>)</m:mo></m:mrow></m:math> and a point <m:math overflow="scroll"><m:mi>B</m:mi></m:math> with co-ordinates <m:math overflow="scroll"><m:mrow><m:mo>(</m:mo><m:msub><m:mi>x</m:mi><m:mn>2</m:mn></m:msub><m:mo>;</m:mo><m:msub><m:mi>y</m:mi><m:mn>2</m:mn></m:msub><m:mo>)</m:mo></m:mrow></m:math>.</para>
+        <figure id="uid42">
+          <media id="uid42_media" alt="">
+            <image mime-type="image/png" src="../../media/MG10C14_018.png" id="uid42_onlineimage" width="128"><!-- NOTE: attribute width changes image size online (pixels). original width is 128. --></image>
+            <image mime-type="application/postscript" for="pdf" src="../../media/MG10C14_018.eps" id="uid42_printimage"/>
+          </media>
+        </figure>
+        <para id="id68147">Gradient<m:math overflow="scroll"><m:mrow><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>y</m:mi><m:mn>2</m:mn></m:msub><m:mo>-</m:mo><m:msub><m:mi>y</m:mi><m:mn>1</m:mn></m:msub></m:mrow><m:mrow><m:msub><m:mi>x</m:mi><m:mn>2</m:mn></m:msub><m:mo>-</m:mo><m:msub><m:mi>x</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:mfrac></m:mrow></m:math></para>
+        <para id="eip-332">We can use the gradient of a line to determine if two lines are parallel or perpendicular. If the lines are parallel (<link target-id="uid4212"/>a) then they will have the same gradient, i.e. m<sub>AB</sub> <m:math><m:mo>=</m:mo></m:math> m<sub>CD</sub>. If the lines are perpendicular (<link target-id="uid4212"/>b) than we have: <m:math overflow="scroll"><m:mrow><m:mo>-</m:mo><m:mfrac><m:mrow><m:mn>1</m:mn></m:mrow><m:mrow><m:msub><m:mi>m</m:mi><m:mi>AB</m:mi></m:msub></m:mrow></m:mfrac><m:mo>=</m:mo><m:msub><m:mi>m</m:mi><m:mi>CD</m:mi></m:msub></m:mrow></m:math>
+
+ <figure id="uid4212">
+          <media id="uid4212_media" alt="">
+            <image mime-type="image/png" src="../../media/geom.png" id="uid4212_onlineimage" width="128"><!-- NOTE: attribute width changes image size online (pixels). original width is 128. --></image>
+            <image mime-type="application/postscript" for="pdf" src="../../media/geom.eps" id="uid4212_printimage"/>
+          </media>
+        </figure>
+</para><para id="id68198">For example the gradient of the line between the points <m:math overflow="scroll"><m:mi>P</m:mi></m:math> and <m:math overflow="scroll"><m:mi>Q</m:mi></m:math>, with co-ordinates (2;1) and (-2;-2) (<link target-id="uid38"/>) is:</para>
+        <equation id="id68224">
+          <m:math overflow="scroll" mode="display">
+            <m:mtable displaystyle="true">
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mi> Gradient </m:mi>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mfrac>
+                    <m:mrow>
+                      <m:msub>
+                        <m:mi>y</m:mi>
+                        <m:mn>2</m:mn>
+                      </m:msub>
+                      <m:mo>-</m:mo>
+                      <m:msub>
+                        <m:mi>y</m:mi>
+                        <m:mn>1</m:mn>
+                      </m:msub>
+                    </m:mrow>
+                    <m:mrow>
+                      <m:msub>
+                        <m:mi>x</m:mi>
+                        <m:mn>2</m:mn>
+                      </m:msub>
+                      <m:mo>-</m:mo>
+                      <m:msub>
+                        <m:mi>x</m:mi>
+                        <m:mn>1</m:mn>
+                      </m:msub>
+                    </m:mrow>
+                  </m:mfrac>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd/>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mfrac>
+                    <m:mrow>
+                      <m:mo>-</m:mo>
+                      <m:mn>2</m:mn>
+                      <m:mo>-</m:mo>
+                      <m:mn>1</m:mn>
+                    </m:mrow>
+                    <m:mrow>
+                      <m:mo>-</m:mo>
+                      <m:mn>2</m:mn>
+                      <m:mo>-</m:mo>
+                      <m:mn>2</m:mn>
+                    </m:mrow>
+                  </m:mfrac>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd/>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mfrac>
+                    <m:mrow>
+                      <m:mo>-</m:mo>
+                      <m:mn>3</m:mn>
+                    </m:mrow>
+                    <m:mrow>
+                      <m:mo>-</m:mo>
+                      <m:mn>4</m:mn>
+                    </m:mrow>
+                  </m:mfrac>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd/>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mfrac>
+                    <m:mn>3</m:mn>
+                    <m:mn>4</m:mn>
+                  </m:mfrac>
+                </m:mtd>
+              </m:mtr>
+            </m:mtable>
+          </m:math>
+        </equation><para id="eip-611">The following video provides a summary of the gradient of a line.
+<figure id="uid993" class="khanacademy">
+ <title>Gradient of a line</title>
+ <media id="yt-media1" display="block" alt="Video on gradient of a line">
+  <flash id="yt-video1" mime-type="application/x-shockwave-flash" src="http://www.youtube.com/v/R948Tsyq4vA&amp;rel=0" width="425" height="344">
+   <param name="allowscriptaccess" value="always"/>
+   <param name="allowsfullscreen" value="true"/>
+  </flash>
+ </media>
+</figure></para>
+      </section>
+      <section id="uid43">
+        <title>Midpoint of a Line</title>
+        <para id="id68364">Sometimes, knowing the co-ordinates of the middle point or <emphasis effect="italics">midpoint</emphasis> of a line is useful. For example, what is the midpoint of the line between point <m:math overflow="scroll"><m:mi>P</m:mi></m:math> with co-ordinates <m:math overflow="scroll"><m:mrow><m:mo>(</m:mo><m:mn>2</m:mn><m:mo>;</m:mo><m:mn>1</m:mn><m:mo>)</m:mo></m:mrow></m:math> and point <m:math overflow="scroll"><m:mi>Q</m:mi></m:math> with co-ordinates <m:math overflow="scroll"><m:mrow><m:mo>(</m:mo><m:mo>-</m:mo><m:mn>2</m:mn><m:mo>;</m:mo><m:mo>-</m:mo><m:mn>2</m:mn><m:mo>)</m:mo></m:mrow></m:math>.</para>
+        <para id="id68433">The co-ordinates of the midpoint of any line between any two points <m:math overflow="scroll"><m:mi>A</m:mi></m:math> and <m:math overflow="scroll"><m:mi>B</m:mi></m:math> with co-ordinates <m:math overflow="scroll"><m:mrow><m:mo>(</m:mo><m:msub><m:mi>x</m:mi><m:mn>1</m:mn></m:msub><m:mo>;</m:mo><m:msub><m:mi>y</m:mi><m:mn>1</m:mn></m:msub><m:mo>)</m:mo></m:mrow></m:math> and <m:math overflow="scroll"><m:mrow><m:mo>(</m:mo><m:msub><m:mi>x</m:mi><m:mn>2</m:mn></m:msub><m:mo>;</m:mo><m:msub><m:mi>y</m:mi><m:mn>2</m:mn></m:msub><m:mo>)</m:mo></m:mrow></m:math>, is generally calculated as follows. Let the midpoint of <m:math overflow="scroll"><m:mrow><m:mi>A</m:mi><m:mi>B</m:mi></m:mrow></m:math> be at point <m:math overflow="scroll"><m:mi>S</m:mi></m:math> with co-ordinates <m:math overflow="scroll"><m:mrow><m:mo>(</m:mo><m:mi>X</m:mi><m:mo>;</m:mo><m:mi>Y</m:mi><m:mo>)</m:mo></m:mrow></m:math>. The aim is to calculate <m:math overflow="scroll"><m:mi>X</m:mi></m:math> and <m:math overflow="scroll"><m:mi>Y</m:mi></m:math> in terms of <m:math overflow="scroll"><m:mrow><m:mo>(</m:mo><m:msub><m:mi>x</m:mi><m:mn>1</m:mn></m:msub><m:mo>;</m:mo><m:msub><m:mi>y</m:mi><m:mn>1</m:mn></m:msub><m:mo>)</m:mo></m:mrow></m:math> and <m:math overflow="scroll"><m:mrow><m:mo>(</m:mo><m:msub><m:mi>x</m:mi><m:mn>2</m:mn></m:msub><m:mo>;</m:mo><m:msub><m:mi>y</m:mi><m:mn>2</m:mn></m:msub><m:mo>)</m:mo></m:mrow></m:math>.</para>
+        <figure id="uid44">
+          <media id="uid44_media" alt="">
+            <image mime-type="image/png" src="../../media/MG10C14_019.png" id="uid44_onlineimage" width="109"><!-- NOTE: attribute width changes image size online (pixels). original width is 109. --></image>
+            <image mime-type="application/postscript" for="pdf" src="../../media/MG10C14_019.eps" id="uid44_printimage"/>
+          </media>
+        </figure>
+        <equation id="id68637">
+          <m:math overflow="scroll" mode="display">
+            <m:mtable displaystyle="true">
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mi>X</m:mi>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mfrac>
+                    <m:mrow>
+                      <m:msub>
+                        <m:mi>x</m:mi>
+                        <m:mn>1</m:mn>
+                      </m:msub>
+                      <m:mo>+</m:mo>
+                      <m:msub>
+                        <m:mi>x</m:mi>
+                        <m:mn>2</m:mn>
+                      </m:msub>
+                    </m:mrow>
+                    <m:mn>2</m:mn>
+                  </m:mfrac>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mi>Y</m:mi>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mfrac>
+                    <m:mrow>
+                      <m:msub>
+                        <m:mi>y</m:mi>
+                        <m:mn>1</m:mn>
+                      </m:msub>
+                      <m:mo>+</m:mo>
+                      <m:msub>
+                        <m:mi>y</m:mi>
+                        <m:mn>2</m:mn>
+                      </m:msub>
+                    </m:mrow>
+                    <m:mn>2</m:mn>
+                  </m:mfrac>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mo>∴</m:mo>
+                </m:mtd>
+                <m:mtd/>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mi>S</m:mi>
+                    <m:mfenced separators="" open="(" close=")">
+                      <m:mfrac>
+                        <m:mrow>
+                          <m:msub>
+                            <m:mi>x</m:mi>
+                            <m:mn>1</m:mn>
+                          </m:msub>
+                          <m:mo>+</m:mo>
+                          <m:msub>
+                            <m:mi>x</m:mi>
+                            <m:mn>2</m:mn>
+                          </m:msub>
+                        </m:mrow>
+                        <m:mn>2</m:mn>
+                      </m:mfrac>
+                      <m:mo>;</m:mo>
+                      <m:mfrac>
+                        <m:mrow>
+                          <m:msub>
+                            <m:mi>y</m:mi>
+                            <m:mn>1</m:mn>
+                          </m:msub>
+                          <m:mo>+</m:mo>
+                          <m:msub>
+                            <m:mi>y</m:mi>
+                            <m:mn>2</m:mn>
+                          </m:msub>
+                        </m:mrow>
+                        <m:mn>2</m:mn>
+                      </m:mfrac>
+                    </m:mfenced>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+            </m:mtable>
+          </m:math>
+        </equation>
+        <para id="id68788">Then the co-ordinates of the midpoint (<m:math overflow="scroll"><m:mi>S</m:mi></m:math>) of the line between point <m:math overflow="scroll"><m:mi>P</m:mi></m:math> with co-ordinates <m:math overflow="scroll"><m:mrow><m:mo>(</m:mo><m:mn>2</m:mn><m:mo>;</m:mo><m:mn>1</m:mn><m:mo>)</m:mo></m:mrow></m:math> and point <m:math overflow="scroll"><m:mi>Q</m:mi></m:math> with co-ordinates <m:math overflow="scroll"><m:mrow><m:mo>(</m:mo><m:mo>-</m:mo><m:mn>2</m:mn><m:mo>;</m:mo><m:mo>-</m:mo><m:mn>2</m:mn><m:mo>)</m:mo></m:mrow></m:math> is:</para>
+        <equation id="id68860">
+          <m:math overflow="scroll" mode="display">
+            <m:mtable displaystyle="true">
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mi>X</m:mi>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mfrac>
+                    <m:mrow>
+                      <m:msub>
+                        <m:mi>x</m:mi>
+                        <m:mn>1</m:mn>
+                      </m:msub>
+                      <m:mo>+</m:mo>
+                      <m:msub>
+                        <m:mi>x</m:mi>
+                        <m:mn>2</m:mn>
+                      </m:msub>
+                    </m:mrow>
+                    <m:mn>2</m:mn>
+                  </m:mfrac>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd/>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mfrac>
+                    <m:mrow>
+                      <m:mo>-</m:mo>
+                      <m:mn>2</m:mn>
+                      <m:mo>+</m:mo>
+                      <m:mn>2</m:mn>
+                    </m:mrow>
+                    <m:mn>2</m:mn>
+                  </m:mfrac>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd/>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mn>0</m:mn>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mi>Y</m:mi>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mfrac>
+                    <m:mrow>
+                      <m:msub>
+                        <m:mi>y</m:mi>
+                        <m:mn>1</m:mn>
+                      </m:msub>
+                      <m:mo>+</m:mo>
+                      <m:msub>
+                        <m:mi>y</m:mi>
+                        <m:mn>2</m:mn>
+                      </m:msub>
+                    </m:mrow>
+                    <m:mn>2</m:mn>
+                  </m:mfrac>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd/>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mfrac>
+                    <m:mrow>
+                      <m:mo>-</m:mo>
+                      <m:mn>2</m:mn>
+                      <m:mo>+</m:mo>
+                      <m:mn>1</m:mn>
+                    </m:mrow>
+                    <m:mn>2</m:mn>
+                  </m:mfrac>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd/>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mo>-</m:mo>
+                    <m:mfrac>
+                      <m:mn>1</m:mn>
+                      <m:mn>2</m:mn>
+                    </m:mfrac>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mo>∴</m:mo>
+                    <m:mi>S</m:mi>
+                    <m:mspace width="4pt"/>
+                    <m:mrow>
+                      <m:mi> is </m:mi>
+                      <m:mspace width="4pt"/>
+                      <m:mi> at </m:mi>
+                    </m:mrow>
+                    <m:mspace width="4pt"/>
+                    <m:mo>(</m:mo>
+                    <m:mn>0</m:mn>
+                    <m:mo>;</m:mo>
+                    <m:mo>-</m:mo>
+                    <m:mfrac>
+                      <m:mn>1</m:mn>
+                      <m:mn>2</m:mn>
+                    </m:mfrac>
+                    <m:mo>)</m:mo>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+            </m:mtable>
+          </m:math>
+        </equation>
+        <para id="id69058">It can be confirmed that the distance from each end point to the midpoint is equal. The co-ordinate of the midpoint <m:math overflow="scroll"><m:mi>S</m:mi></m:math> is <m:math overflow="scroll"><m:mrow><m:mo>(</m:mo><m:mn>0</m:mn><m:mo>;</m:mo><m:mo>-</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>5</m:mn><m:mo>)</m:mo></m:mrow></m:math>.</para>
+        <equation id="id69097">
+          <m:math overflow="scroll" mode="display">
+            <m:mtable displaystyle="true">
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mi>P</m:mi>
+                    <m:mi>S</m:mi>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:msqrt>
+                    <m:mrow>
+                      <m:msup>
+                        <m:mrow>
+                          <m:mo>(</m:mo>
+                          <m:msub>
+                            <m:mi>x</m:mi>
+                            <m:mn>1</m:mn>
+                          </m:msub>
+                          <m:mo>-</m:mo>
+                          <m:msub>
+                            <m:mi>x</m:mi>
+                            <m:mn>2</m:mn>
+                          </m:msub>
+                          <m:mo>)</m:mo>
+                        </m:mrow>
+                        <m:mn>2</m:mn>
+                      </m:msup>
+                      <m:mo>+</m:mo>
+                      <m:msup>
+                        <m:mrow>
+                          <m:mo>(</m:mo>
+                          <m:msub>
+                            <m:mi>y</m:mi>
+                            <m:mn>1</m:mn>
+                          </m:msub>
+                          <m:mo>-</m:mo>
+                          <m:msub>
+                            <m:mi>y</m:mi>
+                            <m:mn>2</m:mn>
+                          </m:msub>
+                          <m:mo>)</m:mo>
+                        </m:mrow>
+                        <m:mn>2</m:mn>
+                      </m:msup>
+                    </m:mrow>
+                  </m:msqrt>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd/>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:msqrt>
+                    <m:mrow>
+                      <m:msup>
+                        <m:mrow>
+                          <m:mo>(</m:mo>
+                          <m:mn>0</m:mn>
+                          <m:mo>-</m:mo>
+                          <m:mn>2</m:mn>
+                          <m:mo>)</m:mo>
+                        </m:mrow>
+                        <m:mn>2</m:mn>
+                      </m:msup>
+                      <m:mo>+</m:mo>
+                      <m:msup>
+                        <m:mrow>
+                          <m:mo>(</m:mo>
+                          <m:mo>-</m:mo>
+                          <m:mn>0</m:mn>
+                          <m:mo>.</m:mo>
+                          <m:mn>5</m:mn>
+                          <m:mo>-</m:mo>
+                          <m:mn>1</m:mn>
+                          <m:mo>)</m:mo>
+                        </m:mrow>
+                        <m:mn>2</m:mn>
+                      </m:msup>
+                    </m:mrow>
+                  </m:msqrt>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd/>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:msqrt>
+                    <m:mrow>
+                      <m:msup>
+                        <m:mrow>
+                          <m:mo>(</m:mo>
+                          <m:mo>-</m:mo>
+                          <m:mn>2</m:mn>
+                          <m:mo>)</m:mo>
+                        </m:mrow>
+                        <m:mn>2</m:mn>
+                      </m:msup>
+                      <m:mo>+</m:mo>
+                      <m:msup>
+                        <m:mrow>
+                          <m:mo>(</m:mo>
+                          <m:mo>-</m:mo>
+                          <m:mn>1</m:mn>
+                          <m:mo>.</m:mo>
+                          <m:mn>5</m:mn>
+                          <m:mo>)</m:mo>
+                        </m:mrow>
+                        <m:mn>2</m:mn>
+                      </m:msup>
+                    </m:mrow>
+                  </m:msqrt>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd/>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:msqrt>
+                    <m:mrow>
+                      <m:mn>4</m:mn>
+                      <m:mo>+</m:mo>
+                      <m:mn>2</m:mn>
+                      <m:mo>.</m:mo>
+                      <m:mn>25</m:mn>
+                    </m:mrow>
+                  </m:msqrt>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd/>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:msqrt>
+                    <m:mrow>
+                      <m:mn>6</m:mn>
+                      <m:mo>.</m:mo>
+                      <m:mn>25</m:mn>
+                    </m:mrow>
+                  </m:msqrt>
+                </m:mtd>
+              </m:mtr>
+            </m:mtable>
+          </m:math>
+        </equation>
+        <para id="id69323">and</para>
+        <equation id="id69326">
+          <m:math overflow="scroll" mode="display">
+            <m:mtable displaystyle="true">
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mi>Q</m:mi>
+                    <m:mi>S</m:mi>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:msqrt>
+                    <m:mrow>
+                      <m:msup>
+                        <m:mrow>
+                          <m:mo>(</m:mo>
+                          <m:msub>
+                            <m:mi>x</m:mi>
+                            <m:mn>1</m:mn>
+                          </m:msub>
+                          <m:mo>-</m:mo>
+                          <m:msub>
+                            <m:mi>x</m:mi>
+                            <m:mn>2</m:mn>
+                          </m:msub>
+                          <m:mo>)</m:mo>
+                        </m:mrow>
+                        <m:mn>2</m:mn>
+                      </m:msup>
+                      <m:mo>+</m:mo>
+                      <m:msup>
+                        <m:mrow>
+                          <m:mo>(</m:mo>
+                          <m:msub>
+                            <m:mi>y</m:mi>
+                            <m:mn>1</m:mn>
+                          </m:msub>
+                          <m:mo>-</m:mo>
+                          <m:msub>
+                            <m:mi>y</m:mi>
+                            <m:mn>2</m:mn>
+                          </m:msub>
+                          <m:mo>)</m:mo>
+                        </m:mrow>
+                        <m:mn>2</m:mn>
+                      </m:msup>
+                    </m:mrow>
+                  </m:msqrt>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd/>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:msqrt>
+                    <m:mrow>
+                      <m:msup>
+                        <m:mrow>
+                          <m:mo>(</m:mo>
+                          <m:mn>0</m:mn>
+                          <m:mo>-</m:mo>
+                          <m:mrow>
+                            <m:mo>(</m:mo>
+                            <m:mo>-</m:mo>
+                            <m:mn>2</m:mn>
+                            <m:mo>)</m:mo>
+                          </m:mrow>
+                          <m:mo>)</m:mo>
+                        </m:mrow>
+                        <m:mn>2</m:mn>
+                      </m:msup>
+                      <m:mo>+</m:mo>
+                      <m:msup>
+                        <m:mrow>
+                          <m:mo>(</m:mo>
+                          <m:mo>-</m:mo>
+                          <m:mn>0</m:mn>
+                          <m:mo>.</m:mo>
+                          <m:mn>5</m:mn>
+                          <m:mo>-</m:mo>
+                          <m:mrow>
+                            <m:mo>(</m:mo>
+                            <m:mo>-</m:mo>
+                            <m:mn>2</m:mn>
+                            <m:mo>)</m:mo>
+                          </m:mrow>
+                          <m:mo>)</m:mo>
+                        </m:mrow>
+                        <m:mn>2</m:mn>
+                      </m:msup>
+                    </m:mrow>
+                  </m:msqrt>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd/>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:msqrt>
+                    <m:mrow>
+                      <m:msup>
+                        <m:mrow>
+                          <m:mrow>
+                            <m:mo>(</m:mo>
+                            <m:mn>0</m:mn>
+                            <m:mo>+</m:mo>
+                            <m:mn>2</m:mn>
+                            <m:mo>)</m:mo>
+                          </m:mrow>
+                          <m:mo>)</m:mo>
+                        </m:mrow>
+                        <m:mn>2</m:mn>
+                      </m:msup>
+                      <m:msup>
+                        <m:mrow>
+                          <m:mo>+</m:mo>
+                          <m:mrow>
+                            <m:mo>(</m:mo>
+                            <m:mo>-</m:mo>
+                            <m:mn>0</m:mn>
+                            <m:mo>.</m:mo>
+                            <m:mn>5</m:mn>
+                            <m:mo>+</m:mo>
+                            <m:mn>2</m:mn>
+                            <m:mo>)</m:mo>
+                          </m:mrow>
+                          <m:mo>)</m:mo>
+                        </m:mrow>
+                        <m:mn>2</m:mn>
+                      </m:msup>
+                    </m:mrow>
+                  </m:msqrt>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd/>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:msqrt>
+                    <m:mrow>
+                      <m:msup>
+                        <m:mrow>
+                          <m:mrow>
+                            <m:mo>(</m:mo>
+                            <m:mn>2</m:mn>
+                            <m:mo>)</m:mo>
+                          </m:mrow>
+                          <m:mo>)</m:mo>
+                        </m:mrow>
+                        <m:mn>2</m:mn>
+                      </m:msup>
+                      <m:msup>
+                        <m:mrow>
+                          <m:mo>+</m:mo>
+                          <m:mrow>
+                            <m:mo>(</m:mo>
+                            <m:mo>-</m:mo>
+                            <m:mn>1</m:mn>
+                            <m:mo>.</m:mo>
+                            <m:mn>5</m:mn>
+                            <m:mo>)</m:mo>
+                          </m:mrow>
+                          <m:mo>)</m:mo>
+                        </m:mrow>
+                        <m:mn>2</m:mn>
+                      </m:msup>
+                    </m:mrow>
+                  </m:msqrt>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd/>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:msqrt>
+                    <m:mrow>
+                      <m:mn>4</m:mn>
+                      <m:mo>+</m:mo>
+                      <m:mn>2</m:mn>
+                      <m:mo>.</m:mo>
+                      <m:mn>25</m:mn>
+                    </m:mrow>
+                  </m:msqrt>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd/>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:msqrt>
+                    <m:mrow>
+                      <m:mn>6</m:mn>
+                      <m:mo>.</m:mo>
+                      <m:mn>25</m:mn>
+                    </m:mrow>
+                  </m:msqrt>
+                </m:mtd>
+              </m:mtr>
+            </m:mtable>
+          </m:math>
+        </equation>
+        <para id="id69633">It can be seen that <m:math overflow="scroll"><m:mrow><m:mi>P</m:mi><m:mi>S</m:mi><m:mo>=</m:mo><m:mi>Q</m:mi><m:mi>S</m:mi></m:mrow></m:math> as expected.</para>
+        <figure id="uid45">
+          <media id="uid45_media" alt="">
+            <image mime-type="image/png" src="../../media/MG10C14_020.png" id="uid45_onlineimage" width="172"><!-- NOTE: attribute width changes image size online (pixels). original width is 172. --></image>
+            <image mime-type="application/postscript" for="pdf" src="../../media/MG10C14_020.eps" id="uid45_printimage"/>
+          </media>
+        </figure><para id="eip-891">The following video provides a summary of the midpoint of a line.
+<figure id="uid666" class="khanacademy">
+ <title>Khan academy video on midpoint of a line</title>
+ <media id="yt-media2" display="block" alt="video on midpoint of a line">
+  <flash id="yt-video2" mime-type="application/x-shockwave-flash" src="http://www.youtube.com/v/Ez_-RwV9WVo&amp;rel=0" width="425" height="344">
+   <param name="allowscriptaccess" value="always"/>
+   <param name="allowsfullscreen" value="true"/>
+  </flash>
+ </media>
+</figure></para>
+<section id="secfhsst_id2370"><title> Co-ordinate Geometry </title>
+        <list id="id69671" display="block" list-type="enumerated"><item id="uid46">
+In the diagram given the vertices of a quadrilateral are F(2;0), G(1;5), H(3;7) and I(7;2).
+<figure id="id69688"><media id="id69688_media" alt=""><image mime-type="image/png" src="../../media/MG10C14_021.png" id="id69688_onlineimage" width="251"><!-- NOTE: attribute width changes image size online (pixels). original width is 251. --></image><image mime-type="application/postscript" for="pdf" src="../../media/MG10C14_021.eps" id="id69688_printimage"/></media></figure><list id="id69695" display="block" list-type="enumerated" number-style="lower-alpha"><item id="uid47">
+What are the lengths of the opposite sides of FGHI?
+</item><item id="uid48">Are the opposite sides of FGHI parallel?
+</item><item id="uid49"> Do the diagonals of FGHI bisect each other?
+</item><item id="uid50"> Can you state what type of quadrilateral FGHI is? Give reasons for your answer.
+</item></list><link class="fullmarks" window="new" url="http://www.fhsst.org/liZ">Click here for the solution</link></item>
+          <item id="uid51">
+A quadrialteral ABCD with vertices A(3;2), B(1;7), C(4;5) and D(1;3) is given.
+<list id="id69770" display="block" list-type="enumerated" number-style="lower-alpha"><item id="uid52"> Draw the quadrilateral.
+</item><item id="uid53"> Find the lengths of the sides of the quadrilateral.
+</item></list><link class="fullmarks" window="new" url="http://www.fhsst.org/liB">Click here for the solution</link></item>
+          <item id="uid54">ABCD is a quadrilateral with verticies A(0;3), B(4;3), C(5;-1) and D(-1;-1).
+<list id="id69816" display="block" list-type="enumerated" number-style="lower-alpha"><item id="uid55">Show that:
+<list id="id69834" display="block" list-type="enumerated" number-style="lower-roman"><item id="uid56">AD = BC
+</item><item id="uid57">AB <m:math overflow="scroll"><m:mo>∥</m:mo></m:math> DC
+</item></list></item><item id="uid58">What name would you give to ABCD?
+</item><item id="uid59">Show that the diagonals AC and BD do not bisect each other.
+</item></list><link class="fullmarks" window="new" url="http://www.fhsst.org/lac">Click here for the solution</link></item>
+          <item id="uid60">P, Q, R and S are the points (-2;0), (2;3), (5;3), (-3;-3) respectively.
+<list id="id69919" display="block" list-type="enumerated" number-style="lower-alpha"><item id="uid61">Show that:
+<list id="id69937" display="block" list-type="enumerated" number-style="lower-roman"><item id="uid62">SR = 2PQ
+</item><item id="uid63">SR <m:math overflow="scroll"><m:mo>∥</m:mo></m:math> PQ
+</item></list></item><item id="uid64">Calculate:
+<list id="id69993" display="block" list-type="enumerated" number-style="lower-roman"><item id="uid65">PS
+</item><item id="uid66">QR
+</item></list></item><item id="uid67">What kind of a quadrilateral is PQRS? Give reasons for your answers.
+</item></list></item>
+          <item id="uid68">EFGH is a parallelogram with verticies E(-1;2), F(-2;-1) and G(2;0). Find the co-ordinates of H by using the fact that the diagonals of a parallelogram bisect each other.<newline/><link class="fullmarks" window="new" url="http://www.fhsst.org/lax">Click here for the solution</link>
+</item>
+        </list>
+        
+</section>
+      </section>
+    </section>
+    <section id="cid6">
+      <title>Transformations</title>
+      <para id="id70076">In this section you will learn about how the co-ordinates of a point change when the point is moved horizontally and vertically on the Cartesian plane. You will also learn about what happens to the co-ordinates of a point when it is reflected on the <m:math overflow="scroll"><m:mi>x</m:mi></m:math>-axis, <m:math overflow="scroll"><m:mi>y</m:mi></m:math>-axis and the line <m:math overflow="scroll"><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mi>x</m:mi></m:mrow></m:math>.</para>
+      <section id="uid69">
+        <title>Translation of a Point</title>
+        <para id="id70123">When something is moved in a straight line, we say that it is <emphasis effect="italics">translated</emphasis>. What happens to the co-ordinates of a point that is translated horizontally or vertically?</para>
+<section id="secfhsst_id2414"><title> Discussion : Translation of a Point Vertically </title>
+        <para id="id70140">Complete the table, by filling in the co-ordinates of the points shown in the figure.</para>
+        <para id="id70146">
+          <figure id="id70150">
+            <media id="id70150_media" alt="">
+              <image mime-type="image/png" src="../../media/MG10C14_022.png" id="id70150_onlineimage" width="181"><!-- NOTE: attribute width changes image size online (pixels). original width is 181. --></image>
+              <image mime-type="application/postscript" for="pdf" src="../../media/MG10C14_022.eps" id="id70150_printimage"/>
+            </media>
+          </figure>
+        </para>
+        <table id="id70156" summary="">
+          <tgroup cols="3">
+            <tbody>
+              <row>
+                <entry>
+                  <emphasis effect="bold">Point</emphasis>
+                </entry>
+                <entry>
+                  <emphasis effect="bold"><m:math overflow="scroll"><m:mi>x</m:mi></m:math> co-ordinate</emphasis>
+                </entry>
+                <entry>
+                  <emphasis effect="bold"><m:math overflow="scroll"><m:mi>y</m:mi></m:math> co-ordinate</emphasis>
+                </entry>
+              </row>
+              <row>
+                <entry>A</entry>
+                <entry/>
+                <entry/>
+              </row>
+              <row>
+                <entry>B</entry>
+                <entry/>
+                <entry/>
+              </row>
+              <row>
+                <entry>C</entry>
+                <entry/>
+                <entry/>
+              </row>
+              <row>
+                <entry>D</entry>
+                <entry/>
+                <entry/>
+              </row>
+              <row>
+                <entry>E</entry>
+                <entry/>
+                <entry/>
+              </row>
+              <row>
+                <entry>F</entry>
+                <entry/>
+                <entry/>
+              </row>
+              <row>
+                <entry>G</entry>
+                <entry/>
+                <entry/>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+        <!--empty paragraphs get left behind.-->
+        <para id="id70410">What do you notice about the <m:math overflow="scroll"><m:mi>x</m:mi></m:math> co-ordinates? What do you notice about the <m:math overflow="scroll"><m:mi>y</m:mi></m:math> co-ordinates?
+What would happen to the co-ordinates of point A, if it was moved to the position of point G?
+ </para>
+</section>
+        <para id="id70438">When a point is moved vertically up or down on the Cartesian plane, the <m:math overflow="scroll"><m:mi>x</m:mi></m:math> co-ordinate of the point remains the same, but the <m:math overflow="scroll"><m:mi>y</m:mi></m:math> co-ordinate changes by the amount that the point was moved up or down.</para>
+        <para id="id70461">For example, in <link target-id="uid70"/> Point A is moved 4 units upwards to the position marked by G. The new <m:math overflow="scroll"><m:mi>x</m:mi></m:math> co-ordinate of point A is the same (<m:math overflow="scroll"><m:mi>x</m:mi></m:math>=1), but the new <m:math overflow="scroll"><m:mi>y</m:mi></m:math> co-ordinate is shifted in the positive <m:math overflow="scroll"><m:mi>y</m:mi></m:math> direction 4 units and becomes <m:math overflow="scroll"><m:mi>y</m:mi></m:math>=-2<emphasis effect="bold">+4</emphasis>=2. The new co-ordinates of point A are therefore G(1;2). Similarly, for point B that is moved downwards by 5 units, the <m:math overflow="scroll"><m:mi>x</m:mi></m:math> co-ordinate is the same (<m:math overflow="scroll"><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mo>-</m:mo><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>5</m:mn></m:mrow></m:math>), but the <m:math overflow="scroll"><m:mi>y</m:mi></m:math> co-ordinate is shifted in the negative <m:math overflow="scroll"><m:mi>y</m:mi></m:math>-direction by 5 units. The new <m:math overflow="scroll"><m:mi>y</m:mi></m:math> co-ordinate is therefore <m:math overflow="scroll"><m:mi>y</m:mi></m:math>=2,5 <emphasis effect="bold">-5</emphasis>=-2,5.</para>
+        <figure id="uid70">
+          <media id="uid70_media" alt="">
+            <image mime-type="image/png" src="../../media/MG10C14_023.png" id="uid70_onlineimage" width="172"><!-- NOTE: attribute width changes image size online (pixels). original width is 172. --></image>
+            <image mime-type="application/postscript" for="pdf" src="../../media/MG10C14_023.eps" id="uid70_printimage"/>
+          </media>
+          <caption>Point A is moved 4 units upwards to the position marked by G. Point B is moved 5 units downwards to the position marked by H.</caption>
+        </figure>
+<note id="notfhsst_id2490" type="tip">If a point is shifted upwards, the new <m:math overflow="scroll"><m:mi>y</m:mi></m:math> co-ordinate is given by adding the shift to the old <m:math overflow="scroll"><m:mi>y</m:mi></m:math> co-ordinate. If a point is shifted downwards, the new <m:math overflow="scroll"><m:mi>y</m:mi></m:math> co-ordinate is given by subtracting the shift from the old <m:math overflow="scroll"><m:mi>y</m:mi></m:math> co-ordinate.</note>
+<section id="secfhsst_id2491"><title> Discussion : Translation of a Point Horizontally </title>
+        <para id="id70654">Complete the table, by filling in the co-ordinates of the points shown in the figure.</para>
+        <para id="id70660">
+          <figure id="id70663">
+            <media id="id70663_media" alt="">
+              <image mime-type="image/png" src="../../media/MG10C14_024.png" id="id70663_onlineimage" width="370"><!-- NOTE: attribute width changes image size online (pixels). original width is 370. --></image>
+              <image mime-type="application/postscript" for="pdf" src="../../media/MG10C14_024.eps" id="id70663_printimage"/>
+            </media>
+          </figure>
+        </para>
+        <table id="id70670" summary="">
+          <tgroup cols="3">
+            <tbody>
+              <row>
+                <entry>
+                  <emphasis effect="bold">Point</emphasis>
+                </entry>
+                <entry>
+                  <emphasis effect="bold"><m:math overflow="scroll"><m:mi>x</m:mi></m:math> co-ordinate</emphasis>
+                </entry>
+                <entry>
+                  <emphasis effect="bold"><m:math overflow="scroll"><m:mi>y</m:mi></m:math> co-ordinate</emphasis>
+                </entry>
+              </row>
+              <row>
+                <entry>A</entry>
+                <entry/>
+                <entry/>
+              </row>
+              <row>
+                <entry>B</entry>
+                <entry/>
+                <entry/>
+              </row>
+              <row>
+                <entry>C</entry>
+                <entry/>
+                <entry/>
+              </row>
+              <row>
+                <entry>D</entry>
+                <entry/>
+                <entry/>
+              </row>
+              <row>
+                <entry>E</entry>
+                <entry/>
+                <entry/>
+              </row>
+              <row>
+                <entry>F</entry>
+                <entry/>
+                <entry/>
+              </row>
+              <row>
+                <entry>G</entry>
+                <entry/>
+                <entry/>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+        <!--empty paragraphs get left behind.-->
+        <para id="id70923">What do you notice about the <m:math overflow="scroll"><m:mi>x</m:mi></m:math> co-ordinates? What do you notice about the <m:math overflow="scroll"><m:mi>y</m:mi></m:math> co-ordinates?</para>
+        <para id="id70945">What would happen to the co-ordinates of point A, if it was moved to the position of point G?
+ </para>
+</section>
+        <para id="id70955">When a point is moved horizontally left or right on the Cartesian plane, the <m:math overflow="scroll"><m:mi>y</m:mi></m:math> co-ordinate of the point remains the same, but the <m:math overflow="scroll"><m:mi>x</m:mi></m:math> co-ordinate changes by the amount that the point was moved left or right.</para>
+        <para id="id70977">For example, in <link target-id="uid71"/> Point A is moved 4 units right to the position marked by G. The new <m:math overflow="scroll"><m:mi>y</m:mi></m:math> co-ordinate of point A is the same (<m:math overflow="scroll"><m:mi>y</m:mi></m:math>=1), but the new <m:math overflow="scroll"><m:mi>x</m:mi></m:math> co-ordinate is shifted in the positive <m:math overflow="scroll"><m:mi>x</m:mi></m:math> direction 4 units and becomes <m:math overflow="scroll"><m:mi>x</m:mi></m:math>=-2<emphasis effect="bold">+4</emphasis>=2. The new co-ordinate of point A at G is therefore (2;1). Similarly, for point B that is moved left by 5 units, the <m:math overflow="scroll"><m:mi>y</m:mi></m:math> co-ordinate is the same (<m:math overflow="scroll"><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mo>-</m:mo><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>5</m:mn></m:mrow></m:math>), but the <m:math overflow="scroll"><m:mi>x</m:mi></m:math> co-ordinate is shifted in the negative <m:math overflow="scroll"><m:mi>x</m:mi></m:math>-direction by 5 units. The new <m:math overflow="scroll"><m:mi>x</m:mi></m:math> co-ordinate is therefore <m:math overflow="scroll"><m:mi>x</m:mi></m:math>=2,5 <emphasis effect="bold">-5</emphasis>=-2,5. The new co-ordinates of point B at H is therefore (-2,5;1).</para>
+        <figure id="uid71">
+          <media id="uid71_media" alt="">
+            <image mime-type="image/png" src="../../media/MG10C14_025.png" id="uid71_onlineimage" width="371"><!-- NOTE: attribute width changes image size online (pixels). original width is 371. --></image>
+            <image mime-type="application/postscript" for="pdf" src="../../media/MG10C14_025.eps" id="uid71_printimage"/>
+          </media>
+          <caption>Point A is moved 4 units to the right to the position marked by G. Point B is moved 5 units to the left to the position marked by H.</caption>
+        </figure>
+<note id="notfhsst_id2567" type="tip">If a point is shifted to the right, the new <m:math overflow="scroll"><m:mi>x</m:mi></m:math> co-ordinate is given by adding the shift to the old <m:math overflow="scroll"><m:mi>x</m:mi></m:math> co-ordinate. If a point is shifted to the left, the new <m:math overflow="scroll"><m:mi>x</m:mi></m:math> co-ordinate is given by subtracting the shift from the old <m:math overflow="scroll"><m:mi>x</m:mi></m:math> co-ordinate.</note>
+      </section>
+      <section id="uid72">
+        <title>Reflection of a Point</title>
+        <para id="id71174">When you stand in front of a mirror your reflection is located the same distance (<m:math overflow="scroll"><m:mi>d</m:mi></m:math>) behind the mirror as you are standing in front of the mirror.</para>
+        <para id="id71188">
+          <figure id="id71191">
+            <media id="id71191_media" alt="">
+              <image mime-type="image/png" src="../../media/MG10C14_026.png" id="id71191_onlineimage" width="244"><!-- NOTE: attribute width changes image size online (pixels). original width is 244. --></image>
+              <image mime-type="application/postscript" for="pdf" src="../../media/MG10C14_026.eps" id="id71191_printimage"/>
+            </media>
+          </figure>
+        </para>
+        <para id="id71197">We can apply the same idea to a point that is reflected on the <m:math overflow="scroll"><m:mi>x</m:mi></m:math>-axis, the <m:math overflow="scroll"><m:mi>y</m:mi></m:math>-axis and the line <m:math overflow="scroll"><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mi>x</m:mi></m:mrow></m:math>.</para>
+        <section id="uid73">
+          <title>Reflection on the <m:math overflow="scroll"><m:mi>x</m:mi></m:math>-axis</title>
+          <para id="id71251">If a point is reflected on the <m:math overflow="scroll"><m:mi>x</m:mi></m:math>-axis, then the reflection must be the same distance below the <m:math overflow="scroll"><m:mi>x</m:mi></m:math>-axis as the point is above the <m:math overflow="scroll"><m:mi>x</m:mi></m:math>-axis and vice-versa, as though it were a mirror image.</para>
+          <figure id="uid74">
+            <media id="uid74_media" alt="">
+              <image mime-type="image/png" src="../../media/MG10C14_027.png" id="uid74_onlineimage" width="373"><!-- NOTE: attribute width changes image size online (pixels). original width is 373. --></image>
+              <image mime-type="application/postscript" for="pdf" src="../../media/MG10C14_027.eps" id="uid74_printimage"/>
+            </media>
+            <caption>Points A and B are reflected on the <m:math overflow="scroll"><m:mi>x</m:mi></m:math>-axis. The original points are shown with <m:math overflow="scroll"><m:mo>•</m:mo></m:math> and the reflected points are shown with <m:math overflow="scroll"><m:mo>∘</m:mo></m:math>.</caption>
+          </figure>
+<note id="notfhsst_id2591" type="tip">When a point is reflected about the <m:math overflow="scroll"><m:mi>x</m:mi></m:math>-axis, only the <m:math overflow="scroll"><m:mi>y</m:mi></m:math> co-ordinate of the point changes.</note>
+<exercise id="secfhsst_id2592"><title> Reflection on the <m:math overflow="scroll"><m:mi>x</m:mi></m:math>-axis </title>
+          <problem id="probfhsst_id2593">
+          <para id="id71366">Find the co-ordinates of the reflection of the point P, if P is reflected on the <m:math overflow="scroll"><m:mi>x</m:mi></m:math>-axis. The co-ordinates of P are (5;10). </para>
+          </problem>
+          <solution id="solfhsst_id2596"> <list id="listfhsst_id2596" list-type="enumerated" number-style="arabic" class="stepwise">
+          <item> <label> Determine what is given and what is required </label>
+          <para id="id71399">We are given the point P with co-ordinates (5;10) and need to find the co-ordinates of the point if it is reflected on the <m:math overflow="scroll"><m:mi>x</m:mi></m:math>-axis.</para>
+          </item> <item> <label> Determine how to approach the problem </label>
+          <para id="id71417">The point P is above the <m:math overflow="scroll"><m:mi>x</m:mi></m:math>-axis, therefore its reflection will be the same distance below the <m:math overflow="scroll"><m:mi>x</m:mi></m:math>-axis as the point P is above the <m:math overflow="scroll"><m:mi>x</m:mi></m:math>-axis. Therefore, <m:math overflow="scroll"><m:mi>y</m:mi></m:math>=-10.</para>
+          <para id="id71457">For a reflection on the <m:math overflow="scroll"><m:mi>x</m:mi></m:math>-axis, the <m:math overflow="scroll"><m:mi>x</m:mi></m:math> co-ordinate remains unchanged. Therefore, <m:math overflow="scroll"><m:mi>x</m:mi></m:math>=5.</para>
+          </item> <item> <label> Write the final answer </label>
+          <para id="id71490">The co-ordinates of the reflected point are (5;-10).
+ </para>
+          </item> </list> </solution>
+</exercise>
+        </section>
+        <section id="uid75">
+          <title>Reflection on the <m:math overflow="scroll"><m:mi>y</m:mi></m:math>-axis</title>
+          <para id="id71525">If a point is reflected on the <m:math overflow="scroll"><m:mi>y</m:mi></m:math>-axis, then the reflection must be the same distance to the left of the <m:math overflow="scroll"><m:mi>y</m:mi></m:math>-axis as the point is to the right of the <m:math overflow="scroll"><m:mi>y</m:mi></m:math>-axis and vice-versa.</para>
+          <figure id="uid76">
+            <media id="uid76_media" alt="">
+              <image mime-type="image/png" src="../../media/MG10C14_028.png" id="uid76_onlineimage" width="368"><!-- NOTE: attribute width changes image size online (pixels). original width is 368. --></image>
+              <image mime-type="application/postscript" for="pdf" src="../../media/MG10C14_028.eps" id="uid76_printimage"/>
+            </media>
+            <caption>Points A and B are reflected on the <m:math overflow="scroll"><m:mi>y</m:mi></m:math>-axis. The original points are shown with <m:math overflow="scroll"><m:mo>•</m:mo></m:math> and the reflected points are shown with <m:math overflow="scroll"><m:mo>∘</m:mo></m:math>.</caption>
+          </figure>
+<note id="notfhsst_id2618" type="tip">When a point is reflected on the <m:math overflow="scroll"><m:mi>y</m:mi></m:math>-axis, only the <m:math overflow="scroll"><m:mi>x</m:mi></m:math> co-ordinate of the point changes. The <m:math overflow="scroll"><m:mi>y</m:mi></m:math> co-ordinate remains unchanged.</note>
+<exercise id="secfhsst_id2619"><title> Reflection on the <m:math overflow="scroll"><m:mi>y</m:mi></m:math>-axis </title>
+          <problem id="probfhsst_id2620">
+          <para id="id71649">Find the co-ordinates of the reflection of the point Q, if Q is reflected on the <m:math overflow="scroll"><m:mi>y</m:mi></m:math>-axis. The co-ordinates of Q are (15;5). </para>
+          </problem>
+          <solution id="solfhsst_id2623"> <list id="listfhsst_id2623" list-type="enumerated" number-style="arabic" class="stepwise">
+          <item> <label> Determine what is given and what is required </label>
+          <para id="id71682">We are given the point Q with co-ordinates (15;5) and need to find the co-ordinates of the point if it is reflected on the <m:math overflow="scroll"><m:mi>y</m:mi></m:math>-axis.</para>
+          </item> <item> <label> Determine how to approach the problem </label>
+          <para id="id71700">The point Q is to the right of the <m:math overflow="scroll"><m:mi>y</m:mi></m:math>-axis, therefore its reflection will be the same distance to the left of the <m:math overflow="scroll"><m:mi>y</m:mi></m:math>-axis as the point Q is to the right of the <m:math overflow="scroll"><m:mi>y</m:mi></m:math>-axis. Therefore, <m:math overflow="scroll"><m:mi>x</m:mi></m:math>=-15.</para>
+          <para id="id71740">For a reflection on the <m:math overflow="scroll"><m:mi>y</m:mi></m:math>-axis, the <m:math overflow="scroll"><m:mi>y</m:mi></m:math> co-ordinate remains unchanged. Therefore, <m:math overflow="scroll"><m:mi>y</m:mi></m:math>=5.</para>
+          </item> <item> <label> Write the final answer </label>
+          <para id="id71774">The co-ordinates of the reflected point are (-15;5).
+ </para>
+          </item> </list> </solution>
+</exercise>
+        </section>
+        <section id="uid77">
+          <title>Reflection on the line <m:math overflow="scroll"><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mi>x</m:mi></m:mrow></m:math></title>
+          <para id="id71812">The final type of reflection you will learn about is the reflection of a point on the line <m:math overflow="scroll"><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mi>x</m:mi></m:mrow></m:math>.</para>
+<section id="secfhsst_id2638"><title> Casestudy : Reflection of a point on the line <m:math overflow="scroll"><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mi>x</m:mi></m:mrow></m:math> </title>
+          <para id="id71852">
+            <figure id="id71857">
+              <media id="id71857_media" alt="">
+                <image mime-type="image/png" src="../../media/MG10C14_029.png" id="id71857_onlineimage" width="194"><!-- NOTE: attribute width changes image size online (pixels). original width is 194. --></image>
+                <image mime-type="application/postscript" for="pdf" src="../../media/MG10C14_029.eps" id="id71857_printimage"/>
+              </media>
+            </figure>
+          </para>
+          <para id="id71863">Study the information given and complete the following table:</para>
+          <table id="id71867" summary="">
+            <tgroup cols="3">
+              <tbody>
+                <row>
+                  <entry/>
+                  <entry>
+                    <emphasis effect="bold">Point</emphasis>
+                  </entry>
+                  <entry>
+                    <emphasis effect="bold">Reflection</emphasis>
+                  </entry>
+                </row>
+                <row>
+                  <entry>A</entry>
+                  <entry>(2;1)</entry>
+                  <entry>(1;2)</entry>
+                </row>
+                <row>
+                  <entry>B</entry>
+                  <entry>(-<m:math overflow="scroll"><m:mrow><m:mn>1</m:mn><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac></m:mrow></m:math>;-2)</entry>
+                  <entry>(-2;-1<m:math overflow="scroll"><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac></m:math>)</entry>
+                </row>
+                <row>
+                  <entry>C</entry>
+                  <entry>(-1;1)</entry>
+                  <entry/>
+                </row>
+                <row>
+                  <entry>D</entry>
+                  <entry>(2;-3)</entry>
+                  <entry/>
+                </row>
+              </tbody>
+            </tgroup>
+          </table>
+          <!--empty paragraphs get left behind.-->
+          <para id="id72055">What can you deduce about the co-ordinates of points that are reflected about the line <m:math overflow="scroll"><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mi>x</m:mi></m:mrow></m:math>? </para>
+</section>
+          <para id="id72080">The <m:math overflow="scroll"><m:mi>x</m:mi></m:math> and <m:math overflow="scroll"><m:mi>y</m:mi></m:math> co-ordinates of points that are reflected on the line <m:math overflow="scroll"><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mi>x</m:mi></m:mrow></m:math> are swapped around, or interchanged. This means that the <m:math overflow="scroll"><m:mi>x</m:mi></m:math> co-ordinate of the original point becomes the <m:math overflow="scroll"><m:mi>y</m:mi></m:math> co-ordinate of the reflected point and the <m:math overflow="scroll"><m:mi>y</m:mi></m:math> co-ordinate of the original point becomes the <m:math overflow="scroll"><m:mi>x</m:mi></m:math> co-ordinate of the reflected point.</para>
+          <figure id="uid78">
+            <media id="uid78_media" alt="">
+              <image mime-type="image/png" src="../../media/MG10C14_030.png" id="uid78_onlineimage" width="197"><!-- NOTE: attribute width changes image size online (pixels). original width is 197. --></image>
+              <image mime-type="application/postscript" for="pdf" src="../../media/MG10C14_030.eps" id="uid78_printimage"/>
+            </media>
+            <caption>Points A and B are reflected on the line <m:math overflow="scroll"><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mi>x</m:mi></m:mrow></m:math>. The original points are shown with <m:math overflow="scroll"><m:mo>•</m:mo></m:math> and the reflected points are shown with <m:math overflow="scroll"><m:mo>∘</m:mo></m:math>.</caption>
+          </figure>
+<note id="notfhsst_id2694" type="tip">The <m:math overflow="scroll"><m:mi>x</m:mi></m:math> and <m:math overflow="scroll"><m:mi>y</m:mi></m:math> co-ordinates of points that are reflected on the line <m:math overflow="scroll"><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mi>x</m:mi></m:mrow></m:math> are interchanged.</note>
+<exercise id="secfhsst_id2695"><title> Reflection on the line <m:math overflow="scroll"><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mi>x</m:mi></m:mrow></m:math> </title>
+          <problem id="probfhsst_id2696">
+          <para id="id72261">Find the co-ordinates of the reflection of the point R, if R is reflected on the line <m:math overflow="scroll"><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mi>x</m:mi></m:mrow></m:math>. The co-ordinates of R are (-5;5). </para>
+          </problem>
+          <solution id="solfhsst_id2699"> <list id="listfhsst_id2699" list-type="enumerated" number-style="arabic" class="stepwise">
+          <item> <label> Determine what is given and what is required </label>
+          <para id="id72300">We are given the point R with co-ordinates (-5;5) and need to find the co-ordinates of the point if it is reflected on the line <m:math overflow="scroll"><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mi>x</m:mi></m:mrow></m:math>.</para>
+          </item> <item> <label> Determine how to approach the problem </label>
+          <para id="id72323">The <m:math overflow="scroll"><m:mi>x</m:mi></m:math> co-ordinate of the reflected point is the <m:math overflow="scroll"><m:mi>y</m:mi></m:math> co-ordinate of the original point. Therefore, <m:math overflow="scroll"><m:mi>x</m:mi></m:math>=5.</para>
+          <para id="id72353">The <m:math overflow="scroll"><m:mi>y</m:mi></m:math> co-ordinate of the reflected point is the <m:math overflow="scroll"><m:mi>x</m:mi></m:math> co-ordinate of the original point. Therefore, <m:math overflow="scroll"><m:mi>y</m:mi></m:math>=-5.</para>
+          </item> <item> <label> Write the final answer </label>
+          <para id="id72387">The co-ordinates of the reflected point are (5;-5). </para>
+          </item> </list> </solution>
+</exercise>
+          <para id="id72402">
+            <emphasis effect="underline">Rules of Translation</emphasis>
+          </para>
+          <para id="id72409">A quick way to write a translation is to use a 'rule of translation'. For example <m:math overflow="scroll"><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>;</m:mo><m:mi>y</m:mi><m:mo>)</m:mo><m:mo>→</m:mo><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>a</m:mi><m:mo>;</m:mo><m:mi>y</m:mi><m:mo>+</m:mo><m:mi>b</m:mi><m:mo>)</m:mo></m:mrow></m:math> means translate point (x;y) by moving a units horizontally and b units vertically.</para>
+          <para id="id72456">So if we translate (1;2) by the rule <m:math overflow="scroll"><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>;</m:mo><m:mi>y</m:mi><m:mo>)</m:mo><m:mo>→</m:mo><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn><m:mo>;</m:mo><m:mi>y</m:mi><m:mo>-</m:mo><m:mn>1</m:mn><m:mo>)</m:mo></m:mrow></m:math> it becomes (4;1). We have moved 3 units right and 1 unit down.</para>
+          <para id="id72503">
+            <emphasis effect="underline">Translating a Region</emphasis>
+          </para>
+          <para id="id72511">To translate a region, we translate each point in the region.</para>
+          <para id="id72517">
+            <emphasis effect="underline">Example</emphasis>
+          </para>
+          <para id="id72526">Region A has been translated to region B by the rule: <m:math overflow="scroll"><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>;</m:mo><m:mi>y</m:mi><m:mo>)</m:mo><m:mo>→</m:mo><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>4</m:mn><m:mo>;</m:mo><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:mo>)</m:mo></m:mrow></m:math></para>
+          <para id="id72572">
+            <figure id="id72575">
+              <media id="id72575_media" alt="">
+                <image mime-type="image/png" src="../../media/MG10C14_031.png" id="id72575_onlineimage" width="229"><!-- NOTE: attribute width changes image size online (pixels). original width is 229. --></image>
+                <image mime-type="application/postscript" for="pdf" src="../../media/MG10C14_031.eps" id="id72575_printimage"/>
+              </media>
+            </figure>
+          </para>
+<section id="secfhsst_id2730"><title> Discussion : Rules of Transformations </title>
+          <para id="id72588">Work with a friend and decide which item from column 1 matches each description in column 2.</para>
+          <table id="id72595" summary="">
+            <tgroup cols="2">
+              <tbody>
+                <row>
+                  <entry>
+                    <emphasis effect="bold">Column 1</emphasis>
+                  </entry>
+                  <entry>
+                    <emphasis effect="bold">Column 2</emphasis>
+                  </entry>
+                </row>
+                <row>
+                  <entry><m:math overflow="scroll"><m:mrow><m:mo>.</m:mo><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>;</m:mo><m:mi>y</m:mi><m:mo>)</m:mo><m:mo>→</m:mo><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>;</m:mo><m:mi>y</m:mi><m:mo>-</m:mo><m:mn>3</m:mn><m:mo>)</m:mo></m:mrow></m:math>       </entry>
+                  <entry>a reflection on x-y line</entry>
+                </row>
+                <row>
+                  <entry>
+                    <m:math overflow="scroll">
+                      <m:mrow>
+                        <m:mo>.</m:mo>
+                        <m:mo>(</m:mo>
+                        <m:mi>x</m:mi>
+                        <m:mo>;</m:mo>
+                        <m:mi>y</m:mi>
+                        <m:mo>)</m:mo>
+                        <m:mo>→</m:mo>
+                        <m:mo>(</m:mo>
+                        <m:mi>x</m:mi>
+                        <m:mo>-</m:mo>
+                        <m:mn>3</m:mn>
+                        <m:mo>;</m:mo>
+                        <m:mi>y</m:mi>
+                        <m:mo>)</m:mo>
+                      </m:mrow>
+                    </m:math>
+                  </entry>
+                  <entry>a reflection on the x axis</entry>
+                </row>
+                <row>
+                  <entry>
+                    <m:math overflow="scroll">
+                      <m:mrow>
+                        <m:mo>.</m:mo>
+                        <m:mo>(</m:mo>
+                        <m:mi>x</m:mi>
+                        <m:mo>;</m:mo>
+                        <m:mi>y</m:mi>
+                        <m:mo>)</m:mo>
+                        <m:mo>→</m:mo>
+                        <m:mo>(</m:mo>
+                        <m:mi>x</m:mi>
+                        <m:mo>;</m:mo>
+                        <m:mo>-</m:mo>
+                        <m:mi>y</m:mi>
+                        <m:mo>)</m:mo>
+                      </m:mrow>
+                    </m:math>
+                  </entry>
+                  <entry>a shift of 3 units left</entry>
+                </row>
+                <row>
+                  <entry>
+                    <m:math overflow="scroll">
+                      <m:mrow>
+                        <m:mo>.</m:mo>
+                        <m:mo>(</m:mo>
+                        <m:mi>x</m:mi>
+                        <m:mo>;</m:mo>
+                        <m:mi>y</m:mi>
+                        <m:mo>)</m:mo>
+                        <m:mo>→</m:mo>
+                        <m:mo>(</m:mo>
+                        <m:mo>-</m:mo>
+                        <m:mi>x</m:mi>
+                        <m:mo>;</m:mo>
+                        <m:mi>y</m:mi>
+                        <m:mo>)</m:mo>
+                      </m:mrow>
+                    </m:math>
+                  </entry>
+                  <entry>a shift of 3 units down</entry>
+                </row>
+                <row>
+                  <entry>
+                    <m:math overflow="scroll">
+                      <m:mrow>
+                        <m:mo>.</m:mo>
+                        <m:mo>(</m:mo>
+                        <m:mi>x</m:mi>
+                        <m:mo>;</m:mo>
+                        <m:mi>y</m:mi>
+                        <m:mo>)</m:mo>
+                        <m:mo>→</m:mo>
+                        <m:mo>(</m:mo>
+                        <m:mi>y</m:mi>
+                        <m:mo>;</m:mo>
+                        <m:mi>x</m:mi>
+                        <m:mo>)</m:mo>
+                      </m:mrow>
+                    </m:math>
+                  </entry>
+                  <entry>a reflection on the y-axis</entry>
+                </row>
+              </tbody>
+            </tgroup>
+          </table>
+          <!--empty paragraphs get left behind.-->
+          
+</section>
+<section id="secfhsst_id2841"><title> Transformations </title>
+          <list id="id72872" display="block" list-type="enumerated"><item id="uid79">Describe the translations in each of the following using the rule (x;y)<m:math overflow="scroll"><m:mo>→</m:mo></m:math> (...;...)
+<figure id="id72951"><media id="id72951_media" alt=""><image mime-type="image/png" src="../../media/mg10c14_4.png" id="id72951_onlineimage" width="391"><!-- NOTE: attribute width changes image size online (pixels). original width is 391. --></image><image mime-type="application/postscript" for="pdf" src="../../media/mg10c14_4.eps" id="id72951_printimage"/></media></figure>
+<list id="id72888" display="block" list-type="enumerated" number-style="lower-alpha"><item id="uid80">From A to B
+</item><item id="uid81">From C to J
+</item><item id="uid82">From F to H
+</item><item id="uid83">From I to J
+</item><item id="uid831">From K to L
+</item><item id="uid832">From J to E
+</item><item id="uid833">From G to H
+</item></list><link class="fullmarks" url="http://www.fhsst.org/laC">Click here for the solution</link></item>
+            <item id="uid84">A is the point (4;1).  Plot each of the following points under the given transformations. Give the co-ordinates of the points you have plotted.
+<list id="id72970" display="block" list-type="enumerated" number-style="lower-alpha"><item id="uid85">B is the reflection of A in the x-axis.
+</item><item id="uid86">C is the reflection of A in the y-axis.
+</item><item id="uid87">D is the reflection of B in the line x=0.
+</item><item id="uid88">E is the reflection of C is the line y=0.
+</item><item id="uid89">F is the reflection of A in the line y= x
+</item></list><link url="http://www.fhsst.org/la1" window="new" class="fullmarks">Click here for the solution</link></item>
+            <item id="uid90">
+              In the diagram, B, C and D are images of polygon A.  In each case, the transformation that has been applied to obtain the image involves a reflection and a translation of A.  Write down the letter of each image and describe the transformation applied to A in order to obtain the image.
+<figure id="id7327723"><media id="id7327723_media" alt=""><image mime-type="image/png" src="../../media/mg10c14_5.png" id="id7327723_onlineimage" width="181"><!-- NOTE: attribute width changes image size online (pixels). original width is 181. --></image><image mime-type="application/postscript" for="pdf" src="../../media/mg10c14_5.eps" id="id7327723_printimage"/></media></figure>
+<link url="http://www.fhsst.org/lar" window="new" class="fullmarks">Click here for the solution</link>
+            </item>
+          </list>
+          
+</section>
+<section id="secfhsst_id2877"><title> Investigation : Calculation of Volume, Surface Area and scale factors of objects </title>
+          <list id="id73612" display="block" list-type="enumerated">
+            <item id="uid106">Look around the house or school and find a can or a tin of any kind (e.g. beans, soup, cooldrink, paint etc.)
+</item>
+            <item id="uid107">Measure the height of the tin and the diameter of its top or bottom.
+</item>
+            <item id="uid108">Write down the values you measured on the diagram below:
+<figure id="id73656"><media id="id73656_media" alt=""><image mime-type="image/png" src="../../media/MG10C14_034.png" id="id73656_onlineimage" width="248"><!-- NOTE: attribute width changes image size online (pixels). original width is 248. --></image><image mime-type="application/postscript" for="pdf" src="../../media/MG10C14_034.eps" id="id73656_printimage"/></media></figure></item>
+            <item id="uid109">Using your measurements, calculate the following (in cm<m:math overflow="scroll"><m:msup><m:mrow/><m:mn>2</m:mn></m:msup></m:math>, rounded off to 2 decimal places):
+<list id="id73690" display="block" list-type="enumerated" number-style="lower-alpha"><item id="uid110">the area of the side of the tin (i.e. the rectangle)
+</item><item id="uid111">the area of the top and bottom of the tin (i.e. the circles)
+</item><item id="uid112">the total surface area of the tin
+</item></list></item>
+            <item id="uid113">If the tin metal costs 0,17 cents/cm<m:math overflow="scroll"><m:msup><m:mrow/><m:mn>2</m:mn></m:msup></m:math>, how much does it cost to make the tin?
+</item>
+            <item id="uid114">Find the volume of your tin (in cm<m:math overflow="scroll"><m:msup><m:mrow/><m:mn>3</m:mn></m:msup></m:math>, rounded off to 2 decimal places).
+</item>
+            <item id="uid115">What is the volume of the tin given on its label?
+</item>
+            <item id="uid116">Compare the volume you calculated with the value given on the label. How much air is contained in the tin when it contains the product (i.e. cooldrink, soup etc.)
+</item>
+            <item id="uid117">Why do you think space is left for air in the tin?
+</item>
+            <item id="uid118">If you wanted to double the volume of the tin, but keep the radius the same, by how much would you need to increase the height?
+</item>
+            <item id="uid119">If the height of the tin is kept the same, but now the radius is doubled, by what scale factor will the:
+<list id="id73845" display="block" list-type="enumerated" number-style="lower-alpha"><item id="uid120">area of the side surface of the tin increase?
+</item><item id="uid121">area of the bottom/top of the tin increase?
+</item></list></item>
+          </list>
+          
+</section>
+        </section>
+      </section>
+    </section>
+    <section id="cid7">
+      <title>End of Chapter Exercises</title>
+      <list id="id73895" display="block" list-type="enumerated"><item id="uid125">Using the rules given, identify the type of transformation and draw the image of the shapes.
+<list id="id73963" display="block" list-type="enumerated" number-style="lower-alpha"><item id="uid126"> (x;y)<m:math overflow="scroll"><m:mo>→</m:mo></m:math>(x+3;y-3)
+<figure id="id73991"><media id="id73991_media" alt=""><image mime-type="image/png" src="../../media/MG10C14_037.png" id="id73991_onlineimage" width="346"><!-- NOTE: attribute width changes image size online (pixels). original width is 346. --></image><image mime-type="application/postscript" for="pdf" src="../../media/MG10C14_037.eps" id="id73991_printimage"/></media></figure></item><item id="uid127"> (x;y)<m:math overflow="scroll"><m:mo>→</m:mo></m:math>(x-4;y)
+<figure id="id74022"><media id="id74022_media" alt=""><image mime-type="image/png" src="../../media/MG10C14_038.png" id="id74022_onlineimage" width="346"><!-- NOTE: attribute width changes image size online (pixels). original width is 346. --></image><image mime-type="application/postscript" for="pdf" src="../../media/MG10C14_038.eps" id="id74022_printimage"/></media></figure></item><item id="uid128">(x;y)<m:math overflow="scroll"><m:mo>→</m:mo></m:math>(y;x)
+<figure id="id74053"><media id="id74053_media" alt=""><image mime-type="image/png" src="../../media/MG10C14_039.png" id="id74053_onlineimage" width="347"><!-- NOTE: attribute width changes image size online (pixels). original width is 347. --></image><image mime-type="application/postscript" for="pdf" src="../../media/MG10C14_039.eps" id="id74053_printimage"/></media></figure></item><item id="uid129">(x;y)<m:math overflow="scroll"><m:mo>→</m:mo></m:math>(-x;-y)
+<figure id="id74084"><media id="id74084_media" alt=""><image mime-type="image/png" src="../../media/MG10C14_040.png" id="id74084_onlineimage" width="346"><!-- NOTE: attribute width changes image size online (pixels). original width is 346. --></image><image mime-type="application/postscript" for="pdf" src="../../media/MG10C14_040.eps" id="id74084_printimage"/></media></figure></item></list><link class="fullmarks" window="new" url="http://www.fhsst.org/la7">Click here for the solution</link></item>
+<item> 
+PQRS is a quadrilateral with points P(0; −3) ; Q(−2;5) ; R(3;2) and S(3;–2)  in the Cartesian plane.
+<list id="id0812312" display="block" list-type="enumerated" number-style="lower-alpha"><item id="id08123">Find the length of QR.</item>                        
+<item id="id981221">Find the gradient of PS.</item>                          
+<item id="id08213">Find the midpoint of PR.</item>                               
+<item id="id9871293">Is PQRS a parallelogram?  Give reasons for your answer. </item>
+</list><link class="fullmarks" window="new" url="http://www.fhsst.org/laY">Click here for the solution</link></item>
+<item>A(–2;3) and B(2;6) are points in the Cartesian plane.  C(a;b) is the midpoint of AB. Find the values of a and b.<newline/><link class="fullmarks" window="new" url="http://www.fhsst.org/laq">Click here for the solution</link>
+</item>      
+<item>
+Consider: Triangle ABC with vertices A (1; 3) B (4; 1) and C (6; 4):
+<list id="id9173123" display="block" list-type="enumerated" number-style="lower-alpha">
+<item>Sketch triangle ABC on the Cartesian plane. </item>
+<item>Show that ABC is an isoceles triangle.</item>
+<item>Determine the co-ordinates of M, the midpoint of AC.</item>
+<item>Determine the gradient of AB.</item>
+<item>Show that the following points are collinear: A, B and D(7;-1)</item></list><link class="fullmarks" window="new" url="http://www.fhsst.org/la4">Click here for the solution</link>
+</item>
+<item>In the diagram, A is the point (-6;1) and B is the point (0;3)
+<figure id="id740344"><media id="id740344_media" alt=""><image mime-type="image/png" src="../../media/MG10C14_5.png" id="id740344_onlineimage" width="346"><!-- NOTE: attribute width changes image size online (pixels). original width is 346. --></image><image mime-type="application/postscript" for="pdf" src="../../media/MG10C14_5.eps" id="id740344_printimage"/></media></figure><list id="id982373" display="block" list-type="enumerated" number-style="lower-alpha"><item>Find the equation of line AB </item>
+<item>Calculate the length of AB</item>
+<item> A’ is the image of A and B’ is the image of B. Both these images are obtain by applying the transformation: (x;y)<m:math overflow="scroll"><m:mo>→</m:mo></m:math>(x-4;y-1). Give the coordinates of both A’ and B’</item>
+<item>Find the equation of A’B’</item>
+<item>Calculate the length of A’B’</item>
+<item>Can you state with certainty that AA'B'B is a parallelogram? Justify your answer.</item></list> <link class="fullmarks" window="new" url="http://www.fhsst.org/laf">Click here for the solution</link></item>
+<item>The vertices of triangle PQR have co-ordinates as shown in the diagram.
+<figure id="id743344"><media id="id743344_media" alt=""><image mime-type="image/png" src="../../media/mg10c14_6.png" id="id743344_onlineimage" width="346"><!-- NOTE: attribute width changes image size online (pixels). original width is 346. --></image><image mime-type="application/postscript" for="pdf" src="../../media/mg10c14_6.eps" id="id743344_printimage"/></media></figure>
+<list id="id982372432" display="block" list-type="enumerated" number-style="lower-alpha">
+<item>Give the co-ordinates of  P', Q' and R', the images of P, Q and R when P, Q and R are reflected in the line y=x.</item>
+<item>Determine the area of triangle PQR.</item></list><link class="fullmarks" window="new" url="http://www.fhsst.org/laG">Click here for the solution</link>
+</item></list>
+    </section>
+  </content>
+</document>

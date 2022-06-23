@@ -1,0 +1,25 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+
+<title>Geometry: Pythagorean Theorem</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m47254</md:content-id>
+  <md:title>Geometry: Pythagorean Theorem</md:title>
+  <md:abstract/>
+  <md:uuid>57d26e30-d564-4cd7-9fbe-ed3abaf4bad0</md:uuid>
+</metadata>
+<featured-links>
+  <!-- WARNING! The 'featured-links' section is read only. Do not edit below.
+       Changes to the links section in the source will not be saved. -->
+    <link-group type="example">
+      <link url="http://www.khanacademy.org/math/geometry/right_triangles_topic/pyth_theor/v/the-pythagorean-theorem" strength="3">Kahn Academy - Pythagorean Theorem</link>
+    </link-group>
+  <!-- WARNING! The 'featured-links' section is read only. Do not edit above.
+       Changes to the links section in the source will not be saved. -->
+</featured-links>
+<content>
+  <para id="delete_me"><title>The Pythagoeran Theorem</title>A right triangle is a triangle with a 90 degree angle. A 90 degree angle is typically the found on the corner of a box or the corner of a building. In a right triangle, the longest side is called the hypotenuse. It is also the side opposite the right angle. The other two sides are called legs. We generally use the letters a and b to denote the length of the legs and c for the length of the hypotenuse. 
+
+</para><para id="eip-823">The Pythagorean Theoerem is: 
+ a squared plus b squared equals c squared. </para><para id="eip-522">You can also remember: (leg) squared + (other leg) squared = (hypotenuse) squared</para><para id="eip-605">Please click on the Kahn Academy - Pythagorean Theorem link to learn more. </para></content>
+
+</document>

@@ -1,0 +1,65 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>Average, Median and Mode</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m47231</md:content-id>
+  <md:title>Average, Median and Mode</md:title>
+  <md:abstract>Basic definations and examples of arithmetic mean, median and mode.</md:abstract>
+  <md:uuid>d7dd4294-f0cf-4aa2-94d9-8c88eed55efd</md:uuid>
+</metadata>
+
+<content>
+    <para id="import-auto-id1166423363640">
+      <emphasis effect="bold">Average, Median and Mode</emphasis>
+    </para>
+    <para id="import-auto-id1166420975410"><emphasis effect="bold">Average</emphasis> – To find the average of a set of numbers, add the numbers and then divide by the number of items of data. </para>
+    <para id="import-auto-id1166423374447">
+      <emphasis effect="bold">Example 1</emphasis>
+    </para>
+    <para id="import-auto-id1166413527636">John ran 3 miles on Monday, 4 miles on Tuesday, 3 miles on Wednesday, 5 miles on Thursday and 5 miles on Friday. What was the average number of miles John ran per day? To answer this question, you want to add all of the miles that were run and divide by the number of days. </para>
+    <para id="import-auto-id1166412228986"> (3+4+3+5+5) / 5 = 20/5 = 4</para>
+    <para id="import-auto-id1166414938936">John ran an average of 4 miles per day. </para>
+    <para id="import-auto-id1166414928672"><emphasis effect="bold">Median</emphasis> – To find the median of a set of numbers, order the numbers from smallest to greatest. If there are an odd number of data items, then the median is the number that falls in the middle. If there is an even number of data items, then the median is the average of the two middle numbers. </para>
+    <para id="import-auto-id1166423391599">
+      <emphasis effect="bold">Example 1</emphasis>
+    </para>
+    <para id="import-auto-id1166423389818">What is the median of this set of numbers?</para>
+    <para id="import-auto-id1166423385810">89, 56, 94, 12, 45</para>
+    <para id="import-auto-id1166421239515">We first rearrange the numbers in order from smallest to largest. </para>
+    <para id="import-auto-id1166423341669">12, 45, 56, 89, 94</para>
+    <para id="import-auto-id1166423348710">There are 5 numbers so the third number is the median. 56 is the median of this set of numbers.</para>
+    <para id="import-auto-id1166423371343">
+      <emphasis effect="bold">Example 2</emphasis>
+    </para>
+    <para id="import-auto-id1166411790290">What is the median of this set of numbers?</para>
+    <para id="import-auto-id1166412249137">68, 42, 108, 5, 36, 18</para>
+    <para id="import-auto-id1166411757465">We first rearrange the numbers in order from smallest to largest. </para>
+    <para id="import-auto-id1166412226826">5, 18, 36, 42, 68, 108</para>
+    <para id="import-auto-id1166423356107">There are 6 numbers so we need to take the average of the third and fourth numbers to find the median. Find the average of 36 and 42. (36+42)/2 = 78/2 = 39. 39 is the median of this set of numbers.</para>
+    <para id="import-auto-id1166423371553"><emphasis effect="bold">Mode</emphasis> – The mode of a set of data is the number of numbers that occur most often. If each number is represented the same number of times, therefore there is no mode. </para>
+    <para id="import-auto-id1166423384671">A set of data has only one average (mean) and only one median, but it can have more than one mode. It is also possible for a set of data to have no mode, which is when all numbers are represented the same number of times. </para>
+    <para id="import-auto-id1166423384600">
+      <emphasis effect="bold">Example 1</emphasis>
+    </para>
+    <para id="import-auto-id1166411725282">What is the mode of this set of numbers?</para>
+    <para id="import-auto-id1166413025399">5, 8, 12, 12, 25</para>
+    <para id="import-auto-id1166412246205">12 is represented two times, while all of the other numbers are represented only once. Therefore, 12 is the mode of this set of numbers. </para>
+    <para id="import-auto-id1166414875074">
+      <emphasis effect="bold">Example 2</emphasis>
+    </para>
+    <para id="import-auto-id1166415701287">What is the mode of this set of numbers?</para>
+    <para id="import-auto-id1166414985085">12, 15, 15, 23, 23, 40, 56, 78</para>
+    <para id="import-auto-id1166415125532">15 and 23 both occur two times, while all of the other numbers only occur once. Therefore, 15 and 23 are both modes of this set of numbers. </para>
+    <para id="import-auto-id1166412006337">
+      <emphasis effect="bold">Example 3</emphasis>
+    </para>
+    <para id="import-auto-id5171780">What is the mode of this set of numbers?</para>
+    <para id="import-auto-id1166416754576">4, 6, 9, 12, 25</para>
+    <para id="import-auto-id1166412651706">There is no mode as each number occurs once. </para>
+    <para id="import-auto-id1166412246920">
+      <emphasis effect="bold">Example 4</emphasis>
+    </para>
+    <para id="import-auto-id1166412247084">What is the mode of this set of numbers?</para>
+    <para id="import-auto-id1166410722594">3, 3, 6, 6, 8, 8</para>
+    <para id="import-auto-id1166411217389">There is no mode as each number occurs two times. </para>
+  </content>
+</document>
