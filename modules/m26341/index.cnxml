@@ -27,7 +27,7 @@
               <m:mrow>
                 <m:mtable>
                   <m:mtr>
-                    <m:mrow>
+                    <m:mtd>
                       <m:mstyle fontsize="12pt">
                         <m:mrow>
                           <m:mrow>
@@ -68,10 +68,10 @@
                         </m:mrow>
                       </m:mstyle>
                       <m:mrow/>
-                    </m:mrow>
+                    </m:mtd>
                   </m:mtr>
                   <m:mtr>
-                    <m:mrow>
+                    <m:mtd>
                       <m:mstyle fontsize="12pt">
                         <m:mrow>
                           <m:mrow>
@@ -112,7 +112,7 @@
                         </m:mrow>
                       </m:mstyle>
                       <m:mrow/>
-                    </m:mrow>
+                    </m:mtd>
                   </m:mtr>
                 </m:mtable>
                 <m:mrow/>
@@ -266,7 +266,7 @@
                 <m:mrow>
                   <m:mtable>
                     <m:mtr>
-                      <m:mrow>
+                      <m:mtd>
                         <m:mstyle fontsize="12pt">
                           <m:mrow>
                             <m:mrow>
@@ -282,10 +282,10 @@
                           </m:mrow>
                         </m:mstyle>
                         <m:mrow/>
-                      </m:mrow>
+                      </m:mtd>
                     </m:mtr>
                     <m:mtr>
-                      <m:mrow>
+                      <m:mtd>
                         <m:mstyle fontsize="12pt">
                           <m:mrow>
                             <m:mrow>
@@ -301,7 +301,7 @@
                           </m:mrow>
                         </m:mstyle>
                         <m:mrow/>
-                      </m:mrow>
+                      </m:mtd>
                     </m:mtr>
                   </m:mtable>
                   <m:mrow/>
@@ -322,7 +322,7 @@
                 <m:mrow>
                   <m:mtable>
                     <m:mtr>
-                      <m:mrow>
+                      <m:mtd>
                         <m:mstyle fontsize="12pt">
                           <m:mrow>
                             <m:mrow>
@@ -354,10 +354,10 @@
                           </m:mrow>
                         </m:mstyle>
                         <m:mrow/>
-                      </m:mrow>
+                      </m:mtd>
                     </m:mtr>
                     <m:mtr>
-                      <m:mrow>
+                      <m:mtd>
                         <m:mstyle fontsize="12pt">
                           <m:mrow>
                             <m:mrow>
@@ -401,7 +401,7 @@
                           </m:mrow>
                         </m:mstyle>
                         <m:mrow/>
-                      </m:mrow>
+                      </m:mtd>
                     </m:mtr>
                   </m:mtable>
                   <m:mrow/>
@@ -502,7 +502,7 @@
                 <m:mrow>
                   <m:mtable>
                     <m:mtr>
-                      <m:mrow>
+                      <m:mtd>
                         <m:mstyle fontsize="12pt">
                           <m:mrow>
                             <m:mrow>
@@ -546,10 +546,10 @@
                           </m:mrow>
                         </m:mstyle>
                         <m:mrow/>
-                      </m:mrow>
+                      </m:mtd>
                     </m:mtr>
                     <m:mtr>
-                      <m:mrow>
+                      <m:mtd>
                         <m:mstyle fontsize="12pt">
                           <m:mrow>
                             <m:mrow>
@@ -588,10 +588,10 @@
                           </m:mrow>
                         </m:mstyle>
                         <m:mrow/>
-                      </m:mrow>
+                      </m:mtd>
                     </m:mtr>
                     <m:mtr>
-                      <m:mrow>
+                      <m:mtd>
                         <m:mstyle fontsize="12pt">
                           <m:mrow>
                             <m:mrow>
@@ -635,10 +635,10 @@
                           </m:mrow>
                         </m:mstyle>
                         <m:mrow/>
-                      </m:mrow>
+                      </m:mtd>
                     </m:mtr>
                     <m:mtr>
-                      <m:mrow>
+                      <m:mtd>
                         <m:mstyle fontsize="12pt">
                           <m:mrow>
                             <m:mrow>
@@ -665,7 +665,7 @@
                           </m:mrow>
                         </m:mstyle>
                         <m:mrow/>
-                      </m:mrow>
+                      </m:mtd>
                     </m:mtr>
                   </m:mtable>
                   <m:mrow/>
@@ -910,14 +910,14 @@
 <m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mtext>3 </m:mtext><m:mo stretchy="false">+</m:mo><m:mrow><m:mtext> 5</m:mtext><m:mo stretchy="false">⋅</m:mo><m:mtext> 2</m:mtext></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"3 "+" 5" cdot " 2"} {}</m:annotation></m:semantics></m:math>. We could do either of two things:</para>
       <para id="id1167176672309">Add 3 and 5, then multiply this sum by 2.</para>
       <para id="id7753364"> 
-<m:math><m:semantics><m:mrow><m:mrow><m:mtable><m:mtr><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi/><m:mrow><m:mn>3</m:mn><m:mo stretchy="false">+</m:mo><m:mrow><m:mn>5</m:mn><m:mo stretchy="false">⋅</m:mo><m:mn>2</m:mn></m:mrow></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow></m:mtr><m:mtr><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi/><m:mo stretchy="false">=</m:mo><m:mrow><m:mn>8</m:mn><m:mo stretchy="false">⋅</m:mo><m:mn>2</m:mn></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow></m:mtr><m:mtr><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi/><m:mo stretchy="false">=</m:mo><m:mtext>16</m:mtext></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow></m:mtr></m:mtable><m:mrow/></m:mrow></m:mrow><m:annotation encoding="StarMath 5.0">alignl { stack {
+<m:math><m:semantics><m:mrow><m:mrow><m:mtable><m:mtr><m:mtd><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi/><m:mrow><m:mn>3</m:mn><m:mo stretchy="false">+</m:mo><m:mrow><m:mn>5</m:mn><m:mo stretchy="false">⋅</m:mo><m:mn>2</m:mn></m:mrow></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mtd></m:mtr><m:mtr><m:mtd><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi/><m:mo stretchy="false">=</m:mo><m:mrow><m:mn>8</m:mn><m:mo stretchy="false">⋅</m:mo><m:mn>2</m:mn></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mtd></m:mtr><m:mtr><m:mtd><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi/><m:mo stretchy="false">=</m:mo><m:mtext>16</m:mtext></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mtd></m:mtr></m:mtable><m:mrow/></m:mrow></m:mrow><m:annotation encoding="StarMath 5.0">alignl { stack {
  size 12{`3+5 cdot 2}  {} # 
  size 12{`=8 cdot 2}  {} # 
  size 12{`="16"}  {} 
 } } {}</m:annotation></m:semantics></m:math></para>
       <para id="id1167173989411">Multiply 5 and 2, then add 3 to this product.</para>
       <para id="id1167174963490"> 
-<m:math><m:semantics><m:mrow><m:mrow><m:mtable><m:mtr><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi/><m:mrow><m:mn>3</m:mn><m:mo stretchy="false">+</m:mo><m:mrow><m:mn>5</m:mn><m:mo stretchy="false">⋅</m:mo><m:mn>2</m:mn></m:mrow></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow></m:mtr><m:mtr><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi/><m:mo stretchy="false">=</m:mo><m:mrow><m:mn>3</m:mn><m:mo stretchy="false">+</m:mo><m:mtext>10</m:mtext></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow></m:mtr><m:mtr><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi/><m:mo stretchy="false">=</m:mo><m:mtext>13</m:mtext></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow></m:mtr></m:mtable><m:mrow/></m:mrow></m:mrow><m:annotation encoding="StarMath 5.0">alignl { stack {
+<m:math><m:semantics><m:mrow><m:mrow><m:mtable><m:mtr><m:mtd><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi/><m:mrow><m:mn>3</m:mn><m:mo stretchy="false">+</m:mo><m:mrow><m:mn>5</m:mn><m:mo stretchy="false">⋅</m:mo><m:mn>2</m:mn></m:mrow></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mtd></m:mtr><m:mtr><m:mtd><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi/><m:mo stretchy="false">=</m:mo><m:mrow><m:mn>3</m:mn><m:mo stretchy="false">+</m:mo><m:mtext>10</m:mtext></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mtd></m:mtr><m:mtr><m:mtd><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi/><m:mo stretchy="false">=</m:mo><m:mtext>13</m:mtext></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mtd></m:mtr></m:mtable><m:mrow/></m:mrow></m:mrow><m:annotation encoding="StarMath 5.0">alignl { stack {
  size 12{`3+5 cdot 2}  {} # 
  size 12{`=3+"10"}  {} # 
  size 12{`="13"}  {} 
